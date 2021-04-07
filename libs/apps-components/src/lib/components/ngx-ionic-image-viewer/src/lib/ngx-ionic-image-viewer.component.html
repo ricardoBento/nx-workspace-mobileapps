@@ -1,0 +1,18 @@
+<img
+  [alt]="alt"
+  [src]="src"
+  (click)="
+    viewImage(
+      src,
+      srcFallback,
+      srcHighRes,
+      title,
+      titleSize,
+      text,
+      scheme,
+      slideOptions,
+      swipeToClose
+    )
+  "
+  (error)="src = srcFallback"
+/>

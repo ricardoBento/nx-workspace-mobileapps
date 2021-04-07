@@ -1,0 +1,81 @@
+#item-page-V2 {
+    overflow-x: visible;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#item-page-V2 .ui.grid.container {
+    margin: 0!important;
+}
+
+#item-page-V2 .ui.grid.container .column {
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#item-page-V2 .ui.grid.container.appraisal {
+    padding-top: 20px;
+}
+
+#item-page-V2 .item-page-image-container {
+    padding: 0;
+    margin-top: -16px;
+    margin-bottom: -1rem;
+    margin-bottom: -36px;
+}
+
+#item-page-V2 .item-page-image-container img {
+    width: 100%;
+}
+
+#item-page-V2 .item-page-card-black-box {
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    padding: 3px 3px 3px 3px;
+}
+
+#item-page-V2 .item-page-content-description {
+    font-size: 1rem;
+}
+
+#item-page-V2 .item-page-content-description img,
+#item-page-V2 .item-page-content-description iframe,
+#item-page-V2 .item-page-content-description video {
+    max-width: 100%!important;
+    height: auto!important;
+}
+
+/* Styling for module item page from module-template-V2 template */
+#item-page-V2 .module .icon {
+    text-align: -webkit-center;
+    padding-top: 20px;
+}
+
+#item-page-V2 .module .icon .segment {
+    text-align: -webkit-center;
+    margin-top: 20px;
+    width: 130px;
+    height: 130px;
+}
+
+#item-page-V2 .external-training .ui.fluid.button {
+    width: unset;
+}
+
+/* News item */
+.ui.comments .comment {
+    padding-top: 0em;
+}
+
+.ui.comments .comment .author {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.ui.comments .comment .metadata {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.ui.comments .comment .text {
+    color: rgba(255, 255, 255, 0.87);
+}

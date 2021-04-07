@@ -1,0 +1,56 @@
+<ion-content fullscreen no-bounce has-bouncing="false" forceOverscroll="false">
+  <app-header
+    [back_button]="back_button"
+    [title]="title"
+    [back_to]="back_to"
+  ></app-header>
+  <img src="/assets/images/app-bgs-assets/bg-b.png" class="app-bg" alt="" />
+  <ion-grid class="app-auth ion-text-center">
+    <ion-row class="logo-row">
+      <ion-col>
+        <img
+          src="/assets/images/app-logo-assets/edi-gin-logo.svg"
+          class="app-logo"
+          alt=""
+        />
+      </ion-col>
+    </ion-row>
+    <div class="pass-reset-text text-shadow-effect">
+      <h2>To reset your password enter your email and click submit.</h2>
+    </div>
+    <form [formGroup]="passResetForm" (submit)="onSubmit()" novalidate>
+      <ion-row>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              type="email"
+              placeholder="Email"
+              formControlName="email"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="passResetForm.get('email')?.touched && passResetForm.get('email')?.hasError('required')"
+          >
+            <ion-text> The email field is required. </ion-text>
+          </div>
+          <div class="text-validation" *ngIf="email_errors">
+            <ion-text> {{ email_errors }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <div class="button-container">
+        <ion-button
+          shape="round"
+          expand="block"
+          fill="solid"
+          color="primary"
+          tappable
+          type="submit"
+        >
+          <ion-text color="light" class="text-shadow-effect"> Submit </ion-text>
+        </ion-button>
+      </div>
+    </form>
+  </ion-grid>
+</ion-content>

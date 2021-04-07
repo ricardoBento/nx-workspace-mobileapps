@@ -1,0 +1,41 @@
+ion-header {
+  background: transparent !important;
+  position: fixed;
+}
+ion-toolbar {
+  --ion-toolbar-background-color: transparent;
+  --ion-toolbar-text-color: white;
+}
+.app-toolbar {
+  background: black !important;
+}
+ion-toolbar {
+  --background: var(--brand-header-background);
+  height: 50px;
+  overflow: hidden;
+  border-bottom: 3px solid var(--brand-header-border);
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+  -webkit-overflow-scrolling: touch;
+  ion-col div {
+    margin: 0 5vw 0 0;
+    svg {
+      margin: 0px 8vw 0px -8vw;
+      stroke: var(--brand-header-text);
+    }
+    ion-text {
+      color: var(--brand-header-text);
+    }
+  }
+  ion-text {
+    span {
+      font-size: 14px;
+      text-transform: uppercase;
+      position: relative;
+      top: -5px;
+    }
+  }
+  ion-button {
+    margin-top: -6px;
+  }
+}

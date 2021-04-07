@@ -1,0 +1,72 @@
+{
+  "name": "flow-brandapp",
+  "version": "2.0.0",
+  "author": "Ionic Framework",
+  "homepage": "https://ionicframework.com/",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "run-release-ios": "ionic cordova run ios  --prod --release --buildConfig=build.json --verbose",
+    "run-release-android": "ionic cordova run android --prod --release --buildConfig=build.json"
+  },
+  "private": true,
+  "dependencies": {
+    "@ionic-native/camera": "^5.29.0",
+    "@ionic-native/core": "^5.29.0",
+    "@ionic-native/file": "^5.29.0",
+    "@ionic-native/file-path": "^5.29.0",
+    "@ionic-native/ionic-webview": "^5.29.0",
+    "@ionic-native/keyboard": "^5.29.0",
+    "@ionic-native/mobile-accessibility": "^5.29.0",
+    "@ionic-native/screen-orientation": "^5.29.0",
+    "@ionic-native/splash-screen": "^5.29.0",
+    "@ionic-native/status-bar": "^5.29.0",
+    "@ionic/angular": "^5.5.0",
+    "@ionic/storage": "^2.3.1"
+  },
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-plugin-camera": "^4.0.3",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-filepath": "^1.6.0",
+    "cordova-plugin-inappbrowser": "git+https://github.com/FlowHospitalityTraining/flow-cordova-plugin-inappbrowser.git",
+    "cordova-plugin-ionic-keyboard": "^2.2.0",
+    "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-network-information": "git+https://github.com/apache/cordova-plugin-network-information.git",
+    "cordova-plugin-screen-orientation": "^3.0.2",
+    "cordova-plugin-splashscreen": "^5.0.4",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "cordova-sqlite-storage": "^5.1.0",
+    "es6-promise-plugin": "^4.2.2",
+    "phonegap-plugin-mobile-accessibility": "^1.0.5"
+  },
+  "description": "Edinburgh Gin",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-screen-orientation": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-filepath": {},
+      "phonegap-plugin-mobile-accessibility": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-inappbrowser": {}
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}

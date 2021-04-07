@@ -1,0 +1,381 @@
+{
+  "version": 1,
+  "cli": {
+    "defaultCollection": "@nrwl/angular",
+    "analytics": "d8ecc2ad-e9fb-4621-aa5f-9a22fcfec5bd"
+  },
+  "defaultProject": "white-label",
+  "schematics": {
+    "@nrwl/angular": {
+      "application": {
+        "linter": "eslint"
+      },
+      "library": {
+        "linter": "eslint"
+      },
+      "storybook-configuration": {
+        "linter": "eslint"
+      }
+    },
+    "@nrwl/angular:application": {
+      "style": "scss",
+      "linter": "eslint",
+      "unitTestRunner": "jest",
+      "e2eTestRunner": "cypress"
+    },
+    "@nrwl/angular:library": {
+      "style": "scss",
+      "linter": "eslint",
+      "unitTestRunner": "jest"
+    },
+    "@nrwl/angular:component": {
+      "style": "scss"
+    },
+    "@nrwl/web:application": {
+      "style": "css",
+      "linter": "eslint",
+      "unitTestRunner": "jest",
+      "e2eTestRunner": "cypress"
+    },
+    "@nrwl/web:library": {
+      "style": "css",
+      "linter": "eslint",
+      "unitTestRunner": "jest"
+    }
+  },
+  "projects": {
+    "white-label": {
+      "projectType": "application",
+      "root": "apps/white-label",
+      "sourceRoot": "apps/white-label/src",
+      "prefix": "nx-workspace-mobileapps",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "apps/white-label/www",
+            "index": "apps/white-label/src/index.html",
+            "main": "apps/white-label/src/main.ts",
+            "polyfills": "apps/white-label/src/polyfills.ts",
+            "tsConfig": "apps/white-label/tsconfig.app.json",
+            "aot": true,
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "apps/white-label/src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "**/*.svg",
+                "input": "node_modules/ionicons/dist/ionicons/svg",
+                "output": "./svg"
+              },
+              {
+                "glob": "**/*.svg",
+                "input": "libs/apps-assets/custom-icons",
+                "output": "./svg"
+              }
+            ],
+            "styles": [
+              "apps/white-label/src/styles.scss",
+              {
+                "input": "apps/white-label/src/theme/variables.scss"
+              },
+              {
+                "input": "apps/white-label/src/global.scss"
+              },
+              {
+                "input": "libs/apps-assets/js/swiper.min.css"
+              }
+            ],
+            "scripts": [
+              {
+                "input": "libs/apps-assets/js/jquery-3.3.1.min.js"
+              },
+              {
+                "input": "libs/apps-assets/js/swiper.min.js"
+              }
+            ]
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/white-label/src/environments/environment.ts",
+                  "with": "apps/white-label/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "white-label:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "white-label:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "white-label:build"
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/white-label/src/**/*.ts",
+              "apps/white-label/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/apps/white-label"],
+          "options": {
+            "jestConfig": "apps/white-label/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "ionic-cordova-build": {
+          "builder": "@ionic/angular-toolkit:cordova-build",
+          "options": {
+            "browserTarget": "white-label:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "white-label:build:production"
+            }
+          }
+        },
+        "ionic-cordova-serve": {
+          "builder": "@ionic/angular-toolkit:cordova-serve",
+          "options": {
+            "cordovaBuildTarget": "white-label:ionic-cordova-build",
+            "devServerTarget": "white-label:serve"
+          },
+          "configurations": {
+            "production": {
+              "cordovaBuildTarget": "white-label:ionic-cordova-build:production",
+              "devServerTarget": "white-label:serve:production"
+            }
+          }
+        }
+      }
+    },
+    "white-label-e2e": {
+      "root": "apps/white-label-e2e",
+      "sourceRoot": "apps/white-label-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/white-label-e2e/cypress.json",
+            "tsConfig": "apps/white-label-e2e/tsconfig.e2e.json",
+            "devServerTarget": "white-label:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "white-label:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/white-label-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
+    "flowapp": {
+      "projectType": "application",
+      "root": "apps/flowapp",
+      "sourceRoot": "apps/flowapp/www",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/web:build",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "apps/flowapp/www",
+            "index": "apps/flowapp/www/index.html",
+            "main": "apps/flowapp/www/js/mobileapp.js",
+            "tsConfig": "apps/flowapp/tsconfig.app.json",
+            "assets": [],
+            "styles": [],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [{}],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "ionic-cordova-build": {
+          "builder": "@ionic/angular-toolkit:cordova-build",
+          "options": {
+            "browserTarget": "flowapp:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "flowapp:build:production"
+            }
+          }
+        },
+        "ionic-cordova-serve": {
+          "builder": "@ionic/angular-toolkit:cordova-serve",
+          "options": {
+            "cordovaBuildTarget": "flowapp:ionic-cordova-build",
+            "devServerTarget": "flowapp:serve"
+          },
+          "configurations": {
+            "production": {
+              "cordovaBuildTarget": "flowapp:ionic-cordova-build:production",
+              "devServerTarget": "flowapp:serve:production"
+            }
+          }
+        }
+      }
+    },
+    "flowapp-e2e": {
+      "root": "apps/flowapp-e2e",
+      "sourceRoot": "apps/flowapp-e2e/src",
+      "projectType": "application",
+      "architect": {
+        "e2e": {
+          "builder": "@nrwl/cypress:cypress",
+          "options": {
+            "cypressConfig": "apps/flowapp-e2e/cypress.json",
+            "tsConfig": "apps/flowapp-e2e/tsconfig.e2e.json",
+            "devServerTarget": "flowapp:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "flowapp:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["apps/flowapp-e2e/**/*.{js,ts}"]
+          }
+        }
+      }
+    },
+    "apps-assets": {
+      "projectType": "library",
+      "root": "libs/apps-assets",
+      "sourceRoot": "libs/apps-assets/src",
+      "prefix": "nx-workspace-mobileapps",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/apps-assets/src/**/*.ts",
+              "libs/apps-assets/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/apps-assets"],
+          "options": {
+            "jestConfig": "libs/apps-assets/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "apps-components": {
+      "projectType": "library",
+      "root": "libs/apps-components",
+      "sourceRoot": "libs/apps-components/src",
+      "prefix": "nx-workspace-mobileapps",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/apps-components/src/**/*.ts",
+              "libs/apps-components/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/apps-components"],
+          "options": {
+            "jestConfig": "libs/apps-components/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "apps-services": {
+      "projectType": "library",
+      "root": "libs/apps-services",
+      "sourceRoot": "libs/apps-services/src",
+      "prefix": "nx-workspace-mobileapps",
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/apps-services/src/**/*.ts",
+              "libs/apps-services/src/**/*.html"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/apps-services"],
+          "options": {
+            "jestConfig": "libs/apps-services/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    }
+  }
+}

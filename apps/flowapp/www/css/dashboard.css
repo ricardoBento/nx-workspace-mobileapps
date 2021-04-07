@@ -1,0 +1,90 @@
+#new-dashboard .ui.container {
+    margin: 0 !important;
+    color: #808080;
+}
+
+#new-dashboard .circular.segment {
+    height: 75px;
+    width: 75px;
+    font-size: 12px;
+    padding: 1rem;
+}
+
+#new-dashboard .circular.segment.overdue,
+#new-dashboard .circular.segment.continue {
+    border-width: 2px; 
+    border-style: solid;
+}
+
+#new-dashboard .column {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#new-dashboard .row.chart .column {
+    text-align: -webkit-center;
+}
+
+#new-dashboard .row.chart-legend {
+    padding-top: 0;
+}
+
+#new-dashboard .row.v-bottom {
+    padding: 0;
+    z-index: 10;
+}
+
+#new-dashboard .row.stats .label {
+    min-width: 1em;
+    min-height: 1em;
+    margin-right: 5px;
+}
+
+#new-dashboard .row.stats .badges {
+    padding-right: 20%;
+}
+
+#new-dashboard .column span {
+    vertical-align: super;
+}
+
+.flow-megaphone-icon, .flow-forum-icon {
+    display: block;
+}
+
+.flow-megaphone-icon svg, .flow-forum-icon svg {
+    height: 75px;
+}
+
+.flow-megaphone-icon path, .flow-forum-icon path {
+    fill: #E45899;
+}
+
+.nav-company-logo {
+    height: 50px !important;
+}
+
+#new-dashboard .calendar-panel {
+    text-align: center;
+    color: #ffffff;
+}
+
+#new-dashboard .calendar-panel a {
+    color: white;
+}
+
+#new-dashboard .calendar-panel .next-appraisal h4, #new-dashboard .calendar-panel .next-training-session h4 {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
+
+#new-dashboard .calendar-panel .next-appraisal h5, #new-dashboard .calendar-panel .next-training-session h5 {
+    margin-top: 2px;
+    font-size: 0.8rem;
+}
+
+#new-dashboard .calendar-panel .next-appraisal p, #new-dashboard .calendar-panel .next-training-session p {
+    font-weight: 100;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

@@ -1,0 +1,6 @@
+<svg id="FlowApp_UpperBar_BtnBack" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <rect id="UpperBar_Menu" width="50" height="50" fill="#fff" opacity="0.01"/>
+  <g id="Icon-angle-right-solid">
+    <path id="Icon-angle-right-solid-2" data-name="Icon-angle-right-solid" d="M42.205,111.437l-11.9,11.9a2.091,2.091,0,0,1-2.965,0l-1.977-1.977a2.091,2.091,0,0,1,0-2.965l8.432-8.432-8.432-8.432a2.091,2.091,0,0,1,0-2.965l1.968-1.994a2.091,2.091,0,0,1,2.965,0l11.9,11.9A2.093,2.093,0,0,1,42.205,111.437Z" transform="translate(57.821 134.95) rotate(180)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,2257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flow Mobile App\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-17 13:03+0100\n"
+"PO-Revision-Date: 2020-09-18 15:27+0100\n"
+"Last-Translator: Ricardo Bento <ricardo@flowhospitalitytraining.co.uk>\n"
+"Language-Team: English (United Kingdom)\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Loco-Source-Locale: en-GB\n"
+"X-Loco-Project-Id: 97523\n"
+"X-Loco-Api-Version: 1.0.25 20200901-1\n"
+
+msgid "Lunch and Learns"
+msgstr "Lunch and Learns"
+
+msgid "Policies"
+msgstr "Policies"
+
+msgid "Product Knowledge"
+msgstr "Product Knowledge"
+
+msgid "Product Releases"
+msgstr "Product Releases"
+
+msgid "My Career"
+msgstr "My Career"
+
+msgid "Session Link:"
+msgstr "Session Link:"
+
+msgid "Open Document"
+msgstr "Open Document"
+
+msgid "you been refuse the attendance to this session"
+msgstr "you been refuse the attendance to this session"
+
+msgid "Loading topic"
+msgstr "Loading topic"
+
+msgid "vote"
+msgstr "vote"
+
+msgid "Reply"
+msgstr "Reply"
+
+msgid "Post reply"
+msgstr "Post reply"
+
+msgid "Follow"
+msgstr "Follow"
+
+msgid "Start training"
+msgstr "Start training"
+
+msgid "Forums"
+msgstr "Forums"
+
+msgid "Add discussion to forum"
+msgstr "Add discussion to forum"
+
+msgid "items at the moment"
+msgstr "items at the moment"
+
+msgid "Loading content"
+msgstr "Loading content"
+
+msgid "download error source"
+msgstr "download error source"
+
+msgid "download error target"
+msgstr "download error target"
+
+msgid "download error code"
+msgstr "download error code"
+
+msgid "Noticeboards"
+msgstr "Noticeboards"
+
+msgid "Loading index feed"
+msgstr "Loading index feed"
+
+msgid "Let's Go"
+msgstr "Let's Go"
+
+msgid "Well done"
+msgstr "Well done"
+
+msgid "Reset filter"
+msgstr "Reset filter"
+
+msgid "Type",
+msgstr "Type"
+
+msgid "Classification"
+msgstr "Classification",
+
+msgid "Uncategorised"
+msgstr "Uncategorised"
+
+#: loco:5f6350b1c6e2a22174248a41
+msgid "Password"
+msgstr "Password"
+
+#: loco:5f6350b1c6e2a22174248a42
+msgid "Email Address"
+msgstr "Email Address"
+
+#: loco:5f6350b1c6e2a22174248a43
+msgid "enter your subject here"
+msgstr "enter your subject here"
+
+#: loco:5f6350b1c6e2a22174248a44
+msgid "enter your content here"
+msgstr "enter your content here"
+
+#: loco:5f6350b1c6e2a22174248a45
+msgid "Please enter your details to login"
+msgstr "Please enter your details to login"
+
+#: loco:5f6350b1c6e2a22174248a46
+msgid "login"
+msgstr "login"
+
+#: loco:5f6350b1c6e2a22174248a47
+msgid "Are you sure you want to log out?"
+msgstr "Are you sure you want to log out?"
+
+#: loco:5f6350b1c6e2a22174248a48
+msgid "Log out"
+msgstr "Log out"
+
+#: loco:5f6350b1c6e2a22174248a49
+msgid "Cancel"
+msgstr "Cancel"
+
+#: loco:5f6350b1c6e2a22174248a4a
+msgid "There was a error logging in. Please restart the app and try again."
+msgstr "There was a error logging in. Please restart the app and try again."
+
+#: loco:5f6350b1c6e2a22174248a4b
+msgid "Can't access your account?"
+msgstr "Can't access your account?"
+
+#: loco:5f6350b1c6e2a22174248a4c
+msgid "Overdue"
+msgstr "Overdue"
+
+#: loco:5f6350b1c6e2a22174248a4d
+msgid "Outstanding"
+msgstr "Outstanding"
+
+#: loco:5f6350b1c6e2a22174248a4e
+msgid "Complete"
+msgstr "Complete"
+
+#: loco:5f6350b1c6e2a22174248a4f
+msgid "Continue {{$1}}"
+msgstr "Continue {{$1}}"
+
+#: loco:5f6350b1c6e2a22174248a50
+msgid "You have completed all modules"
+msgstr "You have completed all modules"
+
+#: loco:5f6350b1c6e2a22174248a51
+msgid "You have no modules assigned to you"
+msgstr "You have no modules assigned to you"
+
+#: loco:5f6350b1c6e2a22174248a52
+msgid "You have Overdue Modules"
+msgstr "You have Overdue Modules"
+
+#: loco:5f6350b1c6e2a22174248a53
+msgid "You have no Overdue Modules"
+msgstr "You have no Overdue Modules"
+
+#: loco:5f6350b1c6e2a22174248a54
+msgid "You have no upcoming training sessions"
+msgstr "You have no upcoming training sessions"
+
+#: loco:5f6350b1c6e2a22174248a55
+msgid "at"
+msgstr "at"
+
+#: loco:5f6350b1c6e2a22174248a56
+msgid "You have no unread discussions."
+msgstr "You have no unread discussions."
+
+#: loco:5f6350b1c6e2a22174248a57
+msgid "You have no upcoming {{$1}}"
+msgstr "You have no upcoming {{$1}}"
+
+#: loco:5f6350b1c6e2a22174248a58
+msgid "with {{$1}}"
+msgstr "with {{$1}}"
+
+#: loco:5f6350b1c6e2a22174248a59
+msgid "Your next {{$1}}"
+msgstr "Your next {{$1}}"
+
+#: loco:5f6350b1c6e2a22174248a5a
+msgid "is on"
+msgstr "is on"
+
+#: loco:5f6350b1c6e2a22174248a5b
+msgid "Your next training session"
+msgstr "Your next training session"
+
+#: loco:5f6350b1c6e2a22174248a5c
+msgid "You have {{$1}} unread discussions"
+msgstr "You have {{$1}} unread discussions"
+
+#: loco:5f6350b1c6e2a22174248a5d
+msgid "no news items available"
+msgstr "no news items available"
+
+#: loco:5f6350b1c6e2a22174248a5e
+msgid "{{$1}} news items available"
+msgstr "{{$1}} news items available"
+
+#: loco:5f6350b1c6e2a22174248a5f
+msgid "and"
+msgstr "and"
+
+#: loco:5f6350b1c6e2a22174248a60
+msgid "no unread {{$1}}"
+msgstr "no unread {{$1}}"
+
+#: loco:5f6350b1c6e2a22174248a61
+msgid "{{$1}} unread {{$2}}"
+msgstr "{{$1}} unread {{$2}}"
+
+#: loco:5f6350b1c6e2a22174248a62
+msgid "You have {{$1}} {{$2}} {{$3}}"
+msgstr "You have {{$1}} {{$2}} {{$3}}"
+
+#: loco:5f6350b1c6e2a22174248a63
+msgid "You have no upcoming {{$1}} or training sessions."
+msgstr "You have no upcoming {{$1}} or training sessions."
+
+#: loco:5f6350b1c6e2a22174248a64
+msgid "Details of your $1 coming soon."
+msgstr "Details of your $1 coming soon."
+
+#: loco:5f6350b1c6e2a22174248a65
+msgid "You have"
+msgstr "You have"
+
+#: loco:5f6350b1c6e2a22174248a66
+msgid "at {{$1}}"
+msgstr "at {{$1}}"
+
+#: loco:5f6350b1c6e2a22174248a67
+msgid "You have no upcoming training."
+msgstr "You have no upcoming training."
+
+#: loco:5f6350b1c6e2a22174248a68
+msgid "You have one unread discussion."
+msgstr "You have one unread discussion."
+
+#: loco:5f6350b1c6e2a22174248a69
+msgid "End of year appraisal"
+msgstr "End of year appraisal"
+
+#: loco:5f6350b1c6e2a22174248a6a
+msgid "Contents"
+msgstr "Contents"
+
+#: loco:5f6350b1c6e2a22174248a6b
+msgid "My Library"
+msgstr "My Library"
+
+#: loco:5f6350b1c6e2a22174248a6c
+msgid "Saved News"
+msgstr "Saved News"
+
+#: loco:5f6350b1c6e2a22174248a6d
+msgid "Saved Documents"
+msgstr "Saved Documents"
+
+#: loco:5f6350b1c6e2a22174248a6e
+msgid "You have no saved news items"
+msgstr "You have no saved news items"
+
+#: loco:5f6350b1c6e2a22174248a6f
+msgid "Error: could not load dashboard data"
+msgstr "Error: could not load dashboard data"
+
+#: loco:5f6350b1c6e2a22174248a70
+msgid ""
+"Your company does not have this enabled, contact your training manager to "
+"find out more."
+msgstr ""
+"Your company does not have this enabled, contact your training manager to "
+"find out more."
+
+#: loco:5f6350b1c6e2a22174248a71
+msgid "Certificates and Module PDFs"
+msgstr "Certificates and Module PDFs"
+
+#: loco:5f6350b1c6e2a22174248a72
+msgid "You have no saved {{$1}}"
+msgstr "You have no saved {{$1}}"
+
+#: loco:5f6350b1c6e2a22174248a73
+msgid "Account Details"
+msgstr "Account Details"
+
+#: loco:5f6350b1c6e2a22174248a74
+msgid "Name"
+msgstr "Name"
+
+#: loco:5f6350b1c6e2a22174248a75
+msgid "Email"
+msgstr "Email"
+
+#: loco:5f6350b1c6e2a22174248a76
+msgid "Job Title"
+msgstr "Job Title"
+
+#: loco:5f6350b1c6e2a22174248a77
+msgid "Branch"
+msgstr "Branch"
+
+#: loco:5f6350b1c6e2a22174248a78
+msgid "Date of birth"
+msgstr "Date of birth"
+
+#: loco:5f6350b1c6e2a22174248a79
+msgid ""
+"Please contact your manager or L&D team if you need to update these details."
+msgstr ""
+"Please contact your manager or L&D team if you need to update these details."
+
+#: loco:5f6350b1c6e2a22174248a7a
+msgid "News"
+msgstr "News"
+
+#: loco:5f6350b1c6e2a22174248a7c
+msgid "Elliot"
+msgstr "Elliot"
+
+#: loco:5f6350b1c6e2a22174248a7d
+msgid "Published by:"
+msgstr "Published by:"
+
+#: loco:5f6350b1c6e2a22174248a7f
+msgid "Item Details"
+msgstr "Item Details"
+
+#: loco:5f6350b1c6e2a22174248a80
+msgid "Social Forums"
+msgstr "Social Forums"
+
+#: loco:5f6350b1c6e2a22174248a81
+msgid "Downloading"
+msgstr "Downloading"
+
+#: loco:5f6350b1c6e2a22174248a82
+msgid "Session administrator"
+msgstr "Session administrator"
+
+#: loco:5f6350b1c6e2a22174248a83
+msgid "Notes"
+msgstr "Notes"
+
+#: loco:5f6350b1c6e2a22174248a84
+msgid "Instructions"
+msgstr "Instructions"
+
+#: loco:5f6350b1c6e2a22174248a85
+msgid "Places:"
+msgstr "Places:"
+
+#: loco:5f6350b1c6e2a22174248a86
+msgid "Starts:"
+msgstr "Starts:"
+
+#: loco:5f6350b1c6e2a22174248a87
+msgid "Ends:"
+msgstr "Ends:"
+
+#: loco:5f6350b1c6e2a22174248a88
+msgid "Location:"
+msgstr "Location:"
+
+#: loco:5f6350b1c6e2a22174248a89
+msgid "Index"
+msgstr "Index"
+
+#: loco:5f6350b1c6e2a22174248a8a
+msgid "Following"
+msgstr "Following"
+
+#: loco:5f6350b1c6e2a22174248a8b
+msgid "Unread"
+msgstr "Unread"
+
+#: loco:5f6350b1c6e2a22174248a8c
+msgid "Posting"
+msgstr "Posting"
+
+#: loco:5f6350b1c6e2a22174248a8d
+msgid "votes cast"
+msgstr "votes cast"
+
+#: loco:5f6350b1c6e2a22174248a8e
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: loco:5f6350b1c6e2a22174248a8f
+msgid "Training Path"
+msgstr "Training Path"
+
+#: loco:5f6350b1c6e2a22174248a90
+msgid "Training Calendar"
+msgstr "Training Calendar"
+
+#: loco:5f6350b1c6e2a22174248a91
+msgid "News Feed"
+msgstr "News Feed"
+
+#: loco:5f6350b1c6e2a22174248a92
+msgid "Activity"
+msgstr "Activity"
+
+#: loco:5f6350b1c6e2a22174248a93
+msgid "back to dashboard"
+msgstr "back to dashboard"
+
+#: loco:5f6350b1c6e2a22174248a94
+msgid "Upcoming"
+msgstr "Upcoming"
+
+#: loco:5f6350b1c6e2a22174248a95
+msgid "Invited"
+msgstr "Invited"
+
+#: loco:5f6350b1c6e2a22174248a96
+msgid "Available"
+msgstr "Available"
+
+#: loco:5f6350b1c6e2a22174248a97
+msgid "Completed"
+msgstr "Completed"
+
+#: loco:5f6350b1c6e2a22174248a98
+msgid "About Us"
+msgstr "About Us"
+
+#: loco:5f6350b1c6e2a22174248a99
+msgid "complete"
+msgstr "complete"
+
+#: loco:5f6350b1c6e2a22174248a9a
+msgid "incomplete"
+msgstr "incomplete"
+
+#: loco:5f6350b1c6e2a22174248a9b
+msgid "overdue"
+msgstr "overdue"
+
+#: loco:5f6350b1c6e2a22174248a9c
+msgid "recently added"
+msgstr "recently added"
+
+#: loco:5f6350b1c6e2a22174248a9d
+msgid "appraisal"
+msgstr "appraisal"
+
+#: loco:5f6350b1c6e2a22174248a9e
+msgid "competency"
+msgstr "competency"
+
+#: loco:5f6350b1c6e2a22174248a9f
+msgid "online"
+msgstr "online"
+
+#: loco:5f6350b1c6e2a22174248aa0
+msgid "classroom"
+msgstr "classroom"
+
+#: loco:5f6350b1c6e2a22174248aa1
+msgid "Account"
+msgstr "Account"
+
+#: loco:5f6350b1c6e2a22174248aa2
+msgid "Options"
+msgstr "Options"
+
+#: loco:5f6350b1c6e2a22174248aa3
+msgid "Topics"
+msgstr "Topics"
+
+#: loco:5f6350b1c6e2a22174248aa4
+msgid "Create new topic"
+msgstr "Create new topic"
+
+#: loco:5f6350b1c6e2a22174248aa5
+msgid "Create new forum"
+msgstr "Create new forum"
+
+#: loco:5f6350b1c6e2a22174248aa6
+msgid "Anonymous"
+msgstr "Anonymous"
+
+#: loco:5f6350b1c6e2a22174248aa7
+msgid "Like"
+msgstr "Like"
+
+#: loco:5f6350b1c6e2a22174248aa8
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: loco:5f6350b1c6e2a22174248aa9
+msgid "Post comment"
+msgstr "Post comment"
+
+#: loco:5f6350b1c6e2a22174248aaa
+msgid "votes"
+msgstr "votes"
+
+#: loco:5f6350b1c6e2a22174248aab
+msgid "RE: THIS IS THE TITLE OF THE TOPIC"
+msgstr "RE: THIS IS THE TITLE OF THE TOPIC"
+
+#: loco:5f6350b1c6e2a22174248aac
+msgid "Header"
+msgstr "Header"
+
+#: loco:5f6350b1c6e2a22174248aad
+msgid "Create a new topic on this forum"
+msgstr "Create a new topic on this forum"
+
+#: loco:5f6350b1c6e2a22174248aae
+msgid "Subject "
+msgstr "Subject "
+
+#: loco:5f6350b1c6e2a22174248aaf
+msgid "Message "
+msgstr "Message "
+
+#: loco:5f6350b1c6e2a22174248ab0
+msgid "Post topic as"
+msgstr "Post topic as"
+
+#: loco:5f6350b1c6e2a22174248ab1
+msgid "Default topic"
+msgstr "Default topic"
+
+#: loco:5f6350b1c6e2a22174248ab2
+msgid "Save"
+msgstr "Save"
+
+#: loco:5f6350b1c6e2a22174248ab3
+msgid "Post a new comment to this topic"
+msgstr "Post a new comment to this topic"
+
+#: loco:5f6350b1c6e2a22174248ab4
+msgid "Comment"
+msgstr "Comment"
+
+#: loco:5f6350b1c6e2a22174248ab5
+msgid "Title"
+msgstr "Title"
+
+#: loco:5f6350b1c6e2a22174248ab6
+msgid "News/Noticeboard Item"
+msgstr "News/Noticeboard Item"
+
+#: loco:5f6350b1c6e2a22174248ab7
+msgid "Second Line"
+msgstr "Second Line"
+
+#: loco:5f6350b1c6e2a22174248ab8
+msgid "Career"
+msgstr "Career"
+
+#: loco:5f6350b1c6e2a22174248ab9
+msgid "Error: trainee notes not saved. Please try again later"
+msgstr "Error: trainee notes not saved. Please try again later"
+
+#: loco:5f6350b1c6e2a22174248aba
+msgid "Oops: Cannot add item. Please try again later."
+msgstr "Oops: Cannot add item. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248abb
+msgid "Help & Support"
+msgstr "Help & Support"
+
+#: loco:5f6350b1c6e2a22174248abc
+msgid "please wait"
+msgstr "please wait"
+
+#: loco:5f6350b1c6e2a22174248abd
+msgid "Successfully added"
+msgstr "Successfully added"
+
+#: loco:5f6350b1c6e2a22174248abe
+msgid "About"
+msgstr "About"
+
+#: loco:5f6350b1c6e2a22174248abf
+msgid "Confirm Action"
+msgstr "Confirm Action"
+
+#: loco:5f6350b1c6e2a22174248ac0
+msgid "Successfully removed"
+msgstr "Successfully removed"
+
+#: loco:5f6350b1c6e2a22174248ac1
+msgid ""
+"You are about to cancel a request to attend a course that has been made "
+"available to you. Are you sure you wish to continue?"
+msgstr ""
+"You are about to cancel a request to attend a course that has been made "
+"available to you. Are you sure you wish to continue?"
+
+#: loco:5f6350b1c6e2a22174248ac2
+msgid "Oops: Could not book training at the moment. Please try again later."
+msgstr "Oops: Could not book training at the moment. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248ac4
+msgid "Oops: Could not decline training at the moment. Please try again later."
+msgstr ""
+"Oops: Could not decline training at the moment. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248ac5
+msgid "Oops: Could not cancel training at the moment. Please try again later."
+msgstr "Oops: Could not cancel training at the moment. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248ac6
+msgid "This operation requires a network connection."
+msgstr "This operation requires a network connection."
+
+#: loco:5f6350b1c6e2a22174248ac7
+msgid "This operation may download a large amount of data."
+msgstr "This operation may download a large amount of data."
+
+#: loco:5f6350b1c6e2a22174248ac8
+msgid "Downloading on Mobile Network"
+msgstr "Downloading on Mobile Network"
+
+#: loco:5f6350b1c6e2a22174248ac9
+msgid "No Network Connection"
+msgstr "No Network Connection"
+
+#: loco:5f6350b1c6e2a22174248aca
+msgid "Confirm"
+msgstr "Confirm"
+
+#: loco:5f6350b1c6e2a22174248acb
+msgid "Error: Please try again later"
+msgstr "Error: Please try again later"
+
+#: loco:5f6350b1c6e2a22174248acc
+msgid "Signed off on"
+msgstr "Signed off on"
+
+#: loco:5f6350b1c6e2a22174248acd
+msgid "This poll does not allow users to change their votes"
+msgstr "This poll does not allow users to change their votes"
+
+#: loco:5f6350b1c6e2a22174248ace
+msgid "Oops: You need to fill in all (*) required fields."
+msgstr "Oops: You need to fill in all (*) required fields."
+
+#: loco:5f6350b1c6e2a22174248acf
+msgid "Error"
+msgstr "Error"
+
+#: loco:5f6350b1c6e2a22174248ad0
+msgid "Please try again later"
+msgstr "Please try again later"
+
+#: loco:5f6350b1c6e2a22174248ad1
+msgid "Error: could not post comment"
+msgstr "Error: could not post comment"
+
+#: loco:5f6350b1c6e2a22174248ad2
+msgid "Review"
+msgstr "Review"
+
+#: loco:5f6350b1c6e2a22174248ad3
+msgid "Reviews"
+msgstr "Reviews"
+
+#: loco:5f6350b1c6e2a22174248ad4
+msgid "Bookhold"
+msgstr "Bookhold"
+
+#: loco:5f6350b1c6e2a22174248ad5
+msgid "My life"
+msgstr "My life"
+
+#: loco:5f6350b1c6e2a22174248ad7
+msgid ""
+"Your company currently does not allow trainees to use the mobile app. Please "
+"get in touch with your training manager to find out more."
+msgstr ""
+"Your company currently does not allow trainees to use the mobile app. Please "
+"get in touch with your training manager to find out more."
+
+#: loco:5f6350b1c6e2a22174248ad8
+msgid "Are you sure you want to exit?"
+msgstr "Are you sure you want to exit?"
+
+#: loco:5f6350b1c6e2a22174248ad9
+msgid "Exit Application"
+msgstr "Exit Application"
+
+#: loco:5f6350b1c6e2a22174248ada
+msgid "Loading training path"
+msgstr "Loading training path"
+
+#: loco:5f6350b1c6e2a22174248adb
+msgid "Error: Could not load training path. Please try again later."
+msgstr "Error: Could not load training path. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248adc
+msgid "Loading"
+msgstr "Loading"
+
+#: loco:5f6350b1c6e2a22174248add
+msgid "There are no feed items at the moment"
+msgstr "There are no feed items at the moment"
+
+#: loco:5f6350b1c6e2a22174248ade
+msgid "Success"
+msgstr "Success"
+
+#: loco:5f6350b1c6e2a22174248adf
+msgid "Error: Could not load feed. Please try again later."
+msgstr "Error: Could not load feed. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248ae0
+msgid "There are no new news articles at the moment"
+msgstr "There are no new news articles at the moment"
+
+#: loco:5f6350b1c6e2a22174248ae1
+msgid "Trainee notes successfully saved"
+msgstr "Trainee notes successfully saved"
+
+#: loco:5f6350b1c6e2a22174248ae2
+msgid "Error - trainee notes not saved"
+msgstr "Error - trainee notes not saved"
+
+#: loco:5f6350b1c6e2a22174248ae3
+msgid "This appraisal could not be found"
+msgstr "This appraisal could not be found"
+
+#: loco:5f6350b1c6e2a22174248ae4
+msgid "Error: Could not load news feed. Please try again later."
+msgstr "Error: Could not load news feed. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248ae5
+msgid "There is nothing new on the noticeboard at the moment"
+msgstr "There is nothing new on the noticeboard at the moment"
+
+#: loco:5f6350b1c6e2a22174248ae6
+msgid "Failed"
+msgstr "Failed"
+
+#: loco:5f6350b1c6e2a22174248ae7
+msgid "In progress"
+msgstr "In progress"
+
+#: loco:5f6350b1c6e2a22174248ae8
+msgid "Not started"
+msgstr "Not started"
+
+#: loco:5f6350b1c6e2a22174248ae9
+msgid "Workbook"
+msgstr "Workbook"
+
+#: loco:5f6350b1c6e2a22174248aea
+msgid "There are no Forums currently available"
+msgstr "There are no Forums currently available"
+
+#: loco:5f6350b1c6e2a22174248aeb
+msgid "Error: Could not load index feed. Please try again later."
+msgstr "Error: Could not load index feed. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248aec
+msgid "Loading subscription feed"
+msgstr "Loading subscription feed"
+
+#: loco:5f6350b1c6e2a22174248aed
+msgid "You have no active subscriptions"
+msgstr "You have no active subscriptions"
+
+#: loco:5f6350b1c6e2a22174248aee
+msgid "Error: Could not load subscription feed. Please try again later."
+msgstr "Error: Could not load subscription feed. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248aef
+msgid "Error:  Could not fetch unread topics. Please try again later."
+msgstr "Error:  Could not fetch unread topics. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248af0
+msgid "Loading unread topics feed"
+msgstr "Loading unread topics feed"
+
+#: loco:5f6350b1c6e2a22174248af1
+msgid "You have no unread topics at the moment"
+msgstr "You have no unread topics at the moment"
+
+#: loco:5f6350b1c6e2a22174248af2
+msgid "Error: Could not load unread topics. Please try again later."
+msgstr "Error: Could not load unread topics. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248af3
+msgid "a few seconds ago"
+msgstr "a few seconds ago"
+
+#: loco:5f6350b1c6e2a22174248af4
+msgid "seconds ago"
+msgstr "seconds ago"
+
+#: loco:5f6350b1c6e2a22174248af5
+msgid "is a sub-level-forum"
+msgstr "is a sub-level-forum"
+
+#: loco:5f6350b1c6e2a22174248af6
+msgid "Error: Could not load topic. Please try again later."
+msgstr "Error: Could not load topic. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248af7
+msgid "Unfollow"
+msgstr "Unfollow"
+
+#: loco:5f6350b1c6e2a22174248af8
+msgid "Unlike"
+msgstr "Unlike"
+
+#: loco:5f6350b1c6e2a22174248af9
+msgid "Subscribed"
+msgstr "Subscribed"
+
+#: loco:5f6350b1c6e2a22174248afa
+msgid "You have no unread topics"
+msgstr "You have no unread topics"
+
+#: loco:5f6350b1c6e2a22174248afb
+msgid "Sorry, no results found."
+msgstr "Sorry, no results found."
+
+#: loco:5f6350b1c6e2a22174248afc
+msgid "Error: Could not load search results. Please try again later."
+msgstr "Error: Could not load search results. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248afd
+msgid "new discussion"
+msgstr "new discussion"
+
+#: loco:5f6350b1c6e2a22174248afe
+msgid "Subject"
+msgstr "Subject"
+
+#: loco:5f6350b1c6e2a22174248aff
+msgid "Enter your subject here..."
+msgstr "Enter your subject here..."
+
+#: loco:5f6350b1c6e2a22174248b00
+msgid "Enter your message here..."
+msgstr "Enter your message here..."
+
+#: loco:5f6350b1c6e2a22174248b01
+msgid ""
+"The format of the file you've submitted is not among the formats supported. "
+"The supported formats include JPEG, PNG, GIF and BMP."
+msgstr ""
+"The format of the file you've submitted is not among the formats supported. "
+"The supported formats include JPEG, PNG, GIF and BMP."
+
+#: loco:5f6350b1c6e2a22174248b02
+msgid "Oops: Can't subscribe right now. Please try again later."
+msgstr "Oops: Can't subscribe right now. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248b03
+msgid "Oops: Can't unsubscribe right now. Please try again later."
+msgstr "Oops: Can't unsubscribe right now. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248b04
+msgid "Oops: Can't like right now. Please try again later."
+msgstr "Oops: Can't like right now. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248b05
+msgid "Oops: Can't unlike right now. Please try again later."
+msgstr "Oops: Can't unlike right now. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248b06
+msgid "There are no"
+msgstr "There are no"
+
+#: loco:5f6350b1c6e2a22174248b07
+msgid "Error: Could not load"
+msgstr "Error: Could not load"
+
+#: loco:5f6350b1c6e2a22174248b08
+msgid "Error: Could not load list. Please try again later."
+msgstr "Error: Could not load list. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248b09
+msgid "first"
+msgstr "first"
+
+#: loco:5f6350b1c6e2a22174248b0a
+msgid "OVERDUE"
+msgstr "OVERDUE"
+
+#: loco:5f6350b1c6e2a22174248b0b
+msgid "No due date"
+msgstr "No due date"
+
+#: loco:5f6350b1c6e2a22174248b0c
+msgid "Module Downloads"
+msgstr "Module Downloads"
+
+#: loco:5f6350b1c6e2a22174248b0d
+msgid ""
+"Please note you will not be able to re-sit the exam if you revisit the "
+"module."
+msgstr ""
+"Please note you will not be able to re-sit the exam if you revisit the "
+"module."
+
+#: loco:5f6350b1c6e2a22174248b0e
+msgid "In order to attempt this module you need to complete"
+msgstr "In order to attempt this module you need to complete"
+
+#: loco:5f6350b1c6e2a22174248b0f
+msgid "Loading workbook"
+msgstr "Loading workbook"
+
+#: loco:5f6350b1c6e2a22174248b10
+msgid "This workbook could not be found"
+msgstr "This workbook could not be found"
+
+#: loco:5f6350b1c6e2a22174248b11
+msgid "You are booked on the following session"
+msgstr "You are booked on the following session"
+
+#: loco:5f6350b1c6e2a22174248b12
+msgid "You have been invited to attend the following session"
+msgstr "You have been invited to attend the following session"
+
+#: loco:5f6350b1c6e2a22174248b13
+msgid "You have cancelled your attendance to the following session"
+msgstr "You have cancelled your attendance to the following session"
+
+#: loco:5f6350b1c6e2a22174248b14
+msgid "You have declined the invitation to attend the following session"
+msgstr "You have declined the invitation to attend the following session"
+
+#: loco:5f6350b1c6e2a22174248b15
+msgid "You have been refused attendance to the following session"
+msgstr "You have been refused attendance to the following session"
+
+#: loco:5f6350b1c6e2a22174248b16
+msgid "Next available session"
+msgstr "Next available session"
+
+#: loco:5f6350b1c6e2a22174248b17
+msgid "Supporting Documents"
+msgstr "Supporting Documents"
+
+#: loco:5f6350b1c6e2a22174248b18
+msgid "Open Document"
+msgstr "Open Document"
+
+#: loco:5f6350b1c6e2a22174248b19
+msgid "Loading appraisal"
+msgstr "Loading appraisal"
+
+#: loco:5f6350b1c6e2a22174248b1a
+msgid ""
+"Sorry, you have been refused attendance to this session for the following "
+"reason:"
+msgstr ""
+"Sorry, you have been refused attendance to this session for the following "
+"reason:"
+
+#: loco:5f6350b1c6e2a22174248b1b
+msgid "Please contact your Training Manager for more information."
+msgstr "Please contact your Training Manager for more information."
+
+#: loco:5f6350b1c6e2a22174248b1c
+msgid "You are currently on the wating list for this session."
+msgstr "You are currently on the wating list for this session."
+
+#: loco:5f6350b1c6e2a22174248b1d
+msgid ""
+"There are no more available spaces on this session. You can join the waiting "
+"list by visiting your training portal."
+msgstr ""
+"There are no more available spaces on this session. You can join the waiting "
+"list by visiting your training portal."
+
+#: loco:5f6350b1c6e2a22174248b1e
+msgid "Cancel Booking"
+msgstr "Cancel Booking"
+
+#: loco:5f6350b1c6e2a22174248b1f
+msgid "Confirm Attendance"
+msgstr "Confirm Attendance"
+
+#: loco:5f6350b1c6e2a22174248b20
+msgid "Decline Attendance"
+msgstr "Decline Attendance"
+
+#: loco:5f6350b1c6e2a22174248b21
+msgid "Book Training"
+msgstr "Book Training"
+
+#: loco:5f6350b1c6e2a22174248b22
+msgid "Loading Item Content"
+msgstr "Loading Item Content"
+
+#: loco:5f6350b1c6e2a22174248b23
+msgid "No description available"
+msgstr "No description available"
+
+#: loco:5f6350b1c6e2a22174248b24
+msgid "remove from my library"
+msgstr "remove from my library"
+
+#: loco:5f6350b1c6e2a22174248b25
+msgid "add to my library"
+msgstr "add to my library"
+
+#: loco:5f6350b1c6e2a22174248b26
+msgid "open attachment"
+msgstr "open attachment"
+
+#: loco:5f6350b1c6e2a22174248b27
+msgid "remove from library"
+msgstr "remove from library"
+
+#: loco:5f6350b1c6e2a22174248b28
+msgid "sign off"
+msgstr "sign off"
+
+#: loco:5f6350b1c6e2a22174248b29
+msgid "due"
+msgstr "due"
+
+#: loco:5f6350b1c6e2a22174248b2a
+msgid "Provider"
+msgstr "Provider"
+
+#: loco:5f6350b1c6e2a22174248b2b
+msgid "handout material"
+msgstr "handout material"
+
+#: loco:5f6350b1c6e2a22174248b2c
+msgid "Location"
+msgstr "Location"
+
+#: loco:5f6350b1c6e2a22174248b2d
+msgid "Address:"
+msgstr "Address:"
+
+#: loco:5f6350b1c6e2a22174248b2e
+msgid "City"
+msgstr "City"
+
+#: loco:5f6350b1c6e2a22174248b2f
+msgid "Post Code"
+msgstr "Post Code"
+
+#: loco:5f6350b1c6e2a22174248b30
+msgid "Start Date"
+msgstr "Start Date"
+
+#: loco:5f6350b1c6e2a22174248b31
+msgid "End Date"
+msgstr "End Date"
+
+#: loco:5f6350b1c6e2a22174248b32
+msgid "attendance"
+msgstr "attendance"
+
+#: loco:5f6350b1c6e2a22174248b33
+msgid "decline"
+msgstr "decline"
+
+#: loco:5f6350b1c6e2a22174248b34
+msgid "cancel attendance"
+msgstr "cancel attendance"
+
+#: loco:5f6350b1c6e2a22174248b35
+msgid "Cancel Attendance"
+msgstr "Cancel Attendance"
+
+#: loco:5f6350b1c6e2a22174248b36
+msgid "request to book"
+msgstr "request to book"
+
+#: loco:5f6350b1c6e2a22174248b37
+msgid "Request to Book"
+msgstr "Request to Book"
+
+#: loco:5f6350b1c6e2a22174248b38
+msgid ""
+"You are about to request to attend a course that has been made available on "
+"your training calendar. We advise that you confirm your availability to "
+"attend with your line manager first to ensure this does not conflict with "
+"any other events or rotas. Clicking confirm will book your attendance, are "
+"you sure you wish to continue?"
+msgstr ""
+"You are about to request to attend a course that has been made available on "
+"your training calendar. We advise that you confirm your availability to "
+"attend with your line manager first to ensure this does not conflict with "
+"any other events or rotas. Clicking confirm will book your attendance, are "
+"you sure you wish to continue?"
+
+#: loco:5f6350b1c6e2a22174248b39
+msgid "supporting document"
+msgstr "supporting document"
+
+#: loco:5f6350b1c6e2a22174248b3a
+msgid "Next Session"
+msgstr "Next Session"
+
+#: loco:5f6350b1c6e2a22174248b3b
+msgid "Attendance"
+msgstr "Attendance"
+
+#: loco:5f6350b1c6e2a22174248b3c
+msgid "Training Type"
+msgstr "Training Type"
+
+#: loco:5f6350b1c6e2a22174248b3d
+msgid "external file"
+msgstr "external file"
+
+#: loco:5f6350b1c6e2a22174248b3e
+msgid "revisit training"
+msgstr "revisit training"
+
+#: loco:5f6350b1c6e2a22174248b3f
+msgid "continue training"
+msgstr "continue training"
+
+#: loco:5f6350b1c6e2a22174248b40
+msgid "view certificate"
+msgstr "view certificate"
+
+#: loco:5f6350b1c6e2a22174248b41
+msgid "module notes"
+msgstr "module notes"
+
+#: loco:5f6350b1c6e2a22174248b42
+msgid "This item could not be found."
+msgstr "This item could not be found."
+
+#: loco:5f6350b1c6e2a22174248b43
+msgid "This action could not be completed."
+msgstr "This action could not be completed."
+
+#: loco:5f6350b1c6e2a22174248b44
+msgid "Competences"
+msgstr "Competences"
+
+#: loco:5f6350b1c6e2a22174248b45
+msgid "External Training"
+msgstr "External Training"
+
+#: loco:5f6350b1c6e2a22174248b46
+msgid "Appraisals"
+msgstr "Appraisals"
+
+#: loco:5f6350b1c6e2a22174248b47
+msgid "Competence"
+msgstr "Competence"
+
+#: loco:5f6350b1c6e2a22174248b48
+msgid "Careers"
+msgstr "Careers"
+
+#: loco:5f6350b1c6e2a22174248b49
+msgid "Noticeboard"
+msgstr "Noticeboard"
+
+#: loco:5f6350b1c6e2a22174248b4a
+msgid "Appraisal"
+msgstr "Appraisal"
+
+#: loco:5f6350b1c6e2a22174248b4b
+msgid "Feed"
+msgstr "Feed"
+
+#: loco:5f6350b1c6e2a22174248b4c
+msgid "Training"
+msgstr "Training"
+
+#: loco:5f6350b1c6e2a22174248b4d
+msgid "Comms"
+msgstr "Comms"
+
+#: loco:5f6350b1c6e2a22174248b4e
+msgid "Library"
+msgstr "Library"
+
+#: loco:5f6350b1c6e2a22174248b4f
+msgid "My Career"
+msgstr "My Career"
+
+#: loco:5f6350b1c6e2a22174248b50
+msgid "My Training"
+msgstr "My Training"
+
+#: loco:5f6350b1c6e2a22174248b51
+msgid "Items with Due Dates are:"
+msgstr "Items with Due Dates are:"
+
+#: loco:5f6350b1c6e2a22174248b52
+msgid "Online"
+msgstr "Online"
+
+#: loco:5f6350b1c6e2a22174248b54
+msgid "Your supervisor/manager has not marked this as achieved yet"
+msgstr "Your supervisor/manager has not marked this as achieved yet"
+
+#: loco:5f6350b1c6e2a22174248b55
+msgid "This news article could not be found."
+msgstr "This news article could not be found."
+
+#: loco:5f6350b1c6e2a22174248b56
+msgid "Due:"
+msgstr "Due:"
+
+#: loco:5f6350b1c6e2a22174248b57
+msgid "Jump to:"
+msgstr "Jump to:"
+
+#: loco:5f6350b1c6e2a22174248b58
+msgid "Latest exam result:"
+msgstr "Latest exam result:"
+
+#: loco:5f6350b1c6e2a22174248b59
+msgid "View certificate"
+msgstr "View certificate"
+
+#: loco:5f6350b1c6e2a22174248b5a
+msgid "Status:"
+msgstr "Status:"
+
+#: loco:5f6350b1c6e2a22174248b5b
+msgid "Training Time"
+msgstr "Training Time"
+
+#: loco:5f6350b1c6e2a22174248b5c
+msgid "Open supporting documents"
+msgstr "Open supporting documents"
+
+#: loco:5f6350b1c6e2a22174248b5d
+msgid "Date Due:"
+msgstr "Date Due:"
+
+#: loco:5f6350b1c6e2a22174248b5e
+msgid "Open Supporting Documents"
+msgstr "Open Supporting Documents"
+
+#: loco:5f6350b1c6e2a22174248b5f
+msgid "Accept"
+msgstr "Accept"
+
+#: loco:5f6350b1c6e2a22174248b60
+msgid "Decline"
+msgstr "Decline"
+
+#: loco:5f6350b1c6e2a22174248b61
+msgid ""
+"You are about to accept an invitation to a training session. Are you sure "
+"you wish to continue?"
+msgstr ""
+"You are about to accept an invitation to a training session. Are you sure "
+"you wish to continue?"
+
+#: loco:5f6350b1c6e2a22174248b62
+msgid ""
+"You are about to decline an invitation to a training session. Are you sure "
+"you wish to continue?"
+msgstr ""
+"You are about to decline an invitation to a training session. Are you sure "
+"you wish to continue?"
+
+#: loco:5f6350b1c6e2a22174248b63
+msgid "Achieved date:"
+msgstr "Achieved date:"
+
+#: loco:5f6350b1c6e2a22174248b64
+msgid "Supporting document available:"
+msgstr "Supporting document available:"
+
+#: loco:5f6350b1c6e2a22174248b65
+msgid "View supporting document"
+msgstr "View supporting document"
+
+#: loco:5f6350b1c6e2a22174248b66
+msgid "There was a problem loading this item, please try again."
+msgstr "There was a problem loading this item, please try again."
+
+#: loco:5f6350b1c6e2a22174248b67
+msgid "Something has gone wrong, please try again later."
+msgstr "Something has gone wrong, please try again later."
+
+#: loco:5f6350b1c6e2a22174248b68
+msgid "Saved Items"
+msgstr "Saved Items"
+
+#: loco:5f6350b1c6e2a22174248b69
+msgid "Unread Items"
+msgstr "Unread Items"
+
+#: loco:5f6350b1c6e2a22174248b6a
+msgid "Sign Off Required"
+msgstr "Sign Off Required"
+
+#: loco:5f6350b1c6e2a22174248b6b
+msgid "Sign Off Completed"
+msgstr "Sign Off Completed"
+
+#: loco:5f6350b1c6e2a22174248b6c
+msgid "Documents"
+msgstr "Documents"
+
+#: loco:5f6350b1c6e2a22174248b6d
+msgid "Certificates"
+msgstr "Certificates"
+
+#: loco:5f6350b1c6e2a22174248b6e
+msgid "You have no saved documents"
+msgstr "You have no saved documents"
+
+#: loco:5f6350b1c6e2a22174248b6f
+msgid "You have no saved certificates"
+msgstr "You have no saved certificates"
+
+#: loco:5f6350b1c6e2a22174248b70
+msgid "Loading account details"
+msgstr "Loading account details"
+
+#: loco:5f6350b1c6e2a22174248b71
+msgid "Error: Could not load account details. Please try again later."
+msgstr "Error: Could not load account details. Please try again later."
+
+#: loco:5f6350b1c6e2a22174248b72
+msgid "Unable to register for push notifications"
+msgstr "Unable to register for push notifications"
+
+#: loco:5f6350b1c6e2a22174248b73
+msgid "Unable to register device for push notifications"
+msgstr "Unable to register device for push notifications"
+
+#: loco:5f6350b1c6e2a22174248b74
+msgid ""
+"There is a private session for this course but you are not invited to attend."
+msgstr ""
+"There is a private session for this course but you are not invited to attend."
+
+#: loco:5f6350b1c6e2a22174248b75
+msgid ""
+"Using the latest technology, Flow delivers a continuously evolving learning "
+"and development solution tailored to the hospitality and tourism sector, "
+"providing accredited, certificated training throughout the industry."
+msgstr ""
+"Using the latest technology, Flow delivers a continuously evolving learning "
+"and development solution tailored to the hospitality and tourism sector, "
+"providing accredited, certificated training throughout the industry."
+
+#: loco:5f6350b1c6e2a22174248b76
+msgid ""
+"Easily tailored to fit into your business, Flow will have a significant "
+"impact on productivity and profitability by developing and motivating staff, "
+"reducing training costs and increasing sales."
+msgstr ""
+"Easily tailored to fit into your business, Flow will have a significant "
+"impact on productivity and profitability by developing and motivating staff, "
+"reducing training costs and increasing sales."
+
+#: loco:5f6350b1c6e2a22174248b77
+msgid ""
+"Flow has been designed to inspire learning through our comprehensive "
+"portfolio of innovative and engaging online modules. We also deliver control "
+"and visibility of all learning and development activity through our "
+"versatile and intuitive management system, The Flow Zone."
+msgstr ""
+"Flow has been designed to inspire learning through our comprehensive "
+"portfolio of innovative and engaging online modules. We also deliver control "
+"and visibility of all learning and development activity through our "
+"versatile and intuitive management system, The Flow Zone."
+
+#: loco:5f6350b1c6e2a22174248b78
+msgid ""
+"And with over 30 years of hospitality experience, we feel our industry "
+"expertise gives us unique empathy with all our clients, enabling an "
+"excellent level of service and support."
+msgstr ""
+"And with over 30 years of hospitality experience, we feel our industry "
+"expertise gives us unique empathy with all our clients, enabling an "
+"excellent level of service and support."
+
+#: loco:5f6350b1c6e2a22174248b79
+msgid "Terms & Conditions"
+msgstr "Terms & Conditions"
+
+#: loco:5f6350b1c6e2a22174248b7a
+msgid "Information"
+msgstr "Information"
+
+#: loco:5f6350b1c6e2a22174248b7b
+msgid "Arbitration"
+msgstr "Arbitration"
+
+#: loco:5f6350b1c6e2a22174248b7c
+msgid "Choice of law"
+msgstr "Choice of law"
+
+#: loco:5f6350b1c6e2a22174248b7d
+msgid "Copyright and Trademarks"
+msgstr "Copyright and Trademarks"
+
+#: loco:5f6350b1c6e2a22174248b7e
+msgid "Terms and Conditions of Use"
+msgstr "Terms and Conditions of Use"
+
+#: loco:5f6350b1c6e2a22174248b7f
+msgid ""
+"Please read the following Terms and Conditions carefully before using this "
+"Mobile App"
+msgstr ""
+"Please read the following Terms and Conditions carefully before using this "
+"Mobile App"
+
+#: loco:5f6350b1c6e2a22174248b80
+msgid "Acceptance of Terms"
+msgstr "Acceptance of Terms"
+
+#: loco:5f6350b1c6e2a22174248b81
+msgid ""
+"This Mobile App is provided by Flow Hospitality Training (Flow), conditional "
+"on your acceptance of the terms and conditions of use set forth below (the "
+"'Terms and Conditions'). By browsing, accessing, linking, using and/or "
+"downloading information ('Access' or similar term) from this Mobile App, you "
+"agree to accept and abide by these Terms and Conditions for each use and "
+"each visit of this Mobile App. If you do not agree to these Terms and "
+"Conditions, you should not Access this Mobile App."
+msgstr ""
+"This Mobile App is provided by Flow Hospitality Training (Flow), conditional "
+"on your acceptance of the terms and conditions of use set forth below (the "
+"'Terms and Conditions'). By browsing, accessing, linking, using and/or "
+"downloading information ('Access' or similar term) from this Mobile App, you "
+"agree to accept and abide by these Terms and Conditions for each use and "
+"each visit of this Mobile App. If you do not agree to these Terms and "
+"Conditions, you should not Access this Mobile App."
+
+#: loco:5f6350b1c6e2a22174248b82
+msgid ""
+"Flow provides this Mobile App and all related online services (the "
+"'Services') to you, subject to these Terms and Conditions. These Terms and "
+"Conditions are entered into between Flow and you. If you are using the "
+"Services on behalf of another person, you represent that you are authorized "
+"to accept these Terms and Conditions on that person's behalf. Unless "
+"explicitly stated otherwise, these Terms and Conditions will govern your use "
+"of any new features that augment or enhance the current Services, including "
+"the release of new products or services."
+msgstr ""
+"Flow provides this Mobile App and all related online services (the "
+"'Services') to you, subject to these Terms and Conditions. These Terms and "
+"Conditions are entered into between Flow and you. If you are using the "
+"Services on behalf of another person, you represent that you are authorized "
+"to accept these Terms and Conditions on that person's behalf. Unless "
+"explicitly stated otherwise, these Terms and Conditions will govern your use "
+"of any new features that augment or enhance the current Services, including "
+"the release of new products or services."
+
+#: loco:5f6350b1c6e2a22174248b83
+msgid "Definitions"
+msgstr "Definitions"
+
+#: loco:5f6350b1c6e2a22174248b84
+msgid ""
+"In addition to the terms defined throughout these Terms and Conditions, the "
+"terms 'you', 'your' and 'yours' refer to the surfer, customer or purchaser "
+"utilizing this Mobile App to obtain Services. The terms 'we', 'us' and 'our' "
+"refer to Flow."
+msgstr ""
+"In addition to the terms defined throughout these Terms and Conditions, the "
+"terms 'you', 'your' and 'yours' refer to the surfer, customer or purchaser "
+"utilizing this Mobile App to obtain Services. The terms 'we', 'us' and 'our' "
+"refer to Flow."
+
+#: loco:5f6350b1c6e2a22174248b85
+msgid "Changes to Terms and Conditions"
+msgstr "Changes to Terms and Conditions"
+
+#: loco:5f6350b1c6e2a22174248b86
+msgid ""
+"Flow reserves the right, at any time, to modify, add to, delete from, alter, "
+"or update these Terms and Conditions ('Changes'), and you agree to be bound "
+"by such Changes. Changes shall be effective immediately upon notice thereof, "
+"which may be given by any means including, but not limited to posting on "
+"this Mobile App or by electronic or conventional mail. You agree to "
+"regularly review the Terms and Conditions included in this Mobile Appand to "
+"be aware of Changes. Your use of this Mobile App following any Changes "
+"constitutes your agreement to follow and be bound by these Terms and "
+"Conditions as changed."
+msgstr ""
+"Flow reserves the right, at any time, to modify, add to, delete from, alter, "
+"or update these Terms and Conditions ('Changes'), and you agree to be bound "
+"by such Changes. Changes shall be effective immediately upon notice thereof, "
+"which may be given by any means including, but not limited to posting on "
+"this Mobile App or by electronic or conventional mail. You agree to "
+"regularly review the Terms and Conditions included in this Mobile Appand to "
+"be aware of Changes. Your use of this Mobile App following any Changes "
+"constitutes your agreement to follow and be bound by these Terms and "
+"Conditions as changed."
+
+#: loco:5f6350b1c6e2a22174248b87
+msgid "Permitted and Prohibited Uses"
+msgstr "Permitted and Prohibited Uses"
+
+#: loco:5f6350b1c6e2a22174248b88
+msgid ""
+"This Mobile App is intended for the lawful use of members of the general "
+"public who are over the age of 16 years. Subject to these Terms and "
+"Conditions, Flow grants you a non-exclusive, non-transferable, limited right "
+"to access, use and view this Mobile App and the information thereon, "
+"including without limitation, all text, design, graphics, drawings, "
+"photographs, video clips, music and sounds, and all trade-marks, service "
+"marks and trade names used at this Mobile App and the selection and "
+"arrangements thereof (collectively, the 'Content'), solely for your own "
+"personal use, provided, however, that you may not, nor may you allow others "
+"to, directly or indirectly:"
+msgstr ""
+"This Mobile App is intended for the lawful use of members of the general "
+"public who are over the age of 16 years. Subject to these Terms and "
+"Conditions, Flow grants you a non-exclusive, non-transferable, limited right "
+"to access, use and view this Mobile App and the information thereon, "
+"including without limitation, all text, design, graphics, drawings, "
+"photographs, video clips, music and sounds, and all trade-marks, service "
+"marks and trade names used at this Mobile App and the selection and "
+"arrangements thereof (collectively, the 'Content'), solely for your own "
+"personal use, provided, however, that you may not, nor may you allow others "
+"to, directly or indirectly:"
+
+#: loco:5f6350b1c6e2a22174248b89
+msgid ""
+"sell, license, rent, reproduce, modify or attempt to modify or create "
+"derivative works from the Content in any way or reproduce or publicly "
+"display, perform, transmit or distribute or otherwise use the Content for "
+"any public or commercial purpose, including without limitation use of the "
+"Content on any other online service or in any environment of networked "
+"computers;"
+msgstr ""
+"sell, license, rent, reproduce, modify or attempt to modify or create "
+"derivative works from the Content in any way or reproduce or publicly "
+"display, perform, transmit or distribute or otherwise use the Content for "
+"any public or commercial purpose, including without limitation use of the "
+"Content on any other online service or in any environment of networked "
+"computers;"
+
+#: loco:5f6350b1c6e2a22174248b8a
+msgid ""
+"transfer the Content to any other person without the prior written explicit "
+"consent of Flow;"
+msgstr ""
+"transfer the Content to any other person without the prior written explicit "
+"consent of Flow;"
+
+#: loco:5f6350b1c6e2a22174248b8b
+msgid ""
+"use this Mobile App in any manner that could damage, disable, overburden or "
+"impair this Mobile App;"
+msgstr ""
+"use this Mobile App in any manner that could damage, disable, overburden or "
+"impair this Mobile App;"
+
+#: loco:5f6350b1c6e2a22174248b8c
+msgid ""
+"upload, post or otherwise transmit or distribute on this Mobile App any "
+"items, including without limitation computer viruses, Trojan horses, worms, "
+"backdoor, shutdown mechanism or other harmful, disruptive or destructive "
+"files or computer programs;"
+msgstr ""
+"upload, post or otherwise transmit or distribute on this Mobile App any "
+"items, including without limitation computer viruses, Trojan horses, worms, "
+"backdoor, shutdown mechanism or other harmful, disruptive or destructive "
+"files or computer programs;"
+
+#: loco:5f6350b1c6e2a22174248b8d
+msgid ""
+"interfere with the security of, or otherwise abuse, this Mobile App or any "
+"Services, system resources, accounts, servers or networks connected to or "
+"accessible through this Mobile App or associated or linked sites;"
+msgstr ""
+"interfere with the security of, or otherwise abuse, this Mobile App or any "
+"Services, system resources, accounts, servers or networks connected to or "
+"accessible through this Mobile App or associated or linked sites;"
+
+#: loco:5f6350b1c6e2a22174248b8e
+msgid ""
+"infringe on any patent, trade-mark, trade secret, copyright, right of "
+"publicity, or other proprietary right of any person, or impersonate any "
+"person or entity;"
+msgstr ""
+"infringe on any patent, trade-mark, trade secret, copyright, right of "
+"publicity, or other proprietary right of any person, or impersonate any "
+"person or entity;"
+
+#: loco:5f6350b1c6e2a22174248b8f
+msgid ""
+"disrupt or interfere with any other person's use or enjoyment of this Mobile "
+"App or associated or linked online services;"
+msgstr ""
+"disrupt or interfere with any other person's use or enjoyment of this Mobile "
+"App or associated or linked online services;"
+
+#: loco:5f6350b1c6e2a22174248b90
+msgid ""
+"use any robot, spider or other automatic program or device, or manual "
+"process to monitor, copy, summarize, or otherwise extract information from "
+"this Mobile App or the Content in whole or in part;"
+msgstr ""
+"use any robot, spider or other automatic program or device, or manual "
+"process to monitor, copy, summarize, or otherwise extract information from "
+"this Mobile App or the Content in whole or in part;"
+
+#: loco:5f6350b1c6e2a22174248b91
+msgid ""
+"use or attempt to use another's account, password, service, system or other "
+"information without prior written authorization from Flow, or create or use "
+"a false identity on this Mobile App;"
+msgstr ""
+"use or attempt to use another's account, password, service, system or other "
+"information without prior written authorization from Flow, or create or use "
+"a false identity on this Mobile App;"
+
+#: loco:5f6350b1c6e2a22174248b92
+msgid ""
+"transmit on, to or from this Mobile App spam, chain letters, junk mail or "
+"any other type of unsolicited mass e-mail;"
+msgstr ""
+"transmit on, to or from this Mobile App spam, chain letters, junk mail or "
+"any other type of unsolicited mass e-mail;"
+
+#: loco:5f6350b1c6e2a22174248b93
+msgid ""
+"upload to, distribute to, or otherwise disseminate through this Mobile App "
+"any material or information of any kind that is threatening, harassing, "
+"libellous, defamatory, obscene, pornographic, fraudulent, deceptive, "
+"abusive, or otherwise violates any law or infringes or violates any rights "
+"of any other person or entity, or contains a solicitation of funds, "
+"advertising, or a solicitation for goods or services; or"
+msgstr ""
+"upload to, distribute to, or otherwise disseminate through this Mobile App "
+"any material or information of any kind that is threatening, harassing, "
+"libellous, defamatory, obscene, pornographic, fraudulent, deceptive, "
+"abusive, or otherwise violates any law or infringes or violates any rights "
+"of any other person or entity, or contains a solicitation of funds, "
+"advertising, or a solicitation for goods or services; or"
+
+#: loco:5f6350b1c6e2a22174248b94
+msgid ""
+"attempt to obtain unauthorized access to this Mobile App or portions of this "
+"Mobile App which are restricted from general access."
+msgstr ""
+"attempt to obtain unauthorized access to this Mobile App or portions of this "
+"Mobile App which are restricted from general access."
+
+#: loco:5f6350b1c6e2a22174248b95
+msgid ""
+"You also agree that you are solely responsible for actions and "
+"communications undertaken or transmitted in the course of your usage of this "
+"Mobile App, and that you will comply with all laws that apply or may apply "
+"to your use of or activities on this Mobile App or in respect of the Content."
+msgstr ""
+"You also agree that you are solely responsible for actions and "
+"communications undertaken or transmitted in the course of your usage of this "
+"Mobile App, and that you will comply with all laws that apply or may apply "
+"to your use of or activities on this Mobile App or in respect of the Content."
+
+#: loco:5f6350b1c6e2a22174248b96
+msgid ""
+"Unless otherwise noted, all Content is subject to intellectual property "
+"rights including copyrights and trade marks held or licensed by Flow. You "
+"may print or download one copy of the Content on this Mobile App on a single "
+"computer for your personal, non commercial use, provided you keep intact all "
+"copyright and other proprietary notices. Any other reproduction or use "
+"without express prior written permission from Flow, or Flow's content "
+"providers as the case may be, is strictly prohibited. Except as expressly "
+"provided herein, no license to use or reproduce the Content is given to you "
+"and all intellectual property rights therein are expressly reserved. "
+"Systematic retrieval of data or other Content from this Mobile App to create "
+"or compile, directly or indirectly, a collection, compilation, database or "
+"directory without express prior written permission from Flow is prohibited."
+msgstr ""
+"Unless otherwise noted, all Content is subject to intellectual property "
+"rights including copyrights and trade marks held or licensed by Flow. You "
+"may print or download one copy of the Content on this Mobile App on a single "
+"computer for your personal, non commercial use, provided you keep intact all "
+"copyright and other proprietary notices. Any other reproduction or use "
+"without express prior written permission from Flow, or Flow's content "
+"providers as the case may be, is strictly prohibited. Except as expressly "
+"provided herein, no license to use or reproduce the Content is given to you "
+"and all intellectual property rights therein are expressly reserved. "
+"Systematic retrieval of data or other Content from this Mobile App to create "
+"or compile, directly or indirectly, a collection, compilation, database or "
+"directory without express prior written permission from Flow is prohibited."
+
+#: loco:5f6350b1c6e2a22174248b97
+msgid "Links and Third Party Websites"
+msgstr "Links and Third Party Websites"
+
+#: loco:5f6350b1c6e2a22174248b98
+msgid ""
+"Flow may provide to you, on this Mobile App, links to Third Party Websites "
+"operated by other entities. These Third Party Websites will typically be "
+"identifiable through , though the Site does occasionally contain content "
+"from Third Party Websites within the WEBSITE URL. You agree that this Site "
+"provides no dialogue box or other clear demarcation indicator when you leave "
+"this Site and enter a Third Party Website. Links to Third Party Websites "
+"does not constitute an endorsement, sponsorship or recommendation by Flow of "
+"the Third Party Websites, the entities themselves or of any content, "
+"services or products available on or through such Third Party Websites. If "
+"you use these Third Party Websites, you do so at your own risk and it is "
+"your responsibility to take all protective measures to guard against viruses "
+"and other destructive elements. Links do not imply that Flow or this Site is "
+"affiliated or associated with, or is legally authorized to use any trade-"
+"mark, trade name, logo or copyright symbol displayed in or accessible "
+"through the links, or that any Third Party Website is authorized to use any "
+"trademark, trade name, logo or copyright symbol of Flow. Third Party "
+"Websites may create other contractual obligations between you and the third "
+"party entity in addition to these Terms and Conditions."
+msgstr ""
+"Flow may provide to you, on this Mobile App, links to Third Party Websites "
+"operated by other entities. These Third Party Websites will typically be "
+"identifiable through , though the Site does occasionally contain content "
+"from Third Party Websites within the WEBSITE URL. You agree that this Site "
+"provides no dialogue box or other clear demarcation indicator when you leave "
+"this Site and enter a Third Party Website. Links to Third Party Websites "
+"does not constitute an endorsement, sponsorship or recommendation by Flow of "
+"the Third Party Websites, the entities themselves or of any content, "
+"services or products available on or through such Third Party Websites. If "
+"you use these Third Party Websites, you do so at your own risk and it is "
+"your responsibility to take all protective measures to guard against viruses "
+"and other destructive elements. Links do not imply that Flow or this Site is "
+"affiliated or associated with, or is legally authorized to use any trade-"
+"mark, trade name, logo or copyright symbol displayed in or accessible "
+"through the links, or that any Third Party Website is authorized to use any "
+"trademark, trade name, logo or copyright symbol of Flow. Third Party "
+"Websites may create other contractual obligations between you and the third "
+"party entity in addition to these Terms and Conditions."
+
+#: loco:5f6350b1c6e2a22174248b99
+msgid ""
+"This Mobile App will from time to time contain materials, data or "
+"information provided, posted or offered by third parties, including but not "
+"limited to advertisements. You agree that Flow shall not have any liability "
+"whatsoever to you for any such third party material, data or information."
+msgstr ""
+"This Mobile App will from time to time contain materials, data or "
+"information provided, posted or offered by third parties, including but not "
+"limited to advertisements. You agree that Flow shall not have any liability "
+"whatsoever to you for any such third party material, data or information."
+
+#: loco:5f6350b1c6e2a22174248b9a
+msgid "Submission of Information"
+msgstr "Submission of Information"
+
+#: loco:5f6350b1c6e2a22174248b9b
+msgid ""
+"Although Flow may provide certain security in an effort to protect the "
+"electronic transmission of certain information that you submit to Flow "
+"through this Mobile App, Flow does not guarantee the security of any "
+"information transmitted to or from this Mobile App, including to or from any "
+"Third Party Websites linked to this Mobile App. Submission of any financial "
+"(eg. credit card) or other information to this Mobile App or to any Third "
+"Party Websites linked to this Mobile App is entirely at your own risk and "
+"responsibility. Do not send any confidential or proprietary information to "
+"Flow through this Mobile App. Except for personal information about you, any "
+"information you do send to Flow through this Mobile App will be deemed NOT "
+"to be confidential ('Non-Confidential Information). For any Non-Confidential "
+"Information you do send, you hereby grant to Flow a worldwide, royalty-free, "
+"perpetual, irrevocable, non-exclusive right and license to use, reproduce, "
+"modify, adapt, publish, translate, distribute and sublicense any and all "
+"material or information submitted by you to this Mobile App and/or to "
+"incorporate it in other works regardless of form, medium or technology."
+msgstr ""
+"Although Flow may provide certain security in an effort to protect the "
+"electronic transmission of certain information that you submit to Flow "
+"through this Mobile App, Flow does not guarantee the security of any "
+"information transmitted to or from this Mobile App, including to or from any "
+"Third Party Websites linked to this Mobile App. Submission of any financial "
+"(eg. credit card) or other information to this Mobile App or to any Third "
+"Party Websites linked to this Mobile App is entirely at your own risk and "
+"responsibility. Do not send any confidential or proprietary information to "
+"Flow through this Mobile App. Except for personal information about you, any "
+"information you do send to Flow through this Mobile App will be deemed NOT "
+"to be confidential ('Non-Confidential Information). For any Non-Confidential "
+"Information you do send, you hereby grant to Flow a worldwide, royalty-free, "
+"perpetual, irrevocable, non-exclusive right and license to use, reproduce, "
+"modify, adapt, publish, translate, distribute and sublicense any and all "
+"material or information submitted by you to this Mobile App and/or to "
+"incorporate it in other works regardless of form, medium or technology."
+
+#: loco:5f6350b1c6e2a22174248b9c
+msgid "Agreement to Privacy Policy"
+msgstr "Agreement to Privacy Policy"
+
+#: loco:5f6350b1c6e2a22174248b9d
+msgid ""
+"Flow respects your desire for privacy. Flow's Privacy Policy can be found "
+"here [LINK TO PRIVACY PAGE NEEDED HERE]. By accessing this Mobile App, you "
+"are consenting to the collection, use and disclosure of your personal "
+"information and to the terms of our Privacy Policy. If we decide to change "
+"our Privacy Policy, we will post the revised Privacy Policy prominently on "
+"this Mobile App or otherwise bring it to your attention, so that you are "
+"always aware of what we do with your information."
+msgstr ""
+"Flow respects your desire for privacy. Flow's Privacy Policy can be found "
+"here [LINK TO PRIVACY PAGE NEEDED HERE]. By accessing this Mobile App, you "
+"are consenting to the collection, use and disclosure of your personal "
+"information and to the terms of our Privacy Policy. If we decide to change "
+"our Privacy Policy, we will post the revised Privacy Policy prominently on "
+"this Mobile App or otherwise bring it to your attention, so that you are "
+"always aware of what we do with your information."
+
+#: loco:5f6350b1c6e2a22174248b9e
+msgid "Disclaimers"
+msgstr "Disclaimers"
+
+#: loco:5f6350b1c6e2a22174248b9f
+msgid ""
+"All content and services provided on or through this Mobile App are provided "
+"'as is' and 'as available for your use. The content is provided without "
+"warranties or conditions of any kind, either express or implied, including "
+"but not limited to implied warranties and conditions of merchantability, "
+"fitness for a particular purpose or non infringement. Neither Flow, their "
+"affiliates and related entities, nor any of their respective employees, "
+"agents, third party content providers or licensors warrant that the content "
+"is accurate, reliable or correct; that this Mobile App will be available at "
+"any particular time or location; that any defects or errors will be "
+"corrected or that the content is free of viruses or other harmful "
+"components. Your use of this Mobile App is solely at your risk. Because some "
+"jurisdictions do not permit the exclusion of certain warranties, those "
+"exclusions may not apply to you."
+msgstr ""
+"All content and services provided on or through this Mobile App are provided "
+"'as is' and 'as available for your use. The content is provided without "
+"warranties or conditions of any kind, either express or implied, including "
+"but not limited to implied warranties and conditions of merchantability, "
+"fitness for a particular purpose or non infringement. Neither Flow, their "
+"affiliates and related entities, nor any of their respective employees, "
+"agents, third party content providers or licensors warrant that the content "
+"is accurate, reliable or correct; that this Mobile App will be available at "
+"any particular time or location; that any defects or errors will be "
+"corrected or that the content is free of viruses or other harmful "
+"components. Your use of this Mobile App is solely at your risk. Because some "
+"jurisdictions do not permit the exclusion of certain warranties, those "
+"exclusions may not apply to you."
+
+#: loco:5f6350b1c6e2a22174248ba0
+msgid "Limit of Liability"
+msgstr "Limit of Liability"
+
+#: loco:5f6350b1c6e2a22174248ba1
+msgid ""
+"In no event shall Flow or their respective directors, officers, partners, "
+"employees, representatives, contractors, affiliates, successors or assigns "
+"be liable to you for your accessing of this Mobile App or under or related "
+"to this agreement for any indirect, special, punitive, incidental, reliance, "
+"exemplary or consequential damages, loss of profits, loss of expected "
+"savings, or any other non-direct damages howsoever caused whether or not "
+"Flow has been advised of the possibility of such damages, and their "
+"collective maximum liability to you under or related to this agreement shall "
+"in no event exceed one-hundred pounds sterling (£100). The limitations of "
+"liability and disclaimers in this agreement shall apply regardless of the "
+"form of action, whether in contract, warranty, strict liability, negligence "
+"or other tort and shall survive a fundamental breach or breaches or the "
+"failure of the essential purpose of contract or the failure of an exclusive "
+"remedy. Because some jurisdictions do not allow the exclusion or limitation "
+"of incidental or consequential damages, Flow's liability in such "
+"jurisdictions shall be limited to the extent permitted by law."
+msgstr ""
+"In no event shall Flow or their respective directors, officers, partners, "
+"employees, representatives, contractors, affiliates, successors or assigns "
+"be liable to you for your accessing of this Mobile App or under or related "
+"to this agreement for any indirect, special, punitive, incidental, reliance, "
+"exemplary or consequential damages, loss of profits, loss of expected "
+"savings, or any other non-direct damages howsoever caused whether or not "
+"Flow has been advised of the possibility of such damages, and their "
+"collective maximum liability to you under or related to this agreement shall "
+"in no event exceed one-hundred pounds sterling (£100). The limitations of "
+"liability and disclaimers in this agreement shall apply regardless of the "
+"form of action, whether in contract, warranty, strict liability, negligence "
+"or other tort and shall survive a fundamental breach or breaches or the "
+"failure of the essential purpose of contract or the failure of an exclusive "
+"remedy. Because some jurisdictions do not allow the exclusion or limitation "
+"of incidental or consequential damages, Flow's liability in such "
+"jurisdictions shall be limited to the extent permitted by law."
+
+#: loco:5f6350b1c6e2a22174248ba2
+msgid "Indemnity"
+msgstr "Indemnity"
+
+#: loco:5f6350b1c6e2a22174248ba3
+msgid ""
+"You agree to defend, indemnify and hold harmless Flow and their respective "
+"directors, officers, partners, employees, representatives, contractors, "
+"affiliates, successors or assigns, including all third parties mentioned at "
+"this Mobile App, from and against any and all claims, actions or demands, "
+"including without limitation reasonable legal and accounting fees, alleging "
+"or resulting from your use of this Mobile App and the Content or your breach "
+"of these Terms and Conditions or in connection with your use of the Services."
+msgstr ""
+"You agree to defend, indemnify and hold harmless Flow and their respective "
+"directors, officers, partners, employees, representatives, contractors, "
+"affiliates, successors or assigns, including all third parties mentioned at "
+"this Mobile App, from and against any and all claims, actions or demands, "
+"including without limitation reasonable legal and accounting fees, alleging "
+"or resulting from your use of this Mobile App and the Content or your breach "
+"of these Terms and Conditions or in connection with your use of the Services."
+
+#: loco:5f6350b1c6e2a22174248ba4
+msgid "Governing Law"
+msgstr "Governing Law"
+
+#: loco:5f6350b1c6e2a22174248ba5
+msgid ""
+"All matters relative to this Agreement shall be governed and construed in "
+"all respects by the law Scotland and the parties hereby submit to the non-"
+"exclusive jurisdiction of the Scottish Courts."
+msgstr ""
+"All matters relative to this Agreement shall be governed and construed in "
+"all respects by the law Scotland and the parties hereby submit to the non-"
+"exclusive jurisdiction of the Scottish Courts."
+
+#: loco:5f6350b1c6e2a22174248ba6
+msgid "General"
+msgstr "General"
+
+#: loco:5f6350b1c6e2a22174248ba7
+msgid ""
+"The Privacy Policy is a binding part of these Terms and Conditions, and "
+"together with these Terms and Conditions constitutes the entire agreement "
+"between Flow and you with respect to your use of this Mobile App. Flow's "
+"failure to insist upon or enforce strict performance of any provision of "
+"these Terms and Conditions shall not be construed as a waiver of any "
+"provision or right. If for any reason a court of competent jurisdiction "
+"finds any provision of these Terms and Conditions or portion thereof to be "
+"unenforceable, that provision shall be enforced to the maximum extent "
+"permissible so as to effect the intent of these Terms and Conditions, and "
+"the remainder of these Terms and Conditions shall continue in full force and "
+"effect. Any cause of action you may have with respect to your use of this "
+"Mobile App or which is the subject of these Terms and Conditions must be "
+"commenced within one (1) year after the claim or cause of action arises. You "
+"acknowledge that Flow is a third party beneficiary for all purposes under "
+"these Terms and Conditions."
+msgstr ""
+"The Privacy Policy is a binding part of these Terms and Conditions, and "
+"together with these Terms and Conditions constitutes the entire agreement "
+"between Flow and you with respect to your use of this Mobile App. Flow's "
+"failure to insist upon or enforce strict performance of any provision of "
+"these Terms and Conditions shall not be construed as a waiver of any "
+"provision or right. If for any reason a court of competent jurisdiction "
+"finds any provision of these Terms and Conditions or portion thereof to be "
+"unenforceable, that provision shall be enforced to the maximum extent "
+"permissible so as to effect the intent of these Terms and Conditions, and "
+"the remainder of these Terms and Conditions shall continue in full force and "
+"effect. Any cause of action you may have with respect to your use of this "
+"Mobile App or which is the subject of these Terms and Conditions must be "
+"commenced within one (1) year after the claim or cause of action arises. You "
+"acknowledge that Flow is a third party beneficiary for all purposes under "
+"these Terms and Conditions."
+
+#: loco:5f6350b1c6e2a22174248ba8
+msgid "FAQ"
+msgstr "FAQ"
+
+#: loco:5f6350b1c6e2a22174248ba9
+msgid ""
+"If you have a question that is not answered below please do not hesitate to "
+"email our helpdesk on help@flowhospitalitytraining.co.uk"
+msgstr ""
+"If you have a question that is not answered below please do not hesitate to "
+"email our helpdesk on help@flowhospitalitytraining.co.uk"
+
+#: loco:5f6350b1c6e2a22174248baa
+msgid "Contact"
+msgstr "Contact"
+
+#: loco:5f6350b1c6e2a22174248bab
+msgid "About Flow"
+msgstr "About Flow"
+
+#: loco:5f6350b1c6e2a22174248bac
+msgid "Q. What is Flow Hospitality Training?"
+msgstr "Q. What is Flow Hospitality Training?"
+
+#: loco:5f6350b1c6e2a22174248bad
+msgid ""
+"Flow Hospitality Training is a fully online product which provides "
+"organisations with the training tools required to train and develop staff to "
+"build a successful career in the hospitality industry. For people that are "
+"looking to work in the hospitality industry the Flow modules provide a great "
+"platform for learning."
+msgstr ""
+"Flow Hospitality Training is a fully online product which provides "
+"organisations with the training tools required to train and develop staff to "
+"build a successful career in the hospitality industry. For people that are "
+"looking to work in the hospitality industry the Flow modules provide a great "
+"platform for learning."
+
+#: loco:5f6350b1c6e2a22174248bae
+msgid "Q. Is Flow training fully accredited?"
+msgstr "Q. Is Flow training fully accredited?"
+
+#: loco:5f6350b1c6e2a22174248baf
+msgid ""
+"The Flow modules and exams are fully endorsed by the Institute of "
+"Hospitality, Scottish Qualifications Authority (SQA) and accredited by the "
+"National Skills Academy [NSA]."
+msgstr ""
+"The Flow modules and exams are fully endorsed by the Institute of "
+"Hospitality, Scottish Qualifications Authority (SQA) and accredited by the "
+"National Skills Academy [NSA]."
+
+#: loco:5f6350b1c6e2a22174248bb0
+msgid ""
+"All our modules are accredited by People 1st Quality Mark, the Institute of "
+"Hospitality, CPD and SQA."
+msgstr ""
+"All our modules are accredited by People 1st Quality Mark, the Institute of "
+"Hospitality, CPD and SQA."
+
+#: loco:5f6350b1c6e2a22174248bb1
+msgid ""
+"Our Food Safety modules are also accredited by IQ, Health and Safety by "
+"RoSPA and our licensing modules are accredited by SQA."
+msgstr ""
+"Our Food Safety modules are also accredited by IQ, Health and Safety by "
+"RoSPA and our licensing modules are accredited by SQA."
+
+#: loco:5f6350b1c6e2a22174248bb2
+msgid ""
+"The SQA Privacy Policy can be found on their <a href='https://www.sqa.org."
+"uk' class='pdf-anchor-tag'>website</a>."
+msgstr ""
+"The SQA Privacy Policy can be found on their <a href='https://www.sqa.org."
+"uk' class='pdf-anchor-tag'>website</a>."
+
+#: loco:5f6350b1c6e2a22174248bb3
+msgid ""
+"Q. If I have any questions regarding the content of the modules who do I "
+"contact?"
+msgstr ""
+"Q. If I have any questions regarding the content of the modules who do I "
+"contact?"
+
+#: loco:5f6350b1c6e2a22174248bb4
+msgid ""
+"If you have any problems accessing the modules contact the helpdesk, "
+"available from 9am–6pm, Monday - Saturday, on 0844 445 7119 or email "
+"help@flowhospitalitytraining.co.uk. Outside these hours, all emails and "
+"phone calls will be responded to within 24 hours."
+msgstr ""
+"If you have any problems accessing the modules contact the helpdesk, "
+"available from 9am–6pm, Monday - Saturday, on 0844 445 7119 or email "
+"help@flowhospitalitytraining.co.uk. Outside these hours, all emails and "
+"phone calls will be responded to within 24 hours."
+
+#: loco:5f6350b1c6e2a22174248bb5
+msgid "Q. How quickly will I be contacted after inputting my initial enquiry?"
+msgstr "Q. How quickly will I be contacted after inputting my initial enquiry?"
+
+#: loco:5f6350b1c6e2a22174248bb6
+msgid ""
+"A member of the Flow team will contact you within 24 hrs of your email or "
+"phone call."
+msgstr ""
+"A member of the Flow team will contact you within 24 hrs of your email or "
+"phone call."
+
+#: loco:5f6350b1c6e2a22174248bb7
+msgid ""
+"Q. Can I get my Personal Licence Holder (PLH) qualification through Flow?"
+msgstr ""
+"Q. Can I get my Personal Licence Holder (PLH) qualification through Flow?"
+
+#: loco:5f6350b1c6e2a22174248bb8
+msgid ""
+"In order to gain your Personal Licence Holder qualification either APLH "
+"(E&W) or SCPLH (Scotland) you need to purchase the PLH training module from "
+"our sister company <a href='https://www.plhonline.co.uk' class='pdf-anchor-"
+"link'>PLH Online</a>."
+msgstr ""
+"In order to gain your Personal Licence Holder qualification either APLH "
+"(E&W) or SCPLH (Scotland) you need to purchase the PLH training module from "
+"our sister company <a href='https://www.plhonline.co.uk' class='pdf-anchor-"
+"link'>PLH Online</a>."
+
+#: loco:5f6350b1c6e2a22174248bb9
+msgid ""
+"Flow provides training on Licensing and Social Responsibility for front of "
+"house staff in either England & Wales or Scotland."
+msgstr ""
+"Flow provides training on Licensing and Social Responsibility for front of "
+"house staff in either England & Wales or Scotland."
+
+#: loco:5f6350b1c6e2a22174248bba
+msgid "Accessing Training"
+msgstr "Accessing Training"
+
+#: loco:5f6350b1c6e2a22174248bbb
+msgid "Q. Why can’t I log in to the app using my access code?`"
+msgstr "Q. Why can’t I log in to the app using my access code?`"
+
+#: loco:5f6350b1c6e2a22174248bbc
+msgid ""
+"In order to log in to the app you must have an email and password account "
+"set up. You can do this by logging on to the module manager with your access "
+"code using a web browser on your device."
+msgstr ""
+"In order to log in to the app you must have an email and password account "
+"set up. You can do this by logging on to the module manager with your access "
+"code using a web browser on your device."
+
+#: loco:5f6350b1c6e2a22174248bbd
+msgid "Q. How long does it take to complete a module? "
+msgstr "Q. How long does it take to complete a module? "
+
+#: loco:5f6350b1c6e2a22174248bbe
+msgid ""
+"The times can vary depending upon the level of training required. However, "
+"on average, each module will take an individual approx 1 hour to complete."
+msgstr ""
+"The times can vary depending upon the level of training required. However, "
+"on average, each module will take an individual approx 1 hour to complete."
+
+#: loco:5f6350b1c6e2a22174248bbf
+msgid "Q. Are you required to complete the modules in any specific order?"
+msgstr "Q. Are you required to complete the modules in any specific order?"
+
+#: loco:5f6350b1c6e2a22174248bc0
+msgid ""
+"Some companies require modules to be completed in a certain order. Your "
+"training path will tell you if certain modules need to be completed first."
+msgstr ""
+"Some companies require modules to be completed in a certain order. Your "
+"training path will tell you if certain modules need to be completed first."
+
+#: loco:5f6350b1c6e2a22174248bc1
+msgid ""
+"You will still be able to access your modules; due dates are a guide "
+"provided by your company. If you have concerns, please contact your "
+"management team."
+msgstr ""
+"You will still be able to access your modules; due dates are a guide "
+"provided by your company. If you have concerns, please contact your "
+"management team."
+
+#: loco:5f6350b1c6e2a22174248bc2
+msgid "3. Exams and Certificates"
+msgstr "3. Exams and Certificates"
+
+#: loco:5f6350b1c6e2a22174248bc3
+msgid "Q. What happens if I fail the exam?"
+msgstr "Q. What happens if I fail the exam?"
+
+#: loco:5f6350b1c6e2a22174248bc4
+msgid ""
+"The failed exam screen will highlight the specific areas of the module that "
+"you should revisit to assist you in passing the exam the next time. There is "
+"no limit on how many attempts you can take to pass the exam. If you are "
+"struggling with an exam, please contact your management."
+msgstr ""
+"The failed exam screen will highlight the specific areas of the module that "
+"you should revisit to assist you in passing the exam the next time. There is "
+"no limit on how many attempts you can take to pass the exam. If you are "
+"struggling with an exam, please contact your management."
+
+#: loco:5f6350b1c6e2a22174248bc5
+msgid "Q. Can I access the module after passing the exam?"
+msgstr "Q. Can I access the module after passing the exam?"
+
+#: loco:5f6350b1c6e2a22174248bc6
+msgid ""
+"Yes, you can revisit the content, but you will not be able to re-sit the "
+"exam."
+msgstr ""
+"Yes, you can revisit the content, but you will not be able to re-sit the "
+"exam."
+
+#: loco:5f6350b1c6e2a22174248bc7
+msgid "Q. When will I receive my certificate?"
+msgstr "Q. When will I receive my certificate?"
+
+#: loco:5f6350b1c6e2a22174248bc8
+msgid ""
+"The certificate can be printed at the end of each exam once you successfully "
+"pass. If you do not have access to a printer or if you have any difficulty "
+"in printing your certificate, then you can access it at a later date via the "
+"system. Alternatively, a training manager within your organisation can "
+"access the management system and will be able to print certificates if "
+"needed."
+msgstr ""
+"The certificate can be printed at the end of each exam once you successfully "
+"pass. If you do not have access to a printer or if you have any difficulty "
+"in printing your certificate, then you can access it at a later date via the "
+"system. Alternatively, a training manager within your organisation can "
+"access the management system and will be able to print certificates if "
+"needed."
+
+#: loco:5f6350b1c6e2a22174248bc9
+msgid "Q. Can I move my completed training from a previous company?"
+msgstr "Q. Can I move my completed training from a previous company?"
+
+#: loco:5f6350b1c6e2a22174248bca
+msgid ""
+"Yes, if your previous company used Flow, then you can contact our helpdesk "
+"to get these modules moved. Please send an email with your name, old "
+"company, new company and your new job title to help@flowhospitalitytraining."
+"co.uk"
+msgstr ""
+"Yes, if your previous company used Flow, then you can contact our helpdesk "
+"to get these modules moved. Please send an email with your name, old "
+"company, new company and your new job title to help@flowhospitalitytraining."
+"co.uk"
+
+#: loco:5f6350b1c6e2a22174248bcb
+msgid ""
+"Get in touch with questions, comments, issues, and love for Flow on "
+"help@flowhospitalitytraining.co.uk"
+msgstr ""
+"Get in touch with questions, comments, issues, and love for Flow on "
+"help@flowhospitalitytraining.co.uk"
+
+#: loco:5f6350b1c6e2a22174248bcc
+msgid ""
+"Our core office hours are Monday-Friday, 9am - 6pm and we aim to respond to "
+"all queries within 24 hours."
+msgstr ""
+"Our core office hours are Monday-Friday, 9am - 6pm and we aim to respond to "
+"all queries within 24 hours."
+
+#: loco:5f6350b1c6e2a22174248bcd
+msgid "Q. What happens if my modules become overdue?"
+msgstr "Q. What happens if my modules become overdue?"

@@ -1,0 +1,94 @@
+/*  Cards CSS for Library page */
+.flow-card.ui.card {
+  border-radius: 0;
+} 
+.flow-card.ui.card .content {
+    border-radius: 0 !important;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+}
+.flow-card.ui.card .content.placeholder {
+    background: none;
+}
+
+.flow-card.ui.card .content.flow-card-header {
+  font-family: "Noto Sans ExtraCondensed SemiBold";
+  font-size: 20px;
+  height: 30px;
+  line-height: normal;
+  padding: 0;
+}
+.flow-card  .flow-card-header .left {
+  margin: 2px 0 0 5px;
+  width: 65%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.flow-card  .flow-card-header .right {
+  margin: 2px 5px 0 0;
+}
+
+
+.flow-card .ui.cards > .card > .image,
+.ui.card > .image {
+    padding: 0;
+}
+  
+.flow-card.ui.fluid.card .flow-card-box-container {
+  height: 100px;
+  overflow: hidden;
+}
+/* code to fit card content in the middle of div */
+.flow-card .library-card-container {
+  margin: 0;
+  width: 100%;
+}
+
+.flow-card .library-card-black-box .library-text-body {
+  color: white;
+  font-size: 14px;
+}
+.flow-card .library-card-black-box .published-by {
+  color: white;
+  font-size:10pt;
+  padding:0;
+}
+
+.flow-card .library-card-black-box span {
+  padding: 0;
+}
+
+.flow-card .library-card-content {
+  background: url(../img/flow_hospitality.jpg) no-repeat;
+  background-size: 100% 100%;
+  margin: -1% 0 0 0;
+  
+}
+
+.flow-card .library-card-box-container {
+  color: white;
+  font-size: 14px;
+  margin: 0 0 0 0;
+  padding: 20% 0 0 0;
+}
+.flow-card .library-card-black-box {
+  background:rgba(0, 0, 0, 0.3);padding:5px;margin: 0% 0 0 0;min-height: 6em;position: unset;
+}
+
+.flow-card .library-card-box-container .library-text-body {
+
+}
+
+
+.flow-card  .card-footer-icon {
+  text-align: center;
+}
+.flow-card  .card-footer-icon img {
+  background: none !important;
+  text-align: center;
+  height: 25px;
+}
+/* END CARDS */

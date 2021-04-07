@@ -1,0 +1,32 @@
+{
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "affected": { "defaultBase": "master" },
+  "npmScope": "nx-workspace-mobileapps",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "MTQ1NDk2MmEtMDczYS00ZGUzLThjMTMtMjU4YTc3OGZlYWQzfHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
+      }
+    }
+  },
+  "projects": {
+    "white-label": { "tags": [] },
+    "white-label-e2e": { "tags": [], "implicitDependencies": ["white-label"] },
+    "flowapp-e2e": { "tags": [], "implicitDependencies": ["flowapp"] },
+    "flowapp": { "tags": [] },
+    "apps-assets": { "tags": [] },
+    "apps-components": { "tags": [] },
+    "apps-services": { "tags": [] }
+  }
+}

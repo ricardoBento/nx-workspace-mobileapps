@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "white-label": {
+      "name": "white-label",
+      "integrations": {
+        "cordova": {}
+      },
+      "type": "angular",
+      "root": "apps/white-label"
+    },
+    "flwoapp": {
+      "name": "flowapp",
+      "integrations": {
+        "cordova": {}
+      },
+      "type": "custom",
+      "root": "apps/flowapp"
+    }
+  },
+  "defaultProject": "white-label"
+}

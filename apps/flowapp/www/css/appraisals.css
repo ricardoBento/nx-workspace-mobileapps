@@ -1,0 +1,249 @@
+/* White tie css */
+#appraisals-page .div-top-profile:before {
+  content: "▼";
+  position: absolute;
+  top: 6%;
+  color: white;
+  font-size: 50px;
+  margin: 0 0% 0 44%;
+}
+/* Grid Styles */
+#appraisals-page .ui-grid-a {
+  width: 100% !important;
+}
+#appraisals-page .flow-header-container {
+  background: white;
+  margin: 12% 0 0 0;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+#appraisals-page .ui-grid-a .flow-block-1 {
+  width: 75%;
+  height: 150px;
+  display: table;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  text-align: left;
+  padding: 3%;
+  background: white;
+}
+#appraisals-page .flow-block-1 {
+  height: 100px !important;
+}
+#appraisals-page .ui-grid-a .flow-block-2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  background: white;
+}
+#appraisals-page .ui-grid-a .flow-block-1 {
+  text-align: left;
+  color: grey;
+}
+#appraisals-page .ui-grid-a .flow-block-1 .flow-header h3 {
+  border-bottom: solid grey 3px;
+  text-align: left;
+  padding: 0 2% 0 2%;
+  font-family: "noto_sans_semi_bold" !important;
+}
+#appraisals-page .flow-block-1 .flow-header-date {
+  padding: 5% 0 0 0;
+}
+#appraisals-page .flow-block-1 .flow-header-date span {
+  padding: 0 2% 0 2%;
+  text-align: left;
+  font-family: "noto_sans_extra_condensed" !important;
+  font-size: 14pt;
+}
+/* End Grid Styles */
+/* Start Content */
+/* background fix for this page*/
+#appraisals-page .blue-background {
+  width: 100%;
+  height: 100%;
+}
+#appraisals-page .ui-content {
+  padding: 0 !important;
+  color: white;
+  margin: 20% 5% 0 5%;
+  text-align: left;
+}
+/* Css to the white undeline, on collapse list  */
+#appraisals-page .collapse-content {
+  margin: 5%;
+}
+#appraisals-page .ui-collapsible-content {
+  background: transparent !important;
+  border: none !important;
+  color: white;
+  font-family: "noto_sans_regular";
+  font-size: 12pt;
+  padding: 0;
+}
+
+#appraisals-page .ui-collapsible-heading {
+  border-bottom: 2px white solid !important;
+  margin-top: 5%;
+}
+
+#appraisals-page .ui-collapsible-inset,
+.ui-collapsible-set {
+  margin: 0;
+  color: white;
+}
+
+#appraisals-page .collapse-content .radio-box {
+  padding: 2%;
+  background: white;
+  color: blue;
+}
+
+#appraisals-page .ui-collapsible-heading-collapsed > .ui-collapsible-heading-toggle {
+  background: transparent !important;
+  border: none !important;
+}
+#appraisals-page .ui-collapsible-heading-toggle {
+  background: transparent !important;
+  border: none !important;
+  color: white;
+  font-size: 16pt;
+  font-family: "noto_sans_extra_condensed";
+}
+
+#appraisals-page .ui-grid-b {
+}
+#appraisals-page .library-btn-container {
+}
+
+/* Buttons Css */
+
+#appraisals-page .appraisals-btn-container {
+}
+
+#appraisals-page .appraisals-btn-container,
+.library-btn-active span {
+  font-size: 9px;
+  font-style: italic;
+  color: white;
+  text-align: center !important;
+}
+
+#appraisals-page .appraisals-btn-active {
+  background-image: url("../img/FlowApp_CircleBtn_Attention_Base.svg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  border: none;
+  padding: 20px;
+  width: 90px;
+  border-radius: 900px;
+  height: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+}
+#appraisals-page .appraisals-btn-active span:before {
+  content: "Mark as InComplete";
+  position: absolute;
+  top: 21%;
+  left:0;
+  color: yellow;
+  font-size: 14px;
+  margin: 0%;
+  word-wrap: break-word ;
+  white-space: normal ;
+}
+
+/* Blue/Grey Button */
+#appraisals-page .appraisals-btn {
+  background-image: url("../img/FlowApp_CircleBtn_Aware_Base.svg");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  border: none;
+  padding: 20px;
+  width: 90px;
+  border-radius: 900px;
+  height: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#appraisals-page .appraisals-btn span:before {
+  content: "Mark as Complete";
+  position: absolute;
+  top: 30%;
+  left:0;
+  color: grey;
+  font-size: 12px;
+  margin: 0%;
+  word-wrap: break-word;
+  white-space: normal;
+  font-family: 'noto_sans_regular';
+}
+
+
+#appraisals-page .appraisals-btn:hover {
+  width: 90px;
+  height: 90px;
+  background-image: url("../img/FlowApp_CircleBtn_Attention_Base.svg");
+}
+
+#appraisals-page .appraisals-btn:hover span:before {
+  content: "Mark as InComplete";
+  position: absolute;
+  top: 21%;
+  left:0;
+  color: yellow;
+  font-size: 14px;
+  margin: 0%;
+  word-wrap: break-word ;
+  white-space: normal ;
+}
+
+/* Radio Buttons Styles */
+
+#appraisals-page .ui-radio .ui-btn.ui-radio-on:after {
+  background-color: #e47599;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+#appraisals-page .ui-radio legend {
+  color: yellow;
+  margin:0;
+  padding: 0;
+}
+/* Appraisal bottom button */
+
+#appraisals-page 
+.appraisals-btn-container 
+.appraisals-btn, 
+.appraisals-btn-active span {
+  font-size: 9px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+/* Need these classes for further reference */
+/* #appraisals-page input[type="radio"] {
+  display: none;
+}
+
+#appraisals-page .ui-radio .ui-btn.ui-radio-off:after {
+  background-image: none;
+  border: 2px solid #6e7983;
+}
+
+#appraisals-page .ui-radio .ui-btn.ui-radio-on:before {
+  content: "O";
+  border: 2px solid #6e7983;
+  border-radius: 50%;
+  background-color: transparent;
+  color: blue;
+} */

@@ -1,0 +1,22 @@
+# Node
+npm-debug.log
+/node_modules
+.vscode
+/typings
+.package-lock.json
+# Cordova
+/platforms
+/plugins
+/typings
+.vscode
+*.keystore
+*.plist
+build.json
+google-services.json
+.vscode/plugins.json
+package-lock.json
+jsconfig.json
+/wdio-logs
+/corova-app
+/apps
+workspace.code-workspace

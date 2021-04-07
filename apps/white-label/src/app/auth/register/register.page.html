@@ -1,0 +1,196 @@
+<ion-content fullscreen no-bounce has-bouncing="false" forceOverscroll="false">
+  <app-header
+    [back_button]="back_button"
+    [title]="title"
+    [back_to]="back_to"
+  ></app-header>
+  <img src="/assets/images/app-bgs-assets/bg-b.png" class="app-bg" alt="" />
+  <ion-grid class="app-auth ion-text-center">
+    <ion-row class="logo-row">
+      <ion-col class="">
+        <img
+          src="/assets/images/app-logo-assets/flowLogo.png"
+          class="app-logo"
+          alt=""
+        />
+      </ion-col>
+    </ion-row>
+    <form [formGroup]="registerForm" (submit)="onSubmit()" novalidate>
+      <ion-row>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              type="text"
+              placeholder="User Name"
+              formControlName="username"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="registerForm.get('username')?.touched && registerForm.get('username')?.hasError('required')"
+          >
+            <ion-text> The user name field is required. </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="user_name_errors && !registerForm.get('username')?.hasError('required')"
+          >
+            <ion-text> {{ user_name_errors }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row class="name-row">
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              type="text"
+              placeholder="First Name"
+              formControlName="first_name"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="registerForm.get('first_name')?.touched && registerForm.get('first_name')?.hasError('required')"
+          >
+            <ion-text> The first name field is required. </ion-text>
+          </div>
+        </ion-col>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              type="text"
+              placeholder="Last Name"
+              formControlName="last_name"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="registerForm.get('last_name')?.touched && registerForm.get('last_name')?.hasError('required')"
+          >
+            <ion-text> The last name field is required. </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              type="email"
+              placeholder="Email"
+              formControlName="email"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.hasError('required')"
+          >
+            <ion-text> The email field is required. </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="non_field_errors && !registerForm.get('email')?.hasError('required')"
+          >
+            <ion-text> {{ non_field_errors }} </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="email_errors && !registerForm.get('email')?.hasError('required')"
+          >
+            <ion-text> {{ email_errors }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              type="text"
+              placeholder="Access Code"
+              formControlName="access_code"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="registerForm.get('access_code')?.touched && registerForm.get('access_code')?.hasError('required')"
+          >
+            <ion-text> The access code field is required. </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="access_code_errors && !registerForm.get('access_code')?.hasError('required')"
+          >
+            <ion-text> {{ access_code_errors }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              type="password"
+              placeholder="Password"
+              formControlName="password1"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="registerForm.get('password1')?.touched && registerForm.get('password1')?.hasError('required')"
+          >
+            <ion-text> The password field is required. </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="password1_errors && !registerForm.get('password1')?.hasError('required')"
+          >
+            <ion-text> {{ password1_errors }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              type="password"
+              placeholder="Re-insert your password"
+              formControlName="password2"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="registerForm.get('password2')?.touched && registerForm.get('password2')?.hasError('required')"
+          >
+            <ion-text> The password field is required. </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="password2_errors && !registerForm.get('password2')?.hasError('required')"
+          >
+            <ion-text> {{ password2_errors }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <div class="button-container">
+            <ion-button
+              class="button-shadow-effect register-btn"
+              shape="round"
+              expand="block"
+              fill="solid"
+              color="primary"
+              tappable
+              type="submit"
+            >
+              <ion-text
+                color="light"
+                class="ion-text-uppercase text-shadow-effect"
+              >
+                Register
+              </ion-text>
+            </ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-grid>
+</ion-content>

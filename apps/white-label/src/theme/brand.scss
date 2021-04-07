@@ -1,0 +1,44 @@
+:root {
+  // ED Gin pallete given on task:
+  --brand-primary: #67a5bf;
+  --brand-primary-rgb: 177, 218, 243;
+  --brand-primary-contrast: #000000;
+  --brand-primary-contrast-rgb: 0, 0, 0;
+  --brand-primary-shade: #9cc0d6;
+  --brand-primary-tint: #b9def4;
+
+  --brand-secondary: #edc4c1;
+  --brand-secondary-rgb: 237, 196, 193;
+  --brand-secondary-contrast: #000000;
+  --brand-secondary-contrast-rgb: 0, 0, 0;
+  --brand-secondary-shade: #d1acaa;
+  --brand-secondary-tint: #efcac7;
+
+  --brand-tertiary: #d0d0d2;
+  --brand-tertiary-rgb: 208, 208, 210;
+  --brand-tertiary-contrastt: #000000;
+  --brand-tertiary-contrast-rgb: 0, 0, 0;
+  --brand-tertiary-shade: #b7b7b9;
+  --brand-tertiary-tint: #d5d5d7;
+
+  // header
+  // ED GIN
+  --brand-header-border: #707070;
+  --brand-header-background: #f4f5f8;
+  --brand-header-text: #000100;
+  // fan menu
+  // Ed Gin
+  --brand-menu-border: #707070;
+  --brand-menu-backgound: #f4f5f8;
+  --brand-menu-font: #000100;
+
+  --app-font-regular {
+    font-family: 'Jost-Regular' !important;
+  }
+  --app-font-italic {
+    font-family: 'Jost-Italic' !important;
+  }
+  --app-font-bold {
+    font-family: 'Jost-Bold' !important;
+  }
+}

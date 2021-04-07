@@ -1,0 +1,2572 @@
+<!DOCTYPE html>
+<!--
+	Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+	Licensed to the Apache Software Foundation (ASF) under one
+	or more contributor license agreements.  See the NOTICE file
+	distributed with this work for additional information
+	regarding copyright ownership.  The ASF licenses this file
+	to you under the Apache License, Version 2.0 (the
+	"License"); you may not use this file except in compliance
+	with the License.  You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing,
+	software distributed under the License is distributed on an
+	"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+	 KIND, either express or implied.  See the License for the
+	specific language governing permissions and limitations
+	under the License.
+-->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover">
+	<!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+	<meta name="Content-Security-Policy" http-equiv="Content-Security-Policy" content="
+		default-src * gap://ready file: data: 'unsafe-inline' 'unsafe-eval' *.google.co.uk *.googleapis.co.uk *.gstatic.co.uk *.google.com; 
+		style-src 'self' data: 'unsafe-inline' https://fonts.googleapis.com; 
+		font-src 'self' data: https://fonts.gstatic.com;
+		media-src *; 
+		img-src * data: ;
+	" />
+	<!-- Good default declaration:
+	* gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+	* https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+	* Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+		* Enable inline JS: add 'unsafe-inline' to default-src
+		* Enable eval(): add 'unsafe-eval' to default-src
+	* Create your own at http://cspisawesome.com
+	-->
+
+	<!-- Include jQuery Mobile stylesheets -->
+	<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+	<!-- Include the jQuery library -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Include the jQuery Mobile library -->
+	<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<!-- Include the Semantic UI library -->
+	<script src="semantic/semantic.js"></script>
+	<script src="semantic/components/fomantic_modal.js"></script>
+	<!-- Include Moment.js library -->
+	<script src="js/moment.min.js"></script>
+
+	<script src="js/chart.min.js"></script>
+
+	<!-- Training Calendar -->
+	
+	<script src="js/fullcalendar-3.9.0/lib/moment.min.js"></script>
+    <script src="js/fullcalendar-3.9.0/fullcalendar.js"></script>
+	<script src="js/fullcalendar-3.9.0/locale-all.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="js/fullcalendar-3.9.0/fullcalendar.css">
+
+	<title>Online Training</title>
+
+	<!-- SemanticUI stylesheet -->
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.css" />
+
+	<!-- Application stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	<!-- Training Path stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/my-training.css" />
+
+	<!-- PAGES -->
+	<link rel="stylesheet" type="text/css" href="css/login-page.css" />
+	<link rel="stylesheet" type="text/css" href="css/dashboard.css" />
+	<link rel="stylesheet" type="text/css" href="css/library-page.css" />
+	<link rel="stylesheet" type="text/css" href="css/account-details.css" />
+	<link rel="stylesheet" type="text/css" href="css/about-page.css" />
+	<link rel="stylesheet" type="text/css" href="css/help-support-page.css" />
+	<link rel="stylesheet" type="text/css" href="css/news-noticeboard.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/workbooks.css" />
+	<link rel="stylesheet" type="text/css" href="css/appraisals.css" />
+	<link rel="stylesheet" type="text/css" href="css/training-calendar-page.css" />
+	<!-- todo: -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/training-calendar.css" />
+	<link rel="stylesheet" type="text/css" href="css/workbooks.css" />
+	<link rel="stylesheet" type="text/css" href="css/careers.css" /> -->
+	<link rel="stylesheet" type="text/css" href="css/social-forums.css" />
+	<link rel="stylesheet" type="text/css" href="css/item-page-v2.css" />
+
+
+	<!-- COMPONENTS -->
+	<link rel="stylesheet" type="text/css" href="css/panel-menu.css" />
+	<link rel="stylesheet" type="text/css" href="css/flow-tabs.css" />
+	<link rel="stylesheet" type="text/css" href="css/flow-card.css" />
+	<link rel="stylesheet" type="text/css" href="css/shared-styles.css" />
+	<link rel="stylesheet" type="text/css" href="css/workbooks-slides.css" />
+
+	<!-- Placeholder for the branding css -->
+	<style id="brandingCSS"></style>
+
+	<!-- FONTS -->
+	<link rel="stylesheet" type="text/css" href="css/font-face.css" />
+
+	<!-- Debugging Library: https://www.npmjs.com/package/weinre
+	* A limited implementation of a Remote Web Inspector
+	* for remotely debugging apps running on a device.
+	* Set up on your local machine using the following link
+		* using http://docs.phonegap.com/references/developer-app/debugging -->
+	<!-- <script src="http://192.168.0.4:8080/target/target-script-min.js#anonymous"></script>  -->
+
+	<!-- include summernote css/js -->
+	<link rel="stylesheet" type="text/css" href="css/summernote-lite.css" />
+	<script src="js/summernote-lite.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/giphy.css" />
+	<script src="js/giphy.js"></script>
+</head>
+
+<body style="background-color: #ffffff;">
+	<div id="pre-loader"
+		style="position: absolute; top: 0; right: 0; left: 0; bottom: 0; background-color: rgba(255,255,255,1); z-index: 10000;">
+		<div class="ui middle aligned grid" style="height: 100%;">
+			<div class="center aligned column">
+				<i class="notched circle loading icon huge center middle aligned"></i>
+			</div>
+		</div>
+	</div>
+	<div id="background">
+		<img class="background-img" />
+	</div> 
+	
+	<!-- Start of signin page -->
+	<div data-role="page" id="login">
+		<div class='login-background'>
+			<div role="main" class="ui-content">
+				<div class="login-logo-container">
+					<img src="./img/FlowApp_Login_Logo.svg" class="login-logo" />
+				</div>
+				<form id="loginForm">
+					<p data-i18n='Please-enter-your-details-to-login'>
+					</p>
+					<input type="email" data-clear-btn="true" name="email" data-i18n="[placeholder]Email-Address" id="email-input"
+						value="">
+					<input type="password" data-clear-btn="true" data-i18n="[placeholder]Password" name="password"
+						id="password-input" value="">
+					<button data-i18n='login' id="submit" name="submit"
+						class="ui-btn ui-btn-inline ui-corner-all ui-mini login-btn">
+					</button>
+					<p>
+						<a data-i18n='Cant-access-your-account' href="https://www.flowmodulemanager.co.uk/-/password_reset/" data-action="open-external">
+						</a>
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- End of signin page -->
+
+	<!-- START Dashboard Page V2 -->
+	<div data-role="page" id="new-dashboard">
+		<!-- top navigation -->
+		<!-- there is fix to change the color of the navbar in new-style.css -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- page content -->
+		<div class="ui grid container">
+			<div class="row">
+				<div class="center aligned column">
+					<h2 data-i18n='My-Training'>
+					</h2>
+				</div>
+			</div>
+			<div class="three column middle aligned row chart">
+				<div class="column">
+					<div class="ui inverted circular segment overdue">
+				        <div class="sub header"></div>
+					</div>
+				</div>
+				<div class="column">
+					<canvas id="myTrainingChart" width="100" height="100"></canvas>
+				</div>
+				<div class="column">
+					<div class="ui inverted circular segment continue training_path_item">
+				        <div class="sub header"></div>
+					</div>
+				</div>
+			</div>
+			<div class="three column row chart-legend">
+				<div class="right aligned column">
+					<div class="ui overdue empty circular label">
+					</div>
+					<span data-i18n='Overdue'>
+					</span>
+				</div>
+				<div class="center aligned column">
+					<div class="ui outstanding empty circular label">
+					</div>
+					<span data-i18n='Outstanding'>
+					</span>
+				</div>
+				<div class="left aligned column">
+					<div class="ui complete empty circular label">
+					</div>
+					<span data-i18n='Completed'>
+					</span>
+				</div>
+			</div>
+			<div class="row v-bottom">
+				<div class="column">
+					<svg height="15" width="30">
+					  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+					</svg>
+				</div>
+			</div>
+			<div class="row calendar-panel brand-gradient">
+				<div class="six wide column center aligned">
+					<a href='#appraisals-page'>
+						<object id="dashboard-calendar-button" data="img/dashboard-calendar-button.svg"
+							type="image/svg+xml" width="80%">
+								No SVG support
+						</object>
+					</a>
+				</div>
+				<div class="ten wide column middle aligned next-appraisal" style="display:none;">
+					<h4></h4>
+					<h5></h5>
+					<p></p>
+				</div>
+				<div class="ten wide column middle aligned next-training-session" style="display:none;">
+					<h4></h4>
+					<h5></h5>
+					<p></p>
+				</div>
+			</div>
+			<div class="two column divided row stats">
+				<div class="center aligned column comms">
+					<h2 data-i18n='Comms'>
+					</h2>
+					<a class='widget-link flow-megaphone-icon branded-foreground' href='#news-noticeboard-page'>
+						<svg id="FlowApp_Dashboard_Megaphone" xmlns="http://www.w3.org/2000/svg" width="80" height="78.934" viewBox="0 0 80 78.934">
+						  <rect class="brand-fill" id="iconBase" width="80" height="78.933" fill="#e45899" opacity="0"/>
+						  <path class="brand-fill" id="megaphone_angled" d="M8.177,39.839C4.5,39.2,1.126,35.138.223,30c-.9-5.2,1.012-9.713,4.374-10.958-.763,1.6-.809,5.759.016,10.507C5.422,34.422,6.869,38.469,8.177,39.839ZM61.426,24.071c-1.572-9.7-4.779-17.9-8.156-21.745a.413.413,0,0,1-.078-.093,1.4,1.4,0,0,1-.14-.156,1.007,1.007,0,0,1-.14-.125l-.093-.093-.093-.093c-3.424,1.323-5.6,8.5-5.65,17.931a8.208,8.208,0,0,1,2.8.483v.016a7.349,7.349,0,0,1,4.856,5.51,6.315,6.315,0,0,1-4.031,6.8,6.408,6.408,0,0,1-2.21.545.431.431,0,0,1-.14.016C49.612,39.543,51.667,44.96,54,48.2c-3.284-3.347-6.833-11.97-8.639-22.29a80.7,80.7,0,0,1-1.2-12.359c.171-6.133,2.3-10.242,3.284-11.441a10.415,10.415,0,0,1,2.88-2.1A5.7,5.7,0,0,0,47,1.049a5.084,5.084,0,0,0-.56.389,8.258,8.258,0,0,0-.872.669C40.522,6.357,31.525,15.914,7.648,18l-.016.047c-1.463.125-1.806,5.183-.763,11.223C7.9,35.356,9.9,40.181,11.368,40.041c23.893-2.086,35.878,5.821,42.26,9.059a5.71,5.71,0,0,0,2.911.685,1.655,1.655,0,0,0,.483-.016C61.66,49.333,63.636,37.815,61.426,24.071ZM27.089,52.82a10.106,10.106,0,0,1-1.712-2.615l-.545-1.214c-.265-1.432.638-2.646.436-3.549a11.178,11.178,0,0,0-4.576-3.1,15.622,15.622,0,0,0-3.922-.794c.2,5.572.918,16.484,3.5,17.449,2.475.965,6.911-1.868,6.911-1.868s1.946-1,1.728-2.273Z" transform="matrix(0.996, 0.087, -0.087, 0.996, 11.16, 3.947)" fill="#e45899"/>
+						</svg>
+					</a>
+					<div class="badges">
+						<div class="ui circular right floated label news-badge"></div>
+						<div class="ui circular right floated label noticeboard-badge"></div>
+					</div>
+					<div class="ui basic padded segment comms-message"></div>
+				</div>
+				<div class="center aligned column forums">
+					<h2 data-i18n='Forums'>Forums</h2>
+					<a class='widget-link flow-forum-icon branded-foreground' href='#social-forums-page'>
+						<svg version="1.1" id="FlowApp_Dashboard_Forum" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+							 x="0px" y="0px" viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
+						<style type="text/css">
+							.st0{fill:#E45899;fill-opacity:0;}
+							.st1{fill:#E45899;}
+						</style>
+						<rect id="iconBase" x="-194.2" y="47.4" class="st0" width="83.4" height="75.9"/>
+						<path id="forumBoard" class="brand-fill st1" d="M177.8,19.4v109c0.1,9.3-5.7,16.9-12.9,17.1h-23.6c-4.6-16.1-15.4-28.1-28.5-31.5
+							c3.5-3.4,6.5-7.7,8.8-12.6h21.7v22h17.2V24.3H65.8c-4.9-4.9-10.8-7.9-17-8.8c1.3-7.6,6.5-13.1,12.6-13.2h103.4
+							C172.1,2.5,177.9,10.1,177.8,19.4z M45,25.6c-14.3,0-25.9,14.8-25.9,33s11.6,33,25.8,33.1c4.9,0,9.7-1.8,13.8-5.1
+							c-1.9-14.5,2.1-29.3,10.6-39.2C65.7,34.3,55.9,25.6,45,25.6z M56.1,103.1c-3.6,1.5-7.3,2.3-11,2.4c-3.8,0-7.5-0.8-11-2.4
+							c-0.6-0.3-1.3-0.4-1.9-0.4C15.5,102.7,2,120,2,141.2c0,0.1,0,0.1,0,0.2c0.1,9.1,5.8,16.3,12.9,16.3h26.4
+							c1.5-21.6,13.9-39.5,30.6-43.8c-3-2.9-5.7-6.5-7.8-10.5c-2-0.5-4-0.8-6.1-0.8C57.3,102.7,56.7,102.8,56.1,103.1L56.1,103.1z
+							 M105.2,123.4c-0.6,0-1.3,0.1-1.9,0.4c-7.1,3.2-14.9,3.2-22.1,0c-0.6-0.3-1.3-0.4-1.9-0.4c-16.7,0-30.2,17.3-30.2,38.5
+							c0,0.1,0,0.1,0,0.2c0.1,9.1,5.8,16.3,12.9,16.3h60.3c7.1,0,12.9-7.3,12.9-16.3c0.1-21.3-13.3-38.6-30-38.8
+							C105.3,123.4,105.3,123.4,105.2,123.4L105.2,123.4z M92.3,112.4c14.3,0,25.9-14.8,25.9-33s-11.6-33-25.9-33s-25.9,14.8-25.9,33
+							S78,112.4,92.3,112.4L92.3,112.4z"/>
+						</svg>
+					</a>
+					<div class="ui circular right floated label forums-badge"></div>
+					<div class="ui basic padded segment forums-message"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Dashboard Page V2 -->
+
+	<!-- START Library page V2 -->
+	<div data-role="page" id="library-page" class="brand-gradient">
+		<!-- top navigation -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#new-dashboard" class="ui-btn-left">
+					<div class='btn-container'>
+						<img class="" src="./img/back-button-white.png">
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- page heading -->
+		<div class="white-toolbar">
+			<h1 data-i18n='My-Library'></h1>
+		</div>
+		<!-- page content -->
+		<div class="flow-tabs" data-role="tabs" id="flow-tabs">
+			<!-- tab buttons -->
+			<div class="arrow-tabs" data-role="navbar">
+				<ul class="tabs" role="tablist">
+					<li class="ui-tabs-active" role="tab">
+						<a href="#saved-news-container" class="ui-tabs-anchor wrap-words" role="presentation">
+							<i class="circular newspaper icon"></i>
+							<span data-i18n='Saved-News'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+					<li class="" role="tab">
+						<a href="#saved-documents-container" class="ui-tabs-anchor wrap-words" role="presentation">
+							<i class="circular file alternate icon"></i>
+							<span data-i18n='Saved-Documents'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+				</ul>
+				<div class="contents">
+					<div id="saved-news-container" class="ui-tabs-panel"></div>
+					<div id="saved-documents-container" class="ui-tabs-panel"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Library page V2 -->
+
+	<!-- START Accordion item  V2 -->
+	<template id="accordion-item">
+		<div class="ui middle aligned grid title active">
+			<div class="row">
+				<div class="fourteen wide column">
+				</div>
+				<div class="two wide column">
+					<i class="big angle left icon"></i>
+				</div>
+			</div>
+			<div class="ui divider"></div>
+		</div>
+		<div class="content active">
+		</div>
+	</template>
+	<!-- END Accordion item  V2 -->
+
+	<!-- START Account Details V2 -->
+	<div data-role="page" id="account-details-page" class="brand-gradient">
+		<!-- top navigation -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#new-dashboard" class="ui-btn-left">
+					<div class='btn-container'>
+						<div class=''>
+							<img class="" src="./img/back-button-white.png">
+						</div>
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+
+			</div>
+		</div>
+		<!-- page heading -->
+		<div class="white-toolbar">
+			<h1 data-i18n='Account-Details'>
+			</h1>
+		</div>
+		<div class="v-bottom">
+			<svg height="15" width="30">
+			  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+			</svg>
+		</div>
+		<!-- page content -->
+		<div data-role="content" data-role="main" class="ui-content">
+			<div class="ui one column centered grid">
+				<div class="column">
+					<img class="ui small centered circular image" src="./img/avatar_placeholder.jpg">
+				</div>
+				<!-- <div id = "lang-select-container" >
+					<select id="lng-prompt-select">
+						<option value="en-GB">English</option>
+						<option value="es-ES">Spanish</option>
+					</select>
+				</div> -->
+				<!-- uncomment when avatar upload form mobile app is implemented -->
+				<!-- <div class="center aligned column">
+					<button class="ui button">
+					 	<i class="icon camera"></i>
+					 	Select from gallery
+					</button>	
+				</div>
+				<div class="center aligned column">
+					<button class="ui button">
+					 	<i class="icon camera"></i>
+					 	Take new photo
+					</button>	
+				</div> -->
+				<div class="column name">
+					<div class="account-details-body">
+						<h3 data-i18n='Name'>
+						</h3>
+						<span></span>
+					</div>
+				</div>
+				<div class="column email">
+					<div class="account-details-body">
+						<h3 data-i18n='Email'>
+						</h3>
+						<span></span>
+					</div>
+				</div>
+				<div class="column job-title">
+					<div class="account-details-body">
+						<h3 data-i18n='Job-Title'>
+						</h3>
+						<span></span>
+					</div>
+				</div>
+				<div class="column branch">
+					<div class="account-details-body">
+						<h3 data-i18n='Branch'>
+						</h3>
+						<span></span>
+					</div>
+				</div>
+				<div class="column dob">
+					<div class="account-details-body">
+						<h3 data-i18n='Date-of-birth'>
+						</h3>
+						<span></span>
+					</div>
+				</div>
+				<div class="center aligned column">
+					<p data-i18n='Please-contact-your-manager-or-L-and-D-team-if-you'>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Account Details V2 -->
+
+	<!-- START About Page V2 -->
+	<div data-role="page" id='about-page' class="brand-gradient">
+		<!-- top navigation -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#new-dashboard" class="ui-btn-left">
+					<div class='btn-container'>
+						<img class="" src="./img/back-button-white.png">
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- page heading -->
+		<div class="white-toolbar">
+			<h1 data-i18n='About-Us'>
+				<!-- About Us -->
+			</h1>
+		</div>
+		<!-- page content -->
+		<div class="flow-tabs" data-role="tabs">
+			<!-- tab buttons -->
+			<div class="arrow-tabs" data-role="navbar">
+				<ul class="tabs" role="tablist">
+					<li class="ui-tabs-active" role="tab">
+						<a href="#information" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='Information'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+					<li class="" role="tab">
+						<a href="#terms-conditions" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='Terms-and-Conditions'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="contents">			
+				<div id="information" class="ui-tabs-panel">
+					<h2 data-i18n='About-Us'>
+					</h2>
+					<p data-i18n='Using-the-latest-technology-Flow-delivers-a-contin'>
+					</p>
+					<p data-i18n='Easily-tailored-to-fit-into-your-business-Flow-wil'> 
+					</p>
+					<p data-i18n='Flow-has-been-designed-to-inspire-learning-through'>
+					</p>
+					<p data-i18n='And-with-over-30-years-of-hospitality-experience-w'>
+					</p>					
+				</div>
+				<div id='terms-conditions' class="ui-tabs-panel">
+					<h2 data-i18n='Terms-and-Conditions-of-Use'>
+					</h2>
+					<p data-i18n='Please-read-the-following-Terms-and-Conditions-car'>
+					</p>
+					<h2 data-i18n='Acceptance-of-Terms'>
+					</h2>
+					<p data-i18n='This-Mobile-App-is-provided-by-Flow-Hospitality-Tr'>
+					</p>
+					<p data-i18n='Flow-provides-this-Mobile-App-and-all-related-onli'>
+					</p>
+					<h2 data-i18n='Contents'>
+					</h2>
+					<p>
+						<span data-i18n='Definitions'></span><br>
+						<span data-i18n='Changes-to-Terms-and-Conditions'></span><br>
+						<span data-i18n='Permitted-and-Prohibited-Uses'></span><br>
+						<span data-i18n='Copyright-and-Trademarks'></span><br>
+						<span data-i18n='Links-and-Third-Party-Websites'></span><br>
+						<span data-i18n='Submission-of-Information'></span><br>
+						<span data-i18n='Agreement-to-Privacy-Policy'></span><br>
+						<span data-i18n='Disclaimers'></span><br>
+						<span data-i18n='Limit-of-Liability'></span><br>
+						<span data-i18n='Indemnity'></span><br>
+						<span data-i18n='Arbitration'></span><br>
+						<span data-i18n='Choice-of-law'></span><br>
+						<span data-i18n='General'></span>
+					</p>
+					<h2 data-i18n='Definitions'>
+					</h2>
+					<p data-i18n='In-addition-to-the-terms-defined-throughout-these'>
+					</p>
+					<h2 data-i18n='Changes-to-Terms-and-Conditions'>
+					</h2>
+					<p data-i18n='Flow-reserves-the-right-at-any-time-to-modify-add'>
+					</p>
+					<h2 data-i18n='Permitted-and-Prohibited-Uses'>
+					</h2>
+					<p data-i18n='This-Mobile-App-is-intended-for-the-lawful-use-of'>
+					</p>
+					<ul>
+						<liv data-i18n='sell-license-rent-reproduce-modify-or-attempt-to-m'>
+						</li>
+						<li data-i18n='transfer-the-Content-to-any-other-person-without-t'>
+						</li>
+						<li data-i18n='use-this-Mobile-App-in-any-manner-that-could-damag'>
+						</li>
+						<li data-i18n="upload-post-or-otherwise-transmit-or-distribute-on">
+						</li>
+						<li data-i18n="interfere-with-the-security-of-or-otherwise-abuse">
+						</li>
+						<li data-i18n="infringe-on-any-patent-trade-mark-trade-secret-cop">
+						</li>
+						<li data-i18n="disrupt-or-interfere-with-any-other-persons-use-or">
+						</li>
+						<li data-i18n="use-any-robot-spider-or-other-automatic-program-or">
+						</li>
+						<li data-i18n="use-or-attempt-to-use-anothers-account-password-se">
+						</li>
+						<li data-i18n="transmit-on-to-or-from-this-Mobile-App-spam-chain">
+						</li>
+						<li data-i18n="upload-to-distribute-to-or-otherwise-disseminate-t">
+						</li>
+						<li data-i18n="attempt-to-obtain-unauthorized-access-to-this-Mobi">
+						</li>
+					</ul>
+					<p data-i18n='You-also-agree-that-you-are-solely-responsible-for'>
+					</p>
+					<h2 data-i18n="Copyright-and-Trademarks">
+					</h2>
+					<p data-i18n='Unless-otherwise-noted-all-Content-is-subject-to-i'>
+					</p>
+					<h2 data-i18n='Links-and-Third-Party-Websites'>
+					</h2>
+					<p data-i18n='Flow-may-provide-to-you-on-this-Mobile-App-links-t'>
+					</p>
+					<p data-i18n='This-Mobile-App-will-from-time-to-time-contain-mat'>
+					</p>
+					<h2 data-i18n='Submission-of-Information'>
+					</h2>
+					<p data-i18n='Although-Flow-may-provide-certain-security-in-an-e'>
+					</p>
+					<h2 data-i18n='Agreement-to-Privacy-Policy'>
+					</h2>
+					<p data-i18n='Flow-respects-your-desire-for-privacy-Flows-Privac'>
+					</p>
+					<h2 data-i18n='Disclaimers'>
+					</h2>
+					<p data-i18n='All-content-and-services-provided-on-or-through-th'>
+					</p>
+					<h2 data-i18n='Limit-of-Liability'>
+					</h2>
+					<p data-i18n='In-no-event-shall-Flow-or-their-respective-directo'>
+					</p>
+					<h2 data-i18n='Indemnity'>
+					</h2>
+					<p data-i18n='You-agree-to-defend-indemnify-and-hold-harmless-Fl'>
+					</p>
+					<h2 data-i18n='Governing-Law'>
+					</h2>
+					<p data-i18n='All-matters-relative-to-this-Agreement-shall-be-go'>
+					</p>
+					<h2 data-i18n='General'>
+					</h2>
+					<p data-i18n='The-Privacy-Policy-is-a-binding-part-of-these-Term'>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END About Page V2 -->
+
+	<!-- Start Help Support Page V2 -->
+	<div data-role="page" id="help-support-page" class="brand-gradient">
+
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#new-dashboard" class="ui-btn-left">
+					<div class='btn-container'>
+						<div class=''>
+							<img class="" src="./img/back-button-white.png">
+						</div>
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+
+			</div>
+		</div>
+
+		<!-- However, the styles for the toolbar is located at shared-styles.css -->
+		<div class="white-toolbar">
+			<h1 data-i18n='Help-and-Support'> 
+			</h1>
+		</div>
+
+
+		<div class="flow-tabs" data-role="tabs">
+			<div class="arrow-tabs" data-role="navbar">
+
+				<ul class="tabs" role="tablist">
+					<li role="tab">
+						<a href="#faq" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='FAQ'> 
+							 </span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+
+					<li role="tab">
+						<a href="#contact" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='Contact'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="contents">
+
+				<div id='faq' class="ui-tabs-panel">
+					<h2 data-i18n='FAQ'>
+					</h2>
+					<p data-i18n='If-you-have-a-question-that-is-not-answered-below'>
+					</p>
+					<h2 data-i18n='About-Flow' id="about_flow">
+					</h2>
+					<h3 data-i18n='Q-What-is-Flow-Hospitality-Training'>
+					</h3>
+					<p data-i18n='Flow-Hospitality-Training-is-a-fully-online-produc'>
+					</p>
+					<h3 data-i18n='Q-Is-Flow-training-fully-accredited'>
+					</h3>
+					<p data-i18n='The-Flow-modules-and-exams-are-fully-endorsed-by-t'>
+					</p>
+					<p data-i18n='All-our-modules-are-accredited-by-People-1st-Quali'>
+					</p>
+					<p data-i18n='Our-Food-Safety-modules-are-also-accredited-by-IQ'>
+					</p>
+					<p data-i18n='The-SQA-Privacy-Policy-can-be-found-on-their-websi'>
+					</p>
+					<h3 data-i18n='Q-If-I-have-any-questions-regarding-the-content-of'>
+					</h3>
+					<p data-i18n='If-you-have-any-problems-accessing-the-modules-con'>
+					</p>
+					<h3 data-i18n='Q-How-quickly-will-I-be-contacted-after-inputting'>
+					</h3>
+					<p data-i18n='A-member-of-the-Flow-team-will-contact-you-within'>
+					</p>
+					<h3 data-i18n='Q-Can-I-get-my-Personal-Licence-Holder-PLH-qualifi'>
+					</h3>
+					<p data-i18n='In-order-to-gain-your-Personal-Licence-Holder-qual'>
+					</p>
+					<p data-i18n='Flow-provides-training-on-Licensing-and-Social-Res'>
+					</p>
+					<h2 data-i18n='Accessing-Training' id="accessing_training">
+					</h2>
+					<h3 data-i18n='Q-Why-cant-I-log-in-to-the-app-using-my-access-cod'>
+					</h3>
+					<p data-i18n='In-order-to-log-in-to-the-app-you-must-have-an-ema'>
+					</p>
+					<h3 data-i18n='Q-How-long-does-it-take-to-complete-a-module'>
+					</h3>
+					<p data-i18n='The-times-can-vary-depending-upon-the-level-of-tra'>
+					</p>
+					<h3 data-i18n='Q-Are-you-required-to-complete-the-modules-in-any'> 
+					</h3>
+					<p data-i18n='Some-companies-require-modules-to-be-completed-in'>
+					</p>
+					<h3 data-i18n='You-will-still-be-able-to-access-your-modules-due'>
+					</h3>
+					<p data-i18n='3-Exams-and-Certificates'>
+					</p>
+					<h2  data-i18n='Q-What-happens-if-I-fail-the-exam' id="exams_certificates">
+					</h2>
+					<h3 data-i18n='The-failed-exam-screen-will-highlight-the-specific'>
+					</h3>
+					<p data-i18n='Q-Can-I-access-the-module-after-passing-the-exam'>
+					</p>
+					<h3 data-i18n='Yes-you-can-revisit-the-content-but-you-will-not-b'>
+					</h3>
+					<p data-i18n='Q-When-will-I-receive-my-certificate'>
+					</p>
+					<h3 data-i18n='The-certificate-can-be-printed-at-the-end-of-each'>
+					</h3>
+					<h3 data-i18n='Q-Can-I-move-my-completed-training-from-a-previous'>
+					</h3>
+					<p data-i18n='Yes-if-your-previous-company-used-Flow-then-you-ca'>
+					</p>
+				</div>
+
+				<div id='contact' class="ui-tabs-panel">
+					<h2 data-i18n='Contact'>
+					</h2>
+					<p data-i18n='Get-in-touch-with-questions-comments-issues-and-lo'>
+					</p>
+					<p data-i18n='Our-core-office-hours-are-Monday-Friday-9am-6pm-an'>
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- END Help Support Page V2 -->
+
+	<!-- START Comms Page V2 -->
+	<div data-role="page" id='news-noticeboard-page' class="brand-gradient">
+		<!-- top navigation -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#new-dashboard" class="ui-btn-left">
+					<div class='btn-container'>
+						<img class="" src="./img/back-button-white.png">
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- page heading -->
+		<div class="white-toolbar">
+			<h1 data-i18n='Comms'>
+			</h1>
+		</div>
+		<!-- page content -->
+		<div class="flow-tabs" data-role="tabs">
+			<!-- tab buttons -->
+			<div class="arrow-tabs" data-role="navbar">
+				<ul class="tabs" role="tablist">
+					<li class="ui-tabs-active" role="tab">
+						<a href="#news-cards-container" class="ui-tabs-anchor wrap-words" role="presentation">
+							<i class="circular newspaper icon"></i>
+							<span data-i18n='News'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+					<li class="" role="tab">
+						<a href="#noticeboard-categories-container" class="ui-tabs-anchor wrap-words" role="presentation">
+							<i class="circular icon">
+								<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+								  <g id="Icon_Noticeboard_40_OFF" transform="translate(-11 -25)">
+								    <circle id="iconBase" cx="20" cy="20" r="20" transform="translate(11 25)" fill="rgba(255,255,255,0.15)"/>
+								    <g id="Icon_Noticeboard" transform="translate(-2 5)">
+								      <g class="white-stroke" id="Rectangle_666" data-name="Rectangle 666" transform="translate(21 30)" fill="none" stroke="#fff" stroke-width="3">
+								        <rect width="25" height="20" rx="2" stroke="none"/>
+								        <rect x="1.5" y="1.5" width="22" height="17" rx="0.5" fill="none"/>
+								      </g>
+								      <path class="white-fill" id="Rectangle_667" data-name="Rectangle 667" d="M2,0H8A0,0,0,0,1,8,0V8A0,0,0,0,1,8,8H0A0,0,0,0,1,0,8V2A2,2,0,0,1,2,0Z" transform="translate(38 42)" fill="#fff"/>
+								      <path class="white-fill" id="Path_1004" data-name="Path 1004" d="M1.014-12.212v5.9H-1.593v-5.9ZM1.131-14.9a1.263,1.263,0,0,1-.117.538,1.48,1.48,0,0,1-.31.44,1.48,1.48,0,0,1-.453.3,1.391,1.391,0,0,1-.556.112,1.337,1.337,0,0,1-.543-.112,1.438,1.438,0,0,1-.444-.3,1.454,1.454,0,0,1-.3-.44A1.306,1.306,0,0,1-1.7-14.9a1.391,1.391,0,0,1,.112-.556,1.424,1.424,0,0,1,.3-.449,1.438,1.438,0,0,1,.444-.3,1.337,1.337,0,0,1,.543-.112,1.39,1.39,0,0,1,.556.112,1.48,1.48,0,0,1,.453.3,1.448,1.448,0,0,1,.31.449A1.345,1.345,0,0,1,1.131-14.9Z" transform="translate(33.705 51.313)" fill="#fff"/>
+								    </g>
+								  </g>
+								</svg>
+							</i>
+							<span data-i18n='Noticeboard' data-label="noticeboard_label_plural">
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="contents">
+				<div id="news-cards-container" class="ui-tabs-panel"></div>
+				<div id="noticeboard-categories-container" class="ui-tabs-panel"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END Comms Page V2 -->
+
+	<!-- START News Item Card V2 -->
+	<template id="news-item-card">
+		<div class="flow-card news ui fluid card">
+			<div class="flow-card-header content item-link" data-item-type="news" data-id="">
+				<div class="item-header-right right floated">
+				</div>
+				<div data-i18n='Elliot' class="item-header-left left">
+				</div>
+			</div>
+			<div class="content placeholder item-link" href="#item-page" data-item-type="news" data-id=""></div>
+			<div data-i18n='Published by: ' class="published-by content">
+			</div>
+			<div class="extra content center aligned">
+			</div>
+		</div>
+	</template>
+	<!-- END News Item Card V2 -->
+
+	<!-- START Noticeboard Category Card V2 -->
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+	    <defs>
+	        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+	            <stop offset="0" stop-opacity="0.6" />
+	            <stop offset="0.787" stop-opacity="0.6" />
+	            <stop offset="1" stop-opacity="0" />
+	        </radialGradient>
+	    </defs>
+	</svg>
+	<template id="noticeboard-category-card">
+		<div class="center aligned column noticeboard-category">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+			    <g transform="translate(-1700 -1236)">
+			        <g class="brand-category-stroke" transform="translate(1700 1236)" stroke="#fff" stroke-linecap="round" stroke-width="5" stroke-dasharray="0 8" fill="url(#radial-gradient)">
+			            <rect width="110" height="110" rx="55" stroke="none" />
+			            <rect x="2.5" y="2.5" width="105" height="105" rx="52.5" fill="none" />
+			        </g>
+			    </g>
+			</svg>
+			<div class="ui circular inverted segment">
+		        <div class="sub header name">
+				</div>
+			</div>
+		</div>
+	</template>
+	<!-- END Noticeboard Category Card V2 -->
+
+	<!-- START Item Page V2 -->
+	<div data-role="page" id="item-page-V2" class="brand-gradient">
+		<!-- top navigation -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#news-noticeboard-page" class="ui-btn-left">
+					<div class='btn-container'>
+						<img class="" src="./img/back-button-white.png">
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- page heading -->
+		<div class="white-toolbar">
+			<h1 data-i18n='Item-Details'>
+			</h1>
+		</div>
+		<div class="v-bottom">
+			<svg height="15" width="30">
+			  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+			</svg>
+		</div>
+		<!-- page content -->
+	</div> 
+	<!-- END Item Page V2 -->
+
+	<!-- START News Item Template V2 -->
+	<template id='news-item-template-V2'>
+		<div class="ui grid container">
+			<div class="equal width row">
+				<div class="column item-page-image-container"></div>
+			</div>
+			<div class="row item-page-card-black-box">
+				<div id='item-card-author' class="left aligned eleven wide column"></div>
+				<div id='item-card-date' class="right aligned five wide column"></div>
+			</div>
+			<div class="equal width row">
+				<h3 class="column item-page-content-title"></h3>
+			</div>
+			<div class="equal width row">
+				<div class="column item-page-content-description"></div>
+			</div>
+		</div>
+	</template>
+	<!-- END News Item Template -->
+
+	<!-- START Noticeboard Item Template V2 -->
+	<template id='noticeboard-item-template-V2'>
+		<div class="ui grid container">
+			<div class="equal width row">
+				<h3 class="column item-page-content-title"></h3>
+			</div>
+			<div class="equal width row">
+				<div class="column item-page-content-description"></div>
+			</div>
+			<div class="equal width row">
+				<div class="center aligned column open-attachment"></div>
+				<div class="center aligned column add-to-library"></div>
+			</div>
+			<div class="center aligned row nb-sign-off">
+				<div class="center aligned column"></div>
+			</div>
+		</div>
+	</template>
+	<!-- END Noticeboard Item Template -->
+
+	<!-- START Noticeboard Items Modal V2 -->
+	<template id='modal-template-V2'>
+		<div class="ui fullscreen modal">
+		    <h3 class="header"></h3>
+		    <div class="content"></div>
+		</div>
+	</template>
+	<!-- END Noticeboard Items Modal V2 -->
+
+	<!-- START Module Template V2 -->
+	<template id='module-template-V2'>
+		<div class="ui dimmer">
+            <div data-i18n='Downloading' class="ui text loader">
+			</div>
+        </div>
+		<div class="ui grid container module">
+			<div class="equal width row">
+				<div class="column icon">
+					<div class="ui circular segment"></div>
+				</div>
+			</div>
+			<div class="equal width row">
+				<div class="column status"></div>
+				<div class="right aligned column due-date"></div>
+			</div>
+			<div class="equal width row">
+				<div class="column description"></div>
+			</div>
+			<div class="equal width row actions">
+			</div>
+		</div>
+	</template>
+	<!-- END Module Template -->
+
+	<!-- START Module Launch V2 -->
+	<div data-role="page" id="module-launch-V2" class="brand-gradient">
+	</div> 
+	<!-- END Module Launch V2 -->
+
+	<!-- START External Training Template V2 -->
+	<template id='external-training-template-V2'>
+		<div class="ui grid container external-training">
+			<div class="equal width row">
+				<div class="column status"></div>
+				<div class="right aligned column due-date"></div>
+			</div>
+			<div class="equal width row">
+				<div class="column description"></div>
+			</div>
+			<div class="equal width row">
+				<div class="column next-session"></div>
+			</div>
+			<div class="equal width row actions">
+			</div>
+		</div>
+	</template>
+	<!-- END External Training Template -->
+
+	<!-- START Competence Template V2 -->
+	<template id='competence-template-V2'>
+		<div class="ui grid container competence">
+			<div class="equal width row">
+				<div class="column status"></div>
+				<div class="right aligned column due-date"></div>
+			</div>
+			<div class="equal width row">
+				<div class="column description"></div>
+			</div>
+			<div class="equal width row">
+				<div class="column attachments"></div>
+			</div>
+		</div>
+	</template>
+<!-- END Competence Template -->
+	
+
+<!-- START Training Session Template V2 -->
+	<template id='training-session-template-V2'>
+		<div class="ui grid container training-session">
+			<div class="row">
+				<div class="sixteen wide column">
+					<h2 class='session-administrator' data-i18n='session-administrator'>
+					</h2>
+				</div>
+				<div class="nine wide column session-admin"></div>
+			</div>
+			<div class="row">
+				<div class="sixteen wide column course_description"></div>
+			</div>
+			<div class="row notes">
+				<div class="seven wide column">
+					<h4 class='notes-h4' data-i18n='Notes'>
+					</h4>
+				</div>
+				<div class="nine wide column details"></div>
+			</div>
+			<div class="row instructions">
+				<div class="seven wide column">
+					<h4 class='instructions-h4' data-i18n='Instructions'>
+					</h4>
+				</div>
+				<div class="nine wide column details"></div>
+			</div>
+
+			<div class="row action">
+				<div class="sixteen wide center aligned column">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="four wide column">
+					<h4 class='places-h4' data-i18n='Places'>
+					</h4>
+				</div>
+				<div class="twelve wide column available-places"></div>
+			</div>
+			<div class="row">
+				<div class="four wide column">
+					<h4 class='starts-h4' data-i18n='my-Starts'>
+					</h4>
+				</div>
+				<div class="twelve wide column start-date"></div>
+			</div>
+			<div class="row">
+				<div class="four wide column">
+					<h4 class='ends-h4' data-i18n='Ends'>
+					</h4>
+				</div>
+				<div class="twelve wide column end-date"></div>
+			</div>
+
+			<div class="row">
+				<div class="four wide column">
+					<h4 class='location-h4' data-i18n='Location'>
+					</h4>
+				</div>
+				<div class="twelve wide column">
+					<div class="location"></div>
+					<div class="address"></div>
+					<div class="city"></div>
+					<div class="post-code"></div>
+				</div>
+			</div>
+			
+			<div class="row map">
+				<div class="sixteen wide column">
+					<iframe class="session_map" src="" width="100%" height="200"></iframe>
+				</div>
+			</div>
+			
+		</div>
+	</template>
+<!-- END Training Session Template -->
+
+	<!-- START Social Forums Page V2 -->
+	<div data-role="page" id='social-forums-page' class="brand-gradient">
+		<div class="ui dimmer">
+            <div data-i18n='Posting' class="ui text loader">
+			</div>
+        </div>
+		<!-- top navigation -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#new-dashboard" class="ui-btn-left">
+					<div class='btn-container'>
+						<img class="" src="./img/back-button-white.png">
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- page heading -->
+		<div class="white-toolbar">
+			<h1 data-i18n='Social-Forums'>
+			</h1>
+		</div>
+		<!-- page content -->
+		<div class="flow-tabs" data-role="tabs">
+			<!-- tab buttons -->
+			<div class="arrow-tabs" data-role="navbar">
+				<ul class="tabs" role="tablist">
+					<li class="ui-tabs-active" role="tab">
+						<a id="forums-index-button" href="#forums-index" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='Index'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+					<li class="" role="tab">
+						<a id="forums-following-button" href="#forums-following" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='Following'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+					<li class="" role="tab">
+						<a id="forums-unread-button" href="#forums-unread" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='Unread'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="contents">			
+				<div data-18n='Index' id="forums-index" class="ui-tabs-panel">
+				</div>
+				<div data-18n='Following' id="forums-following" class="ui-tabs-panel">
+				</div>
+				<div data-18n='Unread' id="forums-unread" class="ui-tabs-panel">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END Social Forums Page V2 -->
+
+	<!-- START Poll Structure V2 -->
+	<template id="topic-poll-structure-v2">
+		<div class="ui middle aligned grid title disabled active">
+			<div class="two wide center aligned image column">
+				<i class="list icon"></i>
+			</div>
+			<div class="fourteen wide column name">
+				<div class="ui small header"></div>
+			</div>
+		</div>
+		<div class="content active forum-poll">
+			<div class="ui grid vote">
+			</div>
+			<div class="ui middle aligned grid stats">
+				<div data-18n='votes cast' class="sixteen wide right aligned column">
+					votes cast
+				</div>
+			</div>
+		</div>
+	</template>
+	<!-- END Poll Structure V2 -->
+
+	<!-- START Topic Poll Option V2 -->
+	<template id="topic-poll-option-v2">
+		<div class="eight wide center aligned column">
+			<h4></h4>
+			<div class="topic-poll-question">
+				<i class="circular arrow up icon">
+				</i>
+				<span></span>
+			</div>
+		</div>
+	</template>
+	<!-- END Topic Poll Option V2 -->
+
+	<!-- main panel v2 -->
+	<div data-role="panel" id="panelmenu" class="panelMenu" data-position="right" data-display="overlay" data-theme="a">
+		<div class='panelmenu-list-top'>
+			<ul data-role="" data-theme="a">
+				<li><img src="./img/avatar_placeholder.jpg" class="profile"></li>
+				<li>
+					<a data-i18n='My-Library' href="#library-page">
+					</a>
+				</li>
+				<li>
+					<a data-i18n='Account-Details' href="#account-details-page">
+					</a>
+				</li>
+				<li>
+					<a data-i18n='About' href="#about-page">
+					</a>
+				</li>
+				<li>
+					<a data-i18n='Help-and-Support' href="#help-support-page">
+					</a>
+				</li>
+				<li>
+					<a data-i18n='Log-out' href="#signout" class="signout-link">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<h5 data-i18n="Jump-to">
+		</h5>
+		<div class='panelmenu-list-bottom'>
+			<ul data-role="" data-theme="a">
+				<li>
+					<a data-i18n='Dashboard' href="#new-dashboard">
+					</a>
+				</li>
+				<li>
+					<a data-i18n='Comms' href="#news-noticeboard-page">
+					</a>
+				</li>
+				<li>
+					<a data-i18n='My-Training' href="#my-training">
+					</a>
+				</li>
+				<li>
+					<a data-i18n='Social-Forums' href="#social-forums-page">
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="powered-by-flow">
+			<!-- <p class='powered-by-flow-text'>powered by</p> -->
+			<!-- <img src="./img/flogo.png" > -->
+			<object id="powered-by-flow-logo"
+				style="width: 100%; height: 100%; position: relative; left: 0; right: 0; top: 0;"
+				data="img/powered-by-flow-logo.svg" type="image/svg+xml">No SVG support</object>
+		</div>
+	</div>
+	<!-- /main panel v2-->
+
+	<!-- START My Training page V2 -->
+	<div data-role="page" id="my-training" class="brand-gradient">
+		<!-- top navigation -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#new-dashboard" class="ui-btn-left">
+					<div class='btn-container'>
+						<img class="" src="./img/back-button-white.png">
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- page heading -->
+		<div class="white-toolbar">
+			<span>
+				<h1 data-i18n='My-Training'> 
+				</h1>
+			</span>
+		</div>
+		<!-- page content -->
+		<div class="flow-tabs" data-role="tabs" id="flow-tabs">
+			<!-- tab buttons -->
+			<div class="arrow-tabs" data-role="navbar">					
+				<ul class="tabs" role="tablist">
+					<li class="ui-tabs-active" role="tab">
+						<a id="get-training-path" href="#training-path-container" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='Training-Path'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+					<li class="" role="tab">
+						<a id="get-training-calendar" href="#training-calendar-container" class="ui-tabs-anchor wrap-words" role="presentation">
+							<span data-i18n='Training-Calendar'>
+							</span>
+						</a>
+						<div class="v-bottom">
+							<svg height="15" width="30">
+							  <polygon points="0,0 15,15 30,0" style="fill:white;stroke:white;stroke-width:1" />
+							</svg>
+						</div>
+					</li>
+				</ul>
+				<div class="contents">					
+					<div id="training-path-container" class="ui-tabs-panel ui padded carrer grid path-items">
+					</div>
+					<div id="training-calendar-container" class="ui-tabs-panel">
+						<div id="mobile-app-calendar"></div>
+						<div id="calendar-events"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END My Training page V2 -->
+
+
+
+	<!-- LEGACY PAGES -->
+	<!-- Start of News page -->
+	<div data-role="page" id="news-feed">
+		<!-- header -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div id="news-feed-header" class="navbar-v2">
+				<img class="new-nav-flow-logo" src="./img/flogo.png">
+				<a href="#panelmenu" class="ui-btn-left"><i class="fa fa-2x fa-bars"
+						aria-hidden="true"></i></a>
+				<div class="ui-btn-right"><i class="fa fa-2x fa-user" aria-hidden="true"></i></div>
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="content fixedpage-content">
+
+			<!-- Start of Inner Header -->
+			<div id="news-feed-inner-header">
+				<span data-i18n='News-Feed' id="news-feed-title" class="fixedpage-title" data-label="feed_label">
+				</span>
+				<span id="news-feed-dropdown" class="fixedpage-right">
+					<i class="fa fa-2x fa-chevron-down" aria-hidden="true"></i>
+				</span>
+			</div>
+			<hr class="fixedpage-hr">
+			<!-- End of Inner Header -->
+
+			<!-- Start of Inner Header Menu -->
+			<ul id="news-feed-sub-menu" class="fixedpage-menu news-feed-sub-menu flex-sub-menu">
+				<li data-i18n='Activity' id="news-feed-activity" class="activeTab">
+				</li>
+				<li data-i18n='News' id="news-feed-news">
+				</li>
+				<li data-i18n='Noticeboard' id="news-feed-noticeboard" data-label="noticeboard_label_plural">
+				</li>
+			</ul>
+			<!-- End of Header Menu -->
+
+			<!-- Dynamic Content Area -->
+			<div id="news-feed-content" class="fixedpage-content-area"></div>
+			<!-- End of Dynamic Content Area -->
+		</div>
+		<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+			<div class="new-custom-footer">
+				<a data-i18n='back-to-dashboard' href="#new-dashboard" class="footer-single">
+				</a> 
+			</div>
+		</div>
+	</div> 
+	<!-- End of News page -->
+
+	<!-- Start of Library page -->
+	<div data-role="page" id="library-page-2">
+		<!-- header -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div id="library-feed-header" class="navbar-v2">
+				<img class="new-nav-flow-logo" src="./img/flogo.png">
+				<a href="#panelmenu" class="ui-btn-left"><i class="fa fa-2x fa-bars"
+						aria-hidden="true"></i></a>
+				<div class="ui-btn-right"><i class="fa fa-2x fa-user" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="content fixedpage-content">
+
+			<!-- Start of Inner Header -->
+			<div id="library-feed-inner-header">
+				<span data-i18n='My-Library' id="library-feed-title" class="fixedpage-title" data-label="library_label">
+				</span>
+				<span id="library-feed-dropdown" class="fixedpage-right">
+					<i class="fa fa-2x fa-chevron-down" aria-hidden="true"></i>
+				</span>
+			</div>
+			<hr class="fixedpage-hr">
+			<!-- End of Inner Header -->
+
+			<!-- Dynamic Content Area -->
+			<div id="library-feed-content" class="fixedpage-content-area"></div>
+			<!-- End of Dynamic Content Area -->
+		</div>
+		<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+			<div class="new-custom-footer">
+				<a data-i18n='back-to-dashboard' href="#new-dashboard" class="footer-single">
+				</a> 
+			</div>
+		</div>
+	</div> 
+	<!-- End of Library page -->
+
+	<!-- Start of Item Page -->
+	<div data-role="page" id="item-page">
+		<!-- header -->
+		<div data-role="header" data-position="fixed" data-tap-toggle="false">
+			<div class="navbar-v2">
+				<a href="#new-dashboard" class="ui-btn-left">
+					<div class='btn-container'>
+						<div class=''>
+							<img class="" src="./img/back-button-white.png">
+						</div>
+					</div>
+				</a>
+				<div class='flow-text-center'>
+					<img class="nav-company-logo" src="./img/flow-logo-white-skinny.png">
+				</div>
+
+				<a href="#panelmenu" class="ui-btn-right">
+					<div class='menu-icon'>
+						<i class="fa fa-2x fa-bars" aria-hidden="true"></i>
+					</div>
+				</a>
+
+			</div>
+		</div>
+
+		<div>
+		
+			<div class="white-toolbar">
+				<span class='news-toolbar-tag'>
+					<h1 data-i18n='Comms'>
+					</h1>
+				</span>
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="item-page-container">
+		</div>
+		<div data-role="footer" data-position="fixed" data-tap-toggle="false">
+			<div class="new-custom-footer">
+				<a data-i18n='back-to-dashboard' href="#new-dashboard" class="footer-single">
+				</a> 
+			</div>
+		</div>
+	</div> 
+	<!-- End of Item Page -->
+
+	<!-- Start of dashboard page -->
+	<div data-role="page" id="dashboard" data-prev="career" data-next="training">
+		<!-- header -->
+		<div data-role="header" data-id="foo1" data-theme="a" data-position="fixed" data-tap-toggle="false">
+			<div class="custom-navbar">
+				<img class="nav-flow-logo" src="./img/flogo.png">
+				<a href="#panelmenuold" class="ui-btn-right">
+					<i class="fa fa-2x fa-ellipsis-v" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+		<!-- /header -->
+
+		<div class="content content-old">
+			<ul data-role="listview" id="prof-list" data-divider-theme="a">
+			</ul>
+		</div>
+		<!-- /content -->
+
+		<div data-role="footer" data-theme="a" data-id="foo2" data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#dashboard" class="ui-btn-active active-tab"><i class="fa fa-lg fa-list-alt"
+								aria-hidden="true"></i>
+							<p data-i18n='Feed'>
+							</p>
+						</a></li>
+					<li><a href="#training"><i class="fa fa-lg fa-line-chart"></i>
+							<p data-i18n='Training'>
+							</p>
+						</a></li>
+					<li><a href="#communications"><i class="fa fa-lg fa-comments" aria-hidden="true"></i>
+							<p data-i18n='Comms'>
+							</p>
+						</a></li>
+					<li><a href="#library"><i class="fa fa-lg fa-book" aria-hidden="true"></i>
+							<p data-i18n='Library'>
+							</p>
+						</a></li>
+					<li><a href="#career"><i class="fa fa-lg fa-user" aria-hidden="true"></i>
+							<p data-i18n='My-Career'>
+							</p>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End of dashboard page -->
+
+	<!-- Start of training page -->
+	<div data-role="page" id="training" data-prev="dashboard" data-next="communications">
+		<!-- header -->
+		<div data-role="header" data-id="foo1" data-theme="a" data-position="fixed" data-tap-toggle="false">
+			<div class="custom-navbar">
+				<a href="#" data-rel="back" class="ui-btn-left"><i class="fa fa-2x fa-chevron-left"
+						aria-hidden="true"></i></a>
+				<img class="nav-flow-logo" src="./img/flogo.png">
+				<a href="#panelmenuold" class="ui-btn-right"><i class="fa fa-2x fa-ellipsis-v"
+						aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="content content-old">
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='Overdue'>
+				</h4>
+				<ul data-role="listview" id="overdue-training-list" data-divider-theme="a">
+				</ul>
+			</div>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='Upcoming'>
+				</h4>
+				<ul data-role="listview" id="upcoming-training-list" data-divider-theme="a">
+				</ul>
+			</div>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='Invited'>
+				</h4>
+				<ul data-role="listview" id="invited-training-list" data-divider-theme="a">
+				</ul>
+			</div>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='Available'>
+				</h4>
+				<ul data-role="listview" id="available-training-list" data-divider-theme="a">
+				</ul>
+			</div>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='Completed'>
+				</h4>
+				<ul data-role="listview" id="completed-training-list" data-divider-theme="a">
+				</ul>
+			</div>
+		</div>
+
+		<div data-role="footer" data-theme="a" data-id="foo2" data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#dashboard"><i class="fa fa-lg fa-list-alt" aria-hidden="true"></i>
+							<p data-i18n='Feed'>
+							</p>
+						</a></li>
+					<li><a href="#training" class="ui-btn-active active-tab"><i class="fa fa-lg fa-line-chart"></i>
+							<p data-i18n='Training'>
+							</p>
+						</a></li>
+					<li><a href="#communications"><i class="fa fa-lg fa-comments" aria-hidden="true"></i>
+							<p data-i18n='Comms'>
+							</p>
+						</a></li>
+					<li><a href="#library"><i class="fa fa-lg fa-book" aria-hidden="true"></i>
+							<p data-i18n='Library'>
+							</p>
+						</a></li>
+					<li><a href="#career"><i class="fa fa-lg fa-user" aria-hidden="true"></i> data-i18n='My'
+							<p data-i18n='My-Career'>
+							</p>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End of training page -->
+
+	<!-- Start of communications page -->
+	<div data-role="page" id="communications" data-prev="training" data-next="library">
+		<!-- header -->
+		<div data-role="header" data-id="foo1" data-theme="a" data-position="fixed" data-tap-toggle="false">
+			<div class="custom-navbar">
+				<a href="#" data-rel="back" class="ui-btn-left"><i class="fa fa-2x fa-chevron-left"
+						aria-hidden="true"></i></a>
+				<img class="nav-flow-logo" src="./img/flogo.png">
+				<a href="#commspanelmenuold" class="ui-btn-right"><i class="fa fa-2x fa-ellipsis-v"
+						aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="content content-old">
+
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='News'>
+				</h4>
+				<ul data-role="listview" id="news-list" data-divider-theme="a">
+				</ul>
+			</div>
+
+			<div id='noticeboard-section' data-corners="false">
+				<h2 data-i18n='Noticeboard' id='noticeboard-hdr'>
+				</h2>
+			</div>
+
+			<span id="noticeboard-section-categories">
+			</span>
+
+		</div>
+
+		<div data-role="footer" data-theme="a" data-id="foo2" data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#dashboard"><i class="fa fa-lg fa-list-alt" aria-hidden="true"></i>
+							<p data-i18n='Feed'>
+							</p>
+						</a></li>
+					<li><a href="#training"><i class="fa fa-lg fa-line-chart"></i>
+							<p data-i18n='Training'>
+							</p>
+						</a></li>
+					<li><a href="#communications" class="ui-btn-active active-tab"><i class="fa fa-lg fa-comments"
+								aria-hidden="true"></i>
+							<p data-i18n='Comms'>
+							</p>
+						</a></li>
+					<li><a href="#library"><i class="fa fa-lg fa-book" aria-hidden="true"></i>
+							<p data-i18n='Library'>
+							</p>
+						</a></li>
+					<li><a href="#career"><i class="fa fa-lg fa-user" aria-hidden="true"></i>
+							<p data-i18n='My-Career'>
+							</p>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End of communications page -->
+
+	<!-- Start of library page -->
+	<div data-role="page" id="library" data-prev="communications" data-next="career">
+		<!-- header -->
+		<div data-role="header" data-id="foo1" data-theme="a" data-position="fixed" data-tap-toggle="false">
+			<div class="custom-navbar">
+				<a href="#" data-rel="back" class="ui-btn-left"><i class="fa fa-2x fa-chevron-left"
+						aria-hidden="true"></i></a>
+				<img class="nav-flow-logo" src="./img/flogo.png">
+				<a href="#panelmenuold" class="ui-btn-right"><i class="fa fa-2x fa-ellipsis-v"
+						aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="content content-old">
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='My-Library'></h4>
+				<ul data-role="listview" id="library-list" data-divider-theme="a">
+				</ul>
+			</div>
+		</div>
+
+		<div data-role="footer" data-theme="a" data-id="foo2" data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#dashboard"><i class="fa fa-lg fa-list-alt" aria-hidden="true"></i>
+							<p data-i18n='Feed'>
+							</p>
+						</a></li>
+					<li><a href="#training"><i class="fa fa-lg fa-line-chart"></i>
+							<p data-i18n='Training'>
+							</p>
+						</a></li>
+					<li><a href="#communications"><i class="fa fa-lg fa-comments" aria-hidden="true"></i>
+							<p data-i18n='Comms'>
+							</p>
+						</a></li>
+					<li><a href="#library" class="ui-btn-active active-tab"><i class="fa fa-lg fa-book"
+								aria-hidden="true"></i>
+							<p data-i18n='Library'>
+							</p>
+						</a></li>
+					<li><a href="#career"><i class="fa fa-lg fa-user" aria-hidden="true"></i>
+							<p data-i18n='My-Career'>
+							</p>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End of library page -->
+
+	<!-- Start of personal page -->
+	<div data-role="page" id="career" data-prev="library" data-next="dashboard">
+		<!-- header -->
+		<div data-role="header" data-id="foo1" data-theme="a" data-position="fixed" data-tap-toggle="false">
+			<div class="custom-navbar">
+				<a href="#" data-rel="back" class="ui-btn-left"><i class="fa fa-2x fa-chevron-left"
+						aria-hidden="true"></i></a>
+				<img class="nav-flow-logo" src="./img/flogo.png">
+				<a href="#panelmenuold" class="ui-btn-right"><i class="fa fa-2x fa-ellipsis-v"
+						aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="content content-old">
+
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='Appraisals' id="appraisals_heading">
+				</h4>
+				<ul data-role="listview" id="appraisal-list" data-divider-theme="a"></ul>
+			</div>
+
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-corners="false" data-collapsed="false"
+				data-expanded-icon="carat-u">
+				<h4 data-i18n='Competences' id="competences_heading">
+				</h4>
+				<ul data-role="listview" id="competence-list" data-divider-theme="a"></ul>
+			</div>
+		</div>
+
+		<div data-role="footer" data-theme="a" data-id="foo2" data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#dashboard"><i class="fa fa-lg fa-list-alt" aria-hidden="true"></i>
+							<p data-i18n='Feed'>
+							</p>
+						</a></li>
+					<li><a href="#training"><i class="fa fa-lg fa-line-chart"></i>
+							<p data-i18n='Training'>
+							</p>
+						</a></li>
+					<li><a href="#communications"><i class="fa fa-lg fa-comments" aria-hidden="true"></i>
+							<p>Comms</p>
+						</a></li>
+					<li><a href="#library"><i class="fa fa-lg fa-book" aria-hidden="true"></i>
+							<p data-i18n='Library'>
+							</p>
+						</a></li>
+					<li><a href="#career" class="ui-btn-active active-tab"><i class="fa fa-lg fa-user"
+								aria-hidden="true"></i>
+							<p data-i18n='My-Career'>
+							</p>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End of personal page -->
+
+	<!-- Start of item page -->
+	<div data-role="page" id="itempage">
+		<!-- header -->
+		<div data-role="header" data-id="foo1" data-theme="a" data-position="fixed" data-tap-toggle="false">
+			<div class="custom-navbar">
+				<a href="#" data-rel="back" class="ui-btn-left"><i class="fa fa-2x fa-chevron-left"
+						aria-hidden="true"></i></a>
+				<img class="nav-flow-logo" src="./img/flogo.png">
+				<a href="#panelmenuold" class="ui-btn-right"><i class="fa fa-2x fa-ellipsis-v"
+						aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- /header -->
+		<div class="content content-old">
+		</div>
+		<div data-role="footer" data-theme="a" data-id="foo2" data-position="fixed" data-tap-toggle="false">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#dashboard" class="ui-btn-active"><i class="fa fa-lg fa-list-alt"
+								aria-hidden="true"></i>
+							<p data-i18n='Feed'>
+							</p>
+						</a></li>
+					<li><a href="#training"><i class="fa fa-lg fa-line-chart"></i>
+							<p data-i18n='Training'>
+							</p>
+						</a></li>
+					<li><a href="#communications"><i class="fa fa-lg fa-comments" aria-hidden="true"></i>
+							<p data-i18n='Comms'>
+							</p>
+						</a></li>
+					<li><a href="#library"><i class="fa fa-lg fa-book" aria-hidden="true"></i>
+							<p data-i18n='Library'>
+							</p>
+						</a></li>
+					<li><a href="#career"><i class="fa fa-lg fa-user" aria-hidden="true"></i>
+							<p data-i18n='Career'>
+							</p>
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- End of item page -->
+	<!-- End of LEGACY PAGES -->
+
+	<!-- Start of Panels and menus -->
+
+	<!-- Popup Menu for activity feed and training pulldowns -->
+	<div data-role="popup" id="popupMenu" data-theme="a" data-shadow="false" data-corners="false" data-theme="none"
+		data-history="false" class="dropdown">
+		<div class="dropdown-header"><span id="dropdown-title"></span>
+			<span id="dropdown-badge" class="dropdown-right circle-activity" data-visible="false">0</span>
+		</div>
+		<hr>
+		<div class="dropdown-key">
+			<span id="keySingle" data-visible="false">
+				<div class="circle-key ck-small valign-middle bg-color-b2">
+				</div>
+				<p data-i18n='recently-added' class="dropdown-key-text-inline text-color-b2"></p>
+			</span>
+			<span id="keyMulti" data-visible="false">
+				<div>
+					<div class="dropdown-key-multi-big">
+						<div class="circle-key ck-big valign-middle bg-color-d2">
+						</div>
+						<div data-i18n='complete' class="dropdown-key-text text-color-d2">
+						</div>
+					</div>
+					<div class="dropdown-key-multi-big">
+						<div class="circle-key ck-big valign-middle bg-color-c4">
+						</div>
+						<div data-i18n='incomplete' class="dropdown-key-text text-color-c4">
+						</div>
+					</div>
+					<div class="dropdown-key-multi-big">
+						<div class="circle-key ck-big valign-middle bg-color-a1">
+						</div>
+						<div data-i18n='overdue' class="dropdown-key-text text-color-a1">
+						</div>
+					</div>
+					<div class="dropdown-key-multi-big">
+						<div class="circle-key ck-big valign-middle bg-color-b2">
+						</div>
+						<div data-i18n='recently-added' class="added'ropdown-key-text text-color-b2">
+						</div>
+					</div>
+				</div>
+				<div style="width:70%; margin:auto; color: white; padding-top: 15px;">
+					<div style="width: 47%; margin: auto; display: inline-block; padding-bottom: 5px;">
+						<div class="circle-key ck-small valign-middle">
+							<i class="fa fa-th-list" aria-hidden="true"></i>
+						</div>
+						<p data-i18n='appraisal' class="dropdown-key-text-inline"> 
+						</p>
+					</div>
+					<div style="width: 47%; margin: auto; display: inline-block; padding-bottom: 5px;">
+						<div class="circle-key ck-small valign-middl">
+							<i class="fa fa-file-text" aria-hidden="true"></i>
+						</div>
+						<p data-i18n='competency' class="dropdown-key-text-inline"> 
+						</p>
+					</div>
+					<div style="width: 47%; margin: auto; display: inline-block; padding-bottom: 5px;">
+						<div class="circle-key ck-small valign-middl">
+							<i class="fa fa-laptop" aria-hidden="true"></i>
+						</div>
+						<p data-i18n='online' class="dropdown-key-text-inline"> 
+						</p>
+					</div>
+					<div style="width: 47%; margin: auto; display: inline-block; padding-bottom: 5px;">
+						<div class="circle-key ck-small valign-middl">
+							<i class="fa fa-users" aria-hidden="true"></i>
+						</div>
+						<p data-i18n='classroom' class="dropdown-key-text-inline"> 
+						</p>
+					</div>
+				</div>
+			</span>
+		</div>
+		<div id="dropdown-content" data-visible="false">
+			<ul data-role="listview" data-inset="true"></ul>
+		</div>
+		<a class="dropdown-footer" data-rel="back"><i class="fa fa-3x fa-chevron-up" aria-hidden="true"></i></a>
+		<hr>
+	</div>
+
+	<!-- main panel v2 -->
+	<div data-role="panel" id="panelmenu2" class="flow-text-center" data-position="left" data-display="overlay" data-theme="a">
+
+		<ul data-role="listview" data-theme="a">
+			<li>
+				<h2 data-i18n='Account'>
+				</h2>
+			</li>
+			<li data-icon="false">
+				<a href="#signout" class="signout-link">
+					<h3 data-i18n='Log-out'>
+					</h3>
+					<i class="fa fa-sign-out fa-2x"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /main panel v2-->
+
+	<!-- main panel v1 -->
+	<div data-role="panel" id="panelmenuold" class="panelmenuold" data-position="right" data-display="overlay"
+		data-theme="a">
+
+		<ul data-role="listview" data-theme="a">
+			<li>
+				<h2 data-i18n='Account'>
+				</h2>
+			</li>
+			<li data-icon="false">
+				<a href="#signout" class="signout-link">
+					<h3 data-i18n='Log-out'>
+					</h3><i class="fa fa-sign-out fa-2x"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /main panel v1 -->
+
+	<!-- comms panel v1 -->
+	<div data-role="panel" id="commspanelmenuold" class="panelmenuold" data-position="right"
+		data-display="overlay" data-theme="a">
+
+		<ul data-role="listview" data-theme="a">
+			<li>
+				<h2 data-i18n='Options'>
+				</h2>
+			</li>
+			<li style="border-top: 0px;">
+				<form id="comms-radio-choice">
+					<input data-rel="close" type="radio" name="comms-radio-choice" id="comms-radio-choice-unread">
+					<input data-rel="close" type="radio" name="comms-radio-choice" id="comms-radio-choice-read">
+					<input data-rel="close" type="radio" name="comms-radio-choice" id="comms-radio-choice-all">
+				</form>
+			</li>
+			<li>
+				<h2 data-i18n='Account'>
+				</h2>
+			</li>
+			<li data-icon="false">
+				<a href="#signout" class="signout-link">
+					<h3 data-i18n='Log-out'>
+					</h3><i class="fa fa-sign-out fa-2x"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /comms panel v1-->
+
+	<!-- End of Panels and menus -->
+
+	<!-- Start of HTML Templates -->
+
+	<!-- Error Message -->
+	<template id="message">
+		<ul style="list-style-type: none; padding: 0;">
+			<li
+				style="display: block; width: auto; text-align: center; border: 1px solid white; color: white !important;">
+				<h3></h3>
+			</li>
+		</ul>
+	</template>
+	<!-- /Error Message -->
+
+	<!-- Top Level Forum Structure-->
+	<template id="top-level-forum">
+		<div class="new-collapse-header">
+			<header>
+				<img class="forum-header-image" src="./img/gravatar.jpg" alt="forum picture">
+				<span>
+					<h4></h4>
+					<h5></h5>
+				</span>
+				<span class="flow-collapse forum-collapse" data-flow-collapsed="false"><i class="fa fa-chevron-up"
+						aria-hidden="true"></i></span>
+			</header>
+			<topic class="forum-topic">
+				<header data-i18n='Topics'>
+				</header>
+				<ul>
+				</ul>
+				<a data-i18n='Create-new-topic' href="#" class="forum-button new-topic">
+				</a>
+			</topic>
+			<a data-i18n='Create-new-forum' href="#" class="forum-button new-forum hide">
+			</a>
+		</div>
+	</template>
+	<!-- /END OF TOP LEVEL FORUM -->
+
+	<!-- Subscription Feed Structure -->
+	<template id="subscription-feed-structure">
+		<ul style="list-style-type: none; padding-left: 5%;">
+		</ul>
+	</template>
+	<!-- /End of Subscription Feed Structure-->
+
+	<!-- Topic Link -->
+	<template id="topic-link">
+		<li style="background-color: transparent;">
+			<div class="topic-slug" style="display: none;"></div>
+			<img class="topic-profile-pic" src="./img/gravatar.jpg" alt="user profile picture">
+			<div class="topic-link-container topic-link-container-title" style="background-color: grey;">
+				<div class="topic-link-header">
+					<div class="topic-link-header-title"></div>
+					<div class="right topic-pin" style="display: none;"><i class="fa fa-thumb-tack"
+							aria-hidden="true"></i></div>
+				</div>
+			</div>
+			<div class="topic-link-container topic-link-container-subtitle">
+				<div class="topic-link-subheader">
+					<div class="topic-link-subheader-title"></div>
+					<span class="right topic-info">
+						<span class="topic-link-subheader-moment"></span>
+						<span>
+							<i class="fa fa-heart" aria-hidden="true"></i>
+							<span class="topic-link-subheader-hearts"></span>
+						</span>
+						<span>
+							<i class="fa fa-comments" aria-hidden="true"></i>
+							<span class="topic-link-subheader-comments"></span>
+						</span>
+					</span>
+				</div>
+			</div>
+		</li>
+	</template>
+	<!-- /End of Topic Link -->
+
+	<!-- Post Page Structure -->
+	<template id="post-page">
+		<div class="topic-post-slug-link">
+			<i class="fa fa-chevron-left" aria-hidden="true"></i> 
+			<span data-i18n='Header'>
+			</span>
+		</div>
+		<ul id="topic-post-list"></ul>
+	</template>
+	<!-- /End of Post Page Structure -->
+
+	<!-- First Post -->
+	<template id="post-first">
+		<li>
+			<img class="topic-profile-pic" src="./img/gravatar.jpg" alt="user profile picture">
+			<div class="topic-link-container">
+				<div class="topic-link-header">
+					<div data-i18n='Anonymous' class="topic-link-subheader-title">
+					</div>
+					<span class="right topic-info">
+						<span class="topic-link-subheader-moment">
+						</span>
+						<span>
+							<i class="fa fa-heart" aria-hidden="true"></i>
+							<span class="topic-link-subheader-hearts">43</span>
+						</span>
+						<span>
+							<i class="fa fa-reply" aria-hidden="true"></i>
+							<span class="topic-link-subheader-comments">18</span>
+						</span>
+					</span>
+				</div>
+			</div>
+			<div class="topic-post-container">
+				<div class="topic-post-title"></div>
+				<div class="topic-post-content"></div>
+			</div>
+			<div class="topic-post-footer-links">
+				<div>
+					<span href="#" class="topic-post-like btn">
+						<i class="fa fa-heart icon-no-colour" aria-hidden="true"></i> 
+						<span data-i18n='Like'>
+						</span>
+					</span>
+					<span href="#" class="topic-post-subscribe btn">
+						<i class="fa fa-thumb-tack icon-no-colour" aria-hidden="true"></i> 
+						<span data-i18n='Subscribe'>
+						</span>
+					</span>
+					<span href="#" class="topic-post-reply new-post btn">
+						<i class="fa fa-reply icon-no-colour" aria-hidden="true"></i> 
+						<span data-i18n='Post-comment'>
+						</span>
+					</span>
+				</div>
+			</div>
+		</li>
+	</template>
+	<!-- /End of First Post -->
+
+	<!-- Topic Poll Structure -->
+	<template id="topic-poll-structure">
+		<div class="topic-question-container">
+			<div class="topic-question-title"></div>
+			<ul class="topic-poll-list"></ul>
+			<div style="min-height:10px; padding: 2%;">
+				<hr style="color: black !important;">
+				<div data-i18n='votes-cast' class="topic-poll-count">
+					<span></span> 
+				</div>
+			</div>
+		</div>
+	</template>
+	<!-- /End of Topic Poll Structure -->
+
+	<!-- Topic Poll Option -->
+	<template id="topic-poll-option">
+		<li class="topic-poll-question" data-poll-id="0" data-id="0">
+			<span class="topic-question-background-progress"></span>
+			<i class="fa fa-2x fa-arrow-up" aria-hidden="true"></i>
+			<div>
+				<span class="topic-poll-text"></span>
+				<span class="topic-question-votes-small">
+					&#40;
+					<span></span> 
+					<span data-i18n='votes'>
+					</span>
+					&#41;
+				</span>
+			</div>
+		</li>
+	</template>
+	<!-- /End of Topic Poll Option -->
+
+	<!-- Post Replies -->
+	<template id="post-replies">
+		<li>
+			<img class="topic-profile-pic" src="./img/gravatar.jpg" alt="user profile picture">
+			<div class="topic-link-container" style="background-color: gold;">
+				<div class="topic-link-header">
+					<div class="topic-link-subheader-title" data-i18n='Anonymous'>
+					</div>
+					<span class="right topic-info">
+						<span data-i18n="43-minutes-ago" class="topic-link-subheader-moment">
+						</span>
+						<span>
+							<i class="fa fa-heart" aria-hidden="true"></i>
+							<span class="topic-link-subheader-hearts">43</span>
+						</span>
+					</span>
+				</div>
+			</div>
+			<div class="topic-post-container">
+				<div class="topic-post-title"> 
+				</div>
+				<div class="topic-post-content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Duis ullamcorper lectus nec euismod vehicula. Aliquam erat
+					volutpat. Etiam ligula eros, posuere at rhoncus vel,
+					facilisis ultrices nibh. Sed sed mauris egestas, gravida
+					dolor vel, pharetra enim.
+				</div>
+			</div>
+			<div class="topic-post-footer-links" style="background-color: gold;">
+				<div>
+					<span href="#" class="topic-post-like btn">
+						<i class="fa fa-heart icon-no-colour" aria-hidden="true"></i>
+						<span data-i18n='Like'>
+						</span>
+					</span>
+				</div>
+			</div>
+		</li>
+	</template>
+	<!-- /End of Post Replies  -->
+
+	<!-- Create New Topic -->
+	<template id="new-topic-form">
+
+		<div class="topic-post-slug-link">
+			<i data-i18n='Header' class="fa fa-chevron-left" aria-hidden="true"></i> <span>
+			</span>
+		</div>
+
+		<!-- Create a new topic -->
+		<h2 data-i18n='Create a new topic on this forum' class="subheading">
+		</h2>
+		<form action="#" method="post" class="standard_form" id="newTopicForm">
+			<div class="field_wrapper">
+				<span data-i18n='Subject ' class="field_name">
+					<span class="text-color-a1">*</span>
+				</span>
+				<div class='inner_wrapper'>
+					<div class="field text">
+						<input id="subject" name="subject" type="text" data-i18n="[placeholder]enter-your-subject-here" style="width:98%;" required="required">
+					</div>
+				</div>
+			</div>
+			<div class="field_wrapper">
+				<span data-i18n='Message ' class="field_name">
+					<!-- Message  -->
+					<span class="text-color-a1">*</span>
+				</span>
+				<div class='inner_wrapper'>
+					<div class="field textarea">
+						<textarea name="content" rows="10" data-i18n="[placeholder]enter-your-content-here" id="content"
+							style="width:98%;" required="required"></textarea>
+					</div>
+				</div>
+			</div>
+
+			<div class="field_wrapper">
+				<span data-i18n='Post-topic-as' class="field_name">
+				</span>
+				<div class='inner_wrapper'>
+					<select id="topic_type" name="topic_type" class="form-control">
+						<option data-i18n='Default-topic' value="0">
+						</option>
+					</select>
+				</div>
+			</div>
+
+			<!--<div class="field_wrapper">
+					<span class="field_name"></span>
+					<div class='inner_wrapper'>
+						<div class="checkbox">
+							<label for="enable_signature">
+								<input type="checkbox" name="enable_signature" id="enable_signature" value="on"> Attach a signature
+							</label>
+						</div>
+					</div>
+				</div> -->
+			<input type='hidden' name='enable_signature' value='on' />
+			<input type='hidden' name='attachment-TOTAL_FORMS' value='0' />
+			<input type='hidden' name='attachment-INITIAL_FORMS' value='0' />
+			<input type='hidden' name='attachment-MIN_NUM_FORMS' value='0' />
+			<input type='hidden' name='attachment-MAX_NUM_FORMS' value='15' />
+
+			<div class="buttons">
+				<button data-i18n='Save' type="submit" name="topicSubmit" class="ui-btn ui-btn-b ui-corner-all"
+					id="topicSubmit">
+				</button>
+			</div>
+		</form>
+	</template>
+	<!-- End of Create New Topic -->
+
+	<!-- Create New Post -->
+	<template id="new-post-form">
+
+		<div class="topic-post-slug-link">
+			<i data-i18n='Header' class="fa fa-chevron-left" aria-hidden="true"></i> 
+			<span></span>
+		</div>
+
+		<!-- Create a new post -->
+		<h2 data-i18n='Post-a-new-comment-to-this-topic' class="subheading">
+		</h2>
+		<form action="#" method="post" class="standard_form" id="newPostForm">
+			<div class="field_wrapper">
+				<span data-i18n='Comment ' class="field_name">
+					<span class="text-color-a1">*</span>
+				</span>
+				<div class='inner_wrapper'>
+					<div class="field textarea">
+						<textarea name="content" rows="10" data-i18n="[placeholder]enter-your-content-here" id="content"
+							style="width:98%;" required="required"></textarea>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="field_wrapper">
+					<span class="field_name"></span>
+					<div class='inner_wrapper'>
+						<div class="checkbox">
+							<label for="enable_signature">
+								<input type="checkbox" name="enable_signature" id="enable_signature" value="on"> Attach a signature
+							</label>
+						</div>
+					
+				</div> -->
+			<input type="hidden" name="subject" id="subject" value=''>
+			<input type="hidden" name="enable_signature" value='on'>
+			<input type='hidden' name='attachment-0-comment' value='' />
+			<input type='hidden' name='attachment-0-file' value='' />
+			<input type='hidden' name='attachment-0-id' value='' />
+			<input type='hidden' name='attachment-TOTAL_FORMS' value='0' />
+			<input type='hidden' name='attachment-INITIAL_FORMS' value='0' />
+			<input type='hidden' name='attachment-MIN_NUM_FORMS' value='0' />
+			<input type='hidden' name='attachment-MAX_NUM_FORMS' value='15' />
+
+			<div class="buttons">
+				<button data-i18n='Save' type="submit" name="postSubmit" class="ui-btn ui-btn-b ui-corner-all" id="postSubmit">
+				</button>
+			</div>
+		</form>
+	</template>
+	<!-- End of Create New Post -->
+
+	<!-- Noticeboard Category -->
+	<template id="noticeboard-category">
+		<div class="item-feed-content" data-collapsible-header="true">
+			<header>
+				<h3 data-18n="Title">
+				</h3>
+				<span class="flow-collapse" data-flow-collapsed="false">
+					<i class="fa fa-chevron-up" aria-hidden="true"></i>
+				</span>
+			</header>
+			<ul></ul>
+			<hr style="color: white">
+		</div>
+	</template>
+	<!-- /End of Noticeboard Category -->
+
+	<!-- Item Page Content Area -->
+	<template id="item-page-content-area">
+		<header class="item-header">
+			<div class="item-header-left-container">
+				<span class="item-header-title">
+					<!-- INCLUDE #item-header-with-subtitle here -->
+					<!-- INCLUDE #item-header-without-subtitle here -->
+				</span>
+				<hr>
+				<div class="item-header-info" style="float: left;">
+					<i class="item-header-icon-small fa" aria-hidden="true"></i>
+					<span data-i18n='online' class="item-header-icon-text"></span>
+				</div>
+				<div class="item-header-info item-header-date">24.06.2018
+				</div>
+			</div>
+			<div class="item-header-right-container">
+				<div class="item-header-right-circle">
+					<i class="item-header-icon-large fa fa-3x item-header-right-container-circle-icon"
+						aria-hidden="true" style="color: grey;"></i>
+					<img class="item-header-image" src="./img/flow-background.png"
+						style="text-align: center; margin: auto; margin-top: 3px; display: block;" height="100%"
+						data-visible="false">
+				</div>
+			</div>
+		</header>
+
+		<!-- REPLACE with .fixedpage-item-content-area-no-footer to have a larger content area -->
+		<div id="fixedpage-item-content-area" class="fixedpage-item-content-area"></div>
+
+		<span id="item-footer-overlay-container"></span>
+
+		<div class="fixedpage-item-footer">
+			<!-- INCLUDE #item-page-button here -->
+		</div>
+	</template>
+	<!-- End of Item Page Content Area -->
+
+	<!-- Item Page Button -->
+	<template id="item-page-button">
+		<a class="item-footer-button-container">
+			<div class="item-button-background-color">
+				<div class="item-button-text vertical-align-middle-container" style="font-weight: bold;">
+					<p data-18n="decline"></p>
+				</div>
+			</div>
+		</a>
+	</template>
+	<!-- End of Item Page Button -->
+
+	<!-- Item Page Header with Subtitle -->
+	<template id="item-header-with-subtitle-template">
+		<span id="item-header-with-subtitle">
+			<div data-i18n='News/Noticeboard-Item' class="item-title fixedpage-title single-line-ellipsis">
+			</div>
+			<div data-i18n='Second-Line' class="item-subtitle single-line-ellipsis" style="font-size: 18px;">
+			</div>
+		</span>
+	</template>
+	<!-- End of Item Page Header with Subtitle -->
+
+	<!-- Item Page Header without Subtitle -->
+	<template id="item-header-without-subtitle-template">
+		<div id="item-header-without-subtitle">
+			<div class="vertical-align-middle-container">
+				<div class="item-title clamp-three-lines">
+				</div>
+			</div>
+		</div>
+	</template>
+	<!-- End of Item Page Header without Subtitle -->
+
+	<!-- Item Page footer Overlay -->
+	<template id="item-footer-overlay">
+		<div class="fixedpage-item-overlay-footer">
+			<div class="item-footer-header-box" style="background-color: grey;">
+				24-06-2018
+			</div>
+			<div id="item-footer-main-button-container" class="fixedpage-item-overlay" style="display: flex;">
+				<!-- INCLUDE #item-page-button here -->
+			</div>
+		</div>
+	</template>
+	<!-- End of Item Page footer Overlay -->
+
+	<!-- Library List Structure Template -->
+	<template id="library-page-structure">
+		<div class="library-slug-link">
+			<i class="fa fa-chevron-left" aria-hidden="true"></i> 
+			<span data-18n="Header" >
+			</span>
+		</div>
+		<ul id="library-list"></ul>
+	</template>
+	<!-- End of Library List Structure Template -->
+
+	<!-- Library Page Button -->
+	<template id="library-page-button">
+		<a class="button-container">
+			<div class="button-background">
+				<div data-18n="Text" class="button-text vertical-align-middle-container" style="font-weight: bold;">
+				</div>
+			</div>
+		</a>
+	</template>
+
+	<template id="add-to-library-button">
+		<div class="library-add-button">
+			<a data-18n="Save" class="ui button button-container" data-action="library-add-v2" data-type="" data-id="">
+			</a>
+		</div>
+	</template>
+
+	<template id="remove-from-library-button">
+		<div class="library-remove-button">
+			<a data-18n="Remove" class="ui button inverted button-container" data-action="library-remove-v2" data-type="" data-id="">
+			</a>
+		</div>
+	</template>
+	<!-- End of HTML Templates -->
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/imgcache.js"></script>
+	<script type="text/javascript" src="js/push.js"></script>
+	<script type="text/javascript" src="js/i18next.min.js"></script>
+	<script type="text/javascript" src='js/jquery-i18next.min.js'></script>
+	<script type="text/javascript" src="js/i18nextXHRBackend.min.js"></script>
+	<script type="text/javascript" src="js/mobileapp.js"></script>
+	<script type="text/javascript" src='js/init-i18next.js'></script>
+	<script type="text/javascript" src="js/training_path.js"></script>
+	<script type="text/javascript" src="js/rounded-list.js"></script>
+
+	<!-- components js -->
+	<!-- <script type="text/javascript" src="js/flow-modal.js"></script>
+	<script type="text/javascript" src="js/flow-tabs.js"></script>
+	<script type="text/javascript" src="js/flow-tabs-help-support.js"></script>
+	<script type="text/javascript" src="js/workbooks-slides.js"></script>
+	<script type="text/javascript" src="js/flow-collums-size.js"></script> -->
+	<script type="text/javascript">
+		$(document).bind("mobileinit", function () {
+			$.mobile.pushStateEnabled = false;
+		});
+	</script>
+	<script type="text/javascript">
+		app.initialize();
+
+		var staging = 'https://mm-upgrade-staging.flowhospitalitytraining.co.uk';
+		var live = "https://www.flowmodulemanager.co.uk";
+		var localMD = 'http://192.168.16.81:8002';
+		var localDHS = 'http://192.168.16.118:8000';
+		localStorage.remoteHost = live;
+
+		// localStorage.remoteHost = 'https://www.flowmodulemanager.co.uk';
+		document.addEventListener("deviceready", function () {
+			// start image cache 
+			// ImgCache.options.debug = true;
+			// ImgCache.init();
+			try {
+				var pushNotifications = new PushNotifications();
+				pushNotifications.init();
+			} catch (err) {
+				console.log("Push notifications init failed.");
+				console.log(err);
+			}
+			var mobileApp = new MobileApp();
+			if (window.Intl && typeof window.Intl === 'object') {
+				var start_navigator_language = navigator.language;
+				localStorage.locale = start_navigator_language;
+			}
+			mobileApp.init();
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+/* Icon Container */
+#workbooks-page .ui-grid-a {
+  width: 100% !important;
+}
+#workbooks-page .flow-header-container {
+  background: lightseagreen;
+}
+#workbooks-page .flow-ui-content {
+  background: yellowgreen;
+  height: 100vh;
+}
+#workbooks-page .ui-content {
+  padding: 0!important;
+}
+#workbooks-page .flow-slides-control {
+  background: green !important;
+  color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#workbooks-page .slides-container {
+  background: yellow !important;
+  color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#workbooks-page .ui-grid-a .flow-block-a {
+  width: 75%;
+  height: 100px;
+  display: table;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  text-align: left;
+  padding: 3%;
+}
+
+#workbooks-page .ui-grid-a .flow-block-a .flow-header h1 {
+  text-align: left;
+}
+
+#workbooks-page .ui-grid-a .flow-block-b {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#workbooks-page .ui-icon-HeaderIcon {
+  background: url(../img/FlowApp_Dashboard_Megaphone.png) 50% 50%;
+  background-size: 50px 50px;
+  width: 55px;
+  height: 55px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  top: 1%;
+  background: transparent !important;
+}

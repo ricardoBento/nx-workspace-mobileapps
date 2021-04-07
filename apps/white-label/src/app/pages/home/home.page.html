@@ -1,0 +1,81 @@
+<ion-content
+  fullscreen="true"
+  no-bounce="true"
+  has-bouncing="false"
+  forceOverscroll="false"
+>
+  <app-header [title]="title"></app-header>Z
+  <img src="/assets/images/app-bgs-assets/bg-b.png" class="app-bg" alt="" />
+  <ion-grid class="grid-content">
+    <ion-row class="logo-row">
+      <ion-col class="ion-text-center">
+        <img
+          src="/assets/images/app-logo-assets/edi-gin-logo.svg"
+          class="custom-logo"
+        />
+      </ion-col>
+    </ion-row>
+    <ion-row class="top-row">
+      <ion-col class="ion-text-center">
+        <ion-button
+          class="circle-button"
+          color="primary"
+          shape="round"
+          (click)="ourBrand()"
+        >
+          <ion-icon name="ios-custom-horn"></ion-icon>
+          <ion-text color="light" class="ion-text-wrap text-shadow-effect">
+            <span>Our Story</span>
+          </ion-text>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="middle-row">
+      <ion-col class="ion-text-center">
+        <ion-button
+          class="circle-button"
+          color="primary"
+          shape="round"
+          (click)="ourProducts()"
+        >
+          <ion-icon name="ios-custom-glass"></ion-icon>
+          <ion-text
+            color="light"
+            class="ion-text-wrap text-shadow-effect text-shadow-effect"
+          >
+            <span>Our Products</span>
+          </ion-text>
+        </ion-button>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <ion-button
+          class="circle-button"
+          color="primary"
+          shape="round"
+          (click)="newsFeed()"
+        >
+          <ion-icon name="ios-custom-paper"></ion-icon>
+          <ion-text color="light" class="ion-text-wrap text-shadow-effect">
+            <span>News Feeds</span>
+          </ion-text>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row class="bottom-row">
+      <ion-col class="ion-text-center">
+        <ion-button
+          class="circle-button"
+          color="primary"
+          shape="round"
+          (click)="ourGame()"
+        >
+          <ion-icon name="ios-custom-crown"></ion-icon>
+          <ion-text color="light" class="ion-text-wrap text-shadow-effect">
+            <span>Game</span>
+          </ion-text>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <menu-grid></menu-grid>
+</ion-content>

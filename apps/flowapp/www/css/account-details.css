@@ -1,0 +1,37 @@
+/* Account Details Page V2  */
+#account-details-page {
+    font-family: "noto_sans_regular";
+    font-size: 14px;
+}
+
+#account-details-page .white-toolbar h1 {
+    border: 0;
+    padding-bottom: 0;
+}
+
+#account-details-page img.image {
+    margin-top: 10px;
+}
+
+#account-details-page .ui.button {
+    border-radius: 50px;
+    width: 185px;
+}
+
+#account-details-page .center.aligned.column {
+    padding-top: 0;
+}
+
+#account-details-page .account-details-body {
+    background: rgba(200, 200, 200, 0.2) !important;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 35px;
+    margin-top: -10px;
+}
+
+#account-details-page .account-details-body h3 {
+    margin-bottom: 0;
+}

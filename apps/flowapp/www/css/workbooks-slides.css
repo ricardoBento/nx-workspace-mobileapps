@@ -1,0 +1,73 @@
+  #workflow-slides .slides {
+    background: white;
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  #workbooks-slides .slides .angle {
+    color: lightblue;
+    cursor: pointer;
+    position: relative;
+    top: calc(50% - 20px);
+    transform: scale(1);
+    transition: all .2s ease-in-out;
+    z-index: 10;
+  }
+ #workbooks-slides .slides .angle:hover {
+    transform: scale(1.7);
+  }
+ #workbooks-slides .slides .angle.right {
+    float: right;
+    margin-right: 1rem;
+  }
+  #workbooks-slides .slides .angle.left {
+    float: left;
+    margin-left: 1rem;
+  }
+  #workbooks-slides .slides .slide {
+    height: 100%;
+    padding: 2rem 5rem;
+    transition: all .2s ease-in-out;
+  }
+ #workbooks-slides .slides .slide:not(.active) {
+    display: none;
+  }
+ #workbooks-slides .slides .slide.inverted {
+    color: white;
+  }
+ #workbooks-slides .slides .slide.shadow {
+    text-shadow: 1px 1px 2px black;
+  }
+  #workbooks-slides .slides .slide.image {
+    background: url(../img/flow-background.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+ #workbooks-slides .slides .slide.salmon {
+    background: salmon;
+  }
+  
+ #workbooks-slides .faded {
+    animation: fade .5s;
+  }
+  
+ #workbooks-slides .blurred {
+    animation: blur .4s;
+  }
+  
+ @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opcity: 1;
+    }
+  }
+ @keyframes blur {
+    from {
+      filter: blur(5px);
+    }
+    to {
+      filter: blur(0);
+    }
+  }
+  

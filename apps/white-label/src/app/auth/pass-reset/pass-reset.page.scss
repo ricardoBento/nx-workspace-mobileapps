@@ -1,0 +1,16 @@
+// Fix keyboard pushing content up
+.scroll-content {
+  padding-bottom: 0 !important;
+}
+.auth-background {
+  margin-top: -7vh;
+  height: 107%;
+}
+.pass-reset-text {
+  color: var(--ion-color-light);
+  padding: 0 10vw 5vh 10vw;
+  position: relative;
+  h2 {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,37 @@
+<div class='fan-blur' [@slideInOut]="animationState">
+  <img src='/assets/images/app-bg-blur.png' class='app-blur-bg'>
+</div>
+<div class='fan-container'>
+  <ul [ngClass]="{'active' : active}">
+    <li>
+      <a (click)='navigate("our-brand")'>
+        <ion-icon src='assets/custom-icons/ios-custom-horn.svg'></ion-icon>
+      </a>
+    </li>
+    <li>
+      <a (click)='navigate("our-products")'>
+        <ion-icon src='assets/custom-icons/ios-custom-glass.svg'></ion-icon>
+      </a>
+    </li>
+    <li>
+      <a (click)='navigate("news")'>
+        <ion-icon src='assets/custom-icons/ios-custom-paper.svg'></ion-icon>
+      </a>
+    </li>
+    <li>
+      <a (click)='navigate("game")'>
+          <ion-icon src='assets/custom-icons/ios-custom-crown.svg'></ion-icon>
+      </a>
+    </li>
+    <li>
+      <a (click)='navigate("logout")'>
+        <ion-icon src='assets/custom-icons/log-out-icon.svg'></ion-icon>
+      </a>
+    </li>
+  </ul>
+  <ion-button [ngClass]="{'fab_active' : fab_active}" (click)='toogleMenu()' class='toggle-btn' expand="block"
+    fill="solid" shape="round">
+    <ion-icon [@simpleFadeAnimation]="animationState" *ngIf='!fab_active' name="menu"></ion-icon>
+    <ion-icon [@simpleFadeAnimation]="animationState" *ngIf='fab_active' name="close-outline"></ion-icon>
+  </ion-button>
+</div>

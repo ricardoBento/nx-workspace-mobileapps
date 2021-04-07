@@ -1,0 +1,106 @@
+<ion-content
+  fullscreen="true"
+  no-bounce="true"
+  has-bouncing="false"
+  forceOverscroll="false"
+>
+  <app-header
+    [back_button]="back_button"
+    [title]="title"
+    [back_to]="back_to"
+  ></app-header>
+  <img src="/assets/images/app-bgs-assets/bg-b.png" class="app-bg" alt="" />
+  <ion-grid class="app-auth ion-text-center">
+    <ion-row class="logo-row">
+      <ion-col class="">
+        <img
+          src="/assets/images/app-logo-assets/flowLogo.png"
+          class="app-logo"
+          alt=""
+        />
+      </ion-col>
+    </ion-row>
+    <form [formGroup]="venueForm" (submit)="onSubmit()" novalidate>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item class="input-radius">
+            <ion-input
+              type="text"
+              formControlName="name"
+              placeholder="Venue Name"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="venueForm.get('name')?.touched && venueForm.get('name')?.hasError('required')"
+          >
+            <ion-text color="light"> Please, insert your venue name. </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="venue_name_error && !(venueForm.get('name')?.touched && venueForm.get('name')?.hasError('required'))"
+          >
+            <ion-text color="danger"> {{ venue_name_error }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12" class="region-col">
+          <ion-list>
+            <ion-item class="input-radius">
+              <ion-label>Pick a city</ion-label>
+              <ion-select formControlName="region">
+                <ion-select-option
+                  *ngFor="let region of regions"
+                  value="{{region.id}}"
+                >
+                  <ion-text color="light">
+                    <span>{{region.location_name}}</span>
+                  </ion-text>
+                </ion-select-option>
+              </ion-select>
+            </ion-item>
+            <div class="text-validation" *ngIf="region_error">
+              <ion-text color="danger"> {{ region_error }} </ion-text>
+            </div>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="12">
+          <ion-item class="input-radius">
+            <ion-input
+              type="text"
+              formControlName="post_code"
+              placeholder="Post Code"
+            ></ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="venueForm.get('post_code')?.touched && venueForm.get('post_code')?.hasError('required')"
+          >
+            <ion-text color="light"> Please, insert your post code. </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="post_code_error && !(venueForm.get('post_code')?.touched && venueForm.get('post_code')?.hasError('required'))"
+          >
+            <ion-text color="light"> {{ post_code_error }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <div class="button-container">
+        <ion-button
+          shape="round"
+          expand="block"
+          fill="solid"
+          color="primary"
+          tappable
+          type="submit"
+        >
+          <ion-text color="light" class="text-shadow-effect"> Finish </ion-text>
+        </ion-button>
+      </div>
+    </form>
+  </ion-grid>
+</ion-content>

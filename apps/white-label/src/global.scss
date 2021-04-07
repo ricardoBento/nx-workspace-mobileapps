@@ -1,0 +1,222 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import '~@ionic/angular/css/core.css';
+
+/* Basic CSS for apps built with Ionic */
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+@import './assets/fonts/fonts.css';
+@import './theme/brand.scss';
+// Typeface
+* {
+  font-family: 'Jost-Regular' !important;
+}
+h1 {
+  font-family: var(--app-font-bold);
+  text-transform: uppercase;
+}
+h2 {
+  font-family: var(--app-font-bold);
+}
+ion-text,
+p {
+  font-family: var(--app-font-regular);
+}
+.button-shadow-effect {
+  --box-shadow: 1px 1px var(--ion-color-dark) !important;
+}
+.text-shadow-effect {
+  text-shadow: 1px 1px 0 var(--ion-color-dark-tint),
+    1px 1px 0 var(--ion-color-dark-tint);
+}
+
+hr {
+  height: 5px;
+}
+hr.text-divider {
+  position: relative;
+  border-bottom: var(--ion-color-primary) solid 1px;
+}
+hr.text-divider:after {
+  content: ' ';
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 3px;
+  border-bottom: var(--ion-color-primary) solid 5px;
+}
+// Global Styles Settings
+ion-grid.grid-content {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 2.5vh;
+}
+img.app-logo {
+  height: 161px;
+  width: 247px;
+}
+.app-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+.app-auth {
+  overflow: scroll;
+  padding-top: 10vh;
+  ion-row.logo-row {
+    ion-col {
+      margin: 0 0vw 0vw 1vw;
+      .custom-logo {
+        margin-top: 15%;
+        margin-bottom: 10%;
+        height: 160px;
+      }
+    }
+  }
+  form {
+    ion-item {
+      border: 2px solid var(--ion-color-dark);
+    }
+    ion-input {
+      font-size: calc(5vw + 0px);
+      color: var(--ion-color-medium);
+      text-align: center;
+      height: calc(12.5vw + 5px);
+    }
+    ion-list {
+      background: transparent;
+      margin-bottom: initial;
+    }
+    ion-row,
+    .button-container {
+      margin: 0 5vw 2.5vw 5vw;
+    }
+    .button-container {
+      ion-button {
+        height: calc(15vw + 5px);
+        --box-shadow: 2px 2px var(--ion-color-dark) !important;
+        font-size: calc(7vw + 0px);
+      }
+    }
+    ion-button {
+      --box-shadow: 2px 2px var(--ion-color-dark) !important;
+    }
+  }
+  .input-radius {
+    border-radius: 30px;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+  .text-validation {
+    text-align: center;
+    ion-text {
+      color: var(--ion-color-light);
+    }
+  }
+}
+.scroll-content {
+  -webkit-overflow-scrolling: auto !important;
+}
+// Slider Styles:
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: var(--ion-color-light) !important;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--ion-color-primary) !important;
+}
+.swiper-pagination.swiper-pagination-bullets {
+  bottom: 0.5vh !important;
+}
+// Custom Styles for Components
+img.app-blur-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+menu-grid {
+  position: absolute;
+  top: 94%;
+  left: calc(50% - 70px);
+}
+// menu positioning helper for iPhone and devices as such
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation: portrait) {
+  menu-grid {
+    top: 91%;
+  }
+}
+ion-row.post-comment-row {
+  ion-input.message-input {
+    input {
+      margin-left: 5px !important;
+    }
+  }
+}
+ion-modal .modal-wrapper ion-list {
+  margin-top: 112px !important;
+  --margin-top: 112px !important;
+}
+ion-img-viewer.news-thumb img {
+  width: 100% !important;
+}
+app-tabs {
+  background: var(--ion-color-dark);
+}
+// New Details tabs Component
+ion-tabs {
+  ion-tab-bar {
+    --background: transparent !important;
+    height: 5vh;
+    ion-tab-button {
+      --background: var(--ion-color-primary);
+      border-top: 2px solid var(--ion-color-primary);
+      border-left: 2px solid var(--ion-color-primary);
+      border-right: 2px solid var(--ion-color-primary);
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      --color-selected: var(--ion-color-dark);
+      --color: var(--ion-color-light);
+    }
+    .tab-selected {
+      --background: var(--ion-color-light) !important;
+      border-top: 2px solid var(--ion-color-medium);
+      border-left: 2px solid var(--ion-color-medium);
+      border-right: 2px solid var(--ion-color-medium);
+    }
+  }
+  app-product-details,
+  app-recommended-serve {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom: 2px solid var(--ion-color-medium);
+    border-left: 2px solid var(--ion-color-medium);
+    border-right: 2px solid var(--ion-color-medium);
+  }
+}

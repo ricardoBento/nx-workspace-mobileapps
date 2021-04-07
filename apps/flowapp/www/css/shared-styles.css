@@ -1,0 +1,488 @@
+/* White Toolbar style across all pages of the app */
+body {
+    padding-top: constant(safe-area-inset-top); /* iOS 11.0 */
+    padding-top: env(safe-area-inset-top); /* iOS 11.2 */
+}
+
+.white-toolbar {
+    height: 30px;
+    background: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.white-toolbar h1 {
+    text-align: left;
+    color: rgba(128, 128, 128, 1);
+    font-size: 20px;
+    font-family: "Noto Sans ExtraCondensed SemiBold" !important;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 5px;
+}
+
+.white-toolbar .overdue.label {
+    border-radius: 500rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Noto Sans ExtraCondensed SemiBold"!important;
+}
+
+.ui.center.aligned.header {
+    color: #ffffff;
+}
+
+.ui.center.middle.aligned.header {
+    margin-top: 50%;
+}
+
+.tabs .ui-btn {
+    padding-top: 0.4em;
+    padding-right: 0.7em;
+    padding-bottom: 0.4em;
+    padding-left: 0.7em;
+}
+
+#social-forums-page, #about-page, #account-details-page, #help-support-page {
+    font-family: "noto_sans_regular";
+    font-size: 16px;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.ui.dimmer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ui.modal > .content {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.modal .ui.container {
+    margin: 0 !important;
+}
+
+.modal .ui.container .column {
+    padding: 0;
+    text-align: -webkit-center;
+    margin-bottom: 1rem;
+}
+
+.ui.button {
+  border-radius: 100rem;
+  background-color: #e45899;
+  border-color: #e45899;
+  color: #ffffff;
+}
+
+.ui.button.inverted {
+  background-color: #ffffff;
+  color: #e45899;
+}
+
+/* Styles for news item card used in comms and library */
+.flow-card.news {
+    margin: 0 0 20px 0;
+    box-shadow: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.flow-card.news .flow-card-header.content div {
+    font-size: 18px;
+}
+
+.flow-card.news .content,
+.flow-card.news .content div,
+.flow-card.news .content p {
+    font-size: 14px;
+}
+
+.flow-card.news .content.published-by {
+    font-size: 12px;
+}
+
+
+.flow-card.news .library-add-button a,
+.flow-card.news .library-remove-button a {
+    border-radius: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Sans ExtraCondensed SemiBold";
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+/* Styles for noticeboard categoty circle used in comms and library */
+.noticeboard-category .circular.segment {
+    height: calc(100vw / 3 - 40px);
+    width: calc(100vw / 3 - 40px);
+    font-size: 12px;
+    padding: 1rem;
+    background: transparent;
+}
+
+.noticeboard-category.center.column svg {
+    position: absolute;
+    width: calc(100vw / 3 - 20px);
+    height: calc(100vw / 3 - 20px);
+    top: 10px;
+    left: 10px;
+}
+
+.noticeboard-category .circular.label {
+    min-width: 1em;
+    min-height: 1em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.noticeboard-category .circular.segment .sub.header .icon {
+    position: absolute;
+    font-size: 17vw;
+    left: calc(50% - 9.5vw);
+    top: calc(50% - 1vw);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.noticeboard-category .circular.segment .sub.header {
+    margin-top: 10px;
+}
+
+.noticeboard-category .segment img {
+    position: absolute;
+    width: calc(100vw / 3 - 30px);
+    height: calc(100vw / 3 - 30px);
+    top: 15px;
+    left: 10px;
+    opacity: 0.35;
+}
+
+/* Styling for legend trigger (i icon)*/
+#saved-documents-container .ui.container .column.info-pop-up,
+#noticeboard-categories-container .ui.container .column.info-pop-up {
+    text-align: right;
+    padding-right: 8px;
+    margin-bottom: 0px;
+    margin-top: -12px;
+}
+
+#training-path-container .column.info-pop-up {
+    font-size: 1.2em;
+    text-align: right;
+    padding-right: 8px;
+    padding: 0;
+    margin-bottom: 8px;
+    margin-top: -10px;
+}
+
+/* Styling for legend modal */
+.legend.modal {
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.legend.modal .grid {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.legend.modal .header {
+    font-size: 1.2rem!important;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    text-align: center;
+        padding: 1rem !important;
+}
+
+.legend.modal .content {
+    border-radius: 0;
+    margin-top: 0;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.legend.modal .content .equal.width.grid {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    font-size: 0.85rem;
+}
+.legend.modal .content .equal.width.grid .column {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.legend.modal .content .equal.width.grid .column .icon {
+    line-height: 2 !important;
+    padding: 0em 0em !important;
+    font-size: 1.5em;
+}
+
+.legend.modal .content h5 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+/* Styles for accordion used in library */
+.accordion .column {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.accordion .title {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.accordion .title .row {
+    padding-bottom: 0;
+}
+
+.accordion .title .dropdown.icon {
+    webkit-transition: -webkit-transform .4s ease-in-out;
+    transition: transform .4s ease-in-out;
+}
+
+.accordion .title.active .dropdown.icon {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    background: none;
+}
+
+.accordion .ui.divider:not(.vertical):not(.horizontal) {
+    border-top: 2px solid #ffffff;
+    margin: 0;
+}
+
+
+/* Text Styles */
+.section-title {
+  font-family: "Noto Sans ExtraCondensed SemiBold";
+  font-size:20pt;
+}
+
+/* Cutout for ui */
+.v-bottom {
+  margin-bottom: -17px;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+.contents {
+  padding-top: 1em;
+}
+
+.navbar-v2 .ui-btn-right .menu-icon .fa {
+  color: white;
+}
+
+
+
+
+
+
+
+/* UTILS */
+
+.wrap-words {
+  word-wrap: break-word !important;
+  white-space: normal !important;
+}
+.noscroll {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ui-overlay-a,
+.ui-page-theme-a,
+.ui-page-theme-a .ui-panel-wrapper {
+  text-shadow: none !important;
+}
+
+/*  */
+/* UI Colors given by the desing palette */
+.blue-gradient {
+  color: rgba(50, 73, 125, 1);
+}
+.flow-pink-light {
+  background: rgba(228, 88, 153, 0.5);
+}
+
+.flow-pink-dark {
+  background: rgba(228, 88, 153, 1);
+}
+.flow-orange {
+  background: rgba(228, 88, 88, 1);
+}
+.flow-red {
+  background: rgba(159, 55, 55, 1);
+}
+.flow-yellow {
+  background: rgba(232, 192, 84, 1);
+}
+.flow-dark-yellow {
+  background: rgba(217, 149, 82, 1);
+}
+.flow-blue-aware-light {
+  background: rgba(134, 191, 188, 1);
+}
+.flow-blue-aware-dark {
+  background: rgba(100, 166, 161, 1);
+}
+
+/* 4 Tones of neutral colors, from lighter to darker */
+.flow-neutral-1 {
+  background: rgba(220, 225, 232, 1);
+}
+.flow-neutral-2 {
+  background: rgba(196, 204, 214, 1);
+}
+.flow-neutral-3 {
+  background: rgba(149, 155, 172, 1);
+}
+.flow-neutral-4 {
+  background: rgba(122, 128, 143, 1);
+}
+
+/* Fixed Neutral Palette */
+.flow-text {
+  color: rgba(128, 128, 128, 1);
+}
+.flow-black-transparent-3 {
+  background: rgba(0, 0, 0, 0.6);
+}
+.flow-black-transparent-2 {
+  background: rgba(0, 0, 0, 0.4);
+}
+.flow-black-transparent-1 {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Global Styles */
+
+
+/* Custom Icon */
+.ui-icon-backButtonWhite {
+  background: url(../img/back-button-white.png) 50% 50%;
+  background-size: 50px 50px;
+  width: 55px;
+  height: 55px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 0 0 0 !important;
+  border: none;
+  top: 13.5%;
+}
+.btn-container {
+  height: 100%;
+}
+.back-button-white {
+  background: url("../img/back-button-white.png") no-repeat center !important;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* Background */
+.blue-background {
+  background: url("../img/flow-blue-background.png") no-repeat center center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0 !important;
+  position: relative;
+  overflow: hidden
+}
+
+.gradient-background {
+  background-color: #f4cbc9;
+  background-image: linear-gradient(top, rgb(171, 153, 180) 0%, rgb(244, 203, 201) 50%, rgb(247, 231, 208) 100%);
+  background-image: -o-linear-gradient(top, rgb(171, 153, 180) 0%, rgb(244, 203, 201) 50%, rgb(247, 231, 208) 100%);
+  background-image: -moz-linear-gradient(top, rgb(171, 153, 180) 0%, rgb(244, 203, 201) 50%, rgb(247, 231, 208) 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(171, 153, 180)),
+    color-stop(0.5, rgb(244, 203, 201)),
+    color-stop(1, rgb(247, 231, 208))
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgb(171, 153, 180) 0%,
+    rgb(244, 203, 201) 50%,
+    rgb(247, 231, 208) 100%
+  );
+  background-image: -ms-linear-gradient(top, rgb(171, 153, 180) 0%, rgb(244, 203, 201) 50%, rgb(247, 231, 208) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ab99b4', endColorstr='#f4cbc9');
+}
+
+/* fix text-shadow from tabs novigation */
+* {
+  text-shadow: none !important;
+}
+/* hack to fix text shadow */
+
+a:link {
+  text-decoration: none;
+}
+.green-color {
+  background: green;
+  color: white;
+}
+.blue-color {
+  background: blue;
+  color: white;
+}
+.white-color {
+  background: white;
+  color: grey;
+}
+.flow-transparent {
+  background: transparent !important;
+}
+.flow-white-background {
+  background: white 100% 100%;
+}
+.flow-float-right {
+  float: right !important;
+}
+.flow-float-left {
+  float: left !important;
+}
+.flow-text-left {
+  text-align: left !important;
+}
+.flow-text-right {
+  text-align: right !important;
+}
+.flow-text-center {
+  text-align: center !important;
+}
+
+.flow-text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* END SHARED STYLES */

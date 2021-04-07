@@ -1,0 +1,158 @@
+.flow-tabs .arrow-tabs ul.tabs li {
+    background: white;
+    /* margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: 2px solid white !important; */
+}
+
+.flow-tabs .tabs a {
+    height: 25px;
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li:before,
+.flow-tabs .arrow-tabs>ul.tabs>li:after {
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li.ui-tabs-active:before,
+.flow-tabs .arrow-tabs>ul.tabs>li.ui-tabs-active:after {
+    opacity: 1;
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    background: #e45899;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px !important;
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li.ui-tabs-active a {
+    border: 1px solid #e45899;
+    border-radius: 50px;
+    color: #e45899;
+    background: white;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li:hover:before,
+.flow-tabs .arrow-tabs>ul.tabs>li:hover:after,
+.flow-tabs .arrow-tabs>ul.tabs>li:focus:before,
+.flow-tabs .arrow-tabs>ul.tabs>li:focus:after {
+    opacity: 1;
+}
+
+.flow-tabs .tabs a .icon {
+    border-radius: 500em !important;
+    line-height: 16px !important;
+    width: 35px !important;
+    height: 16px !important;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    left: -1px;
+    font-size: 20px;
+    box-shadow: 0 0 0 0;
+}
+
+#news-noticeboard-page .flow-tabs .tabs a span,
+#library-page .flow-tabs .tabs a span {
+    margin-left: 20px;
+}
+
+.flow-tabs .tabs a .icon svg {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: 0;
+}
+
+.flow-tabs .v-bottom {
+    visibility: hidden;
+}
+
+.flow-tabs .ui-state-active .v-bottom {
+    visibility: visible;
+}
+
+/*.flow-tabs .arrow-tabs > ul > li:before,
+.flow-tabs .arrow-tabs > ul > li.ui-state-active:hover:before,
+.flow-tabs .arrow-tabs > ul > li.ui-state-active:focus:before {
+  content: "▼";
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  bottom: 0px;
+  left: 5px;
+  right: 5px;
+  border-radius: 100px / 10px;
+}*/
+/*.flow-tabs .arrow-tabs > ul > li:after,
+.flow-tabs .arrow-tabs > ul > li.ui-state-active:hover:after,
+.flow-tabs .arrow-tabs > ul > li.ui-state-active:focus:after {
+  content: "▼";
+  background: white;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  bottom: -6px;
+  margin-left: -6px;
+  transform: rotate(45deg);
+  box-shadow: 3px 3px 3px #e45899, 1px 1px 1px #e45899;
+}*/
+.flow-tabs .arrow-tabs>ul.tabs>li:hover:before,
+.flow-tabs .arrow-tabs>ul.tabs>li:focus:before {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li:hover:after,
+.arrow-tabs>ul.tabs>li:focus:after {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li:focus {
+    outline: none;
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.flow-tabs .arrow-tabs>ul.tabs>li a span {
+    text-shadow: none;
+}
+
+.flow-tabs .arrow-tabs .ui-btn,
+.flow-tabs .arrow-tabs button {
+    font-family: "Noto Sans ExtraCondensed SemiBold";
+    font-size: 16px;
+}
+
+.flow-tabs .contents {
+    margin: 0px 0 0 0;
+    padding: 1em 0 0 0;
+    min-height: 400px;
+    min-width: 100%;
+}
+
+.flow-tabs .ui-tabs-panel {
+    margin: 0%;
+    padding: 10px 5px;
+}

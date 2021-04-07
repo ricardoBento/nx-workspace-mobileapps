@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'noto_sans_regular';
+  src: local('noto_sans_regular'), url(../fonts/noto-sans/NotoSans-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_sans_italic';
+  src: local('noto_sans_italic'), url(../fonts/noto-sans/NotoSans-Italic.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_sans_semi_bold';
+  src: local('noto_sans_semi_bold'), url(../fonts/noto-sans/NotoSans-SemiBold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_sans_extra_condensed';
+  src: local('noto_sans_extra_condensed'), url(../fonts/noto-sans/NotoSans-ExtraCondensed.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans ExtraCondensed SemiBold";
+  src: local("Noto Sans ExtraCondensed SemiBold"), url(../fonts/noto-sans/NotoSans-ExtraCondensedSemiBold.ttf) format('truetype');
+}

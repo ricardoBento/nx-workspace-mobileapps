@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.6"/>
+      <stop offset="0.787" stop-opacity="0.6"/>
+      <stop offset="1" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="FlowApp_CircleBtn_Attention_Icon01" transform="translate(-1520 -1356)">
+    <g id="FlowApp_CircleBtn_Neutral_Base" transform="translate(0 120)">
+      <g id="base" transform="translate(1520 1236)" stroke="#dce1e8" stroke-width="2.5" fill="url(#radial-gradient)">
+        <rect width="110" height="110" rx="55" stroke="none"/>
+        <rect x="1.25" y="1.25" width="107.5" height="107.5" rx="53.75" fill="none"/>
+      </g>
+      <rect id="base-2" data-name="base" width="95" height="95" rx="47.5" transform="translate(1527.5 1243.5)" fill="rgba(0,0,0,0.2)" stroke="#c4ccd6" stroke-linecap="round" stroke-width="3"/>
+    </g>
+    <g id="FlowApp_icon_appraisalCalendar64" transform="translate(1480 1279)">
+      <circle id="size" cx="32" cy="32" r="32" transform="translate(63 100)" fill="#959bac" opacity="0"/>
+      <path id="Path_990" data-name="Path 990" d="M50.581,0H5.419A5.412,5.412,0,0,0,0,5.419V50.581A5.412,5.412,0,0,0,5.419,56H50.581A5.412,5.412,0,0,0,56,50.581V5.419A5.412,5.412,0,0,0,50.581,0Zm2.71,50.581a2.706,2.706,0,0,1-2.71,2.71H5.419a2.706,2.706,0,0,1-2.71-2.71V16.15H53.29ZM24.622,26.537H44.945a1.126,1.126,0,0,0,1.12-1.12V22.581a1.126,1.126,0,0,0-1.12-1.12H24.622a1.126,1.126,0,0,0-1.12,1.12V25.4A1.107,1.107,0,0,0,24.622,26.537Zm0,11.29H44.945a1.126,1.126,0,0,0,1.12-1.12V33.889a1.126,1.126,0,0,0-1.12-1.12H24.622a1.126,1.126,0,0,0-1.12,1.12v2.818A1.1,1.1,0,0,0,24.622,37.827Zm0,11.29H44.945A1.126,1.126,0,0,0,46.065,48V45.161a1.126,1.126,0,0,0-1.12-1.12H24.622a1.13,1.13,0,0,0-1.138,1.12v2.818A1.133,1.133,0,0,0,24.622,49.117Zm-10.17-5.925a3.378,3.378,0,1,0,0,6.756,3.378,3.378,0,0,0,0-6.756Zm6.521-21.1-5.094,5.094-1.1,1.1a.918.918,0,0,1-1.246,0l-3.36-3.342a.851.851,0,0,1,0-1.192l1.1-1.1a.851.851,0,0,1,1.192,0l1.608,1.554,4.5-4.462a.851.851,0,0,1,1.192,0L20.955,20.9A.8.8,0,0,1,20.973,22.093Zm0,11.254-5.094,5.094-1.1,1.12a.918.918,0,0,1-1.246,0L10.17,36.2a.851.851,0,0,1,0-1.192l1.1-1.1a.851.851,0,0,1,1.192,0l1.608,1.554,4.5-4.5a.851.851,0,0,1,1.192,0l1.192,1.192a.8.8,0,0,1,.018,1.192Z" transform="translate(67 104)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

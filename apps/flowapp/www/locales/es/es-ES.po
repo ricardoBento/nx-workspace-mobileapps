@@ -1,0 +1,2343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flow Mobile App \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-18 15:26+0100\n"
+"PO-Revision-Date: 2020-12-07 14:04+0000\n"
+"Last-Translator: Ricardo Bento\n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: en-GB\n"
+"X-Loco-Project-Id: 97624\n"
+"X-Loco-Api-Version: 1.0.25 20210310-1"
+
+msgid "Lunch and Learns"
+msgstr "Almuerzo y Aprende"
+
+msgid "Policies"
+msgstr "Políticas"
+
+msgid "Product Knowledge"
+msgstr "Conocimiento del producto"
+
+msgid "Product Releases"
+msgstr "Lanzamientos de productos"
+
+msgid "My Career"
+msgstr "Mi carrera"
+
+msgid "Session Link:"
+msgstr "Enlace de sesión:"
+
+msgid "Open Document"
+msgstr "Abrir Documento"
+
+msgid "you been refuse the attendance to this session"
+msgstr "Ha rechazado la asistencia a esta sesión"
+
+msgid "Loading topic"
+msgstr "Cargand tema"
+
+msgid "vote"
+msgstr "voto"
+
+msgid "Reply"
+msgstr "Respuesta"
+
+msgid "Post reply"
+msgstr "Enviar respuesta"
+
+msgid "Follow"
+msgstr "Seguir"
+
+msgid "Start training"
+msgstr "Empezar a entrenar"
+
+msgid "Forums"
+msgstr "Foros"
+
+msgid "Add discussion to forum"
+msgstr "Agregar discusión al foro"
+
+msgid "items at the moment"
+msgstr "artículos en este momento"
+
+msgid "Loading content"
+msgstr "Cargando contenido"
+
+msgid "download error source"
+msgstr "descargar fuente de error"
+
+msgid "download error target"
+msgstr "descargar destino de error"
+
+msgid "download error code"
+msgstr "descargar código de error"
+
+msgid "Noticeboards"
+msgstr "Tablón de anuncios"
+
+msgid "Loading index feed"
+msgstr "Cargando feed de índice"
+
+msgid "Let's Go"
+msgstr "Vamonos"
+
+msgid "Well done"
+msgstr "Bien hecho"
+
+msgid "Reset filter"
+msgstr "Restablecer filtro"
+
+msgid "Type",
+msgstr "Tipo"
+
+msgid "Classification"
+msgstr "Clasificación",
+
+msgid "Uncategorised"
+msgstr "Uncategorised"
+
+#: loco:5f64c3b3dd5c193fd9714431
+msgid "Password"
+msgstr "Contraseña"
+
+#: loco:5f64c3b3dd5c193fd9714432
+msgid "Email Address"
+msgstr "Correo electrónico"
+
+#: loco:5f64c3b3dd5c193fd9714433
+msgid "enter your subject here"
+msgstr "introduzca su tema aquí"
+
+#: loco:5f64c3b3dd5c193fd9714434
+msgid "enter your content here"
+msgstr ""
+
+#: loco:5f64c3b3dd5c193fd9714435
+msgid "Please enter your details to login"
+msgstr "Por favor, introduzca sus datos para iniciar sesión"
+
+#: loco:5f64c3b3dd5c193fd9714436
+msgid "login"
+msgstr "iniciar sesión"
+
+#: loco:5f64c3b3dd5c193fd9714437
+msgid "Are you sure you want to log out?"
+msgstr "¿Estás seguro de que quieres cerrar la sesión?"
+
+#: loco:5f64c3b3dd5c193fd9714438
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: loco:5f64c3b3dd5c193fd9714439
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: loco:5f64c3b3dd5c193fd971443a
+msgid "There was a error logging in. Please restart the app and try again."
+msgstr ""
+"Hubo un error al iniciar la sesión. Por favor, reinicie la aplicación e "
+"inténtelo de nuevo."
+
+#: loco:5f64c3b3dd5c193fd971443b
+msgid "Can't access your account?"
+msgstr "¿No puede acceder a su cuenta?"
+
+#: loco:5f64c3b3dd5c193fd971443c
+msgid "Overdue"
+msgstr "Vencido"
+
+#: loco:5f64c3b3dd5c193fd971443d
+msgid "Outstanding"
+msgstr "Pendientes"
+
+#: loco:5f64c3b3dd5c193fd971443e
+msgid "Complete"
+msgstr "Completados"
+
+#: loco:5f64c3b3dd5c193fd971443f
+msgid "Continue {{$1}}"
+msgstr "Continúa {{$1}}"
+
+#: loco:5f64c3b3dd5c193fd9714440
+msgid "You have completed all modules"
+msgstr "Ha completado todos los módulos"
+
+#: loco:5f64c3b3dd5c193fd9714441
+msgid "You have no modules assigned to you"
+msgstr "No tienes ningún módulo asignado"
+
+#: loco:5f64c3b3dd5c193fd9714442
+msgid "You have Overdue Modules"
+msgstr "Tienes módulos atrasados"
+
+#: loco:5f64c3b3dd5c193fd9714443
+msgid "You have no Overdue Modules"
+msgstr "No tienes módulos atrasados"
+
+#: loco:5f64c3b3dd5c193fd9714444
+msgid "You have no upcoming training sessions"
+msgstr "No tienes ninguna sesión de entrenamiento próxima"
+
+#: loco:5f64c3b3dd5c193fd9714445
+msgid "at"
+msgstr "en"
+
+#: loco:5f64c3b3dd5c193fd9714446
+msgid "You have no unread discussions."
+msgstr "No tienes discusiones sin leer."
+
+#: loco:5f64c3b3dd5c193fd9714447
+msgid "You have no upcoming {{$1}}"
+msgstr "No tienes ningún próximo {{$1}}"
+
+#: loco:5f64c3b3dd5c193fd9714448
+msgid "with {{$1}}"
+msgstr "con {{$1}}"
+
+#: loco:5f64c3b3dd5c193fd9714449
+msgid "Your next {{$1}}"
+msgstr "Su próximo {{$1}}"
+
+#: loco:5f64c3b3dd5c193fd971444a
+msgid "is on"
+msgstr "está en"
+
+#: loco:5f64c3b3dd5c193fd971444b
+msgid "Your next training session"
+msgstr "Su próxima sesión de entrenamiento"
+
+#: loco:5f64c3b3dd5c193fd971444c
+msgid "You have {{$1}} unread discussions"
+msgstr "Tienes {{{$1}} discusiones no leídas"
+
+#: loco:5f64c3b3dd5c193fd971444d
+msgid "no news items available"
+msgstr "no hay noticias disponibles"
+
+#: loco:5f64c3b3dd5c193fd971444e
+msgid "{{$1}} news items available"
+msgstr "{{{$1}} noticias disponibles"
+
+#: loco:5f64c3b3dd5c193fd971444f
+msgid "and"
+msgstr "y"
+
+#: loco:5f64c3b3dd5c193fd9714450
+msgid "no unread {{$1}}"
+msgstr "no sin leer {{$1}}"
+
+#: loco:5f64c3b3dd5c193fd9714451
+msgid "{{$1}} unread {{$2}}"
+msgstr "{{$1}} sin leer {{$2}}"
+
+#: loco:5f64c3b3dd5c193fd9714452
+msgid "You have {{$1}} {{$2}} {{$3}}"
+msgstr "Usted tiene {{{$1}} {{$2}} {{$3}}"
+
+#: loco:5f64c3b3dd5c193fd9714453
+msgid "You have no upcoming {{$1}} or training sessions."
+msgstr "No tienes ninguna sesión de entrenamiento o {{$1}}."
+
+#: loco:5f64c3b3dd5c193fd9714454
+msgid "Details of your $1 coming soon."
+msgstr "Los detalles de su $1 pronto."
+
+#: loco:5f64c3b3dd5c193fd9714455
+msgid "You have"
+msgstr "Tienes"
+
+#: loco:5f64c3b3dd5c193fd9714456
+msgid "at {{$1}}"
+msgstr "a {{$1}}"
+
+#: loco:5f64c3b3dd5c193fd9714457
+msgid "You have no upcoming training."
+msgstr "No tienes ningún entrenamiento próximo."
+
+#: loco:5f64c3b3dd5c193fd9714458
+msgid "You have one unread discussion."
+msgstr "Tienes una discusión no leída."
+
+#: loco:5f64c3b3dd5c193fd9714459
+msgid "End of year appraisal"
+msgstr "Final del anno appraisal"
+
+#: loco:5f64c3b3dd5c193fd971445a
+msgid "Contents"
+msgstr "Contenidos"
+
+#: loco:5f64c3b3dd5c193fd971445b
+msgid "My Library"
+msgstr "Mi biblioteca"
+
+#: loco:5f64c3b3dd5c193fd971445c
+msgid "Saved News"
+msgstr "Noticias guardadas"
+
+#: loco:5f64c3b3dd5c193fd971445d
+msgid "Saved Documents"
+msgstr "Documentos guardados"
+
+#: loco:5f64c3b3dd5c193fd971445e
+msgid "You have no saved news items"
+msgstr "No tienes noticias guardadas"
+
+#: loco:5f64c3b3dd5c193fd971445f
+msgid "Error: could not load dashboard data"
+msgstr "Error: no se pudieron cargar los datos del tablero"
+
+#: loco:5f64c3b3dd5c193fd9714460
+msgid ""
+"Your company does not have this enabled, contact your training manager to "
+"find out more."
+msgstr ""
+"Su empresa no tiene esto habilitado, contacte a su gerente de entrenamiento "
+"para saber más."
+
+#: loco:5f64c3b3dd5c193fd9714461
+msgid "Certificates and Module PDFs"
+msgstr "Certificados y PDFs de módulos"
+
+#: loco:5f64c3b3dd5c193fd9714462
+msgid "You have no saved {{$1}}"
+msgstr "No tienes guardado {{$1}}"
+
+#: loco:5f64c3b3dd5c193fd9714463
+msgid "Account Details"
+msgstr "Detalles de la cuenta"
+
+#: loco:5f64c3b3dd5c193fd9714464
+msgid "Name"
+msgstr "Nombre"
+
+#: loco:5f64c3b3dd5c193fd9714465
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: loco:5f64c3b3dd5c193fd9714466
+msgid "Job Title"
+msgstr "Categoría profesional"
+
+#: loco:5f64c3b3dd5c193fd9714467
+msgid "Branch"
+msgstr "Filial"
+
+#: loco:5f64c3b3dd5c193fd9714468
+msgid "Date of birth"
+msgstr "Fecha de nacimiento"
+
+#: loco:5f64c3b3dd5c193fd9714469
+msgid ""
+"Please contact your manager or L&D team if you need to update these details."
+msgstr ""
+"Por favor, contacte a su gerente o al equipo de L&D si necesita actualizar "
+"estos detalles."
+
+#: loco:5f64c3b3dd5c193fd971446a
+msgid "News"
+msgstr "Noticias"
+
+#: loco:5f64c3b3dd5c193fd971446b
+msgid "14h"
+msgstr "14h"
+
+#: loco:5f64c3b3dd5c193fd971446c
+msgid "Elliot"
+msgstr "Elliot"
+
+#: loco:5f64c3b3dd5c193fd971446d
+msgid "Published by:"
+msgstr "Publicado por:"
+
+
+#: loco:5f64c3b3dd5c193fd971446f
+msgid "Item Details"
+msgstr "Detalles del Ítem"
+
+#: loco:5f64c3b3dd5c193fd9714470
+msgid "Social Forums"
+msgstr "Foros Sociales"
+
+#: loco:5f64c3b3dd5c193fd9714471
+msgid "Downloading"
+msgstr "Descargando"
+
+#: loco:5f64c3b3dd5c193fd9714472
+msgid "Session administrator"
+msgstr "Administrador de sesión"
+
+#: loco:5f64c3b3dd5c193fd9714473
+msgid "Notes"
+msgstr "Notas"
+
+#: loco:5f64c3b3dd5c193fd9714474
+msgid "Instructions"
+msgstr "Instrucciones"
+
+#: loco:5f64c3b3dd5c193fd9714475
+msgid "Places:"
+msgstr "Sitios:"
+
+#: loco:5f64c3b3dd5c193fd9714476
+msgid "Starts:"
+msgstr "Comienza:"
+
+#: loco:5f64c3b3dd5c193fd9714477
+msgid "Ends:"
+msgstr "Termina:"
+
+#: loco:5f64c3b3dd5c193fd9714478
+msgid "Location:"
+msgstr "Ubicación:"
+
+#: loco:5f64c3b3dd5c193fd9714479
+msgid "Index"
+msgstr "Índice"
+
+#: loco:5f64c3b3dd5c193fd971447a
+msgid "Following"
+msgstr "Siguiendo"
+
+#: loco:5f64c3b3dd5c193fd971447b
+msgid "Unread"
+msgstr "Sin leer"
+
+#: loco:5f64c3b3dd5c193fd971447c
+msgid "Posting"
+msgstr "Publicando"
+
+#: loco:5f64c3b3dd5c193fd971447d
+msgid "votes cast"
+msgstr "votos emitidos"
+
+#: loco:5f64c3b3dd5c193fd971447e
+msgid "Dashboard"
+msgstr "Panel de control"
+
+#: loco:5f64c3b3dd5c193fd971447f
+msgid "Training Path"
+msgstr "Camino de entrenamiento"
+
+#: loco:5f64c3b3dd5c193fd9714480
+msgid "Training Calendar"
+msgstr "Calendario de entrenamiento"
+
+#: loco:5f64c3b3dd5c193fd9714481
+msgid "News Feed"
+msgstr "Noticias"
+
+#: loco:5f64c3b3dd5c193fd9714482
+msgid "Activity"
+msgstr "Actividad"
+
+#: loco:5f64c3b3dd5c193fd9714483
+msgid "back to dashboard"
+msgstr "volver a su escritorio"
+
+#: loco:5f64c3b3dd5c193fd9714484
+msgid "Upcoming"
+msgstr "Próximos"
+
+#: loco:5f64c3b3dd5c193fd9714485
+msgid "Invited"
+msgstr "Invitado"
+
+#: loco:5f64c3b3dd5c193fd9714486
+msgid "Available"
+msgstr "Disponible"
+
+#: loco:5f64c3b3dd5c193fd9714487
+msgid "Completed"
+msgstr "Completado"
+
+#: loco:5f64c3b3dd5c193fd9714488
+msgid "About Us"
+msgstr "Sobre nosotros"
+
+#: loco:5f64c3b3dd5c193fd9714489
+msgid "complete"
+msgstr "completado"
+
+#: loco:5f64c3b3dd5c193fd971448a
+msgid "incomplete"
+msgstr "incompleto"
+
+#: loco:5f64c3b3dd5c193fd971448b
+msgid "overdue"
+msgstr "atrasado"
+
+#: loco:5f64c3b3dd5c193fd971448c
+msgid "recently added"
+msgstr "recientemente añadido"
+
+#: loco:5f64c3b3dd5c193fd971448d
+msgid "appraisal"
+msgstr "evaluación"
+
+#: loco:5f64c3b3dd5c193fd971448e
+msgid "competency"
+msgstr "competencia"
+
+#: loco:5f64c3b3dd5c193fd971448f
+msgid "online"
+msgstr "conectado"
+
+#: loco:5f64c3b3dd5c193fd9714490
+msgid "classroom"
+msgstr "aula"
+
+#: loco:5f64c3b3dd5c193fd9714491
+msgid "Account"
+msgstr "Cuenta"
+
+#: loco:5f64c3b3dd5c193fd9714492
+msgid "Options"
+msgstr "Opciones"
+
+#: loco:5f64c3b3dd5c193fd9714493
+msgid "Topics"
+msgstr "Temas"
+
+#: loco:5f64c3b3dd5c193fd9714494
+msgid "Create new topic"
+msgstr "Crear un nuevo tema"
+
+#: loco:5f64c3b3dd5c193fd9714495
+msgid "Create new forum"
+msgstr "Crear un nuevo foro"
+
+#: loco:5f64c3b3dd5c193fd9714496
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: loco:5f64c3b3dd5c193fd9714497
+msgid "Like"
+msgstr "Me gusta"
+
+#: loco:5f64c3b3dd5c193fd9714498
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: loco:5f64c3b3dd5c193fd9714499
+msgid "Post comment"
+msgstr "Publicar comentario"
+
+#: loco:5f64c3b3dd5c193fd971449a
+msgid "votes"
+msgstr "votos"
+
+#: loco:5f64c3b3dd5c193fd971449c
+msgid "Header"
+msgstr "Cabecera"
+
+#: loco:5f64c3b3dd5c193fd971449d
+msgid "Create a new topic on this forum"
+msgstr "Crear un nuevo tema en este foro"
+
+#: loco:5f64c3b3dd5c193fd971449e
+msgid "Subject "
+msgstr "Tema "
+
+#: loco:5f64c3b3dd5c193fd971449f
+msgid "Message "
+msgstr "Mensaje "
+
+#: loco:5f64c3b3dd5c193fd97144a0
+msgid "Post topic as"
+msgstr "Publicar el tema como"
+
+#: loco:5f64c3b3dd5c193fd97144a1
+msgid "Default topic"
+msgstr "Tema predeterminado"
+
+#: loco:5f64c3b3dd5c193fd97144a2
+msgid "Save"
+msgstr "Guardar"
+
+#: loco:5f64c3b3dd5c193fd97144a3
+msgid "Post a new comment to this topic"
+msgstr "Publicar un nuevo comentario sobre este tema"
+
+#: loco:5f64c3b3dd5c193fd97144a4
+msgid "Comment"
+msgstr "Comentario"
+
+#: loco:5f64c3b3dd5c193fd97144a5
+msgid "Title"
+msgstr "Título"
+
+#: loco:5f64c3b3dd5c193fd97144a6
+msgid "News/Noticeboard Item"
+msgstr "Noticias/artículo del tablón de anuncios"
+
+#: loco:5f64c3b3dd5c193fd97144a7
+msgid "Second Line"
+msgstr "Segunda linea"
+
+#: loco:5f64c3b3dd5c193fd97144a8
+msgid "Career"
+msgstr "Empleo"
+
+#: loco:5f64c3b3dd5c193fd97144a9
+msgid "Error: trainee notes not saved. Please try again later"
+msgstr ""
+"Error: las notas del aprendiz no se han guardado. Por favor, inténtelo de "
+"nuevo más tarde"
+
+#: loco:5f64c3b3dd5c193fd97144aa
+msgid "Oops: Cannot add item. Please try again later."
+msgstr ""
+"Oops: No se puede agregar un artículo. Por favor, inténtelo de nuevo más "
+"tarde."
+
+#: loco:5f64c3b3dd5c193fd97144ab
+msgid "Help & Support"
+msgstr "Ayuda y Soporte"
+
+#: loco:5f64c3b3dd5c193fd97144ac
+msgid "please wait"
+msgstr "por favor espera"
+
+#: loco:5f64c3b3dd5c193fd97144ad
+msgid "Successfully added"
+msgstr "Agregado Exitosamente"
+
+#: loco:5f64c3b3dd5c193fd97144ae
+msgid "About"
+msgstr "Acerca de"
+
+#: loco:5f64c3b3dd5c193fd97144af
+msgid "Confirm Action"
+msgstr "Confirmar la acción"
+
+#: loco:5f64c3b3dd5c193fd97144b0
+msgid "Successfully removed"
+msgstr "Eliminado correctamente"
+
+#: loco:5f64c3b3dd5c193fd97144b1
+msgid ""
+"You are about to cancel a request to attend a course that has been made "
+"available to you. Are you sure you wish to continue?"
+msgstr ""
+"Está a punto de cancelar una solicitud para asistir a un curso que se ha "
+"puesto a su disposición. ¿Está seguro de que desea continuar?"
+
+#: loco:5f64c3b3dd5c193fd97144b2
+msgid "Oops: Could not book training at the moment. Please try again later."
+msgstr ""
+"Oops: No se puede reservar el entrenamiento en este momento. Por favor, "
+"inténtelo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144b4
+msgid "Oops: Could not decline training at the moment. Please try again later."
+msgstr ""
+"Oops: No podía rechazar el entrenamiento en este momento. Por favor, "
+"inténtelo de nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144b5
+msgid "Oops: Could not cancel training at the moment. Please try again later."
+msgstr ""
+"Oops: No se puede cancelar el entrenamiento en este momento. Por favor, "
+"inténtelo de nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144b6
+msgid "This operation requires a network connection."
+msgstr "Esta operación requiere una conexión de red."
+
+#: loco:5f64c3b3dd5c193fd97144b7
+msgid "This operation may download a large amount of data."
+msgstr "Esta operación puede descargar una gran cantidad de datos."
+
+#: loco:5f64c3b3dd5c193fd97144b8
+msgid "Downloading on Mobile Network"
+msgstr "Descarga en la red móvil"
+
+#: loco:5f64c3b3dd5c193fd97144b9
+msgid "No Network Connection"
+msgstr "No hay conexión de red"
+
+#: loco:5f64c3b3dd5c193fd97144ba
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: loco:5f64c3b3dd5c193fd97144bb
+msgid "Error: Please try again later"
+msgstr "Error: Por favor, inténtelo de nuevo más tarde"
+
+#: loco:5f64c3b3dd5c193fd97144bc
+msgid "Signed off on"
+msgstr "Aprobado/Regresado el"
+
+#: loco:5f64c3b3dd5c193fd97144bd
+msgid "This poll does not allow users to change their votes"
+msgstr "Esta encuesta no permite a los usuarios cambiar sus votos"
+
+#: loco:5f64c3b3dd5c193fd97144be
+msgid "Oops: You need to fill in all (*) required fields."
+msgstr "Oops: Necesita rellenar todos los campos obligatorios (*)."
+
+#: loco:5f64c3b3dd5c193fd97144bf
+msgid "Error"
+msgstr "Error"
+
+#: loco:5f64c3b3dd5c193fd97144c0
+msgid "Please try again later"
+msgstr "Inténtalo más tarde"
+
+#: loco:5f64c3b3dd5c193fd97144c1
+msgid "Error: could not post comment"
+msgstr "Error: no se pudo publicar el comentario"
+
+#: loco:5f64c3b3dd5c193fd97144c2
+msgid "Review"
+msgstr "Revisión"
+
+#: loco:5f64c3b3dd5c193fd97144c3
+msgid "Reviews"
+msgstr "Revisiones"
+
+#: loco:5f64c3b3dd5c193fd97144c4
+msgid "Bookhold"
+msgstr "Librería"
+
+#: loco:5f64c3b3dd5c193fd97144c5
+msgid "My life"
+msgstr "Mi vida"
+
+#: loco:5f64c3b3dd5c193fd97144c7
+msgid ""
+"Your company currently does not allow trainees to use the mobile app. Please "
+"get in touch with your training manager to find out more."
+msgstr ""
+"Su compañía actualmente no permite a los aprendices usar la aplicación móvil."
+" Por favor, póngase en contacto con su responsable de formación para obtener "
+"más información."
+
+#: loco:5f64c3b3dd5c193fd97144c8
+msgid "Are you sure you want to exit?"
+msgstr "¿Estás seguro de que quieres salir?"
+
+#: loco:5f64c3b3dd5c193fd97144c9
+msgid "Exit Application"
+msgstr "Solicitud de salida"
+
+#: loco:5f64c3b3dd5c193fd97144ca
+msgid "Loading training path"
+msgstr "Cargando la ruta de entrenamiento"
+
+#: loco:5f64c3b3dd5c193fd97144cb
+msgid "Error: Could not load training path. Please try again later."
+msgstr ""
+"Error: No se pudo cargar la ruta de entrenamiento. Por favor, inténtelo de "
+"nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144cc
+msgid "Loading"
+msgstr "Cargando"
+
+#: loco:5f64c3b3dd5c193fd97144cd
+msgid "There are no feed items at the moment"
+msgstr "No hay elementos de alimentación en este momento"
+
+#: loco:5f64c3b3dd5c193fd97144ce
+msgid "Success"
+msgstr "Éxito"
+
+#: loco:5f64c3b3dd5c193fd97144cf
+msgid "Error: Could not load feed. Please try again later."
+msgstr ""
+"Error: No se pudo cargar la alimentación. Por favor, inténtelo de nuevo más "
+"tarde."
+
+#: loco:5f64c3b3dd5c193fd97144d0
+msgid "There are no new news articles at the moment"
+msgstr "No hay nuevos artículos de noticias en este momento"
+
+#: loco:5f64c3b3dd5c193fd97144d1
+msgid "Trainee notes successfully saved"
+msgstr "Las notas del aprendiz se guardaron con éxito"
+
+#: loco:5f64c3b3dd5c193fd97144d2
+msgid "Error - trainee notes not saved"
+msgstr "Error - notas del aprendiz no guardadas"
+
+#: loco:5f64c3b3dd5c193fd97144d3
+msgid "This appraisal could not be found"
+msgstr "Esta valoración no se pudo encontrar"
+
+#: loco:5f64c3b3dd5c193fd97144d4
+msgid "Error: Could not load news feed. Please try again later."
+msgstr ""
+"Error: No se pudo cargar la transmisión de noticias. Por favor, inténtelo de "
+"nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144d5
+msgid "There is nothing new on the noticeboard at the moment"
+msgstr "No hay nada nuevo en el tablón de anuncios por el momento"
+
+#: loco:5f64c3b3dd5c193fd97144d6
+msgid "Failed"
+msgstr "Suspendido"
+
+#: loco:5f64c3b3dd5c193fd97144d7
+msgid "In progress"
+msgstr "En curso"
+
+#: loco:5f64c3b3dd5c193fd97144d8
+msgid "Not started"
+msgstr "No empezado"
+
+#: loco:5f64c3b3dd5c193fd97144d9
+msgid "Workbook"
+msgstr "Libro"
+
+#: loco:5f64c3b3dd5c193fd97144da
+msgid "There are no Forums currently available"
+msgstr "No hay foros disponibles actualmente"
+
+#: loco:5f64c3b3dd5c193fd97144db
+msgid "Error: Could not load index feed. Please try again later."
+msgstr ""
+"Error: No se pudo cargar el índice de alimentación. Por favor, inténtelo de "
+"nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144dc
+msgid "Loading subscription feed"
+msgstr "Cargando el feed de suscripción"
+
+#: loco:5f64c3b3dd5c193fd97144dd
+msgid "You have no active subscriptions"
+msgstr "No tiene suscripciones activas"
+
+#: loco:5f64c3b3dd5c193fd97144de
+msgid "Error: Could not load subscription feed. Please try again later."
+msgstr ""
+"Error: No se pudo cargar la suscripción. Por favor, inténtelo de nuevo más "
+"tarde."
+
+#: loco:5f64c3b3dd5c193fd97144df
+msgid "Error:  Could not fetch unread topics. Please try again later."
+msgstr ""
+"Error:  No se pueden buscar temas no leídos. Por favor, inténtelo de nuevo "
+"más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144e0
+msgid "Loading unread topics feed"
+msgstr "Cargando el feed de temas no leídos"
+
+#: loco:5f64c3b3dd5c193fd97144e1
+msgid "You have no unread topics at the moment"
+msgstr "No tienes ningún tema sin leer por el momento"
+
+#: loco:5f64c3b3dd5c193fd97144e2
+msgid "Error: Could not load unread topics. Please try again later."
+msgstr ""
+"Error: No se pudieron cargar los temas no leídos. Por favor, inténtelo de "
+"nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144e3
+msgid "a few seconds ago"
+msgstr "hace unos segundos"
+
+#: loco:5f64c3b3dd5c193fd97144e4
+msgid "seconds ago"
+msgstr "hace segundos"
+
+#: loco:5f64c3b3dd5c193fd97144e5
+msgid "is a sub-level-forum"
+msgstr "es un subnivel-foro"
+
+#: loco:5f64c3b3dd5c193fd97144e6
+msgid "Error: Could not load topic. Please try again later."
+msgstr ""
+"Error: No se pudo cargar el tema. Por favor, inténtelo de nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144e7
+msgid "Unfollow"
+msgstr "Dejar de seguir"
+
+#: loco:5f64c3b3dd5c193fd97144e8
+msgid "Unlike"
+msgstr "No me gusta"
+
+#: loco:5f64c3b3dd5c193fd97144e9
+msgid "Subscribed"
+msgstr "Suscrito"
+
+#: loco:5f64c3b3dd5c193fd97144ea
+msgid "You have no unread topics"
+msgstr "No tienes ningún tema sin leer"
+
+#: loco:5f64c3b3dd5c193fd97144eb
+msgid "Sorry, no results found."
+msgstr "Lo sentimos, no se encontraron resultados."
+
+#: loco:5f64c3b3dd5c193fd97144ec
+msgid "Error: Could not load search results. Please try again later."
+msgstr ""
+"Error: No se pudieron cargar los resultados de la búsqueda. Por favor, "
+"inténtelo de nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144ed
+msgid "new discussion"
+msgstr "nuevo debate"
+
+#: loco:5f64c3b3dd5c193fd97144ee
+msgid "Subject"
+msgstr "Asunto"
+
+#: loco:5f64c3b3dd5c193fd97144ef
+msgid "Enter your subject here..."
+msgstr "Escriba su tema aquí..."
+
+#: loco:5f64c3b3dd5c193fd97144f0
+msgid "Enter your message here..."
+msgstr "Escriba su mensaje aquí..."
+
+#: loco:5f64c3b3dd5c193fd97144f1
+msgid ""
+"The format of the file you've submitted is not among the formats supported. "
+"The supported formats include JPEG, PNG, GIF and BMP."
+msgstr ""
+"El formato del archivo que ha presentado no está entre los formatos "
+"admitidos. Los formatos admitidos incluyen JPEG, PNG, GIF y BMP."
+
+#: loco:5f64c3b3dd5c193fd97144f2
+msgid "Oops: Can't subscribe right now. Please try again later."
+msgstr ""
+"Oops: No puedo suscribirme ahora mismo. Por favor, inténtelo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144f3
+msgid "Oops: Can't unsubscribe right now. Please try again later."
+msgstr ""
+"Oops: No puedo cancelar la suscripción ahora mismo. Por favor, inténtelo de "
+"nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144f4
+msgid "Oops: Can't like right now. Please try again later."
+msgstr ""
+"Oops: No puede gustar ahora mismo. Por favor, inténtalo de nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144f5
+msgid "Oops: Can't unlike right now. Please try again later."
+msgstr ""
+"Oops: No puede ser diferente a ahora. Por favor, inténtalo de nuevo más "
+"tarde."
+
+#: loco:5f64c3b3dd5c193fd97144f6
+msgid "There are no"
+msgstr "No existen"
+
+#: loco:5f64c3b3dd5c193fd97144f7
+msgid "Error: Could not load"
+msgstr "Error: No se pudo cargar"
+
+#: loco:5f64c3b3dd5c193fd97144f8
+msgid "Error: Could not load list. Please try again later."
+msgstr ""
+"Error: No se pudo cargar la lista. Por favor, inténtelo de nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd97144f9
+msgid "first"
+msgstr "primero"
+
+#: loco:5f64c3b3dd5c193fd97144fa
+msgid "OVERDUE"
+msgstr "ATRASADO"
+
+#: loco:5f64c3b3dd5c193fd97144fb
+msgid "No due date"
+msgstr "Fecha de vencimiento no establecida"
+
+#: loco:5f64c3b3dd5c193fd97144fc
+msgid "Module Downloads"
+msgstr "Descargas de módulos"
+
+#: loco:5f64c3b3dd5c193fd97144fd
+msgid ""
+"Please note you will not be able to re-sit the exam if you revisit the "
+"module."
+msgstr ""
+"Por favor, tenga en cuenta que no podrá volver a hacer el examen si vuelve a "
+"visitar el módulo."
+
+#: loco:5f64c3b3dd5c193fd97144fe
+msgid "In order to attempt this module you need to complete"
+msgstr "Para poder intentar este módulo necesitas completar"
+
+#: loco:5f64c3b3dd5c193fd97144ff
+msgid "Loading workbook"
+msgstr "Cargando el libro de trabajo"
+
+#: loco:5f64c3b3dd5c193fd9714500
+msgid "This workbook could not be found"
+msgstr "Este libro de trabajo no se pudo encontrar"
+
+#: loco:5f64c3b3dd5c193fd9714501
+msgid "You are booked on the following session"
+msgstr "Se ha inscrito en la siguiente sesión"
+
+#: loco:5f64c3b3dd5c193fd9714502
+msgid "You have been invited to attend the following session"
+msgstr "Ha recibido una invitación para asistir a la siguiente sesión"
+
+#: loco:5f64c3b3dd5c193fd9714503
+msgid "You have cancelled your attendance to the following session"
+msgstr "Ha cancelado su asistencia a la siguiente sesión"
+
+#: loco:5f64c3b3dd5c193fd9714504
+msgid "You have declined the invitation to attend the following session"
+msgstr "Ha rechazado la invitación a asistir a la siguiente sesión"
+
+#: loco:5f64c3b3dd5c193fd9714505
+msgid "You have been refused attendance to the following session"
+msgstr "Se ha denegado su asistencia a la siguiente sesión"
+
+#: loco:5f64c3b3dd5c193fd9714506
+msgid "Next available session"
+msgstr "Próxima sesión disponible"
+
+#: loco:5f64c3b3dd5c193fd9714507
+msgid "Supporting Documents"
+msgstr "Documentos justificantes"
+
+#: loco:5f64c3b3dd5c193fd9714508
+msgid "Open Document"
+msgstr "Documento abierto"
+
+#: loco:5f64c3b3dd5c193fd9714509
+msgid "Loading appraisal"
+msgstr "Evaluación de la carga"
+
+#: loco:5f64c3b3dd5c193fd971450a
+msgid ""
+"Sorry, you have been refused attendance to this session for the following "
+"reason:"
+msgstr ""
+"Lamentamos comunicarle que se ha denegado su asistencia a esta sesión por el "
+"siguiente motivo:"
+
+#: loco:5f64c3b3dd5c193fd971450b
+msgid "Please contact your Training Manager for more information."
+msgstr ""
+"Póngase en contacto con su Director de formación para obtener más "
+"información."
+
+#: loco:5f64c3b3dd5c193fd971450c
+msgid "You are currently on the wating list for this session."
+msgstr "Usted está actualmente en la lista de espera para esta sesión."
+
+#: loco:5f64c3b3dd5c193fd971450d
+msgid ""
+"There are no more available spaces on this session. You can join the waiting "
+"list by visiting your training portal."
+msgstr ""
+"No hay más espacios disponibles en esta sesión. Puedes inscribirte en la "
+"lista de espera visitando tu portal de formación."
+
+#: loco:5f64c3b3dd5c193fd971450e
+msgid "Cancel Booking"
+msgstr "Cancelar inscripción"
+
+#: loco:5f64c3b3dd5c193fd971450f
+msgid "Confirm Attendance"
+msgstr "Confirmar asistencia"
+
+#: loco:5f64c3b3dd5c193fd9714510
+msgid "Decline Attendance"
+msgstr "Rehusar asistencia"
+
+#: loco:5f64c3b3dd5c193fd9714511
+msgid "Book Training"
+msgstr "Inscribirse a formación"
+
+#: loco:5f64c3b3dd5c193fd9714512
+msgid "Loading Item Content"
+msgstr "Cargando el contenido del artículo"
+
+#: loco:5f64c3b3dd5c193fd9714513
+msgid "No description available"
+msgstr "No hay descripción disponible"
+
+#: loco:5f64c3b3dd5c193fd9714514
+msgid "remove from my library"
+msgstr "quitar de mi biblioteca"
+
+#: loco:5f64c3b3dd5c193fd9714515
+msgid "add to my library"
+msgstr "añadir a mi biblioteca"
+
+#: loco:5f64c3b3dd5c193fd9714516
+msgid "open attachment"
+msgstr "abierto el apego"
+
+#: loco:5f64c3b3dd5c193fd9714517
+msgid "remove from library"
+msgstr "quitar de la biblioteca"
+
+#: loco:5f64c3b3dd5c193fd9714518
+msgid "sign off"
+msgstr "salida del sistema"
+
+#: loco:5f64c3b3dd5c193fd9714519
+msgid "due"
+msgstr "límite"
+
+#: loco:5f64c3b3dd5c193fd971451a
+msgid "Provider"
+msgstr "Proveedor"
+
+#: loco:5f64c3b3dd5c193fd971451b
+msgid "handout material"
+msgstr "material para repartir"
+
+#: loco:5f64c3b3dd5c193fd971451c
+msgid "Location"
+msgstr "Ubicación"
+
+#: loco:5f64c3b3dd5c193fd971451d
+msgid "Address:"
+msgstr "Dirección:"
+
+#: loco:5f64c3b3dd5c193fd971451e
+msgid "City"
+msgstr "Ciudad"
+
+#: loco:5f64c3b3dd5c193fd971451f
+msgid "Post Code"
+msgstr "Código postal"
+
+#: loco:5f64c3b3dd5c193fd9714520
+msgid "Start Date"
+msgstr "Fecha de comienzo"
+
+#: loco:5f64c3b3dd5c193fd9714521
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#: loco:5f64c3b3dd5c193fd9714522
+msgid "attendance"
+msgstr "asistencia"
+
+#: loco:5f64c3b3dd5c193fd9714523
+msgid "decline"
+msgstr "rechazar"
+
+#: loco:5f64c3b3dd5c193fd9714524
+msgid "cancel attendance"
+msgstr "cancelar la asistencia"
+
+#: loco:5f64c3b3dd5c193fd9714525
+msgid "Cancel Attendance"
+msgstr "Cancelar la asistencia"
+
+#: loco:5f64c3b3dd5c193fd9714526
+msgid "request to book"
+msgstr "solicitud de reserva"
+
+#: loco:5f64c3b3dd5c193fd9714527
+msgid "Request to Book"
+msgstr "Solicitar Reserva"
+
+#: loco:5f64c3b3dd5c193fd9714528
+msgid ""
+"You are about to request to attend a course that has been made available on "
+"your training calendar. We advise that you confirm your availability to "
+"attend with your line manager first to ensure this does not conflict with "
+"any other events or rotas. Clicking confirm will book your attendance, are "
+"you sure you wish to continue?"
+msgstr ""
+"Está a punto de solicitar asistir a un curso que se ha puesto a su "
+"disposición en su calendario de entrenamiento. Le aconsejamos que confirme "
+"su disponibilidad para asistir con su superior inmediato para asegurarse de "
+"que no entre en conflicto con ningún otro evento o rotación. Al hacer clic "
+"en confirmar se reservará su asistencia, ¿está seguro de que desea continuar?"
+
+#: loco:5f64c3b3dd5c193fd9714529
+msgid "supporting document"
+msgstr "documento constituvo"
+
+#: loco:5f64c3b3dd5c193fd971452a
+msgid "Next Session"
+msgstr "Próxima sesión"
+
+#: loco:5f64c3b3dd5c193fd971452b
+msgid "Attendance"
+msgstr "Asistencia"
+
+#: loco:5f64c3b3dd5c193fd971452c
+msgid "Training Type"
+msgstr "Tipo de formación"
+
+#: loco:5f64c3b3dd5c193fd971452d
+msgid "external file"
+msgstr "archivo externo"
+
+#: loco:5f64c3b3dd5c193fd971452e
+msgid "revisit training"
+msgstr "volver a la formación"
+
+#: loco:5f64c3b3dd5c193fd971452f
+msgid "continue training"
+msgstr "continuar con la formación"
+
+#: loco:5f64c3b3dd5c193fd9714530
+msgid "view certificate"
+msgstr "ver certificado"
+
+#: loco:5f64c3b3dd5c193fd9714531
+msgid "module notes"
+msgstr "notas del módulo"
+
+#: loco:5f64c3b3dd5c193fd9714532
+msgid "This item could not be found."
+msgstr "Este artículo no se pudo encontrar."
+
+#: loco:5f64c3b3dd5c193fd9714533
+msgid "This action could not be completed."
+msgstr "Esta acción no pudo ser completada."
+
+#: loco:5f64c3b3dd5c193fd9714534
+msgid "Competences"
+msgstr "Competencias"
+
+#: loco:5f64c3b3dd5c193fd9714535
+msgid "External Training"
+msgstr "Formación externa"
+
+#: loco:5f64c3b3dd5c193fd9714536
+msgid "Appraisals"
+msgstr "Evaluaciones"
+
+#: loco:5f64c3b3dd5c193fd9714537
+msgid "Competence"
+msgstr "Competencia"
+
+#: loco:5f64c3b3dd5c193fd9714538
+msgid "Careers"
+msgstr "Carreras"
+
+#: loco:5f64c3b3dd5c193fd9714539
+msgid "Noticeboard"
+msgstr "Tablón de anuncios"
+
+#: loco:5f64c3b3dd5c193fd971453a
+msgid "Appraisal"
+msgstr "Evaluación"
+
+#: loco:5f64c3b3dd5c193fd971453b
+msgid "Feed"
+msgstr "Fuente"
+
+#: loco:5f64c3b3dd5c193fd971453c
+msgid "Training"
+msgstr "Formación"
+
+#: loco:5f64c3b3dd5c193fd971453d
+msgid "Comms"
+msgstr "Comunicaciones"
+
+#: loco:5f64c3b3dd5c193fd971453e
+msgid "Library"
+msgstr "Biblioteca"
+
+#: loco:5f64c3b3dd5c193fd971453f
+msgid "My Career"
+msgstr "Mi carrera"
+
+#: loco:5f64c3b3dd5c193fd9714540
+msgid "My Training"
+msgstr "Mi entrenamiento"
+
+#: loco:5f64c3b3dd5c193fd9714541
+msgid "Items with Due Dates are:"
+msgstr "Los artículos con fecha de vencimiento son:"
+
+#: loco:5f64c3b3dd5c193fd9714542
+msgid "Online"
+msgstr "En línea"
+
+#: loco:5f64c3b3dd5c193fd9714544
+msgid "Your supervisor/manager has not marked this as achieved yet"
+msgstr "Su supervisor/gerente no ha marcado esto como logrado todavía"
+
+#: loco:5f64c3b3dd5c193fd9714545
+msgid "This news article could not be found."
+msgstr "Este artículo no se pudo encontrar."
+
+#: loco:5f64c3b3dd5c193fd9714546
+msgid "Due:"
+msgstr "Debido:"
+
+#: loco:5f64c3b3dd5c193fd9714547
+msgid "Jump to:"
+msgstr "Vaya a:"
+
+#: loco:5f64c3b3dd5c193fd9714548
+msgid "Latest exam result:"
+msgstr "El último resultado del examen:"
+
+#: loco:5f64c3b3dd5c193fd9714549
+msgid "View certificate"
+msgstr "Ver certificado"
+
+#: loco:5f64c3b3dd5c193fd971454a
+msgid "Status:"
+msgstr "Estado:"
+
+#: loco:5f64c3b3dd5c193fd971454b
+msgid "Training Time"
+msgstr "Tiempo de entrenamiento"
+
+#: loco:5f64c3b3dd5c193fd971454c
+msgid "Open supporting documents"
+msgstr "Abrir los documentos de apoyo"
+
+#: loco:5f64c3b3dd5c193fd971454d
+msgid "Date Due:"
+msgstr "Fecha de vencimiento:"
+
+#: loco:5f64c3b3dd5c193fd971454e
+msgid "Open Supporting Documents"
+msgstr "Documentos de apoyo abiertos"
+
+#: loco:5f64c3b3dd5c193fd971454f
+msgid "Accept"
+msgstr "Aceptar"
+
+#: loco:5f64c3b3dd5c193fd9714550
+msgid "Decline"
+msgstr "Declinar"
+
+#: loco:5f64c3b3dd5c193fd9714551
+msgid ""
+"You are about to accept an invitation to a training session. Are you sure "
+"you wish to continue?"
+msgstr ""
+"Está a punto de aceptar una invitación a una sesión de entrenamiento. ¿Está "
+"seguro de que desea continuar?"
+
+#: loco:5f64c3b3dd5c193fd9714552
+msgid ""
+"You are about to decline an invitation to a training session. Are you sure "
+"you wish to continue?"
+msgstr ""
+"Estás a punto de rechazar una invitación a una sesión de entrenamiento. "
+"¿Está seguro de que desea continuar?"
+
+#: loco:5f64c3b3dd5c193fd9714553
+msgid "Achieved date:"
+msgstr "Fecha alcanzada:"
+
+#: loco:5f64c3b3dd5c193fd9714554
+msgid "Supporting document available:"
+msgstr "Documento de apoyo disponible:"
+
+#: loco:5f64c3b3dd5c193fd9714555
+msgid "View supporting document"
+msgstr "Ver documento de apoyo"
+
+#: loco:5f64c3b3dd5c193fd9714556
+msgid "There was a problem loading this item, please try again."
+msgstr ""
+"Hubo un problema al cargar este artículo, por favor inténtelo de nuevo."
+
+#: loco:5f64c3b3dd5c193fd9714557
+msgid "Something has gone wrong, please try again later."
+msgstr "Algo ha salido mal, por favor, inténtelo de nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd9714558
+msgid "Saved Items"
+msgstr "Empresas favoritas"
+
+#: loco:5f64c3b3dd5c193fd9714559
+msgid "Unread Items"
+msgstr "Artículos sin leer"
+
+#: loco:5f64c3b3dd5c193fd971455a
+msgid "Sign Off Required"
+msgstr "Se requiere cierre"
+
+#: loco:5f64c3b3dd5c193fd971455b
+msgid "Sign Off Completed"
+msgstr "Cierre de sesión completado"
+
+#: loco:5f64c3b3dd5c193fd971455c
+msgid "Documents"
+msgstr "Documentos"
+
+#: loco:5f64c3b3dd5c193fd971455d
+msgid "Certificates"
+msgstr "Certificados"
+
+#: loco:5f64c3b3dd5c193fd971455e
+msgid "You have no saved documents"
+msgstr "No tienes documentos guardados"
+
+#: loco:5f64c3b3dd5c193fd971455f
+msgid "You have no saved certificates"
+msgstr "No tienes certificados guardados"
+
+#: loco:5f64c3b3dd5c193fd9714560
+msgid "Loading account details"
+msgstr "Cargando los detalles de la cuenta"
+
+#: loco:5f64c3b3dd5c193fd9714561
+msgid "Error: Could not load account details. Please try again later."
+msgstr ""
+"Error: No se pudieron cargar los detalles de la cuenta. Por favor, inténtelo "
+"de nuevo más tarde."
+
+#: loco:5f64c3b3dd5c193fd9714562
+msgid "Unable to register for push notifications"
+msgstr "No se puede registrar para las notificaciones push"
+
+#: loco:5f64c3b3dd5c193fd9714563
+msgid "Unable to register device for push notifications"
+msgstr "No se puede registrar el dispositivo para las notificaciones push"
+
+#: loco:5f64c3b3dd5c193fd9714564
+msgid ""
+"There is a private session for this course but you are not invited to attend."
+msgstr ""
+"Hay una sesión privada para este curso, pero no ha recibido una invitación "
+"para asistir."
+
+#: loco:5f64c3b3dd5c193fd9714565
+msgid ""
+"Using the latest technology, Flow delivers a continuously evolving learning "
+"and development solution tailored to the hospitality and tourism sector, "
+"providing accredited, certificated training throughout the industry."
+msgstr ""
+"Utilizando la tecnología más avanzada, Flow ofrece una solución de "
+"aprendizaje y desarrollo en continua evolución adaptada al sector de la "
+"hostelería y el turismo, proporcionando una formación acreditada y "
+"certificada en toda la industria."
+
+#: loco:5f64c3b3dd5c193fd9714566
+msgid ""
+"Easily tailored to fit into your business, Flow will have a significant "
+"impact on productivity and profitability by developing and motivating staff, "
+"reducing training costs and increasing sales."
+msgstr ""
+"Fácilmente adaptable a su negocio, Flow tendrá un impacto significativo en "
+"la productividad y la rentabilidad al desarrollar y motivar al personal, "
+"reducir los costes de formación y aumentar las ventas."
+
+#: loco:5f64c3b3dd5c193fd9714567
+msgid ""
+"Flow has been designed to inspire learning through our comprehensive "
+"portfolio of innovative and engaging online modules. We also deliver control "
+"and visibility of all learning and development activity through our "
+"versatile and intuitive management system, The Flow Zone."
+msgstr ""
+"Flow ha sido diseñado para inspirar el aprendizaje a través de nuestro "
+"amplio portafolio de módulos en línea innovadores y atractivos. También "
+"ofrecemos control y visibilidad de toda la actividad de aprendizaje y "
+"desarrollo a través de nuestro versátil e intuitivo sistema de gestión, The "
+"Flow Zone."
+
+#: loco:5f64c3b3dd5c193fd9714568
+msgid ""
+"And with over 30 years of hospitality experience, we feel our industry "
+"expertise gives us unique empathy with all our clients, enabling an "
+"excellent level of service and support."
+msgstr ""
+"Y con más de 30 años de experiencia en el sector de la hospitalidad, creemos "
+"que nuestra experiencia en la industria nos da una empatía única con todos "
+"nuestros clientes, lo que permite un excelente nivel de servicio y apoyo."
+
+#: loco:5f64c3b3dd5c193fd9714569
+msgid "Terms & Conditions"
+msgstr "Términos y condiciones"
+
+#: loco:5f64c3b3dd5c193fd971456a
+msgid "Information"
+msgstr "Información"
+
+#: loco:5f64c3b3dd5c193fd971456b
+msgid "Arbitration"
+msgstr "Arbitraje"
+
+#: loco:5f64c3b3dd5c193fd971456c
+msgid "Choice of law"
+msgstr "Elección de la ley"
+
+#: loco:5f64c3b3dd5c193fd971456d
+msgid "Copyright and Trademarks"
+msgstr "Derechos de autor y marcas registradas"
+
+#: loco:5f64c3b3dd5c193fd971456e
+msgid "Terms and Conditions of Use"
+msgstr "Términos y condiciones de uso"
+
+#: loco:5f64c3b3dd5c193fd971456f
+msgid ""
+"Please read the following Terms and Conditions carefully before using this "
+"Mobile App"
+msgstr ""
+"Por favor, lea atentamente los siguientes Términos y Condiciones antes de "
+"usar esta aplicación móvil"
+
+#: loco:5f64c3b3dd5c193fd9714570
+msgid "Acceptance of Terms"
+msgstr "Aceptación de los términos"
+
+#: loco:5f64c3b3dd5c193fd9714571
+msgid ""
+"This Mobile App is provided by Flow Hospitality Training (Flow), conditional "
+"on your acceptance of the terms and conditions of use set forth below (the "
+"'Terms and Conditions'). By browsing, accessing, linking, using and/or "
+"downloading information ('Access' or similar term) from this Mobile App, you "
+"agree to accept and abide by these Terms and Conditions for each use and "
+"each visit of this Mobile App. If you do not agree to these Terms and "
+"Conditions, you should not Access this Mobile App."
+msgstr ""
+"Esta aplicación móvil es proporcionada por Flow Hospitality Training (Flow), "
+"condicionada a la aceptación de los términos y condiciones de uso "
+"establecidos a continuación (los \"Términos y Condiciones\"). Al navegar, "
+"acceder, vincular, utilizar y/o descargar información ('Acceso' o término "
+"similar) desde esta Aplicación Móvil, usted acepta y se rige por estos "
+"Términos y Condiciones para cada uso y cada visita de esta Aplicación Móvil. "
+"Si no acepta estos Términos y Condiciones, no debe acceder a esta aplicación "
+"móvil."
+
+#: loco:5f64c3b3dd5c193fd9714572
+msgid ""
+"Flow provides this Mobile App and all related online services (the "
+"'Services') to you, subject to these Terms and Conditions. These Terms and "
+"Conditions are entered into between Flow and you. If you are using the "
+"Services on behalf of another person, you represent that you are authorized "
+"to accept these Terms and Conditions on that person's behalf. Unless "
+"explicitly stated otherwise, these Terms and Conditions will govern your use "
+"of any new features that augment or enhance the current Services, including "
+"the release of new products or services."
+msgstr ""
+"Flow le proporciona esta aplicación móvil y todos los servicios en línea "
+"relacionados (los \"Servicios\"), con sujeción a los presentes Términos y "
+"Condiciones. Estos Términos y Condiciones se establecen entre Flow y usted. "
+"Si está utilizando los Servicios en nombre de otra persona, usted declara "
+"que está autorizado a aceptar estos Términos y Condiciones en nombre de esa "
+"persona. A menos que se indique explícitamente lo contrario, estos Términos "
+"y Condiciones regirán el uso que usted haga de cualquier característica "
+"nueva que aumente o mejore los Servicios actuales, incluyendo el lanzamiento "
+"de nuevos productos o servicios."
+
+#: loco:5f64c3b3dd5c193fd9714573
+msgid "Definitions"
+msgstr "Definiciones"
+
+#: loco:5f64c3b3dd5c193fd9714574
+msgid ""
+"In addition to the terms defined throughout these Terms and Conditions, the "
+"terms 'you', 'your' and 'yours' refer to the surfer, customer or purchaser "
+"utilizing this Mobile App to obtain Services. The terms 'we', 'us' and 'our' "
+"refer to Flow."
+msgstr ""
+"Además de los términos definidos a lo largo de estos Términos y Condiciones, "
+"los términos \"usted\", \"su\" y \"suyo\" se refieren al surfista, cliente o "
+"comprador que utiliza esta Aplicación Móvil para obtener Servicios. Los "
+"términos \"nosotros\", \"nos\" y \"nuestro\" se refieren al flujo."
+
+#: loco:5f64c3b3dd5c193fd9714575
+msgid "Changes to Terms and Conditions"
+msgstr "Cambios en los términos y condiciones"
+
+#: loco:5f64c3b3dd5c193fd9714576
+msgid ""
+"Flow reserves the right, at any time, to modify, add to, delete from, alter, "
+"or update these Terms and Conditions ('Changes'), and you agree to be bound "
+"by such Changes. Changes shall be effective immediately upon notice thereof, "
+"which may be given by any means including, but not limited to posting on "
+"this Mobile App or by electronic or conventional mail. You agree to "
+"regularly review the Terms and Conditions included in this Mobile Appand to "
+"be aware of Changes. Your use of this Mobile App following any Changes "
+"constitutes your agreement to follow and be bound by these Terms and "
+"Conditions as changed."
+msgstr ""
+"Flow se reserva el derecho, en cualquier momento, de modificar, añadir, "
+"eliminar, alterar o actualizar estos Términos y Condiciones (\"Cambios\"), y "
+"usted acepta estar obligado por dichos cambios. Los cambios entrarán en "
+"vigor inmediatamente después de su notificación, que podrá realizarse por "
+"cualquier medio, incluyendo, pero no limitándose a su publicación en esta "
+"Aplicación Móvil o por correo electrónico o convencional. Usted acepta "
+"revisar regularmente los Términos y Condiciones incluidos en esta Aplicación "
+"Móvil para estar al tanto de los Cambios. El uso de esta Aplicación Móvil "
+"después de cualquier Cambio constituye su acuerdo para seguir y estar "
+"obligado por estos Términos y Condiciones tal y como han sido modificados."
+
+#: loco:5f64c3b3dd5c193fd9714577
+msgid "Permitted and Prohibited Uses"
+msgstr "Usos permitidos y prohibidos"
+
+#: loco:5f64c3b3dd5c193fd9714578
+msgid ""
+"This Mobile App is intended for the lawful use of members of the general "
+"public who are over the age of 16 years. Subject to these Terms and "
+"Conditions, Flow grants you a non-exclusive, non-transferable, limited right "
+"to access, use and view this Mobile App and the information thereon, "
+"including without limitation, all text, design, graphics, drawings, "
+"photographs, video clips, music and sounds, and all trade-marks, service "
+"marks and trade names used at this Mobile App and the selection and "
+"arrangements thereof (collectively, the 'Content'), solely for your own "
+"personal use, provided, however, that you may not, nor may you allow others "
+"to, directly or indirectly:"
+msgstr ""
+"Esta aplicación móvil está destinada al uso legítimo de los miembros del "
+"público en general mayores de 16 años. Con sujeción a estos Términos y "
+"Condiciones, Flow le concede un derecho limitado, no exclusivo e "
+"intransferible para acceder, utilizar y ver esta Aplicación Móvil y la "
+"información que contiene, incluyendo, sin limitación, todos los textos, "
+"diseños, gráficos, dibujos, fotografías, videoclips, música y sonidos, y "
+"todas las marcas comerciales, marcas de servicio y nombres comerciales "
+"utilizados en esta Aplicación Móvil y la selección y arreglos de los mismos "
+"(colectivamente, el \"Contenido\"), únicamente para su uso personal, siempre "
+"que no pueda, ni permita que otros lo hagan, directa o indirectamente:"
+
+#: loco:5f64c3b3dd5c193fd9714579
+msgid ""
+"sell, license, rent, reproduce, modify or attempt to modify or create "
+"derivative works from the Content in any way or reproduce or publicly "
+"display, perform, transmit or distribute or otherwise use the Content for "
+"any public or commercial purpose, including without limitation use of the "
+"Content on any other online service or in any environment of networked "
+"computers;"
+msgstr ""
+"vender, licenciar, alquilar, reproducir, modificar o intentar modificar o "
+"crear trabajos derivados del Contenido de cualquier manera o reproducir o "
+"mostrar públicamente, ejecutar, transmitir o distribuir o utilizar de otra "
+"manera el Contenido para cualquier propósito público o comercial, incluyendo,"
+" sin limitación, el uso del Contenido en cualquier otro servicio en línea o "
+"en cualquier entorno de computadoras en red;"
+
+#: loco:5f64c3b3dd5c193fd971457a
+msgid ""
+"transfer the Content to any other person without the prior written explicit "
+"consent of Flow;"
+msgstr ""
+"transferir el contenido a cualquier otra persona sin el previo "
+"consentimiento explícito por escrito de Flow;"
+
+#: loco:5f64c3b3dd5c193fd971457b
+msgid ""
+"use this Mobile App in any manner that could damage, disable, overburden or "
+"impair this Mobile App;"
+msgstr ""
+"utilizar esta aplicación móvil de cualquier manera que pueda dañar, "
+"desactivar, sobrecargar o perjudicar esta aplicación móvil;"
+
+#: loco:5f64c3b3dd5c193fd971457c
+msgid ""
+"upload, post or otherwise transmit or distribute on this Mobile App any "
+"items, including without limitation computer viruses, Trojan horses, worms, "
+"backdoor, shutdown mechanism or other harmful, disruptive or destructive "
+"files or computer programs;"
+msgstr ""
+"cargar, publicar o transmitir o distribuir de cualquier otra forma en esta "
+"Aplicación Móvil cualquier elemento, incluyendo sin limitación virus "
+"informáticos, caballos de Troya, gusanos, puertas traseras, mecanismos de "
+"cierre u otros archivos o programas informáticos dañinos, perturbadores o "
+"destructivos;"
+
+#: loco:5f64c3b3dd5c193fd971457d
+msgid ""
+"interfere with the security of, or otherwise abuse, this Mobile App or any "
+"Services, system resources, accounts, servers or networks connected to or "
+"accessible through this Mobile App or associated or linked sites;"
+msgstr ""
+"interferir con la seguridad de, o de alguna otra manera abusar de, esta "
+"aplicación móvil o cualquier servicio, recursos del sistema, cuentas, "
+"servidores o redes conectadas o accesibles a través de esta aplicación móvil "
+"o sitios asociados o vinculados;"
+
+#: loco:5f64c3b3dd5c193fd971457e
+msgid ""
+"infringe on any patent, trade-mark, trade secret, copyright, right of "
+"publicity, or other proprietary right of any person, or impersonate any "
+"person or entity;"
+msgstr ""
+"infringir cualquier patente, marca comercial, secreto comercial, derecho de "
+"autor, derecho de publicidad u otro derecho de propiedad de cualquier "
+"persona, o hacerse pasar por cualquier persona o entidad;"
+
+#: loco:5f64c3b3dd5c193fd971457f
+msgid ""
+"disrupt or interfere with any other person's use or enjoyment of this Mobile "
+"App or associated or linked online services;"
+msgstr ""
+"interrumpir o interferir con el uso o disfrute de cualquier otra persona de "
+"esta aplicación móvil o de los servicios en línea asociados o vinculados;"
+
+#: loco:5f64c3b3dd5c193fd9714580
+msgid ""
+"use any robot, spider or other automatic program or device, or manual "
+"process to monitor, copy, summarize, or otherwise extract information from "
+"this Mobile App or the Content in whole or in part;"
+msgstr ""
+"utilizar cualquier robot, araña u otro programa o dispositivo automático o "
+"proceso manual para monitorear, copiar, resumir o extraer información de "
+"esta Aplicación Móvil o del Contenido en su totalidad o en parte;"
+
+#: loco:5f64c3b3dd5c193fd9714581
+msgid ""
+"use or attempt to use another's account, password, service, system or other "
+"information without prior written authorization from Flow, or create or use "
+"a false identity on this Mobile App;"
+msgstr ""
+"utilizar o intentar utilizar la cuenta, la contraseña, el servicio, el "
+"sistema u otra información de otra persona sin la autorización previa por "
+"escrito de Flow, o crear o utilizar una identidad falsa en esta aplicación "
+"móvil;"
+
+#: loco:5f64c3b3dd5c193fd9714582
+msgid ""
+"transmit on, to or from this Mobile App spam, chain letters, junk mail or "
+"any other type of unsolicited mass e-mail;"
+msgstr ""
+"transmitir en, hacia o desde esta aplicación móvil spam, cartas en cadena, "
+"correo basura o cualquier otro tipo de correo electrónico masivo no "
+"solicitado;"
+
+#: loco:5f64c3b3dd5c193fd9714583
+msgid ""
+"upload to, distribute to, or otherwise disseminate through this Mobile App "
+"any material or information of any kind that is threatening, harassing, "
+"libellous, defamatory, obscene, pornographic, fraudulent, deceptive, abusive,"
+" or otherwise violates any law or infringes or violates any rights of any "
+"other person or entity, or contains a solicitation of funds, advertising, or "
+"a solicitation for goods or services; or"
+msgstr ""
+"cargar, distribuir o difundir de otro modo a través de esta aplicación móvil "
+"cualquier material o información de cualquier tipo que sea amenazador, "
+"acosador, calumnioso, difamatorio, obsceno, pornográfico, fraudulento, "
+"engañoso, abusivo, o que de otro modo infrinja cualquier ley o infrinja o "
+"viole cualquier derecho de cualquier otra persona o entidad, o que contenga "
+"una solicitud de fondos, publicidad o una solicitud de bienes o servicios; o"
+
+#: loco:5f64c3b3dd5c193fd9714584
+msgid ""
+"attempt to obtain unauthorized access to this Mobile App or portions of this "
+"Mobile App which are restricted from general access."
+msgstr ""
+"intentar obtener un acceso no autorizado a esta aplicación móvil o a partes "
+"de la misma que estén restringidas al acceso general."
+
+#: loco:5f64c3b3dd5c193fd9714585
+msgid ""
+"You also agree that you are solely responsible for actions and "
+"communications undertaken or transmitted in the course of your usage of this "
+"Mobile App, and that you will comply with all laws that apply or may apply "
+"to your use of or activities on this Mobile App or in respect of the Content."
+msgstr ""
+"También acepta que es el único responsable de las acciones y comunicaciones "
+"realizadas o transmitidas durante el uso de esta Aplicación móvil, y que "
+"cumplirá con todas las leyes que se aplican o pueden aplicarse al uso o las "
+"actividades de esta Aplicación móvil o con respecto al Contenido."
+
+#: loco:5f64c3b3dd5c193fd9714586
+msgid ""
+"Unless otherwise noted, all Content is subject to intellectual property "
+"rights including copyrights and trade marks held or licensed by Flow. You "
+"may print or download one copy of the Content on this Mobile App on a single "
+"computer for your personal, non commercial use, provided you keep intact all "
+"copyright and other proprietary notices. Any other reproduction or use "
+"without express prior written permission from Flow, or Flow's content "
+"providers as the case may be, is strictly prohibited. Except as expressly "
+"provided herein, no license to use or reproduce the Content is given to you "
+"and all intellectual property rights therein are expressly reserved. "
+"Systematic retrieval of data or other Content from this Mobile App to create "
+"or compile, directly or indirectly, a collection, compilation, database or "
+"directory without express prior written permission from Flow is prohibited."
+msgstr ""
+"A menos que se indique lo contrario, todo el Contenido está sujeto a "
+"derechos de propiedad intelectual, incluidos los derechos de autor y las "
+"marcas comerciales de las que Flow es titular o con licencia. Puede imprimir "
+"o descargar una copia del Contenido de esta Aplicación móvil en un solo "
+"ordenador para su uso personal y no comercial, siempre que mantenga intactos "
+"todos los avisos de derechos de autor y otros avisos de propiedad. Queda "
+"estrictamente prohibida cualquier otra reproducción o uso sin el previo y "
+"expreso permiso escrito de Flow, o de los proveedores de contenido de Flow, "
+"según sea el caso. Salvo lo expresamente previsto en el presente, no se le "
+"concede ninguna licencia de uso o reproducción del Contenido y todos los "
+"derechos de propiedad intelectual sobre el mismo están expresamente "
+"reservados. Queda prohibida la recuperación sistemática de datos u otros "
+"Contenidos de esta Aplicación Móvil para crear o compilar, directa o "
+"indirectamente, una colección, compilación, base de datos o directorio sin "
+"el previo permiso escrito de Flow."
+
+#: loco:5f64c3b3dd5c193fd9714587
+msgid "Links and Third Party Websites"
+msgstr "Enlaces y sitios web de terceros"
+
+#: loco:5f64c3b3dd5c193fd9714588
+msgid ""
+"Flow may provide to you, on this Mobile App, links to Third Party Websites "
+"operated by other entities. These Third Party Websites will typically be "
+"identifiable through , though the Site does occasionally contain content "
+"from Third Party Websites within the WEBSITE URL. You agree that this Site "
+"provides no dialogue box or other clear demarcation indicator when you leave "
+"this Site and enter a Third Party Website. Links to Third Party Websites "
+"does not constitute an endorsement, sponsorship or recommendation by Flow of "
+"the Third Party Websites, the entities themselves or of any content, "
+"services or products available on or through such Third Party Websites. If "
+"you use these Third Party Websites, you do so at your own risk and it is "
+"your responsibility to take all protective measures to guard against viruses "
+"and other destructive elements. Links do not imply that Flow or this Site is "
+"affiliated or associated with, or is legally authorized to use any trade-"
+"mark, trade name, logo or copyright symbol displayed in or accessible "
+"through the links, or that any Third Party Website is authorized to use any "
+"trademark, trade name, logo or copyright symbol of Flow. Third Party "
+"Websites may create other contractual obligations between you and the third "
+"party entity in addition to these Terms and Conditions."
+msgstr ""
+"Flow puede proporcionarle, en esta aplicación móvil, enlaces a sitios web de "
+"terceros operados por otras entidades. Estos Sitios web de terceros suelen "
+"ser identificables a través de , aunque el Sitio contiene ocasionalmente "
+"contenido de Sitios web de terceros dentro de la URL del SITIO. Usted acepta "
+"que este Sitio no proporciona ningún cuadro de diálogo ni ningún otro "
+"indicador de demarcación claro cuando sale de este Sitio y entra en un Sitio "
+"Web de Terceros. Los enlaces a Sitios web de terceros no constituyen un "
+"respaldo, patrocinio o recomendación por parte de Flow de los Sitios web de "
+"terceros, las entidades mismas o de cualquier contenido, servicio o producto "
+"disponible en o a través de dichos Sitios web de terceros. Si usted utiliza "
+"estos Sitios Web de Terceros, lo hace bajo su propio riesgo y es su "
+"responsabilidad tomar todas las medidas de protección para protegerse de los "
+"virus y otros elementos destructivos. Los enlaces no implican que Flow o "
+"este Sitio esté afiliado o asociado con, o esté legalmente autorizado para "
+"utilizar cualquier marca comercial, nombre comercial, logotipo o símbolo de "
+"copyright mostrado en o accesible a través de los enlaces, o que cualquier "
+"Sitio Web de Terceros esté autorizado para utilizar cualquier marca "
+"comercial, nombre comercial, logotipo o símbolo de copyright de Flow. Los "
+"Sitios web de terceros pueden crear otras obligaciones contractuales entre "
+"usted y la entidad de terceros además de estos Términos y condiciones."
+
+#: loco:5f64c3b3dd5c193fd9714589
+msgid ""
+"This Mobile App will from time to time contain materials, data or "
+"information provided, posted or offered by third parties, including but not "
+"limited to advertisements. You agree that Flow shall not have any liability "
+"whatsoever to you for any such third party material, data or information."
+msgstr ""
+"Esta aplicación móvil contendrá de vez en cuando materiales, datos o "
+"información proporcionados, publicados u ofrecidos por terceros, incluidos, "
+"entre otros, anuncios publicitarios. Usted acepta que Flow no tendrá "
+"responsabilidad alguna ante usted por dicho material, datos o información de "
+"terceros."
+
+#: loco:5f64c3b3dd5c193fd971458a
+msgid "Submission of Information"
+msgstr "Presentación de información"
+
+#: loco:5f64c3b3dd5c193fd971458b
+msgid ""
+"Although Flow may provide certain security in an effort to protect the "
+"electronic transmission of certain information that you submit to Flow "
+"through this Mobile App, Flow does not guarantee the security of any "
+"information transmitted to or from this Mobile App, including to or from any "
+"Third Party Websites linked to this Mobile App. Submission of any financial "
+"(eg. credit card) or other information to this Mobile App or to any Third "
+"Party Websites linked to this Mobile App is entirely at your own risk and "
+"responsibility. Do not send any confidential or proprietary information to "
+"Flow through this Mobile App. Except for personal information about you, any "
+"information you do send to Flow through this Mobile App will be deemed NOT "
+"to be confidential ('Non-Confidential Information). For any Non-Confidential "
+"Information you do send, you hereby grant to Flow a worldwide, royalty-free, "
+"perpetual, irrevocable, non-exclusive right and license to use, reproduce, "
+"modify, adapt, publish, translate, distribute and sublicense any and all "
+"material or information submitted by you to this Mobile App and/or to "
+"incorporate it in other works regardless of form, medium or technology."
+msgstr ""
+"Aunque Flow puede proporcionar cierta seguridad en un esfuerzo por proteger "
+"la transmisión electrónica de cierta información que usted envía a Flow a "
+"través de esta aplicación móvil, Flow no garantiza la seguridad de ninguna "
+"información transmitida a o desde esta aplicación móvil, incluyendo a o "
+"desde cualquier sitio web de terceros vinculado a esta aplicación móvil. El "
+"envío de cualquier información financiera (p. ej. tarjeta de crédito) u otra "
+"información a esta aplicación móvil o a cualquier sitio web de terceros "
+"vinculado a esta aplicación móvil es totalmente bajo su propio riesgo y "
+"responsabilidad. No envíe ninguna información confidencial o propietaria a "
+"Flow a través de esta aplicación móvil. Excepto la información personal "
+"sobre usted, cualquier información que envíe a Flow a través de esta "
+"aplicación móvil se considerará NO confidencial (\"Información no "
+"confidencial\"). Para cualquier Información No Confidencial que usted envíe, "
+"usted otorga a Flow un derecho y licencia mundial, libre de regalías, "
+"perpetuo, irrevocable y no exclusivo para usar, reproducir, modificar, "
+"adaptar, publicar, traducir, distribuir y sublicenciar cualquier y todo el "
+"material o información enviada por usted a esta Aplicación Móvil y/o "
+"incorporarla en otros trabajos sin importar la forma, el medio o la "
+"tecnología."
+
+#: loco:5f64c3b3dd5c193fd971458c
+msgid "Agreement to Privacy Policy"
+msgstr "Acuerdo de política de privacidad"
+
+#: loco:5f64c3b3dd5c193fd971458d
+msgid ""
+"Flow respects your desire for privacy. Flow's Privacy Policy can be found "
+"here [LINK TO PRIVACY PAGE NEEDED HERE]. By accessing this Mobile App, you "
+"are consenting to the collection, use and disclosure of your personal "
+"information and to the terms of our Privacy Policy. If we decide to change "
+"our Privacy Policy, we will post the revised Privacy Policy prominently on "
+"this Mobile App or otherwise bring it to your attention, so that you are "
+"always aware of what we do with your information."
+msgstr ""
+"Flow respeta su deseo de privacidad. La política de privacidad de Flow se "
+"puede encontrar aquí [LINK TO PRIVACY PAGE NEEDED HERE]. Al acceder a esta "
+"aplicación móvil, usted está dando su consentimiento a la recopilación, uso "
+"y divulgación de su información personal y a los términos de nuestra "
+"Política de Privacidad. Si decidimos cambiar nuestra Política de Privacidad, "
+"publicaremos la Política de Privacidad revisada de forma destacada en esta "
+"Aplicación Móvil o se lo haremos saber de alguna otra forma, para que "
+"siempre esté al tanto de lo que hacemos con su información."
+
+#: loco:5f64c3b3dd5c193fd971458e
+msgid "Disclaimers"
+msgstr "Descargo de responsabilidad"
+
+#: loco:5f64c3b3dd5c193fd971458f
+msgid ""
+"All content and services provided on or through this Mobile App are provided "
+"'as is' and 'as available for your use. The content is provided without "
+"warranties or conditions of any kind, either express or implied, including "
+"but not limited to implied warranties and conditions of merchantability, "
+"fitness for a particular purpose or non infringement. Neither Flow, their "
+"affiliates and related entities, nor any of their respective employees, "
+"agents, third party content providers or licensors warrant that the content "
+"is accurate, reliable or correct; that this Mobile App will be available at "
+"any particular time or location; that any defects or errors will be "
+"corrected or that the content is free of viruses or other harmful components."
+" Your use of this Mobile App is solely at your risk. Because some "
+"jurisdictions do not permit the exclusion of certain warranties, those "
+"exclusions may not apply to you."
+msgstr ""
+"Todos los contenidos y servicios proporcionados en o a través de esta "
+"aplicación móvil se proporcionan \"tal cual\" y \"según estén disponibles "
+"para su uso\". El contenido se proporciona sin garantías o condiciones de "
+"ningún tipo, ya sean expresas o implícitas, incluyendo pero no limitándose a "
+"garantías y condiciones implícitas de comerciabilidad, idoneidad para un "
+"propósito particular o no infracción. Ni Flow, ni sus filiales y entidades "
+"relacionadas, ni ninguno de sus respectivos empleados, agentes, terceros "
+"proveedores de contenido o licenciatarios garantizan que el contenido sea "
+"preciso, fiable o correcto; que esta aplicación móvil esté disponible en un "
+"momento o lugar determinado; que se corrija cualquier defecto o error o que "
+"el contenido esté libre de virus u otros componentes dañinos. El uso de esta "
+"Aplicación Móvil se realiza bajo su propio riesgo. Debido a que algunas "
+"jurisdicciones no permiten la exclusión de ciertas garantías, es posible que "
+"esas exclusiones no se apliquen en su caso."
+
+#: loco:5f64c3b3dd5c193fd9714590
+msgid "Limit of Liability"
+msgstr "Límite de responsabilidad"
+
+#: loco:5f64c3b3dd5c193fd9714591
+msgid ""
+"In no event shall Flow or their respective directors, officers, partners, "
+"employees, representatives, contractors, affiliates, successors or assigns "
+"be liable to you for your accessing of this Mobile App or under or related "
+"to this agreement for any indirect, special, punitive, incidental, reliance, "
+"exemplary or consequential damages, loss of profits, loss of expected "
+"savings, or any other non-direct damages howsoever caused whether or not "
+"Flow has been advised of the possibility of such damages, and their "
+"collective maximum liability to you under or related to this agreement shall "
+"in no event exceed one-hundred pounds sterling (£100). The limitations of "
+"liability and disclaimers in this agreement shall apply regardless of the "
+"form of action, whether in contract, warranty, strict liability, negligence "
+"or other tort and shall survive a fundamental breach or breaches or the "
+"failure of the essential purpose of contract or the failure of an exclusive "
+"remedy. Because some jurisdictions do not allow the exclusion or limitation "
+"of incidental or consequential damages, Flow's liability in such "
+"jurisdictions shall be limited to the extent permitted by law."
+msgstr ""
+"En ningún caso Flow o sus respectivos directores, funcionarios, socios, "
+"empleados, representantes, contratistas, afiliados, sucesores o cesionarios "
+"serán responsables ante usted por su acceso a esta Aplicación Móvil o bajo o "
+"en relación con este acuerdo por cualquier daño indirecto, especial, "
+"punitivo, incidental, de confianza, ejemplar o consecuente, pérdida de "
+"beneficios, pérdida de ahorros esperados, o cualquier otro daño no directo, "
+"sea cual sea la causa, tanto si Flow ha sido advertido de la posibilidad de "
+"tales daños como si no, y su responsabilidad colectiva máxima ante usted en "
+"virtud o en relación con este acuerdo no excederá en ningún caso de cien "
+"libras esterlinas (£100). Las limitaciones de responsabilidad y las "
+"renuncias de este acuerdo se aplicarán independientemente de la forma de "
+"acción, ya sea en el contrato, la garantía, la responsabilidad estricta, la "
+"negligencia u otro agravio y sobrevivirán a un incumplimiento o "
+"incumplimientos fundamentales o al fracaso del propósito esencial del "
+"contrato o al fracaso de un recurso exclusivo. Dado que algunas "
+"jurisdicciones no permiten la exclusión o limitación de los daños "
+"incidentales o consecuentes, la responsabilidad de Flow en dichas "
+"jurisdicciones se limitará en la medida en que lo permita la ley."
+
+#: loco:5f64c3b3dd5c193fd9714592
+msgid "Indemnity"
+msgstr "Indemnización"
+
+#: loco:5f64c3b3dd5c193fd9714593
+msgid ""
+"You agree to defend, indemnify and hold harmless Flow and their respective "
+"directors, officers, partners, employees, representatives, contractors, "
+"affiliates, successors or assigns, including all third parties mentioned at "
+"this Mobile App, from and against any and all claims, actions or demands, "
+"including without limitation reasonable legal and accounting fees, alleging "
+"or resulting from your use of this Mobile App and the Content or your breach "
+"of these Terms and Conditions or in connection with your use of the Services."
+msgstr ""
+"Usted acepta defender, indemnizar y eximir de responsabilidad a Flow y a sus "
+"respectivos directores, funcionarios, socios, empleados, representantes, "
+"contratistas, afiliados, sucesores o cesionarios, incluidos todos los "
+"terceros mencionados en esta Aplicación Móvil, de y contra cualquier "
+"reclamación, acción o demanda, incluyendo, sin limitación, los honorarios "
+"legales y contables razonables, que se aleguen o resulten del uso de esta "
+"Aplicación Móvil y el Contenido o del incumplimiento de estos Términos y "
+"Condiciones o en relación con el uso de los Servicios."
+
+#: loco:5f64c3b3dd5c193fd9714594
+msgid "Governing Law"
+msgstr "Leyes vigentes"
+
+#: loco:5f64c3b3dd5c193fd9714595
+msgid ""
+"All matters relative to this Agreement shall be governed and construed in "
+"all respects by the law Scotland and the parties hereby submit to the non-"
+"exclusive jurisdiction of the Scottish Courts."
+msgstr ""
+"Todas las cuestiones relativas al presente Acuerdo se regirán e "
+"interpretarán en todos los aspectos por la ley Escocia y las partes se "
+"someten por la presente a la jurisdicción no exclusiva de los tribunales "
+"escoceses."
+
+#: loco:5f64c3b3dd5c193fd9714596
+msgid "General"
+msgstr "General"
+
+#: loco:5f64c3b3dd5c193fd9714597
+msgid ""
+"The Privacy Policy is a binding part of these Terms and Conditions, and "
+"together with these Terms and Conditions constitutes the entire agreement "
+"between Flow and you with respect to your use of this Mobile App. Flow's "
+"failure to insist upon or enforce strict performance of any provision of "
+"these Terms and Conditions shall not be construed as a waiver of any "
+"provision or right. If for any reason a court of competent jurisdiction "
+"finds any provision of these Terms and Conditions or portion thereof to be "
+"unenforceable, that provision shall be enforced to the maximum extent "
+"permissible so as to effect the intent of these Terms and Conditions, and "
+"the remainder of these Terms and Conditions shall continue in full force and "
+"effect. Any cause of action you may have with respect to your use of this "
+"Mobile App or which is the subject of these Terms and Conditions must be "
+"commenced within one (1) year after the claim or cause of action arises. You "
+"acknowledge that Flow is a third party beneficiary for all purposes under "
+"these Terms and Conditions."
+msgstr ""
+"La Política de Privacidad es una parte vinculante de estos Términos y "
+"Condiciones, y junto con estos Términos y Condiciones constituye el acuerdo "
+"completo entre Flow y usted con respecto al uso de esta Aplicación Móvil. El "
+"hecho de que Flow no insista en el cumplimiento estricto de cualquiera de "
+"las disposiciones de estos Términos y condiciones o no lo haga no debe "
+"interpretarse como una renuncia a ninguna disposición o derecho. Si por "
+"alguna razón un tribunal de jurisdicción competente considera que alguna "
+"disposición de estos Términos y Condiciones o parte de ella no es aplicable, "
+"dicha disposición se aplicará en la medida máxima permitida para hacer "
+"efectiva la intención de estos Términos y Condiciones, y el resto de estos "
+"Términos y Condiciones continuará en pleno vigor y efecto. Cualquier causa "
+"de acción que usted pueda tener con respecto a su uso de esta Aplicación "
+"Móvil o que sea objeto de estos Términos y Condiciones debe iniciarse dentro "
+"de un (1) año después de que surja la reclamación o causa de acción. Usted "
+"reconoce que Flow es un tercero beneficiario a todos los efectos bajo estos "
+"Términos y Condiciones."
+
+#: loco:5f64c3b3dd5c193fd9714598
+msgid "FAQ"
+msgstr "FAQ"
+
+#: loco:5f64c3b3dd5c193fd9714599
+msgid ""
+"If you have a question that is not answered below please do not hesitate to "
+"email our helpdesk on help@flowhospitalitytraining.co.uk"
+msgstr ""
+"Si tiene alguna pregunta que no se responda a continuación, por favor no "
+"dude en enviar un correo electrónico a nuestro servicio de asistencia en "
+"help@flowhospitalitytraining.co.uk"
+
+#: loco:5f64c3b3dd5c193fd971459a
+msgid "Contact"
+msgstr "Contacto"
+
+#: loco:5f64c3b3dd5c193fd971459b
+msgid "About Flow"
+msgstr "Acerca de Flow"
+
+#: loco:5f64c3b3dd5c193fd971459c
+msgid "Q. What is Flow Hospitality Training?"
+msgstr "Q. ¿Qué es el Flow Hospitality Training?"
+
+#: loco:5f64c3b3dd5c193fd971459d
+msgid ""
+"Flow Hospitality Training is a fully online product which provides "
+"organisations with the training tools required to train and develop staff to "
+"build a successful career in the hospitality industry. For people that are "
+"looking to work in the hospitality industry the Flow modules provide a great "
+"platform for learning."
+msgstr ""
+"Flow Hospitality Training es un producto totalmente en línea que proporciona "
+"a las organizaciones las herramientas de formación necesarias para capacitar "
+"y desarrollar al personal para construir una carrera exitosa en la industria "
+"de la hospitalidad. Para las personas que buscan trabajar en la industria de "
+"la hospitalidad, los módulos de Flow proporcionan una gran plataforma de "
+"aprendizaje."
+
+#: loco:5f64c3b3dd5c193fd971459e
+msgid "Q. Is Flow training fully accredited?"
+msgstr "Q. ¿Está plenamente acreditada la formación en materia de flujo?"
+
+#: loco:5f64c3b3dd5c193fd971459f
+msgid ""
+"The Flow modules and exams are fully endorsed by the Institute of "
+"Hospitality, Scottish Qualifications Authority (SQA) and accredited by the "
+"National Skills Academy [NSA]."
+msgstr ""
+"Los módulos y exámenes de Flujo están plenamente avalados por el Instituto "
+"de Hostelería, Autoridad Escocesa de Calificaciones (SQA) y acreditados por "
+"la Academia Nacional de Habilidades [NSA]."
+
+#: loco:5f64c3b3dd5c193fd97145a0
+msgid ""
+"All our modules are accredited by People 1st Quality Mark, the Institute of "
+"Hospitality, CPD and SQA."
+msgstr ""
+"Todos nuestros módulos están acreditados por People 1st Quality Mark, el "
+"Instituto de Hospitalidad, CPD y SQA."
+
+#: loco:5f64c3b3dd5c193fd97145a1
+msgid ""
+"Our Food Safety modules are also accredited by IQ, Health and Safety by "
+"RoSPA and our licensing modules are accredited by SQA."
+msgstr ""
+"Nuestros módulos de seguridad alimentaria también están acreditados por IQ, "
+"salud y seguridad por RoSPA y nuestros módulos de licencia están acreditados "
+"por SQA."
+
+#: loco:5f64c3b3dd5c193fd97145a2
+msgid ""
+"The SQA Privacy Policy can be found on their <a href='https://www.sqa.org."
+"uk' class='pdf-anchor-tag'>website</a>."
+msgstr ""
+"La política de privacidad de SQA se puede encontrar en su <a href='https:"
+"//www.sqa.org.uk' class='pdf-anchor-tag'>sitio</a> web."
+
+#: loco:5f64c3b3dd5c193fd97145a3
+msgid ""
+"Q. If I have any questions regarding the content of the modules who do I "
+"contact?"
+msgstr ""
+"Q. Si tengo alguna pregunta sobre el contenido de los módulos, ¿con quién me "
+"pongo en contacto?"
+
+#: loco:5f64c3b3dd5c193fd97145a4
+msgid ""
+"If you have any problems accessing the modules contact the helpdesk, "
+"available from 9am–6pm, Monday - Saturday, on 0844 445 7119 or email "
+"help@flowhospitalitytraining.co.uk. Outside these hours, all emails and "
+"phone calls will be responded to within 24 hours."
+msgstr ""
+"Si tiene algún problema para acceder a los módulos, contacte con el servicio "
+"de asistencia, disponible de 9 a 18 horas, de lunes a sábado, en el 0844 445 "
+"7119 o envíe un correo electrónico a help@flowhospitalitytraining.co.uk. "
+"Fuera de este horario, todos los correos electrónicos y llamadas telefónicas "
+"serán respondidas dentro de las 24 horas."
+
+#: loco:5f64c3b3dd5c193fd97145a5
+msgid "Q. How quickly will I be contacted after inputting my initial enquiry?"
+msgstr ""
+"Q. ¿Con qué rapidez se pondrán en contacto conmigo después de introducir mi "
+"consulta inicial?"
+
+#: loco:5f64c3b3dd5c193fd97145a6
+msgid ""
+"A member of the Flow team will contact you within 24 hrs of your email or "
+"phone call."
+msgstr ""
+"Un miembro del equipo de Flow se pondrá en contacto contigo en las 24 horas "
+"siguientes a tu correo electrónico o llamada telefónica."
+
+#: loco:5f64c3b3dd5c193fd97145a7
+msgid ""
+"Q. Can I get my Personal Licence Holder (PLH) qualification through Flow?"
+msgstr ""
+"Q. ¿Puedo obtener mi título de titular de licencia personal (PLH) a través "
+"de Flow?"
+
+#: loco:5f64c3b3dd5c193fd97145a8
+msgid ""
+"In order to gain your Personal Licence Holder qualification either APLH (E&W)"
+" or SCPLH (Scotland) you need to purchase the PLH training module from our "
+"sister company <a href='https://www.plhonline.co.uk' class='pdf-anchor-link'>"
+"PLH Online</a>."
+msgstr ""
+"Para obtener la calificación de Titular de Licencia Personal, ya sea APLH "
+"(E&amp;W) o SCPLH (Escocia), debe adquirir el módulo de formación de PLH en "
+"nuestra empresa hermana <a href='https://www.plhonline.co.uk' class='pdf-"
+"anchor-link'>PLH Online</a>."
+
+#: loco:5f64c3b3dd5c193fd97145a9
+msgid ""
+"Flow provides training on Licensing and Social Responsibility for front of "
+"house staff in either England & Wales or Scotland."
+msgstr ""
+"Flow ofrece formación sobre Licencias y Responsabilidad Social para el "
+"personal de la casa, tanto en Inglaterra y Gales como en Escocia."
+
+#: loco:5f64c3b3dd5c193fd97145aa
+msgid "Accessing Training"
+msgstr "Acceso a la formación"
+
+#: loco:5f64c3b3dd5c193fd97145ab
+msgid "Q. Why can’t I log in to the app using my access code?`"
+msgstr "Q. ¿Por qué no puedo entrar en la aplicación con mi código de acceso?"
+
+#: loco:5f64c3b3dd5c193fd97145ac
+msgid ""
+"In order to log in to the app you must have an email and password account "
+"set up. You can do this by logging on to the module manager with your access "
+"code using a web browser on your device."
+msgstr ""
+"Para acceder a la aplicación debes tener una cuenta de correo electrónico y "
+"contraseña configurada. Puede hacerlo accediendo al administrador del módulo "
+"con su código de acceso mediante un navegador web en su dispositivo."
+
+#: loco:5f64c3b3dd5c193fd97145ad
+msgid "Q. How long does it take to complete a module? "
+msgstr "Q. ¿Cuánto tiempo se tarda en completar un módulo? "
+
+#: loco:5f64c3b3dd5c193fd97145ae
+msgid ""
+"The times can vary depending upon the level of training required. However, "
+"on average, each module will take an individual approx 1 hour to complete."
+msgstr ""
+"Los tiempos pueden variar dependiendo del nivel de entrenamiento requerido. "
+"Sin embargo, en promedio, cada módulo le tomará a un individuo "
+"aproximadamente 1 hora para completarlo."
+
+#: loco:5f64c3b3dd5c193fd97145af
+msgid "Q. Are you required to complete the modules in any specific order?"
+msgstr "Q. ¿Se requiere que complete los módulos en algún orden específico?"
+
+#: loco:5f64c3b3dd5c193fd97145b0
+msgid ""
+"Some companies require modules to be completed in a certain order. Your "
+"training path will tell you if certain modules need to be completed first."
+msgstr ""
+"Algunas empresas exigen que los módulos se completen en un cierto orden. Su "
+"ruta de entrenamiento le dirá si ciertos módulos deben ser completados "
+"primero."
+
+#: loco:5f64c3b3dd5c193fd97145b1
+msgid ""
+"You will still be able to access your modules; due dates are a guide "
+"provided by your company. If you have concerns, please contact your "
+"management team."
+msgstr ""
+"Todavía podrá acceder a sus módulos; las fechas de vencimiento son una guía "
+"proporcionada por su empresa. Si tiene alguna preocupación, por favor "
+"contacte con su equipo de gestión."
+
+#: loco:5f64c3b3dd5c193fd97145b2
+msgid "3. Exams and Certificates"
+msgstr "3. Exámenes y certificados"
+
+#: loco:5f64c3b3dd5c193fd97145b3
+msgid "Q. What happens if I fail the exam?"
+msgstr "Q. ¿Qué pasa si no apruebo el examen?"
+
+#: loco:5f64c3b3dd5c193fd97145b4
+msgid ""
+"The failed exam screen will highlight the specific areas of the module that "
+"you should revisit to assist you in passing the exam the next time. There is "
+"no limit on how many attempts you can take to pass the exam. If you are "
+"struggling with an exam, please contact your management."
+msgstr ""
+"La pantalla del examen fallido resaltará las áreas específicas del módulo "
+"que debe volver a visitar para ayudarle a aprobar el examen la próxima vez. "
+"No hay límite en el número de intentos que puedes hacer para pasar el examen."
+" Si tiene problemas con un examen, por favor contacte a su gerente."
+
+#: loco:5f64c3b3dd5c193fd97145b5
+msgid "Q. Can I access the module after passing the exam?"
+msgstr "Q. ¿Puedo acceder al módulo después de aprobar el examen?"
+
+#: loco:5f64c3b3dd5c193fd97145b6
+msgid ""
+"Yes, you can revisit the content, but you will not be able to re-sit the "
+"exam."
+msgstr ""
+"Sí, puede volver a visitar el contenido, pero no podrá volver a hacer el "
+"examen."
+
+#: loco:5f64c3b3dd5c193fd97145b7
+msgid "Q. When will I receive my certificate?"
+msgstr "Q. ¿Cuándo recibiré mi certificado?"
+
+#: loco:5f64c3b3dd5c193fd97145b8
+msgid ""
+"The certificate can be printed at the end of each exam once you successfully "
+"pass. If you do not have access to a printer or if you have any difficulty "
+"in printing your certificate, then you can access it at a later date via the "
+"system. Alternatively, a training manager within your organisation can "
+"access the management system and will be able to print certificates if "
+"needed."
+msgstr ""
+"El certificado puede imprimirse al final de cada examen una vez que lo "
+"apruebe. Si no tiene acceso a una impresora o si tiene alguna dificultad "
+"para imprimir el certificado, puede acceder a él posteriormente a través del "
+"sistema. Alternativamente, un gerente de capacitación dentro de su "
+"organización puede acceder al sistema de gestión y podrá imprimir los "
+"certificados si es necesario."
+
+#: loco:5f64c3b3dd5c193fd97145b9
+msgid "Q. Can I move my completed training from a previous company?"
+msgstr ""
+"Q. ¿Puedo trasladar mi entrenamiento completado de una compañía anterior?"
+
+#: loco:5f64c3b3dd5c193fd97145ba
+msgid ""
+"Yes, if your previous company used Flow, then you can contact our helpdesk "
+"to get these modules moved. Please send an email with your name, old company,"
+" new company and your new job title to help@flowhospitalitytraining.co.uk"
+msgstr ""
+"Sí, si su empresa anterior usaba Flow, entonces puede contactar con nuestro "
+"servicio de ayuda para mover estos módulos. Por favor, envíe un correo "
+"electrónico con su nombre, antigua empresa, nueva empresa y su nuevo puesto "
+"de trabajo a help@flowhospitalitytraining.co.uk"
+
+#: loco:5f64c3b3dd5c193fd97145bb
+msgid ""
+"Get in touch with questions, comments, issues, and love for Flow on "
+"help@flowhospitalitytraining.co.uk"
+msgstr ""
+"Ponte en contacto con preguntas, comentarios, temas y amor por Flow en "
+"help@flowhospitalitytraining.co.uk"
+
+#: loco:5f64c3b3dd5c193fd97145bc
+msgid ""
+"Our core office hours are Monday-Friday, 9am - 6pm and we aim to respond to "
+"all queries within 24 hours."
+msgstr ""
+"Nuestro horario de oficina es de lunes a viernes, de 9am a 6pm y nuestro "
+"objetivo es responder a todas las preguntas dentro de las 24 horas."
+
+#: loco:5f64c3b3dd5c193fd97145bd
+msgid "Q. What happens if my modules become overdue?"
+msgstr "Q. ¿Qué pasa si mis módulos se atrasan?"
+
+#: loco:5f64c3fc14c85059b27d23d2
+msgid "enter your content here..."
+msgstr "introduzca su contenido aquí..."
+
+#: loco:5fce3660c6456c169e506bc3
+msgid "Forums"
+msgstr ""

@@ -1,0 +1,96 @@
+<ion-content fullscreen no-bounce has-bouncing="false" forceOverscroll="false">
+  <img src="/assets/images/app-bgs-assets/bg-b.png" class="app-bg" alt="" />
+  <ion-grid class="app-auth ion-text-center">
+    <ion-row class="logo-row">
+      <ion-col class="custom-logo">
+        <img
+          src="/assets/images/app-logo-assets/flowLogo.png"
+          class="app-logo"
+          alt=""
+        />
+      </ion-col>
+    </ion-row>
+    <form [formGroup]="loginForm" (submit)="onSubmit()" novalidate>
+      <ion-row>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              id="email-input"
+              class="ion-text-uppercase"
+              type="email"
+              placeholder="Email"
+              formControlName="email"
+            >
+            </ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.hasError('required')"
+          >
+            <ion-text> The email field is required. </ion-text>
+          </div>
+          <div class="text-validation" *ngIf="email_errors">
+            <ion-text> {{ email_errors }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item class="input-radius">
+            <ion-input
+              id="password-input"
+              class="ion-text-uppercase"
+              type="password"
+              placeholder="Password"
+              formControlName="password"
+            >
+            </ion-input>
+          </ion-item>
+          <div
+            class="text-validation"
+            *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.hasError('required')"
+          >
+            <ion-text> The Password field is required. </ion-text>
+          </div>
+          <div
+            class="text-validation"
+            *ngIf="non_field_errors && !(loginForm.get('password')?.touched && loginForm.get('password')?.hasError('required'))"
+          >
+            <ion-text> {{ non_field_errors }} </ion-text>
+          </div>
+        </ion-col>
+      </ion-row>
+      <div class="button-container">
+        <ion-button
+          id="submit"
+          class="button-shadow-effect ion-text-uppercase"
+          shape="round"
+          expand="block"
+          fill="solid"
+          color="primary"
+          type="submit"
+        >
+          <ion-text color="light" class="text-shadow-effect">
+            Let's Go!
+          </ion-text>
+        </ion-button>
+      </div>
+      <div>
+        <ion-button
+          class="button-shadow-effect"
+          (click)="register()"
+          shape="round"
+        >
+          <ion-text class="text-shadow-effect" color="light">
+            Register
+          </ion-text>
+        </ion-button>
+      </div>
+      <div class="passreset">
+        <ion-text class="text-shadow-effect" color="light">
+          <a (click)="passReset()"> Forgot your password? </a>
+        </ion-text>
+      </div>
+    </form>
+  </ion-grid>
+</ion-content>

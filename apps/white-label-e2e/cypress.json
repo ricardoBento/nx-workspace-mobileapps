@@ -1,0 +1,19 @@
+{
+  "baseUrl": "http://localhost:4200",
+  "projectId": "s6mdmj",
+  "viewportWidth": 375,
+  "viewportHeight": 667,
+  "username": "roicoroy",
+  "email": "ricardo@flowhospitalitytraining.co.uk",
+  "password": "Rwbento123",
+  "fileServerFolder": ".",
+  "fixturesFolder": "./src/fixtures",
+  "integrationFolder": "./src/integration",
+  "modifyObstructiveCode": false,
+  "pluginsFile": "./src/plugins/index",
+  "supportFile": "./src/support/index.ts",
+  "video": true,
+  "videosFolder": "./videos",
+  "screenshotsFolder": "./screenshots",
+  "chromeWebSecurity": false
+}

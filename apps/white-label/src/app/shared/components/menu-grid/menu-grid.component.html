@@ -1,0 +1,11 @@
+<app-menu-container
+  [options]="options"
+  [startAngles]="startAngles"
+  [wings]="wings"
+  (onWingSelected)="appRoute($event)"
+  (onMenuBtnClicked)="toggleSlideBg()"
+>
+</app-menu-container>
+<div [@slideInOut]="animationState">
+  <img src="/assets/images/app-bg-blur.png" class="app-blur-bg" />
+</div>

@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="uk.co.flowhospitalitytraining.flowzone" version="2.5.73" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
+
+    <name>Flow Training</name>
+    <description>
+        Flow delivers a continuously evolving learning and development solution.
+    </description>
+    <author email="support@flowhospitalitytraining.co.uk" href="http://www.flowhospitalitytraining.co.uk">
+        Flow Hospitality Training Team
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="EnableViewportScale" value="true" />
+    <preference name="target-device" value="handset" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="29" />
+    <preference name="android-windowSoftInputMode" value="adjustResize|stateHidden" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="500" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <platform name="android">
+        <resource-file src="google-services.json" target="app/google-services.json" />
+        <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="res/icon/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="res/icon/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="res/icon/android/drawable-xxxhdpi-icon.png" />
+        <splash density="port-ldpi" src="res/screen/android/drawable-ldpi/splash.png" />
+        <splash density="port-mdpi" src="res/screen/android/drawable-mdpi/splash.png" />
+        <splash density="port-hdpi" src="res/screen/android/drawable-hdpi/splash.png" />
+        <splash density="port-xhdpi" src="res/screen/android/drawable-xhdpi/splash.png" />
+        <splash density="port-xxhdpi" src="res/screen/android/drawable-xxhdpi/splash.png" />
+        <splash density="port-xxxhdpi" src="res/screen/android/drawable-xxxhdpi/splash.png" />
+        <resource-file src="res/icon/android/push/drawable/push_notification_logo.png" target="app/src/main/res/drawable/push_notification_logo.png" />
+        <resource-file src="res/icon/android/push/drawable-mdpi/push_notification_logo.png" target="app/src/main/res/drawable-mdpi/push_notification_logo.png" />
+        <resource-file src="res/icon/android/push/drawable-hdpi/push_notification_logo.png" target="app/src/main/res/drawable-hdpi/push_notification_logo.png" />
+        <resource-file src="res/icon/android/push/drawable-xhdpi/push_notification_logo.png" target="app/src/main/res/drawable-xhdpi/push_notification_logo.png" />
+        <resource-file src="res/icon/android/push/drawable-xxhdpi/push_notification_logo.png" target="app/src/main/res/drawable-xxhdpi/push_notification_logo.png" />
+        <resource-file src="res/icon/android/push/drawable-xxxhdpi/push_notification_logo.png" target="app/src/main/res/drawable-xxxhdpi/push_notification_logo.png" />
+    </platform>
+    <config-file parent="/manifest/application" target="AndroidManifest.xml">
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/push_notification_logo" />
+    </config-file>
+    <platform name="ios">
+        <resource-file src="GoogleService-Info.plist" />
+        <icon height="57" platform="ios" src="res/icon/ios/icon.png" width="57" />
+        <icon height="114" platform="ios" src="res/icon/ios/icon@2x.png" width="114" />
+        <icon height="40" platform="ios" src="res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" platform="ios" src="res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="50" platform="ios" src="res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" platform="ios" src="res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="60" platform="ios" src="res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" platform="ios" src="res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" platform="ios" src="res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" platform="ios" src="res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="29" platform="ios" src="res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" platform="ios" src="res/icon/ios/icon-small@3x.png" width="87" />
+        <icon height="1024" platform="ios" src="res/icon/ios/icon-1024.png" width="1024" />
+        <splash height="1136" platform="ios" src="res/screen/ios/Default-Portrait-568h@2x~iphone.png" width="640" />
+        <splash height="1334" platform="ios" src="res/screen/ios/Default-Portrait-667h.png" width="750" />
+        <splash height="2208" platform="ios" src="res/screen/ios/Default-736h.png" width="1242" />
+        <splash height="1242" platform="ios" src="res/screen/ios/Default-Landscape-736h.png" width="2208" />
+        <splash height="1536" platform="ios" src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="768" platform="ios" src="res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="2048" platform="ios" src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="1024" platform="ios" src="res/screen/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="960" platform="ios" src="res/screen/ios/Default@2x~iphone.png" width="640" />
+        <splash height="480" platform="ios" src="res/screen/ios/Default~iphone.png" width="320" />
+        <splash height="320" platform="ios" src="res/screen/ios/Default-Landscape~iphone.png" width="480" />
+        <splash height="640" platform="ios" src="res/screen/ios/Default-Landscape@2x~iphone.png" width="960" />
+        <splash height="640" platform="ios" src="res/screen/ios/Default-Landscape-568h@2x~iphone.png" width="1136" />
+        <splash height="750" platform="ios" src="res/screen/ios/Default-Landscape-667h.png" width="1334" />
+        <splash height="2732" platform="ios" src="res/screen/ios/Default@2x~ipad~anyany.png" width="2732" />
+    </platform>
+    <platform name="wp8">
+        <icon height="99" platform="wp8" src="res/icon.png" width="99" />
+        <icon height="159" platform="wp8" src="res/screen.png" width="159" />
+    </platform>
+    <platform name="windows">
+        <icon height="50" platform="windows" src="res/icon.png" width="50" />
+        <splash height="300" platform="windows" src="res/screen.png" width="620" />
+    </platform>
+    <access origin="https://mm-upgrade-staging.flowhospitalitytraining.co.uk" />
+    <access origin="*://flow-transition-staging.s3.amazonaws.com" />
+    <access origin="*://*.flowmodulemanager.co.uk" />
+    <access origin="*://*.s3.amazonaws.com" />
+    <access origin="*://*.google.com" />
+    <access origin="*://*.google.co.uk" />
+    <access origin="*://platform.twitter.com" />
+    <access origin="*://*.googleapis.com" />
+    <access origin="*://*.googleapis.co.uk" />
+    <allow-navigation href="*" />
+    <allow-navigation href="*://*.s3.amazonaws.com/*" />
+    <allow-navigation href="*://*.flowhospitalitytraining.co.uk/*" />
+    <allow-navigation href="*://*.flowmodulemanager.co.uk/*" />
+    <allow-navigation href="*://*.youtube.com/*" />
+    <access origin="*://*.youtube.com" />
+    <access origin="*://archive.org" />
+    <access origin="*://*.googlevideo.com" />
+    <access origin="*://*.ytimg.com" />
+    <access origin="*://*.youtube.com" />
+    <access origin="*://*.youtube-nocookie.com" />
+    <access origin="*://dailymotion.com" />
+    <allow-navigation href="*://*.vimeo.com/*" />
+    <access origin="*://*.vimeo.com" />
+    <access origin="*://*.vimeocdn.com" />
+    <access origin="*://*.akamaized.net" />
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="ios-package" value="CDVFileTransfer" />
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-console" spec="^1.1.0" />
+    <plugin name="cordova-plugin-device" spec="^2.0.3" />
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.2" />
+    <plugin name="cordova-plugin-file" spec="^6.0.2" />
+    <plugin name="cordova-plugin-file-opener2" spec="^3.0.5">
+        <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
+    </plugin>
+    <plugin name="cordova-plugin-file-transfer" spec="^1.7.1" />
+    <plugin name="cordova-plugin-globalization" spec="^1.11.0" />
+    <plugin name="cordova-plugin-network-information" spec="^2.0.2" />
+    <plugin name="cordova-plugin-screen-orientation" spec="^3.0.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.4" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.3" />
+    <plugin name="cordova-plugin-vibration" spec="^3.1.1" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.4" />
+    <plugin name="phonegap-plugin-push" spec="^2.3.0">
+        <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
+        <variable name="FCM_VERSION" value="17.0.+" />
+    </plugin>
+</widget>

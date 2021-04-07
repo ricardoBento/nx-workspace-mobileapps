@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="30" viewBox="0 0 95 30">
+  <g id="FlowApp_PinkButtonSmall_01_Pin_ON" transform="translate(-545 -288.668)">
+    <g id="FlowApp_PinkButtonBaseSmall_02_ON" transform="translate(-42)">
+      <g id="buttonBase" transform="translate(587 288.668)" fill="#fff" stroke="#e45899" stroke-width="1">
+        <rect width="95" height="30" rx="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="94" height="29" rx="14.5" fill="none"/>
+      </g>
+      <g id="iconBase" transform="translate(587 288.668)" fill="#fff" stroke="#e45899" stroke-width="1">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="14.5" fill="none"/>
+      </g>
+      <text id="FlowApp_Button_Name" transform="translate(622 292.668)" fill="#e45899" font-size="16" font-family="NotoSans-ExtraCondensedSemiBold, Noto Sans" font-weight="600"><tspan x="1.2" y="17">Remove</tspan></text>
+    </g>
+    <g id="Icon_bookmark30_ON" transform="translate(58)">
+      <path id="bookmark-regular" d="M9.188,0H1.312A1.312,1.312,0,0,0,0,1.312V14l5.25-3.063L10.5,14V1.312A1.312,1.312,0,0,0,9.188,0Z" transform="translate(497 296.668)" fill="none" stroke="#e45899" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+.fc-row .fc-bg {
+    z-index: 100;
+}
+
+#mobile-app-calendar .fc-day-grid-container {
+    overflow: hidden !important;
+    height: 100% !important;
+}
+
+#calendar-events .list {
+    padding: 1rem;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#calendar-events .list .header {
+    color: #ffffff;
+}
+
+#calendar-events .list .description {
+    color: rgba(255, 255, 255, 0.75);;
+}
+
+#mobile-app-calendar .fc-view-container {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+#mobile-app-calendar .fc-day.fc-today {
+    background: rgba(252, 248, 227, 0.28);
+}
+
+#mobile-app-calendar .fc-button {
+    border-radius: 100rem;
+    color: white;
+    background-image: none;
+}
+
+#mobile-app-calendar .fc-toolbar .fc-center h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#mobile-app-calendar #calendar_filters .column {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#mobile-app-calendar #calendar_filters select.type {
+	width: 85%;
+    margin-left: 10%;
+    margin-right: 5%;
+    height: 2rem;
+}
+
+#mobile-app-calendar #calendar_filters select.classifications {
+	width: 85%;
+    margin-left: 5%;
+    margin-right: 10%;
+    height: 2rem;
+}
+
+#mobile-app-calendar #calendar_filters .one.column.row {
+	margin-top: -1rem;
+}
