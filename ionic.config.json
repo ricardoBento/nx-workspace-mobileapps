@@ -15,6 +15,12 @@
       },
       "type": "custom",
       "root": "apps/flowapp"
+    },
+    "flowapp": {
+      "name": "flowapp",
+      "integrations": {},
+      "type": "custom",
+      "root": "apps\\flowapp"
     }
   },
   "defaultProject": "white-label"

@@ -6,7 +6,8 @@
     "run-release": "phonegap run android --prod --release --buildConfig=build.json",
     "build-release": "phonegap build android --prod --release --buildConfig=build.json",
     "run-release-ios": "phonegap run ios --prod --release --buildConfig=build.json",
-    "build-release-ios": "phonegap build ios --prod --release --buildConfig=build.json"
+    "build-release-ios": "phonegap build ios --prod --release --buildConfig=build.json",
+    "ionic:build": "echo 'Ionic'"
   },
   "cordova": {
     "platforms": [
@@ -15,7 +16,6 @@
       "android"
     ],
     "plugins": {
-      "cordova-plugin-console": {},
       "cordova-plugin-device": {},
       "cordova-plugin-dialogs": {},
       "cordova-plugin-file": {},
@@ -34,12 +34,13 @@
         "ANDROID_SUPPORT_V13_VERSION": "27.+",
         "FCM_VERSION": "17.0.+"
       },
-      "cordova-plugin-inappbrowser": {}
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-console": {}
     }
   },
   "dependencies": {},
   "devDependencies": {
-    "cordova-android": "^8.1.0",
+    "cordova-android": "^9.1.0",
     "cordova-browser": "^6.0.0",
     "cordova-ios": "^6.2.0",
     "cordova-plugin-console": "^1.1.0",
@@ -56,8 +57,7 @@
     "cordova-plugin-statusbar": "^2.4.3",
     "cordova-plugin-vibration": "^3.1.1",
     "cordova-plugin-whitelist": "^1.3.4",
-    "cordova-support-google-services": "^1.4.1",
-    "device": "0.3.11",
+    "cordova-support-google-services": "^1.3.2",
     "es6-promise-plugin": "^4.2.2",
     "phonegap-plugin-multidex": "^1.0.0",
     "phonegap-plugin-push": "^2.3.0"
