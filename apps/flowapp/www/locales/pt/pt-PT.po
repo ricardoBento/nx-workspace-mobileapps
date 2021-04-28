@@ -1,0 +1,1944 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "There was an error"
+msgstr "Aconteceu um Erro"
+
+msgid "Useful Information"
+msgstr "Useful Information"
+
+msgid "Support weekly contacts"
+msgstr "Support weekly contacts"
+
+msgid "New job role"
+msgstr "New job role"
+
+msgid "Lunch and Learns"
+msgstr "Almoço e aprendizagem"
+
+msgid "Policies"
+msgstr "Políticas"
+
+msgid "Product Knowledge"
+msgstr "Conhecimento do produto"
+
+msgid "Product Releases"
+msgstr "Lançamentos de produtos"
+
+msgid "My Career"
+msgstr "Minha Carreira"
+
+msgid "Session Link:"
+msgstr "Link da sessão:"
+
+msgid "Open Document"
+msgstr "Abrir documento"
+
+msgid "you been refuse the attendance to this session"
+msgstr "você tem recusado o comparecimento a esta sessão"
+
+msgid "Loading topic"
+msgstr "Tópico de carregamento"
+
+msgid "vote"
+msgstr "voto"
+
+msgid "Reply"
+msgstr "Responder"
+
+msgid "Post reply"
+msgstr "Resposta postal"
+
+msgid "Follow"
+msgstr "Seguir"
+
+msgid "Start training"
+msgstr "Comece o treinamento"
+
+msgid "Forums"
+msgstr "Fóruns"
+
+msgid "Add discussion to forum"
+msgstr "Adicionar discussão ao fórum"
+
+msgid "items at the moment"
+msgstr "itens no momento"
+
+msgid "Loading content"
+msgstr "Carregamento do conteúdo"
+
+msgid "download error source"
+msgstr "fonte do erro de download"
+
+msgid "download error target"
+msgstr "alvo de erro no download"
+
+msgid "download error code"
+msgstr "download do código de erro"
+
+msgid "Noticeboards"
+msgstr "Quadros de avisos"
+
+msgid "Loading index feed"
+msgstr "Alimentação do índice de carregamento"
+
+msgid "Let's Go"
+msgstr "Vamos a isto"
+
+msgid "Well done"
+msgstr "Bom trabalho"
+
+msgid "Reset filter"
+msgstr "Repor filtro"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Classification"
+msgstr "Classificação"
+
+msgid "Uncategorised"
+msgstr "Sem Categoria"
+
+msgid "Password"
+msgstr "Senha"
+
+msgid "Email Address"
+msgstr "Endereço de e-mail"
+
+msgid "enter your subject here"
+msgstr "entre seu assunto aqui"
+
+msgid "enter your content here"
+msgstr "digite aqui seu conteúdo"
+
+msgid "Please enter your details to login"
+msgstr "Por favor, digite seus dados para fazer o login"
+
+msgid "login"
+msgstr "entrar"
+
+msgid "Are you sure you want to log out?"
+msgstr "Tem certeza que deseja sair?"
+
+msgid "Log out"
+msgstr "Sair"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "There was a error logging in. Please restart the app and try again."
+msgstr ""
+"Houve um erro no registro. Por favor, reinicie o aplicativo e tente "
+"novamente."
+
+msgid "Can't access your account?"
+msgstr "Não consegue acessar sua conta?"
+
+msgid "Overdue"
+msgstr "Atrasadas"
+
+msgid "Outstanding"
+msgstr "Excepcional"
+
+msgid "Complete"
+msgstr "Concluídos"
+
+msgid "Continue {{$1}}"
+msgstr "Continuar {{$1}}"
+
+msgid "You have completed all modules"
+msgstr "Você completou todos os módulos"
+
+msgid "You have no modules assigned to you"
+msgstr "Você não tem módulos atribuídos a você"
+
+msgid "You have Overdue Modules"
+msgstr "Você tem Módulos em atraso"
+
+msgid "You have no Overdue Modules"
+msgstr "Você não tem Módulos em atraso"
+
+msgid "You have no upcoming training sessions"
+msgstr "Você não tem nenhuma sessão de treinamento a ser realizada"
+
+msgid "at"
+msgstr "às"
+
+msgid "You have no unread discussions."
+msgstr "Você não tem discussões não lidas."
+
+msgid "You have no upcoming {{$1}}"
+msgstr "Você não tem nenhum {{{$1}}"
+
+msgid "with {{$1}}"
+msgstr "com {{$1}}"
+
+msgid "Your next {{$1}}"
+msgstr "Seu próximo {{{$1}}"
+
+msgid "is on"
+msgstr "está em"
+
+msgid "Your next training session"
+msgstr "Sua próxima sessão de treinamento"
+
+msgid "You have {{$1}} unread discussions"
+msgstr "Você tem {{{$1}} discussões não lidas"
+
+msgid "no news items available"
+msgstr "não há notícias disponíveis"
+
+msgid "{{$1}} news items available"
+msgstr "{{{$1}} notícias disponíveis"
+
+msgid "and"
+msgstr "e"
+
+msgid "no unread {{$1}}"
+msgstr "não não não lido {{{$1}}"
+
+msgid "{{$1}} unread {{$2}}"
+msgstr "não lido"
+
+msgid "You have {{$1}} {{$2}} {{$3}}"
+msgstr "Você tem {{{$1}} {{$2}} {{$3}}"
+
+msgid "You have no upcoming {{$1}} or training sessions."
+msgstr ""
+"Você não tem nenhum {{{$1}} ou sessões de treinamento a serem realizadas."
+
+msgid "Details of your $1 coming soon."
+msgstr "Detalhes de seu dólar em breve."
+
+msgid "You have"
+msgstr "Você tem"
+
+msgid "at {{$1}}"
+msgstr "1.   Introdução"
+
+msgid "You have no upcoming training."
+msgstr "Você não tem nenhum treinamento futuro."
+
+msgid "You have one unread discussion."
+msgstr "Você tem uma discussão não lida."
+
+msgid "End of year appraisal"
+msgstr "Avaliação de final de ano"
+
+msgid "Contents"
+msgstr "Conteúdo"
+
+msgid "My Library"
+msgstr "Minha Biblioteca"
+
+msgid "Saved News"
+msgstr "Notícias salvas"
+
+msgid "Saved Documents"
+msgstr "Documentos guardados"
+
+msgid "You have no saved news items"
+msgstr "Você não tem notícias salvas"
+
+msgid "Error: could not load dashboard data"
+msgstr "Erro: não foi possível carregar os dados do painel de instrumentos"
+
+msgid ""
+"Your company does not have this enabled, contact your training manager to "
+"find out more."
+msgstr ""
+"Sua empresa não tem isso habilitado, entre em contato com seu gerente de "
+"treinamento para saber mais."
+
+msgid "Certificates and Module PDFs"
+msgstr "Certificados e PDFs dos módulos"
+
+msgid "You have no saved {{$1}}"
+msgstr "Você não salvou {{{$1}}"
+
+msgid "Account Details"
+msgstr "Detalhes da Conta"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Job Title"
+msgstr "Cargo"
+
+msgid "Branch"
+msgstr "Filial"
+
+msgid "Date of birth"
+msgstr "Data de nascimento"
+
+msgid ""
+"Please contact your manager or L&D team if you need to update these details."
+msgstr ""
+"Favor entrar em contato com seu gerente ou equipe de L&D caso necessite "
+"atualizar estes detalhes."
+
+msgid "News"
+msgstr "Notícias"
+
+msgid "14h"
+msgstr "14h"
+
+msgid "Elliot"
+msgstr "Elliot"
+
+msgid "Published by:"
+msgstr "Publicado por:"
+
+msgid "Continue Lunar module"
+msgstr "Continuar Módulo Lunar"
+
+msgid "Item Details"
+msgstr "Detalhes do Item"
+
+msgid "Social Forums"
+msgstr "Fóruns Sociais"
+
+msgid "Downloading"
+msgstr "Baixando"
+
+msgid "Session administrator"
+msgstr "Administrador da sessão"
+
+msgid "Notes"
+msgstr "Comentários"
+
+msgid "Instructions"
+msgstr "Instruções"
+
+msgid "Places:"
+msgstr "Lugares:"
+
+msgid "Starts:"
+msgstr "Inicios:"
+
+msgid "Ends:"
+msgstr "Termina:"
+
+msgid "Location:"
+msgstr "Localização:"
+
+msgid "Index"
+msgstr "Índice"
+
+msgid "Following"
+msgstr "Seguindo"
+
+msgid "Unread"
+msgstr "Não lida"
+
+msgid "Posting"
+msgstr "Postado"
+
+msgid "votes cast"
+msgstr "votos emitidos"
+
+msgid "Dashboard"
+msgstr "Painel de controlo"
+
+msgid "Training Path"
+msgstr "A cor dos módulos no meu caminho de treinamento"
+
+msgid "Training Calendar"
+msgstr "Calendário de formações"
+
+msgid "News Feed"
+msgstr "Feed de Notícias"
+
+msgid "Activity"
+msgstr "Atividade"
+
+msgid "back to dashboard"
+msgstr "voltar ao Painel"
+
+msgid "Upcoming"
+msgstr "Próximos"
+
+msgid "Invited"
+msgstr "Convidado"
+
+msgid "Available"
+msgstr "Disponível"
+
+msgid "Completed"
+msgstr "Concluídas"
+
+msgid "About Us"
+msgstr "Sobre Nós"
+
+msgid "complete"
+msgstr "completo"
+
+msgid "incomplete"
+msgstr "incompleto"
+
+msgid "overdue"
+msgstr "em atraso"
+
+msgid "recently added"
+msgstr "recentemente adicionado"
+
+msgid "appraisal"
+msgstr "avaliação"
+
+msgid "competency"
+msgstr "competência"
+
+msgid "online"
+msgstr "online"
+
+msgid "classroom"
+msgstr "sala de aula"
+
+msgid "Account"
+msgstr "Conta"
+
+msgid "Options"
+msgstr "Opções"
+
+msgid "Topics"
+msgstr "Tópicos"
+
+msgid "Create new topic"
+msgstr "Criar novo tópico"
+
+msgid "Create new forum"
+msgstr "Criar novo fórum"
+
+msgid "Anonymous"
+msgstr "Anônimo"
+
+msgid "Like"
+msgstr "Gosto"
+
+msgid "Subscribe"
+msgstr "Inscrever-se"
+
+msgid "Post comment"
+msgstr "Publicar comentário"
+
+msgid "votes"
+msgstr "votos"
+
+msgid "RE: THIS IS THE TITLE OF THE TOPIC"
+msgstr "RE: ESTE É O TÍTULO DO TÓPICO"
+
+msgid "Header"
+msgstr "Cabeçalho"
+
+msgid "Create a new topic on this forum"
+msgstr "Criar um novo tópico neste fórum"
+
+msgid "Subject "
+msgstr "Assunto "
+
+msgid "Message "
+msgstr "Mensagem "
+
+msgid "Post topic as"
+msgstr "Post tópico como"
+
+msgid "Default topic"
+msgstr "Tópico padrão"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Post a new comment to this topic"
+msgstr "Postar um novo comentário a este tópico"
+
+msgid "Comment"
+msgstr "Comentário"
+
+msgid "Title"
+msgstr "​Título"
+
+msgid "News/Noticeboard Item"
+msgstr "Notícias/Noticeboard Item"
+
+msgid "Second Line"
+msgstr "Segunda linha"
+
+msgid "Career"
+msgstr "Percurso profissional"
+
+msgid "Error: trainee notes not saved. Please try again later"
+msgstr ""
+"Erro: notas do estagiário não salvas. Por favor, tente novamente mais tarde"
+
+msgid "Oops: Cannot add item. Please try again later."
+msgstr ""
+"Oops: Não é possível acrescentar item. Por favor, tente novamente mais tarde."
+
+msgid "Help & Support"
+msgstr "Ajuda & Suporte"
+
+msgid "please wait"
+msgstr "aguarde"
+
+msgid "Successfully added"
+msgstr "Adicionado com Sucesso"
+
+msgid "About"
+msgstr "Sobre"
+
+msgid "Confirm Action"
+msgstr "Confirmar ação"
+
+msgid "Successfully removed"
+msgstr "Removido com sucesso"
+
+msgid ""
+"You are about to cancel a request to attend a course that has been made "
+"available to you. Are you sure you wish to continue?"
+msgstr ""
+"Você está prestes a cancelar uma solicitação para participar de um curso que "
+"foi disponibilizado para você. Você tem certeza de que deseja continuar?"
+
+msgid "Oops: Could not book training at the moment. Please try again later."
+msgstr ""
+"Oops: Não foi possível reservar treinamento no momento. Por favor, tente "
+"novamente mais tarde."
+
+msgid "Classroom training with a two line name"
+msgstr "Treinamento em sala de aula com um nome de duas linhas"
+
+msgid "Oops: Could not decline training at the moment. Please try again later."
+msgstr ""
+"Oops: Não podia declinar o treinamento no momento. Por favor, tente "
+"novamente mais tarde."
+
+msgid "Oops: Could not cancel training at the moment. Please try again later."
+msgstr ""
+"Oops: Não foi possível cancelar o treinamento no momento. Por favor, tente "
+"novamente mais tarde."
+
+msgid "This operation requires a network connection."
+msgstr "Esta operação requer uma conexão de rede."
+
+msgid "This operation may download a large amount of data."
+msgstr "Esta operação pode baixar uma grande quantidade de dados."
+
+msgid "Downloading on Mobile Network"
+msgstr "Descarregamento em rede móvel"
+
+msgid "No Network Connection"
+msgstr "Sem conexão de rede"
+
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgid "Error: Please try again later"
+msgstr "Erro: Por favor, tente novamente mais tarde"
+
+msgid "Signed off on"
+msgstr "Assinado"
+
+msgid "This poll does not allow users to change their votes"
+msgstr "Esta pesquisa não permite que os usuários mudem seus votos"
+
+msgid "Oops: You need to fill in all (*) required fields."
+msgstr "Oops: Você precisa preencher todos os (*) campos obrigatórios."
+
+msgid "Error"
+msgstr "Erro"
+
+msgid "Please try again later"
+msgstr "Por favor, tente novamente mais tarde"
+
+msgid "Error: could not post comment"
+msgstr "Erro: não foi possível postar comentário"
+
+msgid "Review"
+msgstr "Análise"
+
+msgid "Reviews"
+msgstr "Análises"
+
+msgid "Bookhold"
+msgstr "Reservas"
+
+msgid "My life"
+msgstr "Minha vida"
+
+msgid "Notícias"
+msgstr "Notícias"
+
+msgid ""
+"Your company currently does not allow trainees to use the mobile app. Please "
+"get in touch with your training manager to find out more."
+msgstr ""
+"Atualmente, sua empresa não permite que estagiários utilizem o aplicativo "
+"móvel. Favor entrar em contato com seu gerente de treinamento para saber "
+"mais."
+
+msgid "Are you sure you want to exit?"
+msgstr "Você tem certeza de que quer sair?"
+
+msgid "Exit Application"
+msgstr "Aplicação de Saída"
+
+msgid "Loading training path"
+msgstr "Caminho de treinamento de carga"
+
+msgid "Error: Could not load training path. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar o caminho de treinamento. Por favor, tente "
+"novamente mais tarde."
+
+msgid "Loading"
+msgstr "Carregando"
+
+msgid "There are no feed items at the moment"
+msgstr "Não há itens de alimentação no momento"
+
+msgid "Success"
+msgstr "Sucesso"
+
+msgid "Error: Could not load feed. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar a alimentação. Por favor, tente novamente "
+"mais tarde."
+
+msgid "There are no new news articles at the moment"
+msgstr "Não há novos artigos noticiosos no momento"
+
+msgid "Trainee notes successfully saved"
+msgstr "Notas do estagiário salvas com sucesso"
+
+msgid "Error - trainee notes not saved"
+msgstr "Erro - notas do estagiário não salvas"
+
+msgid "This appraisal could not be found"
+msgstr "Esta avaliação não pôde ser encontrada"
+
+msgid "Error: Could not load news feed. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar a alimentação de notícias. Por favor, tente "
+"novamente mais tarde."
+
+msgid "There is nothing new on the noticeboard at the moment"
+msgstr "Não há nada de novo no quadro de avisos no momento"
+
+msgid "Failed"
+msgstr "Falhou"
+
+msgid "In progress"
+msgstr "Em curso"
+
+msgid "Not started"
+msgstr "Não iniciado"
+
+msgid "Workbook"
+msgstr "Desempenho"
+
+msgid "There are no Forums currently available"
+msgstr "Não há Fóruns disponíveis atualmente"
+
+msgid "Error: Could not load index feed. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar o índice de alimentação. Por favor, tente "
+"novamente mais tarde."
+
+msgid "Loading subscription feed"
+msgstr "Carregamento de alimentação de assinatura"
+
+msgid "You have no active subscriptions"
+msgstr "Você não tem assinaturas ativas"
+
+msgid "Error: Could not load subscription feed. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar a alimentação de assinatura. Por favor, "
+"tente novamente mais tarde."
+
+msgid "Error:  Could not fetch unread topics. Please try again later."
+msgstr ""
+"Erro:  Não foi possível buscar tópicos não lidos. Por favor, tente novamente "
+"mais tarde."
+
+msgid "Loading unread topics feed"
+msgstr "Carregando alimentação de tópicos não lidos"
+
+msgid "You have no unread topics at the moment"
+msgstr "Você não tem tópicos não lidos no momento"
+
+msgid "Error: Could not load unread topics. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar tópicos não lidos. Por favor, tente "
+"novamente mais tarde."
+
+msgid "a few seconds ago"
+msgstr "alguns segundos atrás"
+
+msgid "seconds ago"
+msgstr "segundos atrás"
+
+msgid "is a sub-level-forum"
+msgstr "é um sub-forum de nível"
+
+msgid "Error: Could not load topic. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar o tópico. Por favor, tente novamente mais "
+"tarde."
+
+msgid "Unfollow"
+msgstr "Deixar de seguir"
+
+msgid "Unlike"
+msgstr "Descurtir"
+
+msgid "Subscribed"
+msgstr "Inscrito"
+
+msgid "You have no unread topics"
+msgstr "Você não tem tópicos não lidos"
+
+msgid "Sorry, no results found."
+msgstr "Desculpe, não foram encontrados resultados."
+
+msgid "Error: Could not load search results. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar os resultados da busca. Por favor, tente "
+"novamente mais tarde."
+
+msgid "new discussion"
+msgstr "nova discussão"
+
+msgid "Subject"
+msgstr "Assunto"
+
+msgid "Enter your subject here..."
+msgstr "Digite seu assunto aqui..."
+
+msgid "Enter your message here..."
+msgstr "Digite aqui sua mensagem..."
+
+msgid ""
+"The format of the file you've submitted is not among the formats supported. "
+"The supported formats include JPEG, PNG, GIF and BMP."
+msgstr ""
+"O formato do arquivo que você enviou não está entre os formatos suportados. "
+"Os formatos suportados incluem JPEG, PNG, GIF e BMP."
+
+msgid "Oops: Can't subscribe right now. Please try again later."
+msgstr ""
+"Oops: Não posso me inscrever agora mesmo. Por favor, tente novamente mais "
+"tarde."
+
+msgid "Oops: Can't unsubscribe right now. Please try again later."
+msgstr ""
+"Oops: Não posso cancelar a inscrição agora mesmo. Por favor, tente novamente "
+"mais tarde."
+
+msgid "Oops: Can't like right now. Please try again later."
+msgstr ""
+"Oops: Não posso gostar agora mesmo. Por favor, tente novamente mais tarde."
+
+msgid "Oops: Can't unlike right now. Please try again later."
+msgstr ""
+"Oops: Não pode ser diferente agora. Por favor, tente novamente mais tarde."
+
+msgid "There are no"
+msgstr "Não existe"
+
+msgid "Error: Could not load"
+msgstr "Erro: Não foi possível carregar"
+
+msgid "Error: Could not load list. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar a lista. Por favor, tente novamente mais "
+"tarde."
+
+msgid "first"
+msgstr "primeiro"
+
+msgid "OVERDUE"
+msgstr "VENCIDA"
+
+msgid "No due date"
+msgstr "Sem data de conclusão"
+
+msgid "Module Downloads"
+msgstr "Downloads do Módulo de Filiais"
+
+msgid ""
+"Please note you will not be able to re-sit the exam if you revisit the "
+"module."
+msgstr ""
+"Por favor, note que você não poderá voltar a participar do exame se "
+"revisitar o módulo."
+
+msgid "In order to attempt this module you need to complete"
+msgstr "A fim de tentar este módulo, você precisa completar"
+
+msgid "Loading workbook"
+msgstr "Carregamento da apostila"
+
+msgid "This workbook could not be found"
+msgstr "Este livro de trabalho não pôde ser encontrado"
+
+msgid "You are booked on the following session"
+msgstr "Você está inscrito na seguinte sessão"
+
+msgid "You have been invited to attend the following session"
+msgstr "Você foi convidado a participar da seguinte sessão"
+
+msgid "You have cancelled your attendance to the following session"
+msgstr "Você cancelou sua participação na seguinte sessão"
+
+msgid "You have declined the invitation to attend the following session"
+msgstr "Você recusou o convite para participar da seguinte sessão"
+
+msgid "You have been refused attendance to the following session"
+msgstr "Foi-lhe recusada a participação na seguinte sessão"
+
+msgid "Next available session"
+msgstr "Próxima sessão disponível"
+
+msgid "Supporting Documents"
+msgstr "Documentos de apoio"
+
+msgid "Loading appraisal"
+msgstr "Avaliação do carregamento"
+
+msgid ""
+"Sorry, you have been refused attendance to this session for the following "
+"reason:"
+msgstr ""
+"Lamentamos, mas foi-lhe recusada a presença nesta sessão pela seguinte razão:"
+
+msgid "Please contact your Training Manager for more information."
+msgstr "Para mais informações, contacte o gerente da formação."
+
+msgid ""
+"There are no more available spaces on this session. You can join the waiting "
+"list by visiting your training portal."
+msgstr ""
+"Não há mais espaços disponíveis nesta sessão. Você pode entrar na lista de "
+"espera visitando seu portal de treinamento."
+
+msgid "Cancel Booking"
+msgstr "Cancelar a reserva"
+
+msgid "Confirm Attendance"
+msgstr "Confirmar a presença"
+
+msgid "Decline Attendance"
+msgstr "Recusar a presença"
+
+msgid "Book Training"
+msgstr "Reservar formação"
+
+msgid "Loading Item Content"
+msgstr "Carregamento do conteúdo do item"
+
+msgid "No description available"
+msgstr "Nenhuma descrição disponível"
+
+msgid "remove from my library"
+msgstr "remover da minha biblioteca"
+
+msgid "add to my library"
+msgstr "adicionar à minha biblioteca"
+
+msgid "open attachment"
+msgstr "anexo aberto"
+
+msgid "remove from library"
+msgstr "remover da biblioteca"
+
+msgid "sign off"
+msgstr "desligar"
+
+msgid "due"
+msgstr "atrasada"
+
+msgid "Provider"
+msgstr "Entidade formadora"
+
+msgid "handout material"
+msgstr "material de divulgação"
+
+msgid "Location"
+msgstr "Local"
+
+msgid "Address:"
+msgstr "Endereço:"
+
+msgid "City"
+msgstr "Cidade"
+
+msgid "Post Code"
+msgstr "Código postal"
+
+msgid "Start Date"
+msgstr "Data de início"
+
+msgid "End Date"
+msgstr "Data de conclusão"
+
+msgid "attendance"
+msgstr "atendimento"
+
+msgid "decline"
+msgstr "declínio"
+
+msgid "cancel attendance"
+msgstr "cancelar o comparecimento"
+
+msgid "Cancel Attendance"
+msgstr "Cancelar a participação"
+
+msgid "request to book"
+msgstr "pedido de reserva"
+
+msgid "Request to Book"
+msgstr "Pedido de Reserva"
+
+msgid ""
+"You are about to request to attend a course that has been made available on "
+"your training calendar. We advise that you confirm your availability to "
+"attend with your line manager first to ensure this does not conflict with "
+"any other events or rotas. Clicking confirm will book your attendance, are "
+"you sure you wish to continue?"
+msgstr ""
+"Você está prestes a solicitar participar de um curso que foi disponibilizado "
+"em seu calendário de treinamento. Aconselhamos que você confirme sua "
+"disponibilidade para participar primeiro com seu gerente de linha para "
+"garantir que isso não entre em conflito com nenhum outro evento ou rodízio. "
+"Clicando em confirmar irá marcar sua presença, você tem certeza de que "
+"deseja continuar?"
+
+msgid "supporting document"
+msgstr "documento de apoio"
+
+msgid "Next Session"
+msgstr "Sessão seguinte"
+
+msgid "Attendance"
+msgstr "Presença"
+
+msgid "Training Type"
+msgstr "Tipo de formação"
+
+msgid "external file"
+msgstr "arquivo externo"
+
+msgid "revisit training"
+msgstr "revisitar o treinamento"
+
+msgid "continue training"
+msgstr "continuar o treinamento"
+
+msgid "view certificate"
+msgstr "ver certificado"
+
+msgid "module notes"
+msgstr "notas de módulo"
+
+msgid "This item could not be found."
+msgstr "Este item não pôde ser encontrado."
+
+msgid "This action could not be completed."
+msgstr "Esta ação não pôde ser concluída."
+
+msgid "Competences"
+msgstr "Competências"
+
+msgid "External Training"
+msgstr "Formação externa"
+
+msgid "Appraisals"
+msgstr "Avaliações"
+
+msgid "Competence"
+msgstr "Competência"
+
+msgid "Careers"
+msgstr "Carreiras"
+
+msgid "Noticeboard"
+msgstr "Quadro de avisos"
+
+msgid "Appraisal"
+msgstr "Avaliação"
+
+msgid "Feed"
+msgstr "Feed"
+
+msgid "Training"
+msgstr "Treinamento"
+
+msgid "Comms"
+msgstr "Comms"
+
+msgid "Library"
+msgstr "Biblioteca"
+
+msgid "My Training"
+msgstr "Minha Formação"
+
+msgid "Items with Due Dates are:"
+msgstr "Os itens com datas de vencimento são:"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "43 minutes ago"
+msgstr "43 minutos atrás"
+
+msgid "Your supervisor/manager has not marked this as achieved yet"
+msgstr "Seu supervisor/gerente ainda não marcou isto como alcançado"
+
+msgid "This news article could not be found."
+msgstr "Esta notícia não pôde ser encontrada."
+
+msgid "Due:"
+msgstr "Devido:"
+
+msgid "Jump to:"
+msgstr "Pule para:"
+
+msgid "Latest exam result:"
+msgstr "Último resultado do exame:"
+
+msgid "View certificate"
+msgstr "Ver certificado"
+
+msgid "Status:"
+msgstr "Status:"
+
+msgid "Training Time"
+msgstr "Tempo de treinamento"
+
+msgid "Open supporting documents"
+msgstr "Documentos de apoio abertos"
+
+msgid "Date Due:"
+msgstr "Data de vencimento:"
+
+msgid "Open Supporting Documents"
+msgstr "Documentos de apoio abertos"
+
+msgid "Accept"
+msgstr "Aceitar"
+
+msgid "Decline"
+msgstr "Recusar"
+
+msgid ""
+"You are about to accept an invitation to a training session. Are you sure "
+"you wish to continue?"
+msgstr ""
+"Você está prestes a aceitar um convite para uma sessão de treinamento. Você "
+"tem certeza de que deseja continuar?"
+
+msgid ""
+"You are about to decline an invitation to a training session. Are you sure "
+"you wish to continue?"
+msgstr ""
+"Você está prestes a recusar um convite para uma sessão de treinamento. Você "
+"tem certeza de que deseja continuar?"
+
+msgid "Achieved date:"
+msgstr "Data atingida:"
+
+msgid "Supporting document available:"
+msgstr "Documento de apoio disponível:"
+
+msgid "View supporting document"
+msgstr "Ver documento de apoio"
+
+msgid "There was a problem loading this item, please try again."
+msgstr "Houve um problema ao carregar este item, por favor tente novamente."
+
+msgid "Something has gone wrong, please try again later."
+msgstr "Algo deu errado, por favor, tente novamente mais tarde."
+
+msgid "Saved Items"
+msgstr "Itens Salvos"
+
+msgid "Unread Items"
+msgstr "Itens não lidos"
+
+msgid "Sign Off Required"
+msgstr "Assinatura necessária"
+
+msgid "Sign Off Completed"
+msgstr "Desmarque Concluído"
+
+msgid "Documents"
+msgstr "Documentos"
+
+msgid "Certificates"
+msgstr "Certificados"
+
+msgid "You have no saved documents"
+msgstr "Você não tem documentos salvos"
+
+msgid "You have no saved certificates"
+msgstr "Você não tem certificados salvos"
+
+msgid "Loading account details"
+msgstr "Detalhes da conta de carregamento"
+
+msgid "Error: Could not load account details. Please try again later."
+msgstr ""
+"Erro: Não foi possível carregar os detalhes da conta. Por favor, tente "
+"novamente mais tarde."
+
+msgid "Unable to register for push notifications"
+msgstr "Impossibilidade de registro para notificações push"
+
+msgid "Unable to register device for push notifications"
+msgstr "Incapaz de registrar dispositivo para notificações push"
+
+msgid ""
+"There is a private session for this course but you are not invited to attend."
+msgstr ""
+"Existe uma sessão privada para este curso, mas não foi convidado/a a estar "
+"presente."
+
+msgid ""
+"Using the latest technology, Flow delivers a continuously evolving learning "
+"and development solution tailored to the hospitality and tourism sector, "
+"providing accredited, certificated training throughout the industry."
+msgstr ""
+"Utilizando a mais recente tecnologia, a Flow oferece uma solução de "
+"aprendizagem e desenvolvimento em contínua evolução, sob medida para o setor "
+"hoteleiro e turístico, fornecendo treinamento credenciado e certificado em "
+"toda a indústria."
+
+msgid ""
+"Easily tailored to fit into your business, Flow will have a significant "
+"impact on productivity and profitability by developing and motivating staff, "
+"reducing training costs and increasing sales."
+msgstr ""
+"Facilmente adaptado para se adaptar ao seu negócio, o Flow terá um impacto "
+"significativo na produtividade e lucratividade, desenvolvendo e motivando o "
+"pessoal, reduzindo os custos de treinamento e aumentando as vendas."
+
+msgid ""
+"Flow has been designed to inspire learning through our comprehensive "
+"portfolio of innovative and engaging online modules. We also deliver control "
+"and visibility of all learning and development activity through our "
+"versatile and intuitive management system, The Flow Zone."
+msgstr ""
+"O fluxo foi projetado para inspirar o aprendizado através de nosso "
+"abrangente portfólio de módulos on-line inovadores e envolventes. Também "
+"fornecemos controle e visibilidade de toda a atividade de aprendizagem e "
+"desenvolvimento através de nosso sistema de gerenciamento versátil e "
+"intuitivo, The Flow Zone."
+
+msgid ""
+"And with over 30 years of hospitality experience, we feel our industry "
+"expertise gives us unique empathy with all our clients, enabling an "
+"excellent level of service and support."
+msgstr ""
+"E com mais de 30 anos de experiência em hospitalidade, sentimos que nossa "
+"experiência no setor nos dá uma empatia única com todos os nossos clientes, "
+"possibilitando um excelente nível de serviço e suporte."
+
+msgid "Terms & Conditions"
+msgstr "Termos e Condições"
+
+msgid "Information"
+msgstr "Informação"
+
+msgid "Arbitration"
+msgstr "Arbitragem"
+
+msgid "Choice of law"
+msgstr "Escolha da lei"
+
+msgid "Copyright and Trademarks"
+msgstr "Direitos Autorais e Marcas Registradas"
+
+msgid "Terms and Conditions of Use"
+msgstr "Termos e Condições de Uso"
+
+msgid ""
+"Please read the following Terms and Conditions carefully before using this "
+"Mobile App"
+msgstr ""
+"Por favor, leia atentamente os seguintes Termos e Condições antes de usar "
+"este aplicativo móvel"
+
+msgid "Acceptance of Terms"
+msgstr "Aceitação dos termos"
+
+msgid ""
+"This Mobile App is provided by Flow Hospitality Training (Flow), conditional "
+"on your acceptance of the terms and conditions of use set forth below (the "
+"'Terms and Conditions'). By browsing, accessing, linking, using and/or "
+"downloading information ('Access' or similar term) from this Mobile App, you "
+"agree to accept and abide by these Terms and Conditions for each use and "
+"each visit of this Mobile App. If you do not agree to these Terms and "
+"Conditions, you should not Access this Mobile App."
+msgstr ""
+"Este aplicativo móvel é fornecido pela Flow Hospitality Training (Flow), "
+"condicionado à sua aceitação dos termos e condições de uso estabelecidos "
+"abaixo (os 'Termos e Condições'). Ao navegar, acessar, vincular, usar e/ou "
+"baixar informações (\"Acesso\" ou termo similar) desta Aplicativa Móvel, "
+"você concorda em aceitar e cumprir estes Termos e Condições para cada uso e "
+"cada visita desta Aplicativa Móvel. Se você não concordar com estes Termos e "
+"Condições, você não deverá acessar esta Aplicativa Móvel."
+
+msgid ""
+"Flow provides this Mobile App and all related online services (the "
+"'Services') to you, subject to these Terms and Conditions. These Terms and "
+"Conditions are entered into between Flow and you. If you are using the "
+"Services on behalf of another person, you represent that you are authorized "
+"to accept these Terms and Conditions on that person's behalf. Unless "
+"explicitly stated otherwise, these Terms and Conditions will govern your use "
+"of any new features that augment or enhance the current Services, including "
+"the release of new products or services."
+msgstr ""
+"Flow fornece este aplicativo móvel e todos os serviços on-line relacionados "
+"(os 'Serviços') a você, sujeito a estes Termos e Condições. Estes Termos e "
+"Condições são firmados entre a Flow e você. Se você estiver usando os "
+"Serviços em nome de outra pessoa, você declara que está autorizado a aceitar "
+"estes Termos e Condições em nome dessa pessoa. A menos que explicitamente "
+"declarado de outra forma, estes Termos e Condições regerão seu uso de "
+"quaisquer novos recursos que aumentem ou melhorem os Serviços atuais, "
+"incluindo a liberação de novos produtos ou serviços."
+
+msgid "Definitions"
+msgstr "Definições"
+
+msgid ""
+"In addition to the terms defined throughout these Terms and Conditions, the "
+"terms 'you', 'your' and 'yours' refer to the surfer, customer or purchaser "
+"utilizing this Mobile App to obtain Services. The terms 'we', 'us' and 'our' "
+"refer to Flow."
+msgstr ""
+"Além dos termos definidos ao longo destes Termos e Condições, os termos "
+"\"você\", \"seu\" e \"seu\" referem-se ao surfista, cliente ou comprador que "
+"utiliza este aplicativo móvel para obter serviços. Os termos 'nós', 'nos' e "
+"'nosso' referem-se ao Fluxo."
+
+msgid "Changes to Terms and Conditions"
+msgstr "Mudanças nos Termos e Condições"
+
+msgid ""
+"Flow reserves the right, at any time, to modify, add to, delete from, alter, "
+"or update these Terms and Conditions ('Changes'), and you agree to be bound "
+"by such Changes. Changes shall be effective immediately upon notice thereof, "
+"which may be given by any means including, but not limited to posting on "
+"this Mobile App or by electronic or conventional mail. You agree to "
+"regularly review the Terms and Conditions included in this Mobile Appand to "
+"be aware of Changes. Your use of this Mobile App following any Changes "
+"constitutes your agreement to follow and be bound by these Terms and "
+"Conditions as changed."
+msgstr ""
+"A Flow reserva-se o direito de, a qualquer momento, modificar, acrescentar, "
+"apagar, alterar ou atualizar estes Termos e Condições (\"Alterações\"), e "
+"você concorda em ficar vinculado a tais Alterações. As mudanças entrarão em "
+"vigor imediatamente após sua notificação, que pode ser feita por qualquer "
+"meio, incluindo, mas não se limitando à publicação neste aplicativo móvel ou "
+"por correio eletrônico ou convencional. Você concorda em rever regularmente "
+"os Termos e Condições incluídos nesta Aplicativo Móvel para estar ciente das "
+"Mudanças. Seu uso desta Aplicativo Móvel após quaisquer Alterações constitui "
+"seu acordo em seguir e estar vinculado a estes Termos e Condições conforme "
+"alterados."
+
+msgid "Permitted and Prohibited Uses"
+msgstr "Permitted and Prohibited Uses"
+
+msgid ""
+"This Mobile App is intended for the lawful use of members of the general "
+"public who are over the age of 16 years. Subject to these Terms and "
+"Conditions, Flow grants you a non-exclusive, non-transferable, limited right "
+"to access, use and view this Mobile App and the information thereon, "
+"including without limitation, all text, design, graphics, drawings, "
+"photographs, video clips, music and sounds, and all trade-marks, service "
+"marks and trade names used at this Mobile App and the selection and "
+"arrangements thereof (collectively, the 'Content'), solely for your own "
+"personal use, provided, however, that you may not, nor may you allow others "
+"to, directly or indirectly:"
+msgstr ""
+"Este aplicativo móvel é destinado ao uso legal de membros do público em "
+"geral que tenham mais de 16 anos de idade. Sujeito a estes Termos e "
+"Condições, a Flow concede a você um direito não exclusivo, intransferível e "
+"limitado de acessar, usar e visualizar esta Aplicativa Móvel e as "
+"informações nela contidas, incluindo sem limitação, todo o texto, design, "
+"gráficos, desenhos, fotografias, videoclipes, música e sons, e todas as "
+"marcas registradas, marcas de serviço e nomes comerciais utilizados nesta "
+"Aplicativa Móvel e a seleção e arranjos dela (coletivamente, o 'Conteúdo'), "
+"exclusivamente para seu uso pessoal, desde que você não possa, nem permita "
+"que outros o façam, direta ou indiretamente:"
+
+msgid ""
+"sell, license, rent, reproduce, modify or attempt to modify or create "
+"derivative works from the Content in any way or reproduce or publicly "
+"display, perform, transmit or distribute or otherwise use the Content for "
+"any public or commercial purpose, including without limitation use of the "
+"Content on any other online service or in any environment of networked "
+"computers;"
+msgstr ""
+"vender, licenciar, alugar, reproduzir, modificar ou tentar modificar ou "
+"criar obras derivadas do Conteúdo de qualquer forma ou reproduzir ou exibir "
+"publicamente, executar, transmitir ou distribuir ou utilizar o Conteúdo para "
+"qualquer propósito público ou comercial, incluindo sem limitação o uso do "
+"Conteúdo em qualquer outro serviço online ou em qualquer ambiente de "
+"computadores em rede;"
+
+msgid ""
+"transfer the Content to any other person without the prior written explicit "
+"consent of Flow;"
+msgstr ""
+"transferir o Conteúdo para qualquer outra pessoa sem o prévio consentimento "
+"explícito por escrito da Flow;"
+
+msgid ""
+"use this Mobile App in any manner that could damage, disable, overburden or "
+"impair this Mobile App;"
+msgstr ""
+"usar este aplicativo móvel de qualquer maneira que possa danificar, "
+"desativar, sobrecarregar ou prejudicar este aplicativo móvel;"
+
+msgid ""
+"upload, post or otherwise transmit or distribute on this Mobile App any "
+"items, including without limitation computer viruses, Trojan horses, worms, "
+"backdoor, shutdown mechanism or other harmful, disruptive or destructive "
+"files or computer programs;"
+msgstr ""
+"carregar, publicar ou transmitir ou distribuir neste aplicativo móvel "
+"quaisquer itens, incluindo, sem limitação, vírus de computador, cavalos de "
+"Tróia, worms, backdoor, mecanismo de desligamento ou outros arquivos ou "
+"programas de computador prejudiciais, disruptivos ou destrutivos;"
+
+msgid ""
+"interfere with the security of, or otherwise abuse, this Mobile App or any "
+"Services, system resources, accounts, servers or networks connected to or "
+"accessible through this Mobile App or associated or linked sites;"
+msgstr ""
+"interferir com a segurança ou de outra forma abusar desta Aplicação Móvel ou "
+"de quaisquer Serviços, recursos do sistema, contas, servidores ou redes "
+"conectados ou acessíveis através desta Aplicação Móvel ou sites associados "
+"ou vinculados;"
+
+msgid ""
+"infringe on any patent, trade-mark, trade secret, copyright, right of "
+"publicity, or other proprietary right of any person, or impersonate any "
+"person or entity;"
+msgstr ""
+"infringir qualquer patente, marca, segredo comercial, direito autoral, "
+"direito de publicidade, ou outro direito de propriedade de qualquer pessoa, "
+"ou fazer-se passar por qualquer pessoa ou entidade;"
+
+msgid ""
+"disrupt or interfere with any other person's use or enjoyment of this Mobile "
+"App or associated or linked online services;"
+msgstr ""
+"interromper ou interferir com o uso ou usufruto desta aplicação móvel por "
+"qualquer outra pessoa ou serviços on-line associados ou vinculados;"
+
+msgid ""
+"use any robot, spider or other automatic program or device, or manual "
+"process to monitor, copy, summarize, or otherwise extract information from "
+"this Mobile App or the Content in whole or in part;"
+msgstr ""
+"usar qualquer robô, aranha ou outro programa ou dispositivo automático, ou "
+"processo manual para monitorar, copiar, resumir, ou de outra forma extrair "
+"informações deste aplicativo móvel ou do conteúdo no todo ou em parte;"
+
+msgid ""
+"use or attempt to use another's account, password, service, system or other "
+"information without prior written authorization from Flow, or create or use "
+"a false identity on this Mobile App;"
+msgstr ""
+"usar ou tentar usar a conta, senha, serviço, sistema ou outras informações "
+"de outra pessoa sem autorização prévia por escrito da Flow, ou criar ou usar "
+"uma identidade falsa neste aplicativo móvel;"
+
+msgid ""
+"transmit on, to or from this Mobile App spam, chain letters, junk mail or "
+"any other type of unsolicited mass e-mail;"
+msgstr ""
+"transmitir sobre, para ou a partir desta aplicação móvel spam, cartas em "
+"cadeia, lixo eletrônico ou qualquer outro tipo de e-mail em massa não "
+"solicitado;"
+
+msgid ""
+"upload to, distribute to, or otherwise disseminate through this Mobile App "
+"any material or information of any kind that is threatening, harassing, "
+"libellous, defamatory, obscene, pornographic, fraudulent, deceptive, "
+"abusive, or otherwise violates any law or infringes or violates any rights "
+"of any other person or entity, or contains a solicitation of funds, "
+"advertising, or a solicitation for goods or services; or"
+msgstr ""
+"carregar, distribuir ou de outra forma disseminar através deste aplicativo "
+"móvel qualquer material ou informação de qualquer tipo que seja ameaçador, "
+"assediador, difamatório, obsceno, pornográfico, fraudulento, enganoso, "
+"abusivo ou de outra forma viole qualquer lei ou infrinja ou viole quaisquer "
+"direitos de qualquer outra pessoa ou entidade, ou contenha uma solicitação "
+"de fundos, publicidade ou uma solicitação de bens ou serviços; ou"
+
+msgid ""
+"attempt to obtain unauthorized access to this Mobile App or portions of this "
+"Mobile App which are restricted from general access."
+msgstr ""
+"tentar obter acesso não autorizado a este aplicativo móvel ou a partes deste "
+"aplicativo móvel que são restringidas do acesso geral."
+
+msgid ""
+"You also agree that you are solely responsible for actions and "
+"communications undertaken or transmitted in the course of your usage of this "
+"Mobile App, and that you will comply with all laws that apply or may apply "
+"to your use of or activities on this Mobile App or in respect of the Content."
+msgstr ""
+"Você também concorda que é o único responsável pelas ações e comunicações "
+"realizadas ou transmitidas durante seu uso desta Aplicativo Móvel, e que "
+"cumprirá com todas as leis que se aplicam ou podem se aplicar ao seu uso ou "
+"atividades nesta Aplicativo Móvel ou em relação ao Conteúdo."
+
+msgid ""
+"Unless otherwise noted, all Content is subject to intellectual property "
+"rights including copyrights and trade marks held or licensed by Flow. You "
+"may print or download one copy of the Content on this Mobile App on a single "
+"computer for your personal, non commercial use, provided you keep intact all "
+"copyright and other proprietary notices. Any other reproduction or use "
+"without express prior written permission from Flow, or Flow's content "
+"providers as the case may be, is strictly prohibited. Except as expressly "
+"provided herein, no license to use or reproduce the Content is given to you "
+"and all intellectual property rights therein are expressly reserved. "
+"Systematic retrieval of data or other Content from this Mobile App to create "
+"or compile, directly or indirectly, a collection, compilation, database or "
+"directory without express prior written permission from Flow is prohibited."
+msgstr ""
+"A menos que de outra forma observado, todo o Conteúdo está sujeito a "
+"direitos de propriedade intelectual, incluindo direitos autorais e marcas "
+"registradas detidas ou licenciadas pela Flow. Você pode imprimir ou baixar "
+"uma cópia do Conteúdo neste aplicativo móvel em um único computador para seu "
+"uso pessoal e não comercial, desde que mantenha intactos todos os direitos "
+"autorais e outros avisos de propriedade. Qualquer outra reprodução ou uso "
+"sem permissão prévia por escrito expressa da Flow, ou dos provedores de "
+"conteúdo da Flow, conforme o caso, é estritamente proibida. Exceto conforme "
+"expressamente previsto neste documento, nenhuma licença de uso ou reprodução "
+"do Conteúdo é dada a você e todos os direitos de propriedade intelectual "
+"nele contidos são expressamente reservados. É proibida a recuperação "
+"sistemática de dados ou outro Conteúdo deste aplicativo móvel para criar ou "
+"compilar, direta ou indiretamente, uma coleção, compilação, banco de dados "
+"ou diretório sem permissão prévia por escrito expressa da Flow."
+
+msgid "Links and Third Party Websites"
+msgstr "Links e sites de terceiros"
+
+msgid ""
+"Flow may provide to you, on this Mobile App, links to Third Party Websites "
+"operated by other entities. These Third Party Websites will typically be "
+"identifiable through , though the Site does occasionally contain content "
+"from Third Party Websites within the WEBSITE URL. You agree that this Site "
+"provides no dialogue box or other clear demarcation indicator when you leave "
+"this Site and enter a Third Party Website. Links to Third Party Websites "
+"does not constitute an endorsement, sponsorship or recommendation by Flow of "
+"the Third Party Websites, the entities themselves or of any content, "
+"services or products available on or through such Third Party Websites. If "
+"you use these Third Party Websites, you do so at your own risk and it is "
+"your responsibility to take all protective measures to guard against viruses "
+"and other destructive elements. Links do not imply that Flow or this Site is "
+"affiliated or associated with, or is legally authorized to use any trade-"
+"mark, trade name, logo or copyright symbol displayed in or accessible "
+"through the links, or that any Third Party Website is authorized to use any "
+"trademark, trade name, logo or copyright symbol of Flow. Third Party "
+"Websites may create other contractual obligations between you and the third "
+"party entity in addition to these Terms and Conditions."
+msgstr ""
+"O Flow pode fornecer a você, neste aplicativo móvel, links para sites de "
+"terceiros operados por outras entidades. Estes Websites de Terceiros serão "
+"tipicamente identificáveis através de , embora o Site contenha "
+"ocasionalmente conteúdo de Websites de Terceiros dentro da URL do SITE. Você "
+"concorda que este Site não fornece caixa de diálogo ou outro indicador de "
+"demarcação clara quando você sair deste Site e entrar em um Site de "
+"Terceiros. Links para Websites de Terceiros não constituem um endosso, "
+"patrocínio ou recomendação por fluxo dos Websites de Terceiros, das próprias "
+"entidades ou de qualquer conteúdo, serviços ou produtos disponíveis em ou "
+"através de tais Websites de Terceiros. Se você usar estes Websites de "
+"Terceiros, você o faz por sua própria conta e risco e é sua responsabilidade "
+"tomar todas as medidas de proteção para se proteger contra vírus e outros "
+"elementos destrutivos. Os links não implicam que a Flow ou este Site seja "
+"afiliado ou associado a, ou esteja legalmente autorizado a usar qualquer "
+"marca comercial, nome comercial, logotipo ou símbolo de direitos autorais "
+"exibidos ou acessíveis através dos links, ou que qualquer Site de Terceiros "
+"esteja autorizado a usar qualquer marca comercial, nome comercial, logotipo "
+"ou símbolo de direitos autorais da Flow. Os websites de terceiros podem "
+"criar outras obrigações contratuais entre você e a entidade terceirizada, "
+"além destes Termos e Condições."
+
+msgid ""
+"This Mobile App will from time to time contain materials, data or "
+"information provided, posted or offered by third parties, including but not "
+"limited to advertisements. You agree that Flow shall not have any liability "
+"whatsoever to you for any such third party material, data or information."
+msgstr ""
+"Este aplicativo móvel conterá de tempos em tempos materiais, dados ou "
+"informações fornecidas, publicadas ou oferecidas por terceiros, incluindo "
+"mas não se limitando a anúncios. Você concorda que a Flow não terá qualquer "
+"responsabilidade para com você por qualquer material, dados ou informações "
+"de terceiros."
+
+msgid "Submission of Information"
+msgstr "Envio de informações"
+
+msgid ""
+"Although Flow may provide certain security in an effort to protect the "
+"electronic transmission of certain information that you submit to Flow "
+"through this Mobile App, Flow does not guarantee the security of any "
+"information transmitted to or from this Mobile App, including to or from any "
+"Third Party Websites linked to this Mobile App. Submission of any financial "
+"(eg. credit card) or other information to this Mobile App or to any Third "
+"Party Websites linked to this Mobile App is entirely at your own risk and "
+"responsibility. Do not send any confidential or proprietary information to "
+"Flow through this Mobile App. Except for personal information about you, any "
+"information you do send to Flow through this Mobile App will be deemed NOT "
+"to be confidential ('Non-Confidential Information). For any Non-Confidential "
+"Information you do send, you hereby grant to Flow a worldwide, royalty-free, "
+"perpetual, irrevocable, non-exclusive right and license to use, reproduce, "
+"modify, adapt, publish, translate, distribute and sublicense any and all "
+"material or information submitted by you to this Mobile App and/or to "
+"incorporate it in other works regardless of form, medium or technology."
+msgstr ""
+"Embora a Flow possa fornecer certa segurança em um esforço para proteger a "
+"transmissão eletrônica de certas informações que você submete à Flow através "
+"desta aplicação móvel, a Flow não garante a segurança de nenhuma informação "
+"transmitida de ou para esta aplicação móvel, incluindo para ou de quaisquer "
+"sites de terceiros vinculados a esta aplicação móvel. O envio de qualquer "
+"informação financeira (por exemplo, cartão de crédito) ou outras informações "
+"para esta Aplicativa Móvel ou para quaisquer Websites de Terceiros "
+"vinculados a esta Aplicativa Móvel é inteiramente por sua conta e risco e "
+"responsabilidade. Não envie nenhuma informação confidencial ou proprietária "
+"para Fluir através desta Aplicativo móvel. Exceto para informações pessoais "
+"sobre você, qualquer informação que você enviar à Flow através desta "
+"Aplicativa Móvel será considerada NÃO confidencial (\"Informações não "
+"confidenciais\"). Para qualquer Informação Não-Confidencial que você enviar, "
+"você concede à Flow um direito e licença mundial, livre de royalties, "
+"perpétuo, irrevogável e não exclusivo para usar, reproduzir, modificar, "
+"adaptar, publicar, traduzir, distribuir e sublicenciar todo e qualquer "
+"material ou informação submetida por você a esta Aplicativa Móvel e/ou para "
+"incorporá-la em outros trabalhos, independentemente da forma, meio ou "
+"tecnologia."
+
+msgid "Agreement to Privacy Policy"
+msgstr "Acordo com a Política de Privacidade"
+
+msgid ""
+"Flow respects your desire for privacy. Flow's Privacy Policy can be found "
+"here [LINK TO PRIVACY PAGE NEEDED HERE]. By accessing this Mobile App, you "
+"are consenting to the collection, use and disclosure of your personal "
+"information and to the terms of our Privacy Policy. If we decide to change "
+"our Privacy Policy, we will post the revised Privacy Policy prominently on "
+"this Mobile App or otherwise bring it to your attention, so that you are "
+"always aware of what we do with your information."
+msgstr ""
+"O fluxo respeita seu desejo de privacidade. A Política de Privacidade da "
+"Flow pode ser encontrada aqui [LINK TO PRIVACY PAGE NEEDE AQUI]. Ao acessar "
+"este aplicativo móvel, você está consentindo com a coleta, uso e divulgação "
+"de suas informações pessoais e com os termos de nossa Política de "
+"Privacidade. Se decidirmos mudar nossa Política de Privacidade, publicaremos "
+"a Política de Privacidade revisada de forma proeminente nesta Aplicativo "
+"Móvel ou, de outra forma, a chamar sua atenção, para que você esteja sempre "
+"ciente do que fazemos com suas informações."
+
+msgid "Disclaimers"
+msgstr "Disposições Gerais"
+
+msgid ""
+"All content and services provided on or through this Mobile App are provided "
+"'as is' and 'as available for your use. The content is provided without "
+"warranties or conditions of any kind, either express or implied, including "
+"but not limited to implied warranties and conditions of merchantability, "
+"fitness for a particular purpose or non infringement. Neither Flow, their "
+"affiliates and related entities, nor any of their respective employees, "
+"agents, third party content providers or licensors warrant that the content "
+"is accurate, reliable or correct; that this Mobile App will be available at "
+"any particular time or location; that any defects or errors will be "
+"corrected or that the content is free of viruses or other harmful "
+"components. Your use of this Mobile App is solely at your risk. Because some "
+"jurisdictions do not permit the exclusion of certain warranties, those "
+"exclusions may not apply to you."
+msgstr ""
+"Todos os conteúdos e serviços fornecidos neste aplicativo móvel ou através "
+"dele são fornecidos \"como estão\" e \"como disponíveis para seu uso\". O "
+"conteúdo é fornecido sem garantias ou condições de qualquer tipo, expressas "
+"ou implícitas, incluindo mas não limitadas a garantias e condições "
+"implícitas de comercialização, adequação a uma finalidade específica ou não "
+"violação. Nem a Flow, suas afiliadas e entidades relacionadas, nem qualquer "
+"de seus respectivos funcionários, agentes, provedores de conteúdo de "
+"terceiros ou licenciadores garantem que o conteúdo seja preciso, confiável "
+"ou correto; que este aplicativo móvel estará disponível a qualquer momento "
+"ou local em particular; que quaisquer defeitos ou erros serão corrigidos ou "
+"que o conteúdo está livre de vírus ou outros componentes prejudiciais. O uso "
+"desta Aplicativo Móvel é de sua exclusiva responsabilidade. Como algumas "
+"jurisdições não permitem a exclusão de certas garantias, essas exclusões "
+"podem não se aplicar a você."
+
+msgid "Limit of Liability"
+msgstr "Limite de responsabilidade civil"
+
+msgid ""
+"In no event shall Flow or their respective directors, officers, partners, "
+"employees, representatives, contractors, affiliates, successors or assigns "
+"be liable to you for your accessing of this Mobile App or under or related "
+"to this agreement for any indirect, special, punitive, incidental, reliance, "
+"exemplary or consequential damages, loss of profits, loss of expected "
+"savings, or any other non-direct damages howsoever caused whether or not "
+"Flow has been advised of the possibility of such damages, and their "
+"collective maximum liability to you under or related to this agreement shall "
+"in no event exceed one-hundred pounds sterling (£100). The limitations of "
+"liability and disclaimers in this agreement shall apply regardless of the "
+"form of action, whether in contract, warranty, strict liability, negligence "
+"or other tort and shall survive a fundamental breach or breaches or the "
+"failure of the essential purpose of contract or the failure of an exclusive "
+"remedy. Because some jurisdictions do not allow the exclusion or limitation "
+"of incidental or consequential damages, Flow's liability in such "
+"jurisdictions shall be limited to the extent permitted by law."
+msgstr ""
+"Em nenhum caso a Flow ou seus respectivos diretores, executivos, sócios, "
+"funcionários, representantes, contratados, afiliados, sucessores ou "
+"cessionários serão responsáveis por seu acesso a este aplicativo móvel ou "
+"sob ou relacionado a este acordo por quaisquer danos indiretos, especiais, "
+"punitivos, incidentais, de confiança, exemplares ou conseqüentes, perda de "
+"lucros, perda de economias previstas ou quaisquer outros danos não diretos "
+"causados, independentemente de a Flow ter sido ou não informada sobre a "
+"possibilidade de tais danos, e sua responsabilidade máxima coletiva para "
+"você nos termos ou relacionados a este contrato não deverá, em nenhum caso, "
+"exceder cem libras esterlinas (£100). As limitações de responsabilidade e "
+"renúncia neste contrato serão aplicáveis independentemente da forma de ação, "
+"seja em contrato, garantia, responsabilidade estrita, negligência ou outro "
+"ato ilícito e deverão sobreviver a uma violação ou violações fundamentais ou "
+"à falha do propósito essencial do contrato ou à falha de um recurso "
+"exclusivo. Como algumas jurisdições não permitem a exclusão ou limitação de "
+"danos incidentais ou conseqüentes, a responsabilidade da Flow em tais "
+"jurisdições será limitada na extensão permitida por lei."
+
+msgid "Indemnity"
+msgstr "Indenização"
+
+msgid ""
+"You agree to defend, indemnify and hold harmless Flow and their respective "
+"directors, officers, partners, employees, representatives, contractors, "
+"affiliates, successors or assigns, including all third parties mentioned at "
+"this Mobile App, from and against any and all claims, actions or demands, "
+"including without limitation reasonable legal and accounting fees, alleging "
+"or resulting from your use of this Mobile App and the Content or your breach "
+"of these Terms and Conditions or in connection with your use of the Services."
+msgstr ""
+"Você concorda em defender, indenizar e isentar a Flow e seus respectivos "
+"diretores, executivos, sócios, funcionários, representantes, contratados, "
+"afiliadas, sucessores ou cessionários, incluindo todos e quaisquer terceiros "
+"mencionados nesta Aplicativo Móvel, de e contra todas e quaisquer "
+"reivindicações, ações ou demandas, incluindo, sem limitação, taxas legais e "
+"contábeis razoáveis, alegando ou resultantes de seu uso desta Aplicativo "
+"Móvel e do Conteúdo ou de sua violação destes Termos e Condições ou em "
+"conexão com seu uso dos Serviços."
+
+msgid "Governing Law"
+msgstr "Lei aplicável"
+
+msgid ""
+"All matters relative to this Agreement shall be governed and construed in "
+"all respects by the law Scotland and the parties hereby submit to the non-"
+"exclusive jurisdiction of the Scottish Courts."
+msgstr ""
+"Todos os assuntos relativos a este Contrato serão regidos e interpretados em "
+"todos os aspectos pela lei escocesa e as partes se submetem à jurisdição não-"
+"exclusiva dos tribunais escoceses."
+
+msgid "General"
+msgstr "Geral"
+
+msgid ""
+"The Privacy Policy is a binding part of these Terms and Conditions, and "
+"together with these Terms and Conditions constitutes the entire agreement "
+"between Flow and you with respect to your use of this Mobile App. Flow's "
+"failure to insist upon or enforce strict performance of any provision of "
+"these Terms and Conditions shall not be construed as a waiver of any "
+"provision or right. If for any reason a court of competent jurisdiction "
+"finds any provision of these Terms and Conditions or portion thereof to be "
+"unenforceable, that provision shall be enforced to the maximum extent "
+"permissible so as to effect the intent of these Terms and Conditions, and "
+"the remainder of these Terms and Conditions shall continue in full force and "
+"effect. Any cause of action you may have with respect to your use of this "
+"Mobile App or which is the subject of these Terms and Conditions must be "
+"commenced within one (1) year after the claim or cause of action arises. You "
+"acknowledge that Flow is a third party beneficiary for all purposes under "
+"these Terms and Conditions."
+msgstr ""
+"A Política de Privacidade é uma parte obrigatória destes Termos e Condições, "
+"e juntamente com estes Termos e Condições constitui o acordo completo entre "
+"a Flow e você com respeito ao seu uso deste aplicativo móvel. A falha da "
+"Flow em insistir ou fazer cumprir estritamente qualquer disposição destes "
+"Termos e Condições não deve ser interpretada como uma renúncia a qualquer "
+"disposição ou direito. Se, por qualquer razão, um tribunal de jurisdição "
+"competente considerar qualquer disposição destes Termos e Condições ou parte "
+"deles inexeqüível, tal disposição será aplicada na máxima extensão permitida "
+"de modo a efetivar a intenção destes Termos e Condições, e o restante destes "
+"Termos e Condições continuará em pleno vigor e efeito. Qualquer causa de "
+"ação que você possa ter com relação ao uso deste aplicativo móvel ou que "
+"seja objeto destes Termos e Condições deve ser iniciada dentro de um (1) ano "
+"após o surgimento da reclamação ou causa de ação. Você reconhece que a Flow "
+"é uma terceira parte beneficiária para todos os fins sob estes Termos e "
+"Condições."
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid ""
+"If you have a question that is not answered below please do not hesitate to "
+"email our helpdesk on help@flowhospitalitytraining.co.uk"
+msgstr ""
+"Se você tem uma pergunta que não foi respondida abaixo, por favor não hesite "
+"em enviar um e-mail para nosso helpdesk em help@flowhospitalitytraining.co.uk"
+
+msgid "Contact"
+msgstr "Contato"
+
+msgid "About Flow"
+msgstr "Sobre o fluxo"
+
+msgid "Q. What is Flow Hospitality Training?"
+msgstr "Q. O que é o Treinamento de Hospitalidade Flow?"
+
+msgid ""
+"Flow Hospitality Training is a fully online product which provides "
+"organisations with the training tools required to train and develop staff to "
+"build a successful career in the hospitality industry. For people that are "
+"looking to work in the hospitality industry the Flow modules provide a great "
+"platform for learning."
+msgstr ""
+"Flow Hospitality Training é um produto totalmente online que fornece às "
+"organizações as ferramentas de treinamento necessárias para treinar e "
+"desenvolver o pessoal para construir uma carreira de sucesso na indústria "
+"hoteleira. Para as pessoas que procuram trabalhar na indústria hoteleira, os "
+"módulos Flow fornecem uma ótima plataforma de aprendizado."
+
+msgid "Q. Is Flow training fully accredited?"
+msgstr "Q. O treinamento Flow é totalmente credenciado?"
+
+msgid ""
+"The Flow modules and exams are fully endorsed by the Institute of "
+"Hospitality, Scottish Qualifications Authority (SQA) and accredited by the "
+"National Skills Academy [NSA]."
+msgstr ""
+"Os módulos de fluxo e exames são totalmente endossados pelo Institute of "
+"Hospitality, Scottish Qualifications Authority (SQA) e credenciados pela "
+"National Skills Academy [NSA]."
+
+msgid ""
+"All our modules are accredited by People 1st Quality Mark, the Institute of "
+"Hospitality, CPD and SQA."
+msgstr ""
+"Todos os nossos módulos são credenciados pelo People 1st Quality Mark, "
+"Institute of Hospitality, CPD e SQA."
+
+msgid ""
+"Our Food Safety modules are also accredited by IQ, Health and Safety by "
+"RoSPA and our licensing modules are accredited by SQA."
+msgstr ""
+"Nossos módulos de Segurança Alimentar também são credenciados pelo IQ, Saúde "
+"e Segurança pela RoSPA e nossos módulos de licenciamento são credenciados "
+"pelo SQA."
+
+msgid ""
+"The SQA Privacy Policy can be found on their <a href='https://www.sqa.org."
+"uk' class='pdf-anchor-tag'>website</a>."
+msgstr ""
+"A Política de Privacidade da SQA pode ser encontrada em seu <a href='https://"
+"www.sqa.org.uk' class='pdf-anchor-tag'>website</a>."
+
+msgid ""
+"Q. If I have any questions regarding the content of the modules who do I "
+"contact?"
+msgstr ""
+"Q. Se eu tiver alguma pergunta a respeito do conteúdo dos módulos que devo "
+"contatar?"
+
+msgid ""
+"If you have any problems accessing the modules contact the helpdesk, "
+"available from 9am–6pm, Monday - Saturday, on 0844 445 7119 or email "
+"help@flowhospitalitytraining.co.uk. Outside these hours, all emails and "
+"phone calls will be responded to within 24 hours."
+msgstr ""
+"Se você tiver qualquer problema para acessar os módulos entre em contato com "
+"o helpdesk, disponível das 9h às 18h, de segunda a sábado, no 0844 445 7119 "
+"ou envie um e-mail para help@flowhospitalitytraining.co.uk. Fora deste "
+"horário, todos os e-mails e telefonemas serão respondidos dentro de 24 horas."
+
+msgid "Q. How quickly will I be contacted after inputting my initial enquiry?"
+msgstr ""
+"Q. Com que rapidez serei contatado depois de ter inserido minha consulta "
+"inicial?"
+
+msgid ""
+"A member of the Flow team will contact you within 24 hrs of your email or "
+"phone call."
+msgstr ""
+"Um membro da equipe Flow entrará em contato com você dentro de 24 hrs de seu "
+"e-mail ou telefonema."
+
+msgid ""
+"Q. Can I get my Personal Licence Holder (PLH) qualification through Flow?"
+msgstr ""
+"Q. Posso obter minha qualificação de Titular de Licença Pessoal (PLH) "
+"através da Flow?"
+
+msgid ""
+"In order to gain your Personal Licence Holder qualification either APLH "
+"(E&W) or SCPLH (Scotland) you need to purchase the PLH training module from "
+"our sister company <a href='https://www.plhonline.co.uk' class='pdf-anchor-"
+"link'>PLH Online</a>."
+msgstr ""
+"Para obter sua qualificação de Titular de Licença Pessoal ou APLH (E&amp;W) "
+"ou SCPLH (Escócia) você precisa adquirir o módulo de treinamento PLH de "
+"nossa empresa irmã <a href='https://www.plhonline.co.uk' class='pdf-anchor-"
+"link'>PLH Online</a>."
+
+msgid ""
+"Flow provides training on Licensing and Social Responsibility for front of "
+"house staff in either England & Wales or Scotland."
+msgstr ""
+"A Flow oferece treinamento em Licenciamento e Responsabilidade Social para "
+"os funcionários da frente de casa na Inglaterra e País de Gales ou na "
+"Escócia."
+
+msgid "Accessing Training"
+msgstr "Acesso ao treinamento"
+
+msgid "Q. Why can’t I log in to the app using my access code?`"
+msgstr ""
+"Q. Por que eu não consigo entrar no aplicativo utilizando meu código de "
+"acesso?"
+
+msgid ""
+"In order to log in to the app you must have an email and password account "
+"set up. You can do this by logging on to the module manager with your access "
+"code using a web browser on your device."
+msgstr ""
+"Para entrar no aplicativo, você deve ter uma conta de e-mail e senha "
+"configurada. Você pode fazer isso conectando-se ao administrador do módulo "
+"com seu código de acesso usando um navegador web em seu dispositivo."
+
+msgid "Q. How long does it take to complete a module? "
+msgstr "Q. Quanto tempo leva para completar um módulo?"
+
+msgid ""
+"The times can vary depending upon the level of training required. However, "
+"on average, each module will take an individual approx 1 hour to complete."
+msgstr ""
+"Os tempos podem variar de acordo com o nível de treinamento necessário. "
+"Entretanto, em média, cada módulo levará aproximadamente 1 hora individual "
+"para ser concluído."
+
+msgid "Q. Are you required to complete the modules in any specific order?"
+msgstr "Q. Você é obrigado a completar os módulos em alguma ordem específica?"
+
+msgid ""
+"Some companies require modules to be completed in a certain order. Your "
+"training path will tell you if certain modules need to be completed first."
+msgstr ""
+"Algumas empresas exigem que os módulos sejam completados em uma determinada "
+"ordem. Seu caminho de treinamento lhe dirá se determinados módulos precisam "
+"ser completados primeiro."
+
+msgid ""
+"You will still be able to access your modules; due dates are a guide "
+"provided by your company. If you have concerns, please contact your "
+"management team."
+msgstr ""
+"Você ainda poderá acessar seus módulos; as datas de vencimento são um guia "
+"fornecido por sua empresa. Se você tiver preocupações, entre em contato com "
+"sua equipe administrativa."
+
+msgid "3. Exams and Certificates"
+msgstr "3. Exames e certificados"
+
+msgid "Q. What happens if I fail the exam?"
+msgstr "Q. O que acontece se eu reprovar no exame?"
+
+msgid ""
+"The failed exam screen will highlight the specific areas of the module that "
+"you should revisit to assist you in passing the exam the next time. There is "
+"no limit on how many attempts you can take to pass the exam. If you are "
+"struggling with an exam, please contact your management."
+msgstr ""
+"A tela de exame reprovado destacará as áreas específicas do módulo que você "
+"deve revisitar para ajudá-lo a passar no exame da próxima vez. Não há limite "
+"para o número de tentativas que você pode fazer para passar no exame. Se "
+"você estiver lutando com um exame, favor entrar em contato com sua gerência."
+
+msgid "Q. Can I access the module after passing the exam?"
+msgstr "Q. Posso acessar o módulo depois de passar no exame?"
+
+msgid ""
+"Yes, you can revisit the content, but you will not be able to re-sit the "
+"exam."
+msgstr "Sim, você pode revisitar o conteúdo, mas não poderá revisitar o exame."
+
+msgid "Q. When will I receive my certificate?"
+msgstr "Q. Quando vou receber meu certificado?"
+
+msgid ""
+"The certificate can be printed at the end of each exam once you successfully "
+"pass. If you do not have access to a printer or if you have any difficulty "
+"in printing your certificate, then you can access it at a later date via the "
+"system. Alternatively, a training manager within your organisation can "
+"access the management system and will be able to print certificates if "
+"needed."
+msgstr ""
+"O certificado pode ser impresso no final de cada exame, uma vez aprovado. Se "
+"você não tiver acesso a uma impressora ou se tiver alguma dificuldade para "
+"imprimir seu certificado, então você poderá acessá-lo posteriormente através "
+"do sistema. Alternativamente, um gerente de treinamento dentro de sua "
+"organização pode acessar o sistema de gerenciamento e poderá imprimir "
+"certificados, se necessário."
+
+msgid "Q. Can I move my completed training from a previous company?"
+msgstr "Q. Posso mudar meu treinamento concluído de uma empresa anterior?"
+
+msgid ""
+"Yes, if your previous company used Flow, then you can contact our helpdesk "
+"to get these modules moved. Please send an email with your name, old "
+"company, new company and your new job title to help@flowhospitalitytraining."
+"co.uk"
+msgstr ""
+"Sim, se sua empresa anterior utilizou o Flow, então você pode entrar em "
+"contato com nosso helpdesk para que estes módulos sejam movidos. Favor "
+"enviar um e-mail com seu nome, empresa antiga, nova empresa e seu novo cargo "
+"para help@flowhospitalitytraining.co.uk"
+
+msgid ""
+"Get in touch with questions, comments, issues, and love for Flow on "
+"help@flowhospitalitytraining.co.uk"
+msgstr ""
+"Entre em contato com perguntas, comentários, questões e amor pela Flow em "
+"help@flowhospitalitytraining.co.uk"
+
+msgid ""
+"Our core office hours are Monday-Friday, 9am - 6pm and we aim to respond to "
+"all queries within 24 hours."
+msgstr ""
+"Nosso horário central de atendimento é de segunda a sexta-feira, das 9h às "
+"18h, e nosso objetivo é responder a todas as consultas dentro de 24 horas."
+
+msgid "Q. What happens if my modules become overdue?"
+msgstr "Q. O que acontece se meus módulos se atrasarem?"

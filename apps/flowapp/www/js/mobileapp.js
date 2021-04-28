@@ -549,11 +549,11 @@ MobileApp.prototype.setupEvents = function () {
         var version = $(this).data("version");
 
         if (version == "2") {
-            button.text("Please wait");
+            button.text(i18next.t("please-wait"));
             self.postBookmark(id, type, true, function (status, data) {
-                if (status === "Success") {
+                if (status === i18next.t("Success")) {
                     button.text(i18next.t("Successfully-added"));
-                } else if (status === "Error") {
+                } else if (status === i18next.t("Error")) {
                     self.popupMsg(i18next.t("Oops-Cannot-add-item-Please-try-again-later"), self.colours.mobile_warning_colour_a1, "fa-exclamation");
                 }
             });
@@ -561,18 +561,18 @@ MobileApp.prototype.setupEvents = function () {
             var textContainer = $(this).find(".item-button-text");
             var textContainerText = textContainer.text();
 
-            if (textContainerText == "successfully added")
+            if (textContainerText == i18next.t("Successfully-added"))
                 return;
             if (textContainer)
                 textContainer.text(i18next.t("please-wait"));
                 self.postBookmark(id, type, true, function (status, data) {
 
-                if (status === "Success") {
+                if (status === i18next.t("Success")) {
 
                     if (textContainer)
                         textContainer.text(i18next.t("Successfully-added"));
 
-                } else if (status === "Error") {
+                } else if (status === i18next.t("Error")) {
                     if (textContainer)
                         textContainer.text(textContainerText);
                         self.popupMsg(i18next.t("Oops-Cannot-add-item-Please-try-again-later"), self.colours.mobile_warning_colour_a1, "fa-exclamation");
@@ -607,11 +607,11 @@ MobileApp.prototype.setupEvents = function () {
         var version = $(this).data("version");
 
         if (version == "2") {
-            button.text(i18next.t("please wait"));
+            button.text(i18next.t("please-wait"));
             self.postBookmark(id, type, false, function (status, data) {
-                if (status === "Success") {
+                if (status === i18next.t("Success")) {
                     button.text(i18next.t("Successfully-removed"));
-                } else if (status === "Error") {
+                } else if (status === i18next.t("Error")) {
                     self.popupMsg(i18next.t("Oops-Cannot-add-item-Please-try-again-later"), self.colours.mobile_warning_colour_a1, "fa-exclamation");
                 }
             });
@@ -627,12 +627,12 @@ MobileApp.prototype.setupEvents = function () {
 
             self.postBookmark(id, type, false, function (status, data) {
 
-                if (status === "Success") {
+                if (status === i18next.t("Success")) {
 
                     if (textContainer)
                         textContainer.text(i18next.t("Successfully-removed"));
 
-                } else if (status === "Error") {
+                } else if (status === i18next.t("Error")) {
                     if (textContainer)
                         textContainer.text(textContainerText);
                     self.popupMsg(i18next.t("Oops-Cannot-add-item-Please-try-again-later"), self.colours.mobile_warning_colour_a1, "fa-exclamation");
@@ -731,7 +731,7 @@ MobileApp.prototype.setupEvents = function () {
             } else {
                 return false;
             }
-        }, "Confirm Action", ["Confirm", "Cancel"]);
+        },  i18next.t('Confirm-Action'), ["Confirm", "Cancel"]);
     });
 
     // Items with data-action="book-training" are added to the users training cal
@@ -768,7 +768,7 @@ MobileApp.prototype.setupEvents = function () {
             } else {
                 return false;
             }
-        }, "Confirm Action", ["Confirm", "Cancel"]);
+        },  i18next.t('Confirm-Action'), ["Confirm", "Cancel"]);
     });
 
     // Items with data-action="cancel-training" are removed to the users training cal
@@ -803,19 +803,25 @@ MobileApp.prototype.setupEvents = function () {
             } else {
                 return false;
             }
-        }, "Confirm Action", ["Confirm", "Cancel"]);
+        }, i18next.t('Confirm-Action'), ["Confirm", "Cancel"]);
     });
 
     // Items with data-action="open-external" are opened in the external browser
     $(document).on('click', '[data-action="open-external"]', function (event) {
         var button = $(this);
+        var url;
         event.preventDefault();
         if (button.data('type') == 'module'){
-            var url = button.data('src')
+            url = button.data('src');
         } else {
-            var url = button.attr('href');
+            url = button.attr('href');
         }
-        window.open(url, '_system', 'location=yes,enableViewportScale=yes,hidden=no');
+        if (device.platform == "Android") {
+            window.open(url, '_system', 'location=yes,enableViewportScale=yes,hidden=no');
+        }
+        if (device.platform == "iOS") {
+            cordova.InAppBrowser.open(url, '_blank', 'location=yes,enableViewportScale=yes,hidden=no,footer=yes,toolbar=yes');
+        }
         if (button.attr('data-type') == 'noticeboard') {
             var signoff_required = button.attr('data-signoff-required')
             var signoff_datetime = button.attr('data-signoff-datetime')
@@ -834,12 +840,12 @@ MobileApp.prototype.setupEvents = function () {
     $(document).on('click', '[data-action="module-download"]', function(event) {
         var button = $(this);
         var url = button.data('href');
-        var download_type = button.data('download-type')
+        var download_type = button.data('download-type');
         var file_name = button.text();
         if (download_type == "module"){
             $.get(url, function(data){
                 var url = data;
-                downloadFile(url, file_name)
+                downloadFile(url, file_name);
             });
         } else {
             downloadFile(url, file_name)
@@ -851,7 +857,7 @@ MobileApp.prototype.setupEvents = function () {
                 {
                     error : function(){
                         $('.ui.dimmer').addClass('active');
-                        var fileTransfer = new FileTransfer()
+                        var fileTransfer = new FileTransfer();
                         fileTransfer.download(
                             url,
                             cordova.file.dataDirectory + file_name,
@@ -863,9 +869,9 @@ MobileApp.prototype.setupEvents = function () {
                                 );
                             },
                             error => {
-                                alert('download error source ' + error.source)
-                                alert('download error target ' + error.target)
-                                alert('download error code ' + error.code)
+                                alert('download error source ' + error.source);
+                                alert('download error target ' + error.target);
+                                alert('download error code ' + error.code);
                             },
                             true,
                             {}
@@ -927,7 +933,7 @@ MobileApp.prototype.setupEvents = function () {
                 if (idx == 1) {
                     cordova.InAppBrowser.open(url, '_blank', 'location=no,clearcache=no,clearsessioncache=no,enableViewportScale=yes,toolbar=yes,allowInlineMediaPlayback=yes,disallowoverscroll=yes');
                 }
-            }, i18next.t("Downloading on Mobile Network"), "Continue, Cancel");
+            }, i18next.t("Downloading-on-Mobile-Network"), "Continue, Cancel");
         }
     });
 
@@ -948,10 +954,10 @@ MobileApp.prototype.setupEvents = function () {
             type: 'POST',
             dataType: 'json',
             success: function (data) {
-                button.parent().html(i18next.t('Signed off on') + data.datetime);
+                button.parent().html(i18next.t('Signed-off-on') + data.datetime);
             },
             error: function (e) {
-                self.popupMsg(i18next.t("Error: Please try again later"), self.colours.mobile_warning_colour_a1, "fa-exclamation");
+                self.popupMsg(i18next.t("Error-Please-try-again-later"), self.colours.mobile_warning_colour_a1, "fa-exclamation");
             },
             beforeSend: self.setHeaders
         });
@@ -2001,7 +2007,7 @@ MobileApp.prototype.openInAppBrowser = function (url) {
                             },
                             true,
                             {}
-                        )
+                        );
                     }
                 }
             );
@@ -2379,7 +2385,7 @@ MobileApp.prototype.dashboardV2 = function () {
         $("#new-dashboard .stats .forums .label").show();
         $("#new-dashboard .stats .forums .forums-message").css("margin-top", "1rem");
         if (dashboardData.unread_topics_count == 0) {
-            var message = i18next.t("You-have-one-unread-discussion");
+            var message = i18next.t("You-have-no-unread-discussions");
             $("#new-dashboard .stats .forums .label").hide();
             $("#new-dashboard .stats .forums .forums-message").css("margin-top", "-1rem");
         } else if (dashboardData.unread_topics_count == 1) {
@@ -2704,9 +2710,9 @@ MobileApp.prototype.newsFeedDashboard = function () {
 
             contentArea.empty();
 
-            if (status == "Error") {
+            if (status == i18next.t("Error")) {
                 self.appendMsg(contentArea, data);
-            } else if (status == "Success") {
+            } else if (status == i18next.t("Success")) {
                 self.populateNoticeboardFeed(contentArea, data);
             }
         });
@@ -6130,7 +6136,7 @@ MobileApp.prototype.getModuleItemPageObj = function (obj) {
 
     var trainingBtnColour = self.convertHex(self.colours.mobile_neutral_colour_d1, 33);
 
-    var trainingBtnText = i18next.t("start-training");
+    var trainingBtnText = i18next.t("Start-training");
 
     if (obj.extras.sitting_status == "In-progress") {
         trainingBtnText = i18next.t("continue-training");
@@ -7563,7 +7569,7 @@ MobileApp.prototype.itemLink = function (item) {
                         } else {
                             return false;
                         }
-                    }, "Confirm Action", ["Confirm", "Cancel"]
+                    },  i18next.t('Confirm-Action'), ["Confirm", "Cancel"]
                     );
 
                 } else {

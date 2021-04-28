@@ -16,6 +16,18 @@ msgstr ""
 "X-Loco-Project-Id: 97523\n"
 "X-Loco-Api-Version: 1.0.25 20200901-1\n"
 
+msgid "There was an error"
+msgstr "There was an error"
+
+msgid "Useful Information"
+msgstr "Useful Information"
+
+msgid "Support weekly contacts"
+msgstr "Support weekly contacts"
+
+msgid "New job role"
+msgstr "New job role"
+
 msgid "Lunch and Learns"
 msgstr "Lunch and Learns"
 
