@@ -1,0 +1,19 @@
+<div class='fan-blur' [@slideInOut]="animationState">
+  <img src='/assets/images/app-bg-blur.png' class='app-blur-bg'>
+</div>
+<div class='fan-container'>
+  <ul [ngClass]="{'active' : active}">
+    <li *ngFor='let wing of wings'>
+      <a (click)='navigate(wing.name)'>
+        <div>
+          <ion-icon src='assets/custom-icons/{{ wing.icon }}.svg'></ion-icon>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <ion-button [ngClass]="{'fab_active' : fab_active}" (click)='toogleMenu()' class='toggle-btn' expand="block"
+    fill="solid" shape="round">
+    <ion-icon [@simpleFadeAnimation]="animationState" *ngIf='!fab_active' name="menu"></ion-icon>
+    <ion-icon [@simpleFadeAnimation]="animationState" *ngIf='fab_active' name="close-outline"></ion-icon>
+  </ion-button>
+</div>

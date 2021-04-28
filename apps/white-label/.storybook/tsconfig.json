@@ -2,7 +2,7 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "emitDecoratorMetadata": true,
-      "importHelpers": true,
+    "importHelpers": true
   },
   "exclude": ["../**/*.spec.ts"],
   "include": ["../src/**/*", "*.js"]

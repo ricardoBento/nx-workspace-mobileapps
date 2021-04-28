@@ -1,0 +1,233 @@
+@import "~compass-mixins/lib/compass/css3";
+
+$items: 5;
+$size: 60;
+$myDeg: 52.5;
+$scale: 0.4;
+$icon-size: 35;
+.fan-container {
+    ion-button.toggle-btn {
+        position: absolute;
+        width: #{$size}px;
+        height: #{$size}px;
+        left: calc(100% + 70px);
+        --border-radius: 100%;
+        --border-style: solid;
+        --border-width: 5px;
+        --border-color: #707070;
+        --background: var(--ion-color-light);
+        --background-activated: var(--ion-color-light);
+        ion-icon {
+            font-size: 30px;
+            position: absolute;
+            top: 0vh;
+            color: var(--ion-color-dark) !important;
+        }
+    }
+    ion-button.fab_active {
+        --background: var(--ion-color-light);
+        --background-activated: var(--ion-color-light);
+        ion-icon {
+            color: var(--ion-color-dark) !important;
+        }
+    }
+    ul {
+        ion-icon {
+            font-size: 30px;
+        }
+        @include transform(scale(#{$scale}));
+        @include transition(0.3s ease-out all);
+        left: 12vw;
+        top: -2vh;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        display: inline-block;
+        width: #{120}px;
+        height: #{120}px;
+        &.active {
+            @include transform(scale(1.7) rotate(-0deg));
+        }
+        li {
+            position: absolute;
+            width: #{60}px;
+            height: #{60}px;
+            -webkit-transform-origin: 110% 100%;
+            transform-origin: 100% 100%;
+            overflow: hidden;
+            display: none;
+            a {
+                display: block;
+                width: #{120}px;
+                height: #{120}px;
+                border-radius: 50%;
+            }
+            &:nth-child(1) {
+                display: block;
+                @include transform(rotate(0deg) skewX(30deg) skewY(0deg));
+                a {
+                    @include transform(rotate(-0deg) skew(-30deg));
+                    background: var(--ion-color-light);
+                    height: 120px;
+                    width: 120px;
+                    ion-icon {
+                        position: absolute;
+                        color: var(--ion-color-dark);
+                        top: 20%;
+                        left: 6%;
+                    }
+                }
+                a:active {
+                    background: var(--ion-color-primary);
+                    ion-icon {
+                        color: var(--ion-color-light) !important;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                display: block;
+                @include transform(rotate(56deg) skewX(20deg) skewY(3deg));
+                z-index: 1;
+                a {
+                    @include transform(rotate(-0deg) skewY(-35deg) skewX(20.5deg));
+                    background: var(--ion-color-light);
+                    ion-icon {
+                        position: absolute;
+                        color: var(--ion-color-dark);
+                        top: 1vw;
+                        left: 10vw;
+                        @include transform(rotate(10deg));
+                    }
+                }
+                a:active {
+                    background: var(--ion-color-primary);
+                    ion-icon {
+                        color: var(--ion-color-light) !important;
+                    }
+                }
+            }
+            &:nth-child(3) {
+                display: block;
+                @include transform(rotate(125deg) skewX(35deg) skewY(0deg));
+                a {
+                    @include transform(rotate(0deg) skewX(-35deg) skewY(0deg));
+                    background: var(--ion-color-light);
+                    ion-icon {
+                        position: absolute;
+                        color: var(--ion-color-dark);
+                        top: 29%;
+                        left: 13%;
+                        margin: -9px 0 6px -6px;
+                        @include transform(rotate(-124deg));
+                        font-size: 25px;
+                    }
+                }
+                a:active {
+                    background: var(--ion-color-primary);
+                    ion-icon {
+                        color: var(--ion-color-light) !important;
+                    }
+                }
+            }
+            &:nth-child(4) {
+                display: block;
+                @include transform(rotate(225deg) skewX(0deg) skewY(0deg));
+                a {
+                    @include transform(rotate(0deg) skewX(-0deg) skewY(0deg));
+                    background: var(--ion-color-dark);
+                    ion-icon {
+                        position: absolute;
+                        color: var(--ion-color-dark);
+                        top: 5%;
+                        left: 25%;
+                        margin: 5px 0 0 0;
+                        @include transform(rotate(#{-90}deg));
+                    }
+                }
+                a:active {
+                    background: var(--ion-color-primary);
+                    ion-icon {
+                        color: var(--ion-color-light) !important;
+                    }
+                }
+            }
+            &:nth-child(5) {
+                display: block;
+                @include transform(rotate(225deg) skewX(0deg) skewY(0deg));
+                a {
+                    @include transform(rotate(0deg) skewX(-0deg) skewY(0deg));
+                    background: var(--ion-color-warning);
+                    ion-icon {
+                        position: absolute;
+                        color: var(--ion-color-dark);
+                        top: 5%;
+                        left: 25%;
+                        margin: 5px 0 0 0;
+                        @include transform(rotate(#{-90}deg));
+                    }
+                }
+                a:active {
+                    background: var(--ion-color-primary);
+                    ion-icon {
+                        color: var(--ion-color-light) !important;
+                    }
+                }
+            }
+            // &:nth-child(4) {
+            //     display: block;
+            //     @include transform(rotate(#{108.5}deg) skew(#{$myDeg}deg));
+            //     a {
+            //         @include transform(skew(#{-$myDeg}deg));
+            //         background: var(--ion-color-light);
+            //         ion-icon {
+            //             position: absolute;
+            //             font-size: #{$icon-size}px;
+            //             color: var(--ion-color-dark);
+            //             top: 30%;
+            //             left: 5%;
+            //             @include transform(rotate(#{-110}deg));
+            //         }
+            //     }
+            //     a:active {
+            //         background: var(--ion-color-primary);
+            //         ion-icon {
+            //             color: var(--ion-color-light) !important;
+            //         }
+            //     }
+            // }
+            // &:nth-child(5) {
+            //     display: block;
+            //     @include transform(rotate(#{145}deg) skew(#{$myDeg}deg));
+            //     a {
+            //         @include transform(skew(#{-$myDeg}deg));
+            //         background: var(--ion-color-light);
+            //         ion-icon {
+            //             position: absolute;
+            //             font-size: 30px;
+            //             color: var(--ion-color-dark);
+            //             top: 30%;
+            //             left: 5%;
+            //             @include transform(rotate(#{215}deg));
+            //         }
+            //     }
+            //     a:active {
+            //         background: var(--ion-color-primary);
+            //         ion-icon {
+            //             color: var(--ion-color-light) !important;
+            //         }
+            //     }
+            // }
+            // @for $i from 1 through $items {
+            //     &:nth-child(#{$i}) {
+            //         display: block;
+            //         // @include transform(rotate(#{$i * $deg}deg) skew(#{$skew}deg));
+            //         @include transform(rotate(#{$i * $myDeg }deg) skew(#{$mySkew}deg));
+            //         a {
+            //             // @include transform(skew(#{-$skew}deg));
+            //             @include transform(skew(#{-$mySkew}deg));
+            //         }
+            //     }
+            // }
+        }
+    }
+}

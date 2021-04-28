@@ -33,8 +33,9 @@
     "android": "wdio ./appium-config/android.config.js",
     "custom-android": "wdio ./appium-config/android.config.js",
     "iosBrowser": "wdio ./config/iosBrowser.config.js",
-    "androidBrowser": "wdio ./config/androidBrowser.config.js",
-    "allure": "allure generate ./reports/allure/allure-results && allure open --clean"
+    "androidBrowser": "wdio ./appium-config/androidBrowser.config.js",
+    "allure": "allure generate ./reports/allure/allure-results && allure open --clean",
+    "kill-java": "cmd '/C TASKKILL /f /im java.exe'"
   },
   "private": true,
   "dependencies": {

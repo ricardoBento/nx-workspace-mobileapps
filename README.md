@@ -1,5 +1,34 @@
 # NxWorkspaceMobileapps
 
+## http://selendroid.io/setup.html
+
+## Requirements
+
+Android SDK must be installed and the ANDROID_SDK_ROOT environment variable must be pointing to the Android SDK location. Also, the emulator image must be present. You can specify your own sdk image string in the config. If you do not specify it uses the default sdk image string of `system-images;android-29;google_apis;x86_64`.
+
+An [example karma config](./example/karma.conf.js) is in this repo.
+
+## Android Hybrid App Requirements
+
+This launcher uses appium to launch the app with the `android.intent.action.VIEW` action and passes the karma server URL in as a data uri. However, before passing the URL in the launcher swaps in the android loopback IP instead of localhost (Android emulators can't reach host machine using `localhost` but can reach the host machine using `10.0.2.2`).
+
+You must make sure your Android manifest has an entry to handle the `10.0.2.2` karma URI. To do so add the following to the AndroidManifest.xml under the existing `<intent-filter>`:
+
+```xml
+<intent-filter android:label="@string/app_name">
+  <action android:name="android.intent.action.VIEW" />
+  <category android:name="android.intent.category.DEFAULT" />
+  <category android:name="android.intent.category.BROWSABLE" />
+  <data android:scheme="http"
+      android:host="10.0.2.2"
+      android:port="9876"
+      android:pathPrefix="/" />
+</intent-filter>
+```
+
+You can see the [test app manifest](./example/android-test-app/app/src/main/AndroidManifest.xml) as an example.
+
+
 - https://ionicframework.com/docs/cli/configuration
 - to build the flow app phonegap/cordova add we need to cd in apps/flowapp directory and run the cordova command inside, cordova build android etc.
 - To run Appium tests, we need Desktop version installed to use the element inspector.

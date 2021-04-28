@@ -14,7 +14,7 @@ config.capabilities = [
 ];
 
 config.specs = [
-    './src/specs/mobileBrowser/**/*.js'
+    './appium-tests/specs/mobileBrowser/**/*.js'
 ];
 
 exports.config = config;
