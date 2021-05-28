@@ -1,0 +1,15 @@
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\ron-9d283c0bfe9e2086.rmeta: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\mod.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\id.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\tag.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\value.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\ser\mod.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\ser\value.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\error.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\value.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\extensions.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\parse.rs
+
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\ron-9d283c0bfe9e2086.d: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\mod.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\id.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\tag.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\value.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\ser\mod.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\ser\value.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\error.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\value.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\extensions.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\parse.rs
+
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\lib.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\mod.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\id.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\tag.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\de\value.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\ser\mod.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\ser\value.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\error.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\value.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\extensions.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\ron-0.6.4\src\parse.rs:

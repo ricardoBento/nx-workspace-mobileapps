@@ -1,0 +1,12 @@
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\erased_serde-8c2ff185b5fb6b6f.rmeta: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\macros.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\any.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\de.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\error.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\features_check\mod.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\ser.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\private.rs
+
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\erased_serde-8c2ff185b5fb6b6f.d: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\macros.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\any.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\de.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\error.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\features_check\mod.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\ser.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\private.rs
+
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\lib.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\macros.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\any.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\de.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\error.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\features_check\mod.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\ser.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\erased-serde-0.3.15\src\private.rs:

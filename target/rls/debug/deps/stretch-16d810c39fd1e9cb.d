@@ -1,0 +1,13 @@
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\stretch-16d810c39fd1e9cb.rmeta: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\geometry.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\node.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\number.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\result.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\style.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\algo.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\forest.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\id.rs
+
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\stretch-16d810c39fd1e9cb.d: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\geometry.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\node.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\number.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\result.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\style.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\algo.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\forest.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\id.rs
+
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\lib.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\geometry.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\node.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\number.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\result.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\style.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\algo.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\forest.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\stretch-0.3.2\src\id.rs:

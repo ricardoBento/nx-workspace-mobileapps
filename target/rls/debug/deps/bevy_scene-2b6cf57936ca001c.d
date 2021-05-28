@@ -1,0 +1,11 @@
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\bevy_scene-2b6cf57936ca001c.rmeta: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\command.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\dynamic_scene.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene_loader.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene_spawner.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\serde.rs
+
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\bevy_scene-2b6cf57936ca001c.d: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\command.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\dynamic_scene.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene_loader.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene_spawner.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\serde.rs
+
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\lib.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\command.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\dynamic_scene.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene_loader.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\scene_spawner.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_scene-0.5.0\src\serde.rs:

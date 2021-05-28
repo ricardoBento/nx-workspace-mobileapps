@@ -1,0 +1,13 @@
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\indexmap-9a35d36a97eee651.rmeta: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\macros.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\equivalent.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\mutable_keys.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\util.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map\core.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map\core\raw.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\set.rs
+
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\indexmap-9a35d36a97eee651.d: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\macros.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\equivalent.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\mutable_keys.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\util.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map\core.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map\core\raw.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\set.rs
+
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\lib.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\macros.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\equivalent.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\mutable_keys.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\util.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map\core.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\map\core\raw.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\indexmap-1.6.2\src\set.rs:

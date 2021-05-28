@@ -1,0 +1,1 @@
+{"rustc":8779445591316363635,"features":"","target":0,"profile":0,"path":0,"deps":[[11542862330834684264,"build_script_build",false,10323516439359028102]],"local":[{"RerunIfChanged":{"output":"release\\build\\vswhom-sys-ec583f32239b6741\\output","paths":["build.rs","ext/vswhom.cpp"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

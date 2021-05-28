@@ -1,0 +1,11 @@
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\bevy_app-6d78492d13acb162.rmeta: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\app.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\app_builder.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\event.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\plugin.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\plugin_group.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\schedule_runner.rs
+
+c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\deps\bevy_app-6d78492d13acb162.d: C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\lib.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\app.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\app_builder.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\event.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\plugin.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\plugin_group.rs C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\schedule_runner.rs
+
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\lib.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\app.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\app_builder.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\event.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\plugin.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\plugin_group.rs:
+C:\Users\RBento\.cargo\registry\src\github.com-1ecc6299db9ec823\bevy_app-0.5.0\src\schedule_runner.rs:

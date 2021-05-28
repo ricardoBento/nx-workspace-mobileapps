@@ -1,0 +1,26 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("1")
+HOST = Some("x86_64-pc-windows-msvc")
+CC_x86_64-pc-windows-msvc = None
+CC_x86_64_pc_windows_msvc = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-pc-windows-msvc = None
+CFLAGS_x86_64_pc_windows_msvc = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-O1" "-Z7" "-Brepro" "-I" "src" "-W4" "-Foc:\\Users\\RBento\\Documents\\GitHub\\rust-bevy-game\\target\\rls\\debug\\build\\spirv-reflect-79cd395cee1c3c56\\out\\vendor/spirv_reflect.o" "-c" "vendor/spirv_reflect.c"
+spirv_reflect.c
+vendor/spirv_reflect.c(1842): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX64\\x64\\lib.exe" "-out:c:\\Users\\RBento\\Documents\\GitHub\\rust-bevy-game\\target\\rls\\debug\\build\\spirv-reflect-79cd395cee1c3c56\\out\\libspirv_reflect_cpp.a" "-nologo" "c:\\Users\\RBento\\Documents\\GitHub\\rust-bevy-game\\target\\rls\\debug\\build\\spirv-reflect-79cd395cee1c3c56\\out\\vendor/spirv_reflect.o"
+exit code: 0
+cargo:rustc-link-lib=static=spirv_reflect_cpp
+cargo:rustc-link-search=native=c:\Users\RBento\Documents\GitHub\rust-bevy-game\target\rls\debug\build\spirv-reflect-79cd395cee1c3c56\out

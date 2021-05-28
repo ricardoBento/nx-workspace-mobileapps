@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="uk.co.flowhospitalitytraining.flowzone" version="2.5.73" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Flow Training</name>
+    <name>ionic cli</name>
     <description>
         Flow delivers a continuously evolving learning and development solution.
     </description>
@@ -22,6 +22,7 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <platform name="android">
+        <allow-intent href="market:*" />
         <resource-file src="google-services.json" target="app/google-services.json" />
         <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />
@@ -46,7 +47,17 @@
         <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/push_notification_logo" />
     </config-file>
     <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="WKWebViewOnly" value="true" />
+        <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+        <preference name="DisallowOverscroll" value="true" />
+        <preference name="UIWebViewBounce" value="false" />
         <resource-file src="GoogleService-Info.plist" />
+        <feature name="CDVWKWebViewEngine">
+            <param name="ios-package" value="CDVWKWebViewEngine" />
+        </feature>
+        <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
         <icon height="57" platform="ios" src="res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="res/icon/ios/icon@2x.png" width="114" />
         <icon height="40" platform="ios" src="res/icon/ios/icon-40.png" width="40" />
@@ -79,14 +90,6 @@
         <splash height="640" platform="ios" src="res/screen/ios/Default-Landscape-568h@2x~iphone.png" width="1136" />
         <splash height="750" platform="ios" src="res/screen/ios/Default-Landscape-667h.png" width="1334" />
         <splash height="2732" platform="ios" src="res/screen/ios/Default@2x~ipad~anyany.png" width="2732" />
-    </platform>
-    <platform name="wp8">
-        <icon height="99" platform="wp8" src="res/icon.png" width="99" />
-        <icon height="159" platform="wp8" src="res/screen.png" width="159" />
-    </platform>
-    <platform name="windows">
-        <icon height="50" platform="windows" src="res/icon.png" width="50" />
-        <splash height="300" platform="windows" src="res/screen.png" width="620" />
     </platform>
     <access origin="https://mm-upgrade-staging.flowhospitalitytraining.co.uk" />
     <access origin="*://flow-transition-staging.s3.amazonaws.com" />
@@ -125,19 +128,17 @@
         <param name="ios-package" value="CDVFileTransfer" />
         <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
     </feature>
+    <preference name="Scheme" value="http" />
+    <preference name="iosScheme" value="http" />
+    <preference name="MixedContentMode" value="0" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <platform name="android">
-        <allow-intent href="market:*" />
-    </platform>
-    <platform name="ios">
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
+    <plugin name="cordova-plugin-ionic-webview" spec="^4.0.0" />
+    <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.5" />
     <plugin name="cordova-plugin-console" spec="^1.1.0" />
     <plugin name="cordova-plugin-device" spec="^2.0.3" />
     <plugin name="cordova-plugin-dialogs" spec="^2.0.2" />

@@ -1,0 +1,1 @@
+{"rustc":8779445591316363635,"features":"[]","target":6214755231582055084,"profile":8931787446344314124,"path":3172334450035482730,"deps":[[17671881657559241013,"winapi",false,1168222243665698861]],"local":[{"CheckDepInfo":{"dep_info":"debug\\.fingerprint\\ansi_term-c176de37784b101b\\dep-lib-ansi_term"}}],"rustflags":[],"metadata":12814901670511236713,"config":0,"compile_kind":0}
